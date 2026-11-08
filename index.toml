@@ -409,12 +409,20 @@ file = "config/inventoryprofilesnext/Новый мирwqeqwe/villager-trading-co
 hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
 
 [[files]]
+file = "config/inventoryprofilesnext/Новый мирк3к22к332к23к23к23/prev-villager-trading-config-v2.json"
+hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
+
+[[files]]
+file = "config/inventoryprofilesnext/Новый мирк3к22к332к23к23к23/villager-trading-config-v2.json"
+hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
+
+[[files]]
 file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "323cd65c5ccfa73901039f810336cbb8d3d2b0d25a1627569e523ba44be629bb"
+hash = "8320809bcf3f015b8309373d4806f376dd88ac3b3db14c5e57922ecbbf7fa45a"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -495,6 +503,10 @@ hash = "7879337cdcda69ba1443633ff60417aa4172e88b7a6d33d3b0882b769d496718"
 [[files]]
 file = "config/jei/world/local/Новый мирwqeqwe/lookupHistory.json"
 hash = "5bb7b857c098bea37d02c916399b9b854889bbfbba07d0a6bfe5c5b064ebce38"
+
+[[files]]
+file = "config/jei/world/local/Новый мирк3к22к332к23к23к23/lookupHistory.json"
+hash = "5a7ba68fca82852628c7b8685e5bf0a8b08c4fa578014280706d7a030ecb2bf4"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -1599,7 +1611,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "bd02df5ac1703769e2a9c8bd585098c68107f5947705a049cb6536ed562e6ef1"
+hash = "a5fac0332cc6b6ba1bb2ca7c56644ce6f0acfc4f275d3b2e7b86a7d9acc45fc8"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
