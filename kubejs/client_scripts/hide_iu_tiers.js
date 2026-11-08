@@ -17,6 +17,12 @@ var HIDE_IU_TIERS = [
   'industrialupgrade:photonic_machine/photonic_gearing', 'industrialupgrade:photonic_machine/photonic_handlerho', 'industrialupgrade:photonic_machine/photonic_macerator',
   'industrialupgrade:photonic_machine/photonic_rolling'
 ]
+HIDE_IU_TIERS = HIDE_IU_TIERS.concat([ // T75: панели IU выше квантовой — их место заняли панели Maelstrom Tech (тиры LoliLand)
+  'industrialupgrade:machines/spectral_solar_panel', 'industrialupgrade:machines/proton_solar_panel', 'industrialupgrade:machines/singular_solar_panel',
+  'industrialupgrade:machines/admin_solar_panel', 'industrialupgrade:machines/photonic_solar_panel', 'industrialupgrade:machines/neutronium_solar_panel',
+  'industrialupgrade:machines/barion_solar_panel', 'industrialupgrade:machines/hadron_solar_panel', 'industrialupgrade:machines/graviton_solar_panel',
+  'industrialupgrade:machines/quark_solar_panel'
+])
 
 RecipeViewerEvents.removeEntries('item', function (event) {
   var ok = 0

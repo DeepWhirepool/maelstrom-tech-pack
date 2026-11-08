@@ -88,3 +88,30 @@ ServerEvents.recipes(function (event) {
   var missing = WEB3_SLOT.concat(WEB3_FUSION).map(function (x) { return x[0] }).filter(function (id) { return done.indexOf(id) < 0 })
   console.info('[web_3] ' + done.length + ' recipes' + (missing.length ? ', not found: ' + missing.join(', ') : ''))
 })
+
+// ---- T75 панели: солнечные панели Maelstrom Tech после квантовой IU (8 тиров, порядок LoliLand по рецептам, T76).
+// Зачем: идея LoliLand — тир = 2 предыдущие панели + панель на тир ниже + деталь тира (у LL ядра lolienergistics,
+// у нас вместо них материалы паутины по возрастанию: заряженные кристаллы → звёздная материя/пульсирующий энергон →
+// нейтронная звезда → жидкие сингулярности T67 → звёздное ядро/бесконечность). В каждом рецепте детали 3+ модов.
+// Сетка: M X M / P Q P / K C K  (P — предыдущая ×2, Q — на тир ниже, X — деталь тира, M/K — материалы модов, C — плата)
+var WEB3_PANELS = [
+  // [тир, X, M, K, C]
+  ['dispersion', 'kubejs:energized_fluorite_crystal', 'mekanism:alloy_reinforced', 'draconicevolution:draconium_ingot', 'kubejs:circuit_board_t2'],
+  ['gravitomagnetic', 'kubejs:energized_chrysolite_crystal', 'mekanism:alloy_atomic', 'powah:capacitor_niotic', 'kubejs:circuit_board_t2'],
+  ['anisotropic', 'kubejs:energized_ametrine_crystal', 'powah:capacitor_spirited', 'draconicevolution:wyvern_core', 'kubejs:circuit_board_t3'],
+  ['fluctuation', 'maelstromtech:star_matter', 'mekanism:pellet_polonium', 'draconicevolution:awakened_draconium_ingot', 'kubejs:circuit_board_t3'],
+  ['aberration', 'maelstromtech:pulsing_energon_crystal', 'kubejs:quantum_alloy_ingot', 'draconicevolution:awakened_core', 'kubejs:circuit_board_t4'],
+  ['parametric', 'maelstromtech:neutron_star', 'avaritia:neutron_ingot', 'mekanism:pellet_antimatter', 'kubejs:circuit_board_t4'],
+  ['chronodynamic', 'maelstromtech:liquid_singularity_neutronium', 'kubejs:chaos_alloy_ingot', 'draconicevolution:chaotic_core', 'kubejs:circuit_board_t4'],
+  ['antimaterial', 'maelstromtech:star_core', 'avaritia:infinity_ingot', 'maelstromtech:liquid_singularity_draconium', 'draconicevolution:chaotic_energy_core']
+]
+
+ServerEvents.recipes(function (event) {
+  var IU = 'industrialupgrade:machines/', prev = IU + 'quantum_solar_paneliu', back = IU + 'ultimate_solar_paneliu'
+  WEB3_PANELS.forEach(function (p) {
+    var out = 'maelstromtech:' + p[0] + '_solar_panel'
+    event.shaped(out, ['MXM', 'PQP', 'KCK'], { M: p[2], X: p[1], P: prev, Q: back, K: p[3], C: p[4] }).id('kubejs:web_3/panel_' + p[0])
+    back = prev; prev = out
+  })
+  console.info('[web_3] panels ' + WEB3_PANELS.length + ' recipes')
+})
