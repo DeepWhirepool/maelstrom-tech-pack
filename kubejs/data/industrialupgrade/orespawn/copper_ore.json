@@ -1,0 +1,11 @@
+{
+  "ore_block": "minecraft:copper_ore",
+  "replace_block": "minecraft:stone",
+  "min_height": 0,
+  "max_height": 96,
+  "min_vein_size": 4,
+  "max_vein_size": 10,
+  "min_veins_per_chunk": 0,
+  "max_veins_per_chunk": 0,
+  "chance": 0.0
+}

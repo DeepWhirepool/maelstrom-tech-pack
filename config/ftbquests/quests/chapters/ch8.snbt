@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch8"
+	group: ""
+	icon: {
+		id: "maelstromtech:red_energon"
+	}
+	id: "3FC5F549D6D734E1"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "09A77B8F00EDE0DD"
+		tasks: [{
+			id: "55FE725F3F88E2C6"
+			item: { count: 1, id: "maelstromtech:red_energon" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

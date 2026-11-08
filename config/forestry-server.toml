@@ -1,0 +1,88 @@
+#Whether backpacks can have their resupply mode enabled, which stocks a player's inventory using blocks from the backpack's inventory.
+enable_backpack_resupply = true
+#Whether Tin Ore veins generate naturally in the Overworld.
+spawn_tin_ore = false
+#Whether Apatite Ore veins generate naturally in the Overworld.
+spawn_apatite_ore = true
+#Multiplies the chance of a reward from winning escritoire game(does not affect mutation notes)
+# Default: 1.0
+# Range: 0.0 ~ 1000.0
+escritoire_bounty_multiplier = 1.0
+
+[genetics]
+	#When a player researches a mutation using the Escritoire, mutation chances for hives owned by that player are multiplied by this factor, with the increase in chance limited to the value set in "research_mutation_boost_multiplier".
+	# Default: 1.5
+	# Range: 1.0 ~ 1000.0
+	research_mutation_boost_multiplier = 1.5
+	#When a player researchs a mutation using the Escritoire, mutation chances for hives owned by that player are multiplied by a certain factor, with the increase in chance capped to this value.
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	max_research_mutation_boost_percent = 5.0
+
+[bees]
+	#Whether bees and butterflies can pollinate Vanilla leaves. Might be undesirable for builds that rely on leaves.
+	pollinate_vanilla_leaves = true
+	#The base chance for a wild beehive to spawn naturally.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	wild_hive_spawn_rate = 1.0
+	#In real life, drone bees are haploid, which means they only carry one set of chromosomes. If this option is enabled, only a drone's active alleles will be used for inheritance, making drones effectively haploid. This CHANGES Forestry's bee breeding mechanics.
+	use_haploid_drones = true
+	#The probability between 0 and 1 that an additional princess drops from a wild hive. 0 by default, meaning no second princess, ever.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	hive_second_princess_chance = 0.0
+
+[farming]
+	#
+	# Default: 2
+	# Range: 1 ~ 10
+	multiblock_farm_size = 2
+	#Whether Forestry multiblock farms have square shaped farmlands instead of the default diamond shape.
+	square_multiblock_farms = false
+	#Sets the size of the farmland that is used by all legacy (single block) farms.
+	# Default: 4
+	# Range: 1 ~ 10
+	legacy_farms_planter_rings = 4
+	#Whether legacy (single block) farms use a ring layout. The farmland size of the ring layout is always one block smaller.
+	legacy_farms_use_rings = true
+	#Sets the size of the inner ring of the ring layout.
+	# Default: 4
+	# Range: 1 ~ 10
+	legacy_farms_ring_size = 4
+
+[trees]
+	#Multiplies the chance of a Forestry tree spawning in the wild. Set to 0 to disable Forestry tree spawning.
+	# Default: 0.0
+	# Range: 0.0 ~ 1000000.0
+	tree_spawn_chance_modifier = 0.0
+
+[butterflies]
+	#Whether butterflies can spawn from Forestry leaves.
+	disable_butterfly_spawning = false
+	#The maximum number of butterflies that can spawn in the same area or cluster.
+	# Default: 20
+	# Range: 1 ~ 2000
+	butterfly_cluster_limit = 20
+	#The width of the cluster area used when checking if the "butterfly_cluster_limit" has been reached.
+	# Default: 128
+	# Range: 0 ~ 2000
+	butterfly_cluster_width = 128
+	#The height of the cluster area used when checking if the "butterfly_cluster_limit" has been reached.
+	# Default: 64
+	# Range: 0 ~ 2000
+	butterfly_cluster_height = 64
+
+[solar_engine]
+	#How much FE/t a single solar panel generates.
+	# Default: 6.0
+	# Range: 0.001 ~ 1.0E7
+	solar_fe_per_panel = 6.0
+	#How much FE/t a single solar panel generates in the Twilight Forest.
+	# Default: 3.0
+	# Range: 0.001 ~ 1.0E7
+	twilight_solar_fe_per_panel = 3.0
+	#A solar array generates a bonus on top of the flat output of its panels. The bonus is this factor multiplied by the square of one less than the number of lit panels, so at the default value an array of 100 lit panels adds 0.03 * 99^2 = 294.03 FE/t. Insolation scales the bonus the same way it scales the flat output. Set to 0 to disable.
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0E7
+	solar_array_bonus_factor = 0.03

@@ -1,0 +1,13 @@
+name = "Forestry: CE"
+filename = "forestry-1.21.1-3.0.0-alpha9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2oORTOi2/versions/RqiWPEU4/forestry-1.21.1-3.0.0-alpha9.jar"
+hash-format = "sha512"
+hash = "0b80611dec0c77f15909d9caeabfbf75919739c55776308e56ebc37a9acec215470db616cb691d18c8eb123389d72555019b962003d476caef420b006b54a930"
+
+[update]
+[update.modrinth]
+mod-id = "2oORTOi2"
+version = "RqiWPEU4"

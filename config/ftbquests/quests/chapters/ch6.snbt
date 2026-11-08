@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch6"
+	group: ""
+	icon: {
+		id: "mekanism:jetpack"
+	}
+	id: "4666197A39315804"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "269EAB6FA8F8E99B"
+		tasks: [{
+			id: "376085DA0CF12CA8"
+			item: { count: 1, id: "mekanism:jetpack" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

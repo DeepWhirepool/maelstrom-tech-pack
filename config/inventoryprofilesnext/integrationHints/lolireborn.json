@@ -1,0 +1,20 @@
+{
+    "ru.lolireborn.client.PlasmaChargerScreen": {
+        "ignore": true
+    },
+    "ru.lolireborn.client.EnergonGeneratorScreen": {
+        "ignore": true
+    },
+    "ru.lolireborn.client.EnergoniumConverterScreen": {
+        "ignore": true
+    },
+    "ru.lolireborn.client.EnergonSynthesizerScreen": {
+        "ignore": true
+    },
+    "ru.lolireborn.client.HeliosphericScreen": {
+        "ignore": true
+    },
+    "ru.lolireborn.client.ThermonuclearScreen": {
+        "ignore": true
+    }
+}

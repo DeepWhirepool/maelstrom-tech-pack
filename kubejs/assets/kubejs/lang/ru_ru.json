@@ -1,0 +1,17 @@
+{
+ "item.kubejs.ametrine_crystal": "Кристалл аметрина",
+ "item.kubejs.energized_ametrine_crystal": "Заряженный кристалл аметрина",
+ "item.kubejs.ametrine_dust": "Аметриновая пыль",
+ "item.kubejs.fluorite_crystal": "Кристалл флюорита",
+ "item.kubejs.energized_fluorite_crystal": "Заряженный кристалл флюорита",
+ "item.kubejs.fluorite_dust": "Флюоритовая пыль",
+ "item.kubejs.chrysolite_crystal": "Кристалл хризолита",
+ "item.kubejs.energized_chrysolite_crystal": "Заряженный кристалл хризолита",
+ "item.kubejs.chrysolite_dust": "Хризолитовая пыль",
+ "item.kubejs.quantum_alloy_ingot": "Слиток квантового сплава",
+ "item.kubejs.chaos_alloy_ingot": "Слиток сплава хаоса",
+ "item.kubejs.circuit_board_t1": "Плата I",
+ "item.kubejs.circuit_board_t2": "Плата II",
+ "item.kubejs.circuit_board_t3": "Плата III",
+ "item.kubejs.circuit_board_t4": "Плата IV"
+}

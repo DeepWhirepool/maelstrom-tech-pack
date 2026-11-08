@@ -1,0 +1,38 @@
+[display]
+	#Duration in seconds to display highlights
+	# Default: 30
+	# Range: 5 ~ 600
+	displayDuration = 30
+	#Thickness of the model-aware outline for devices in the current network.
+	#Network color is used only for device outlines, connection lines, and the thin label accent.
+	# Default: 0.012
+	# Range: 0.001 ~ 0.05
+	currentOutlineThickness = 0.012
+	#Thickness of the model-aware outline for devices from other networks.
+	# Default: 0.008
+	# Range: 0.001 ~ 0.05
+	otherOutlineThickness = 0.008
+	#Maximum label width in font pixels before text is shortened with an ellipsis.
+	# Default: 96
+	# Range: 40 ~ 240
+	maxLabelWidth = 96
+	#Output devices at or above this share of total network output are shown in red text.
+	#Output devices below this percentage stay white; input devices are green.
+	#This does not change the network outline color.
+	# Default: 50
+	# Range: 0 ~ 100
+	outputHighlightThreshold = 50
+
+[debounce]
+	#EMA smoothing factor for energy proportion (0.0 = no smoothing, 1.0 = instant)
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	smoothing = 0.4
+	#Minimum proportion change (%) to update energy status text
+	# Default: 3
+	# Range: 0 ~ 100
+	thresholdPercent = 3
+	#Consecutive missed scans before removing a device
+	# Default: 3
+	# Range: 1 ~ 10
+	maxMissedScans = 3

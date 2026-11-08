@@ -1,0 +1,5 @@
+[scanning]
+	#Radius in blocks to scan for Flux devices
+	# Default: 64
+	# Range: 5 ~ 256
+	scanRadius = 64

@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch5"
+	group: ""
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "39CC0AB83A891969"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "495494F06D7D9851"
+		tasks: [{
+			id: "741B7D53ABCCF41F"
+			item: { count: 1, id: "ae2:controller" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

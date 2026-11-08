@@ -1,0 +1,17 @@
+{
+ "item.kubejs.ametrine_crystal": "Ametrine Crystal",
+ "item.kubejs.energized_ametrine_crystal": "Energized Ametrine Crystal",
+ "item.kubejs.ametrine_dust": "Ametrine Dust",
+ "item.kubejs.fluorite_crystal": "Fluorite Crystal",
+ "item.kubejs.energized_fluorite_crystal": "Energized Fluorite Crystal",
+ "item.kubejs.fluorite_dust": "Fluorite Dust",
+ "item.kubejs.chrysolite_crystal": "Chrysolite Crystal",
+ "item.kubejs.energized_chrysolite_crystal": "Energized Chrysolite Crystal",
+ "item.kubejs.chrysolite_dust": "Chrysolite Dust",
+ "item.kubejs.quantum_alloy_ingot": "Quantum Alloy Ingot",
+ "item.kubejs.chaos_alloy_ingot": "Chaos Alloy Ingot",
+ "item.kubejs.circuit_board_t1": "Circuit Board I",
+ "item.kubejs.circuit_board_t2": "Circuit Board II",
+ "item.kubejs.circuit_board_t3": "Circuit Board III",
+ "item.kubejs.circuit_board_t4": "Circuit Board IV"
+}

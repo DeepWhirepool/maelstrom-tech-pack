@@ -1,0 +1,13 @@
+name = "Maelstrom Tech"
+author = "DeepWhirepool"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "027b31d1651a6812ad9ca19544d058ed5c90b9fdd5d4c44018a3c2ee18a7c192"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

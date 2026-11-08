@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch9"
+	group: ""
+	icon: {
+		id: "avaritia:crystal_matrix_ingot"
+	}
+	id: "70B94EE47A3FD547"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["09A77B8F00EDE0DD"]
+		id: "517FA27DB6964786"
+		tasks: [{
+			id: "289319D9D18E1E2D"
+			item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

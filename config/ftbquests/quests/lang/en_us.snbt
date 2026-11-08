@@ -1,0 +1,112 @@
+{
+	file.0000000000000001.title: "Maelstrom Tech"
+	chapter.986D58F8C3C9952D.title: "Начало"
+	quest.2E3DAFF9FE3C7325.title: "Молот инженера"
+	quest.2E3DAFF9FE3C7325.quest_desc: ["Верстак. Молот собирает мультиблоки IE: ПКМ по готовой структуре."]
+	quest.C54B982BD4667BA1.title: "Первые руды"
+	quest.C54B982BD4667BA1.quest_desc: ["Железо и медь IU ставит только в обычный камень (железо y0–56, медь y0–96)."]
+	quest.D4C185DBCBA1445E.title: "Олово и осмий"
+	quest.D4C185DBCBA1445E.quest_desc: ["Руды Mekanism. Осмий нужен почти всем машинам Mekanism."]
+	quest.1F4F96FE33AC9552.title: "Алюминий и никель"
+	quest.1F4F96FE33AC9552.quest_desc: ["Руды IE, встречаются и в глубинном сланце."]
+	quest.0C3E848F00B94BF3.title: "Коксовая печь"
+	quest.0C3E848F00B94BF3.quest_desc: ["Кирпичи коксовой печи (верстак) 3×3×3, удар молотом. Уголь → кокс."]
+	quest.F8546B8181079A2F.title: "Доменная печь"
+	quest.F8546B8181079A2F.quest_desc: ["Огнеупорный кирпич 3×3×3 + молот. Железо + кокс → сталь."]
+	quest.5E64FCAA9433D11B.title: "Дробилка IE"
+	quest.5E64FCAA9433D11B.quest_desc: ["Мультиблок из стальных лесов, лёгких и тяжёлых инженерных блоков. Руда → 2 пыли."]
+	quest.D7606BBD7AA67326.title: "Водяное колесо"
+	quest.D7606BBD7AA67326.quest_desc: ["Колесо + кинетический динамо IE (верстак) — первая энергия."]
+	quest.D2A63192A59333DF.title: "Термоэлектрогенератор"
+	quest.D2A63192A59333DF.quest_desc: ["Верстак. Даёт энергию от разницы горячего и холодного блока (лава/вода)."]
+	quest.3E01B65856C09BFF.title: "Провода и накопитель"
+	quest.3E01B65856C09BFF.quest_desc: ["Катушки проводов и LV-накопитель IE (верстак)."]
+	quest.1663A74A591C248A.title: "Плата IE"
+	quest.1663A74A591C248A.quest_desc: ["Верстак инженера IE по чертежу. Нужна для плат тир 1."]
+	chapter.0FCA1F07704E16F6.title: "Энергия"
+	quest.25356BB1DFCF39CB.title: "Стальной корпус"
+	quest.25356BB1DFCF39CB.quest_desc: ["Верстак Mekanism: сталь + осмий + стекло. Основа машин Mekanism."]
+	quest.8C7766930B34016B.title: "Обогатитель"
+	quest.8C7766930B34016B.quest_desc: ["Обогатитель Mekanism: руда → 2 пыли, самоцвет → кристалл."]
+	quest.DB28ECA775451EF6.title: "Флюорит"
+	quest.DB28ECA775451EF6.quest_desc: ["Руда флюорита Mekanism."]
+	quest.1092C19166FA7B5A.title: "Флюоритовый кристалл"
+	quest.1092C19166FA7B5A.quest_desc: ["Обогатитель Mekanism: 2 самоцвета флюорита → кристалл. Ключ ко всей энергетике тир 1."]
+	quest.87F843221299B6BD.title: "Тепловой генератор"
+	quest.87F843221299B6BD.quest_desc: ["Генератор Mekanism (верстак). В рецепте флюоритовый кристалл."]
+	quest.01BF2424E18B6A7C.title: "Солнечный генератор"
+	quest.01BF2424E18B6A7C.quest_desc: ["Солнечный генератор Mekanism (верстак, с кристаллом)."]
+	quest.81E5D241BCDC70C5.title: "Генераторы Powah"
+	quest.81E5D241BCDC70C5.quest_desc: ["Термо-генератор и солнечная панель Powah тир 1 (верстак, с кристаллом)."]
+	quest.7A28CDACD1ED7916.title: "Солнечная панель IU"
+	quest.7A28CDACD1ED7916.quest_desc: ["Улучшенная солнечная панель IU (верстак IU, с кристаллом)."]
+	quest.E16E8CA6E8B822EC.title: "Кабели"
+	quest.E16E8CA6E8B822EC.quest_desc: ["Универсальный кабель Mekanism и кабель Powah."]
+	quest.D090DD257C7ED8A9.title: "Энергокуб"
+	quest.D090DD257C7ED8A9.quest_desc: ["Базовый энергокуб Mekanism (с флюоритом)."]
+	quest.53977DFE9FCBDE2C.title: "Энергоячейка Powah"
+	quest.53977DFE9FCBDE2C.quest_desc: ["Базовая ячейка Powah (с флюоритом)."]
+	quest.E9B829DAD0086D0E.title: "Хранилища IU и Ender IO"
+	quest.E9B829DAD0086D0E.quest_desc: ["Батбокс IU и банк конденсаторов Ender IO — тоже с флюоритом."]
+	chapter.4028EA8890594006.title: "Переработка руд"
+	quest.15E431CE33872204.title: "×2: обогащение"
+	quest.15E431CE33872204.quest_desc: ["Руда в обогатителе Mekanism → 2 пыли."]
+	quest.D9A4A0E7ADFE098C.title: "Камера очистки"
+	quest.D9A4A0E7ADFE098C.quest_desc: ["×3. В рецепте нержавеющая сталь IU."]
+	quest.4E90E7723171E421.title: "Сгустки"
+	quest.4E90E7723171E421.quest_desc: ["Камера очистки + кислород: руда → 3 сгустка."]
+	quest.F273D9C049284E12.title: "Камера инжекции"
+	quest.F273D9C049284E12.quest_desc: ["×4. В рецепте пульсирующий кристалл Ender IO."]
+	quest.FE1CE8F4438B84E3.title: "Осколки"
+	quest.FE1CE8F4438B84E3.quest_desc: ["Камера инжекции + хлороводород: руда → 4 осколка."]
+	quest.F6D6CF0724DA651F.title: "Растворитель"
+	quest.F6D6CF0724DA651F.quest_desc: ["×5. В рецепте инженерный процессор AE2."]
+	quest.36511C4B4A6C4C47.title: "Промывка и кристаллизация"
+	quest.36511C4B4A6C4C47.quest_desc: ["×5. Промывочная камера (рама IF) и кристаллизатор (логический процессор AE2)."]
+	quest.4DB522B73A974B28.title: "×5: кристаллы"
+	quest.4DB522B73A974B28.quest_desc: ["Полная цепочка Mekanism: руда → 5 кристаллов."]
+	quest.EF06F870810F0F7C.title: "SAG-мельница"
+	quest.EF06F870810F0F7C.quest_desc: ["Мельница Ender IO; шары — со сплавом IU или Mekanism (24 шт. за крафт)."]
+	quest.782D6AB83078A0F0.title: "Лазерный бур"
+	quest.782D6AB83078A0F0.quest_desc: ["Основа рудного бура IF + лазерные буры рядом; в рецептах корпус машин IU."]
+	quest.E74849655CE52D26.title: "Хризолит"
+	quest.E74849655CE52D26.quest_desc: ["Зелёная линза (растворитель IF, + часть схемы IU) в буре → хризолит."]
+	quest.ACED3231BA63AB4D.title: "Аметрин"
+	quest.ACED3231BA63AB4D.quest_desc: ["Фиолетовая линза в буре → аметрин (реже хризолита)."]
+	chapter.017DCAE5F4124534.title: "Материалы"
+	quest.0864731352DEC7B0.title: "Пыль флюорита"
+	quest.0864731352DEC7B0.quest_desc: ["Кристалл в дробилке IE (шанс +1) или в дробителе Mekanism."]
+	quest.34D0AA2FA8421C94.title: "Пыль хризолита и аметрина"
+	quest.34D0AA2FA8421C94.quest_desc: ["Так же: дробилка IE или Mekanism."]
+	quest.810E7BF87FDE29A0.title: "Энергизирующий орб"
+	quest.810E7BF87FDE29A0.quest_desc: ["Орб Powah + стержни вокруг; энергия на стержни."]
+	quest.2A049148977A64F1.title: "Заряженный флюорит"
+	quest.2A049148977A64F1.quest_desc: ["Орб Powah, 500 тыс. FE."]
+	quest.89D4491F6682D23A.title: "Заряженный хризолит"
+	quest.89D4491F6682D23A.quest_desc: ["Орб Powah, 2 млн FE."]
+	quest.E48127D1594086D0.title: "Заряженный аметрин"
+	quest.E48127D1594086D0.quest_desc: ["Орб Powah, 8 млн FE."]
+	quest.697C671C9DBF2AF4.title: "Плата тир 1"
+	quest.697C671C9DBF2AF4.quest_desc: ["Верстак: 2 пыли флюорита + плата IE + базовая схема Mekanism."]
+	quest.DB8D45146524563B.title: "Плата тир 2"
+	quest.DB8D45146524563B.quest_desc: ["Верстак: плата т1 + заряженный флюорит + энергетический сплав Ender IO + часть схемы IU."]
+	quest.B67BF27C824B7E38.title: "Иридий и обсидиан"
+	quest.B67BF27C824B7E38.quest_desc: ["Иридий IU и очищенный обсидиан Mekanism — для квантового сплава."]
+	quest.81600AEAAFFF5136.title: "Квантовый сплав"
+	quest.81600AEAAFFF5136.quest_desc: ["Дуговая печь IE: иридий + 2 очищенного обсидиана + заряженный аметрин."]
+	chapter.39CC0AB83A891969.title: "AE2"
+	quest.AE931F29B670C113.title: "AE2 (скоро)"
+	quest.AE931F29B670C113.quest_desc: ["Глава в разработке."]
+	chapter.B5BC54E60D42D614.title: "Снаряжение"
+	quest.269EAB6FA8F8E99B.title: "Снаряжение (скоро)"
+	quest.269EAB6FA8F8E99B.quest_desc: ["Глава в разработке."]
+	chapter.BE06CFEB407D1747.title: "Draconic"
+	quest.E78B788BCC67A74C.title: "Draconic (скоро)"
+	quest.E78B788BCC67A74C.quest_desc: ["Глава в разработке."]
+	chapter.3FC5F549D6D734E1.title: "Maelstrom Tech: энергон и мультиблоки"
+	quest.09A77B8F00EDE0DD.title: "Энергон (скоро)"
+	quest.09A77B8F00EDE0DD.quest_desc: ["Глава в разработке."]
+	chapter.8AAF5188AE5C45FE.title: "Avaritia и финал"
+	quest.AD20629685E0F1CE.title: "Финал (скоро)"
+	quest.AD20629685E0F1CE.quest_desc: ["Глава в разработке."]
+}
