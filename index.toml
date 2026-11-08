@@ -813,6 +813,10 @@ file = "kubejs/client_scripts/hide_iu_modules.js"
 hash = "533d4fa92180e43e75feb638bbf09f3f906bbea8ecbc4fe0c5e1946192dc8b53"
 
 [[files]]
+file = "kubejs/client_scripts/hide_iu_tiers.js"
+hash = "b93b78ac7d7160d7c2943724b1ba19d6895d21e7319941544502db3fc7d27454"
+
+[[files]]
 file = "kubejs/client_scripts/hide_unreachable.js"
 hash = "ee70d784fbf2e2e00529912f6fdd03b59691b1159673419a501dd967845a46b1"
 
@@ -1255,6 +1259,10 @@ hash = "1d4a397fa7cd6dbb35ae2d78542642a70684051de861e2ac81222b0da2b0b19f"
 [[files]]
 file = "kubejs/server_scripts/hide_iu_modules.js"
 hash = "de1bf9a914be7c121e2e1c59414c9db3d99a8e775ef9b653f792ae1ccfbd0dab"
+
+[[files]]
+file = "kubejs/server_scripts/hide_iu_tiers.js"
+hash = "897d81bfb89b7e5737913689c699e99165c9b8ae2ebfcc1032b1ea1411ccccbf"
 
 [[files]]
 file = "kubejs/server_scripts/hide_unreachable.js"
