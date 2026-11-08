@@ -1,12 +1,12 @@
 name = "Maelstrom Tech"
 author = "DeepWhirepool"
-version = "0.1.4"
+version = "0.1.5"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a3858530e6cf3baf6cdd7aba11ff05c2d8d7bcc4aa1d97cfe0e7ecc5962de99b"
+hash = "eddab55d918e73e44c43c454fb85824ba1fd2667727ec5c9ab6fd5b96d704679"
 
 [versions]
 minecraft = "1.21.1"

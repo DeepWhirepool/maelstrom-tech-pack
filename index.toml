@@ -1306,7 +1306,7 @@ hash = "d739bbef62c0f35464309e02c90f2c681026a4d6696005d58115c73cb2257259"
 
 [[files]]
 file = "kubejs/server_scripts/web_7_maelstrom.js"
-hash = "dd21434cc5a859047f09ca7fe90b62f8b939251581d39473a3cc52c928d6fea3"
+hash = "856526a20cde5a5f13bcd18b66cd2b6b390762eaf999eae5a69920dd97a0b630"
 
 [[files]]
 file = "kubejs/server_scripts/zz_dump_graph.js"
@@ -1587,7 +1587,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "046a7958ed794f1de304e3db30540f09e128d6b8eed79d670d9df61269a4f51e"
+hash = "fe59d40ed0b55ad95270bf7335f09a5a98c1285ac6f74fe35c65ce94f5ec705f"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"

@@ -45,7 +45,7 @@ ServerEvents.recipes(function (e) {
     'induction_module_1', 'induction_module_2', 'induction_module_3', 'induction_module_4', 'thermal_insulator_1', 'thermal_insulator_2',
     'thermal_insulator_3', 'star_core', 'plasma_reagent_phase', 'plasma_reagent_heliotrope', 'plasma_reagent_luminophase',
     'plasma_reagent_exothermic', 'plasma_reagent_quark', 'thermo_casing', 'thermo_roof', 'thermo_glass', 'thermo_heater',
-    'thermonuclear_melting_complex', 'smelting_crystallizer', 'smelter_crucible'].forEach(function (id) { e.remove({ id: L(id) }) })
+    'thermonuclear_melting_complex', 'smelting_crystallizer', 'smelter_crucible', 'liquid_neutron_compressor'].forEach(function (id) { e.remove({ id: L(id) }) })
 
   // Нейтронная звезда: нейтроний Avaritia + квантовый сплав (T15) + антиматерия Mekanism (SPS)
   // T37: один нейтроний → торий из циклотрона IU (палладиевый блок → торий), связь с ядерной веткой IU
@@ -98,6 +98,9 @@ ServerEvents.recipes(function (e) {
   // T66: комплекс — после Преобразователя (его корпус/стекло), до Термояда: доменная печь IE-уровня + Mekanism + IU
   shaped('smelting_crystallizer', 1, ['CHC', 'RKR', 'CBC'], { C: L('converter_casing'), H: 'mekanism:resistive_heater', R: 'immersiveengineering:plate_steel',
     K: 'kubejs:circuit_board_t3', B: 'mekanism:basic_fluid_tank' })
+  // T67: жидкостный компрессор — эндгейм после Термояда: нейтронный компрессор Avaritia + бак Mekanism + кристалл энергона
+  shaped('liquid_neutron_compressor', 1, ['NTN', 'PXP', 'NAN'], { N: 'avaritia:neutron_ingot', T: 'mekanism:ultimate_fluid_tank',
+    P: L('pulsing_energon_crystal'), X: 'avaritia:neutron_compressor', A: 'mekanism:pellet_antimatter' })
   shaped('smelter_crucible', 1, ['SOS', 'OCO', 'SOS'], { S: 'immersiveengineering:plate_steel', O: 'mekanism:ingot_refined_obsidian', C: 'minecraft:cauldron' })
 
   // Корпуса и стёкла: дёшево (×4–8), 2–3 мода; каждый следующий корпус на базе предыдущего
