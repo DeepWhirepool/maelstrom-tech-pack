@@ -254,39 +254,39 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch1.snbt"
-hash = "747d2998a8926b10f9abc7ef89c07865781f8f34ee5a31b1b450eb81479b9977"
+hash = "e73db954f10476beadd3a950fb0c9819866663d72a86de039a780230985d3bfd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch2.snbt"
-hash = "3faaf2135a0eff2a7a9747033a8d2bab3a31bfa49d9374adf117d227ceeae69c"
+hash = "fb9127df0fcdd889083a3cafe11729703643651679712afdd667d5868af11a1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch3.snbt"
-hash = "951f58b8aaaac0eff7e40ca81332021e06158bfa91621c2d504a389bc1b4b209"
+hash = "f8c94a1ef18b7306a855a8068b9880b32d9774ccb2edb47f6e790f83986bbdd0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch4.snbt"
-hash = "b04fcf1215af3da91f092573217ac46f4435e09669fabfa01fb67befac5327e3"
+hash = "1a6d204425796f15939ccd07acbc690cd1e5252bd5750017996c47c069ea325d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch5.snbt"
-hash = "2eab025ea6b01515093c6084a1d6fb668e1d8707abfd002a50f318d43673fc1f"
+hash = "6e7cf7652ec66f711e94de14aed589ec0907357690afeffb0a16069235cd5d6a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch6.snbt"
-hash = "0ac26a77f329267afcdbfaf638684acbfff344c3770374f99467f86898626044"
+hash = "1a4aa44d106e605e8e56f9542833d963c8e3e06cd1f439e0a8625dcec9031580"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch7.snbt"
-hash = "67058d52eff796faefe926acb66ccb6e5737c8671821296c276c0fa8c4788832"
+hash = "bc2404dc562fa3db500c6de7d0231923126fe54e79dca92b694179778a1da2cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch8.snbt"
-hash = "5ddb5798c1a7c4154fca96d2f1058a605ca165b06846c8201090c0da03bb94cb"
+hash = "350601c25afd3cdd6fde24fae3ca4ccdc8f605ca9500e3494c79dfd0917aa836"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch9.snbt"
-hash = "d5fe01a5958b07b0640ab121803e5c51d936dac009f66f0c8d5a64433ad238f5"
+hash = "52cc81e953199a90a7a11c45e7be13ac8336c24f2fd0d1d0e3f6de832c2b8753"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -294,7 +294,7 @@ hash = "5021b05ac6eec891ca839e90b8aa2d711ef3fbeaa224d3876e2dc2f279a772af"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fee2e00449f3b8f6e4ebf8a4034cb5bdc58fb83f003c8d7805177365b2407cee"
+hash = "89b5e41baf0a9c8924cfe0162fb6754eec3d3d04709eeafb75e801c9ee364c38"
 
 [[files]]
 file = "config/ftbteams-server.snbt"

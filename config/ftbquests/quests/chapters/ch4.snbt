@@ -52,7 +52,7 @@
 				}
 				{
 					count: 2L
-					id: "1F54DE03CCFA2051"
+					id: "5531729103427FAE"
 					item: { count: 1, id: "kubejs:ametrine_dust" }
 					type: "item"
 				}
@@ -62,10 +62,10 @@
 		}
 		{
 			dependencies: ["34D0AA2FA8421C94"]
-			id: "5AA61143BEC00019"
+			id: "4BB6730E89139640"
 			rewards: [{
 				count: 8
-				id: "054FE7CAE1613440"
+				id: "5038021D249AC57F"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["2A049148977A64F1"]
-			id: "402972C7FAE1E176"
+			id: "2C9D9A2D4CB07915"
 			rewards: [{
 				id: "0578B4C320C1622E"
 				item: {
@@ -129,7 +129,7 @@
 			y: 0.0d
 		}
 		{
-			id: "2D8EEF95BF6D5CA3"
+			id: "14EE16753B6F0611"
 			rewards: [{
 				id: "731D1D653740A125"
 				item: {
@@ -140,7 +140,7 @@
 			}]
 			tasks: [{
 				count: 2L
-				id: "54C84F8BA93EE3EA"
+				id: "64430CCC7B83674A"
 				item: { count: 1, id: "kubejs:energized_ametrine_crystal" }
 				type: "item"
 			}]
@@ -151,7 +151,7 @@
 			id: "697C671C9DBF2AF4"
 			rewards: [{
 				count: 2
-				id: "0140FA60468CF0C9"
+				id: "08DB87CBBDDA2A6D"
 				item: {
 					count: 1
 					id: "kubejs:fluorite_dust"
@@ -169,10 +169,10 @@
 		}
 		{
 			dependencies: ["697C671C9DBF2AF4"]
-			id: "60AE3BE8079DA117"
+			id: "4075053D1D123D83"
 			rewards: [{
 				count: 2
-				id: "7A3E027E0512F232"
+				id: "603723DAF759E841"
 				item: {
 					count: 1
 					id: "enderio:energetic_alloy_ingot"
@@ -180,7 +180,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7C678DCC95E55A53"
+				id: "0FE2C2FA6455991D"
 				item: { count: 1, id: "kubejs:circuit_board_t2" }
 				type: "item"
 			}]
@@ -188,10 +188,10 @@
 			y: 1.5d
 		}
 		{
-			id: "316C9E117781B15D"
+			id: "161C675EC01C4726"
 			rewards: [{
 				count: 4
-				id: "2ADF9E10FB6E7F0E"
+				id: "3DDC949839B48308"
 				item: {
 					count: 1
 					id: "minecraft:obsidian"
@@ -200,7 +200,7 @@
 			}]
 			tasks: [
 				{
-					id: "1EAEC4E70AE84CF5"
+					id: "25FE764B3D54B79B"
 					item: { count: 1, id: "industrialupgrade:itemingots/iridium_ingot" }
 					type: "item"
 				}
@@ -215,9 +215,9 @@
 			y: 1.5d
 		}
 		{
-			id: "356598A9B751CDE2"
+			id: "7537777D883E62BB"
 			rewards: [{
-				id: "6A5606BB984DFDD8"
+				id: "471F23DECF3FB379"
 				item: {
 					count: 1
 					id: "mekanism:ingot_refined_obsidian"
@@ -225,7 +225,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1308E119E07BF2A0"
+				id: "2069D64E04556624"
 				item: { count: 1, id: "kubejs:quantum_alloy_ingot" }
 				type: "item"
 			}]

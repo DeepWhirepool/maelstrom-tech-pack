@@ -95,18 +95,124 @@
 	quest.81600AEAAFFF5136.title: "Квантовый сплав"
 	quest.81600AEAAFFF5136.quest_desc: ["Дуговая печь IE: иридий + 2 очищенного обсидиана + заряженный аметрин."]
 	chapter.39CC0AB83A891969.title: "AE2"
-	quest.AE931F29B670C113.title: "AE2 (скоро)"
-	quest.AE931F29B670C113.quest_desc: ["Глава в разработке."]
+	quest.AE931F29B670C113.title: "Кварц истинности"
+	quest.AE931F29B670C113.quest_desc: ["Растёт из почкующегося кварца в метеоритах (небесный камень)."]
+	quest.6A6CF09BD542E0E1.title: "Зарядник AE2"
+	quest.6A6CF09BD542E0E1.quest_desc: ["Верстак. Заряжает кварц истинности от FE."]
+	quest.C4D2262EF225F8EB.title: "Флюикс"
+	quest.C4D2262EF225F8EB.quest_desc: ["Заряженный кварц + редстоун + кварц, бросить в воду."]
+	quest.9AE893271241690B.title: "Высекатель"
+	quest.9AE893271241690B.quest_desc: ["Высекатель AE2 (верстак) и пресс-формы из метеоритов."]
+	quest.102C277957A9C63C.title: "Процессоры"
+	quest.102C277957A9C63C.quest_desc: ["Высекатель: логический, вычислительный и инженерный процессоры."]
+	quest.31C7358EA0E24375.title: "ME-контроллер"
+	quest.31C7358EA0E24375.quest_desc: ["Верстак (рецепт LoliLand): небесный камень + флюикс + усложнённая схема IU."]
+	quest.12C064C71E090880.title: "Хранение"
+	quest.12C064C71E090880.quest_desc: ["ME-накопитель и ячейка 1k (кварцевое стекло, редстоун, компонент 1k, железо)."]
+	quest.B598B667E31E5713.title: "Терминал и сундук"
+	quest.B598B667E31E5713.quest_desc: ["Терминал крафта и ME-сундук — доступ к сети."]
+	quest.BFD6BB40D5A2E806.title: "Шины"
+	quest.BFD6BB40D5A2E806.quest_desc: ["Шины импорта и экспорта: автоматизация машин."]
+	quest.DCB6E8A748BA9FEA.title: "Автокрафт"
+	quest.DCB6E8A748BA9FEA.quest_desc: ["Молекулярный сборщик, поставщик шаблонов и блок крафта."]
+	quest.9F16C8679A867F0D.title: "ExtendedAE"
+	quest.9F16C8679A867F0D.quest_desc: ["Расширенные поставщик шаблонов и накопитель ExtendedAE."]
+	quest.ECAA751223527308.title: "Беспроводной терминал"
+	quest.ECAA751223527308.quest_desc: ["Беспроводной терминал крафта — сеть в кармане."]
 	chapter.B5BC54E60D42D614.title: "Снаряжение"
-	quest.269EAB6FA8F8E99B.title: "Снаряжение (скоро)"
-	quest.269EAB6FA8F8E99B.quest_desc: ["Глава в разработке."]
+	quest.269EAB6FA8F8E99B.title: "Нано-шлем"
+	quest.269EAB6FA8F8E99B.quest_desc: ["Верстак IU (рецепт LoliLand): углепластины + энергокристалл + ПНВ."]
+	quest.1E3722BAB254EC61.title: "Нано-сет"
+	quest.1E3722BAB254EC61.quest_desc: ["Нагрудник, поножи и ботинки нано — верстак IU."]
+	quest.EC9A29F9E92E2EB9.title: "Улучшенное нано"
+	quest.EC9A29F9E92E2EB9.quest_desc: ["Улучшенный нано-нагрудник IU."]
+	quest.CAD87D40CD1EFACB.title: "Квантовый сет"
+	quest.CAD87D40CD1EFACB.quest_desc: ["Квантовая броня IU (верстак IU, рецепт LoliLand): иридий и лапотроны."]
+	quest.B7B4A15D95C5AC0A.title: "Джетпак"
+	quest.B7B4A15D95C5AC0A.quest_desc: ["Джетпак Mekanism, заправка водородом."]
+	quest.074E425D6930736E.title: "Скороходы и баллон"
+	quest.074E425D6930736E.quest_desc: ["Скороходы и акваланг Mekanism."]
+	quest.D4E44D6A7D040303.title: "Атомный дезинтегратор"
+	quest.D4E44D6A7D040303.quest_desc: ["Инструмент Mekanism: копает всё, большой заряд."]
+	quest.B54720F1839CF39A.title: "MekaSuit"
+	quest.B54720F1839CF39A.quest_desc: ["Броня MekaSuit Mekanism (верстак, HDPE + полоний)."]
+	quest.264F23068E112ED4.title: "Модули"
+	quest.264F23068E112ED4.quest_desc: ["Основа модуля и Мека-инструмент; модули ставятся в модификационной станции."]
+	quest.08F7B9FA09664DD3.title: "Виверна: инструменты"
+	quest.08F7B9FA09664DD3.quest_desc: ["Кирка и меч виверны Draconic (слияние)."]
+	quest.EF11DFA9C56F0249.title: "Виверна: броня"
+	quest.EF11DFA9C56F0249.quest_desc: ["Нагрудник виверны (рецепт LoliLand) и конденсатор виверны."]
 	chapter.BE06CFEB407D1747.title: "Draconic"
-	quest.E78B788BCC67A74C.title: "Draconic (скоро)"
-	quest.E78B788BCC67A74C.quest_desc: ["Глава в разработке."]
+	quest.E78B788BCC67A74C.title: "Дракониум"
+	quest.E78B788BCC67A74C.quest_desc: ["Руда дракониума, переплавка."]
+	quest.147A964CC9EEE6F7.title: "Ядро дракониума"
+	quest.147A964CC9EEE6F7.quest_desc: ["Верстак Draconic. Основа слияния."]
+	quest.713B23F2E84B5F4A.title: "Слияние"
+	quest.713B23F2E84B5F4A.quest_desc: ["Ядро слияния + инжекторы вокруг; энергия — на ядро."]
+	quest.37F6D6E2C8D5339E.title: "Ядро виверны"
+	quest.37F6D6E2C8D5339E.quest_desc: ["Слияние (рецепт LoliLand): 4 энергоядра + 4 иридиевые пластины IU + ядро дракониума."]
+	quest.48F0686E231A133E.title: "Инжекторы виверны"
+	quest.48F0686E231A133E.quest_desc: ["Инжектор тир 2 — для рецептов уровня виверны."]
+	quest.49B9718F8340DB2B.title: "Энергоядро"
+	quest.49B9718F8340DB2B.quest_desc: ["Ядро + стабилизаторы + пилон: большое хранилище энергии."]
+	quest.C2ABCDA0BB3E7642.title: "Сердце дракона"
+	quest.C2ABCDA0BB3E7642.quest_desc: ["Падает с ванильного Эндер-дракона."]
+	quest.08E420EF229E8932.title: "Пробуждённый дракониум"
+	quest.08E420EF229E8932.quest_desc: ["Слияние: дракониум + сердце дракона."]
+	quest.754C1685038EAA48.title: "Пробуждённое ядро"
+	quest.754C1685038EAA48.quest_desc: ["Слияние на ядрах виверны."]
+	quest.4614211973A4AA95.title: "Осколок хаоса"
+	quest.4614211973A4AA95.quest_desc: ["Босса нет: осколок — техническим слиянием (web_7), фрагменты — разбором."]
+	quest.54D6700367AABC30.title: "Хаотичное ядро"
+	quest.54D6700367AABC30.quest_desc: ["Слияние уровня draconic (рецепт LoliLand)."]
+	quest.8292EEAAFB7E0253.title: "Реактор"
+	quest.8292EEAAFB7E0253.quest_desc: ["Ядро реактора, 4 стабилизатора и инжектор — эндгейм-энергия (осторожно, взрывается)."]
+	quest.CACCC254A11CA48B.title: "Броня Draconic"
+	quest.CACCC254A11CA48B.quest_desc: ["Нагрудник draconic — слияние на пробуждённом ядре."]
 	chapter.3FC5F549D6D734E1.title: "Maelstrom Tech: энергон и мультиблоки"
-	quest.09A77B8F00EDE0DD.title: "Энергон (скоро)"
-	quest.09A77B8F00EDE0DD.quest_desc: ["Глава в разработке."]
+	quest.09A77B8F00EDE0DD.title: "Нейтронная звезда"
+	quest.09A77B8F00EDE0DD.quest_desc: ["Верстак: нейтроний Avaritia + антиматерия Mekanism + квантовый сплав."]
+	quest.052DD878A261BDC9.title: "Плазменный зарядник"
+	quest.052DD878A261BDC9.quest_desc: ["Заряжает звезду: 12 G FE, 10 мин при 1 M FE/т."]
+	quest.1179333ADAA25BAC.title: "Генераторы энергона"
+	quest.1179333ADAA25BAC.quest_desc: ["Красный (лава) и тёмный (криоген IU / вода) — 1 заряд звезды за энергон."]
+	quest.DE5225D63B299DE6.title: "Энергон"
+	quest.DE5225D63B299DE6.quest_desc: ["Продукт генераторов."]
+	quest.F1F38C8E377569D7.title: "Преобразователь энергония"
+	quest.F1F38C8E377569D7.quest_desc: ["Мультиблок 3×3×3. Shift+ПКМ пустой рукой — призраки, ПКМ — сборка."]
+	quest.97AD0A176811512D.title: "Плавильно-кристаллизационный комплекс"
+	quest.97AD0A176811512D.quest_desc: ["Мультиблок 3×3×4 на корпусе Преобразователя: слиток ↔ расплав, кнопка режима."]
+	quest.881AC3B6DC65579B.title: "Энергонный синтезатор"
+	quest.881AC3B6DC65579B.quest_desc: ["Мультиблок 5×5×5: энергоний → пульсирующий кристалл, кристалл → звёздная материя."]
+	quest.478589736C191B19.title: "Звёздная материя"
+	quest.478589736C191B19.quest_desc: ["Второй рецепт синтезатора (кристалл во входе)."]
+	quest.AB6F9927F9EA8C9E.title: "Ядро звезды"
+	quest.AB6F9927F9EA8C9E.quest_desc: ["Слияние Draconic: пробуждённое ядро + 4 кристалла энергона + 4 сплава хаоса."]
+	quest.339B9292C0AE2695.title: "Плазмореактивы"
+	quest.339B9292C0AE2695.quest_desc: ["Капсулы 5 тиров: реакц. камера Mekanism и слияние Draconic."]
+	quest.3CC70563C21556B0.title: "Гелиосферный центр"
+	quest.3CC70563C21556B0.quest_desc: ["Мультиблок 9×8×9: ядро + блок звёздной материи + реактивы → микрозвезда."]
+	quest.778FC6B2A227022E.title: "Термоядерный комплекс"
+	quest.778FC6B2A227022E.quest_desc: ["Мультиблок 5×7×5 (в рецепте — Плавильный комплекс): слитки эндгейма → расплав при T° микрозвезды."]
+	quest.00E5CB4A36B72BE3.title: "Жидкостный компрессор"
+	quest.00E5CB4A36B72BE3.quest_desc: ["64 000 мБ жидкости → жидкая сингулярность, 200 M FE (~11 мин)."]
 	chapter.8AAF5188AE5C45FE.title: "Avaritia и финал"
-	quest.AD20629685E0F1CE.title: "Финал (скоро)"
-	quest.AD20629685E0F1CE.quest_desc: ["Глава в разработке."]
+	quest.AD20629685E0F1CE.title: "Сжатые верстаки"
+	quest.AD20629685E0F1CE.quest_desc: ["Верстак ×9 → сжатый, ×9 → дважды сжатый."]
+	quest.4F67E8F502843B33.title: "Экстремальный верстак"
+	quest.4F67E8F502843B33.quest_desc: ["Сетка 9×9 Avaritia (рецепт LoliLand)."]
+	quest.D4F1F43CD4DCC4CD.title: "Кристальная матрица"
+	quest.D4F1F43CD4DCC4CD.quest_desc: ["Алмазная решётка + звёзды Незера."]
+	quest.C037A1B12A1266D0.title: "Нейтронный компрессор"
+	quest.C037A1B12A1266D0.quest_desc: ["Сжимает 64 блока в сингулярность (у нас вместо 10 000)."]
+	quest.2227E707F7B9A08D.title: "Нейтроний"
+	quest.2227E707F7B9A08D.quest_desc: ["Коллектор нейтрония: кучка → самородок → слиток."]
+	quest.10303DCF6BC3383E.title: "Катализатор бесконечности"
+	quest.10303DCF6BC3383E.quest_desc: ["Экстремальный верстак: все сингулярности и редкие детали."]
+	quest.DF32C8AFC0C58804.title: "Слиток бесконечности"
+	quest.DF32C8AFC0C58804.quest_desc: ["Экстремальный верстак: катализатор + нейтроний + матрица."]
+	quest.5D068A9D1B1D4B61.title: "Меч и кирка"
+	quest.5D068A9D1B1D4B61.quest_desc: ["Инструменты бесконечности (рецепты LoliLand)."]
+	quest.D8F887FAA430C66B.title: "Финал: броня бесконечности"
+	quest.D8F887FAA430C66B.quest_desc: ["Полный сет — сборка пройдена."]
 }

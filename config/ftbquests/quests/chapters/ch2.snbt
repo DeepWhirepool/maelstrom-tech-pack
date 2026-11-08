@@ -33,10 +33,10 @@
 		}
 		{
 			dependencies: ["25356BB1DFCF39CB"]
-			id: "6C17EA7AF9983D3C"
+			id: "74F6027DAFEAC66A"
 			rewards: [{
 				count: 8
-				id: "66537B0A1E403C7B"
+				id: "6F632284EC1E0D8A"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -52,7 +52,7 @@
 			y: 0.0d
 		}
 		{
-			id: "403E9FD565E6CD3A"
+			id: "4E13A03D14556901"
 			rewards: [{
 				count: 8
 				id: "05B924E81788B83C"
@@ -84,7 +84,7 @@
 			}]
 			tasks: [{
 				count: 4L
-				id: "052AF79A325D5153"
+				id: "3F36827CB140E242"
 				item: { count: 1, id: "kubejs:fluorite_crystal" }
 				type: "item"
 			}]
@@ -93,10 +93,10 @@
 		}
 		{
 			dependencies: ["1092C19166FA7B5A"]
-			id: "2319E57E3CA1C7AA"
+			id: "553D191B669B9AE8"
 			rewards: [{
 				count: 4
-				id: "57BAB1999CFEA9C9"
+				id: "20AA007BBBBF703E"
 				item: {
 					count: 1
 					id: "mekanism:fluorite_gem"
@@ -104,7 +104,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7B7B893476A8332A"
+				id: "073274F8506A4DF5"
 				item: { count: 1, id: "mekanismgenerators:heat_generator" }
 				type: "item"
 			}]
@@ -123,7 +123,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "645DA4E1E418A3F0"
+				id: "2BABAD2C3A67BD49"
 				item: { count: 1, id: "mekanismgenerators:solar_generator" }
 				type: "item"
 			}]
@@ -132,10 +132,10 @@
 		}
 		{
 			dependencies: ["01BF2424E18B6A7C"]
-			id: "658E7BFCEFCD6B59"
+			id: "15C4185B78009438"
 			rewards: [{
 				count: 8
-				id: "55DE0F0FB5F44D55"
+				id: "3E0A47AB5095F254"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -161,7 +161,7 @@
 			id: "7A28CDACD1ED7916"
 			rewards: [{
 				count: 8
-				id: "1F8A21B6B60C2F96"
+				id: "406B1D9F40415C5A"
 				item: {
 					count: 1
 					id: "minecraft:copper_ingot"
@@ -169,7 +169,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5F756D101EEE0965"
+				id: "084C19FA62DB5B6F"
 				item: { count: 1, id: "industrialupgrade:machines/advanced_solar_paneliu" }
 				type: "item"
 			}]
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["7A28CDACD1ED7916"]
-			id: "5C9D013543BE2BB2"
+			id: "468ECC0DC1FC4DEB"
 			rewards: [{
 				count: 8
 				id: "3828E4125154F922"
@@ -197,7 +197,7 @@
 				}
 				{
 					count: 8L
-					id: "6393CF9103462569"
+					id: "0C2EC3EB1CF33B35"
 					item: { count: 1, id: "powah:energy_cable_basic" }
 					type: "item"
 				}
@@ -206,7 +206,7 @@
 			y: 1.5d
 		}
 		{
-			id: "3BF0B60AEC32AEF3"
+			id: "1C7BD67EC94BD62E"
 			rewards: [{
 				count: 4
 				id: "68BF15A052FDAA44"
@@ -217,7 +217,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "42D9BBD53187809E"
+				id: "3AF3CAF97D3065FC"
 				item: { count: 1, id: "mekanism:basic_energy_cube" }
 				type: "item"
 			}]
@@ -228,7 +228,7 @@
 			id: "53977DFE9FCBDE2C"
 			rewards: [{
 				count: 8
-				id: "210BB5963C6EB4E6"
+				id: "6543F5CCFFFBFF9C"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -245,7 +245,7 @@
 		}
 		{
 			dependencies: ["53977DFE9FCBDE2C"]
-			id: "20F0457FDBE41DBB"
+			id: "1FD943623797376D"
 			rewards: [{
 				count: 8
 				id: "1B96BAD7C9F3B4F5"
@@ -257,12 +257,12 @@
 			}]
 			tasks: [
 				{
-					id: "3350821C948AD261"
+					id: "2A1D3B12BC329A90"
 					item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }
 					type: "item"
 				}
 				{
-					id: "51DEEDEF55EDB3E8"
+					id: "3E3E7F1725968077"
 					item: { count: 1, id: "enderio:basic_capacitor_bank" }
 					type: "item"
 				}

@@ -6,7 +6,7 @@
 	icon: {
 		id: "immersiveengineering:hammer"
 	}
-	id: "088CFA6538C1062B"
+	id: "1465377E9FA4C88C"
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "11B8221864542DF7"
+				id: "01C4EBB1B30D7236"
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
 			}]
@@ -32,7 +32,7 @@
 		}
 		{
 			dependencies: ["2E3DAFF9FE3C7325"]
-			id: "35BDFD5E883CAC90"
+			id: "763438EFA1F44040"
 			rewards: [{
 				count: 16
 				id: "18A82B7E561AF9C2"
@@ -45,7 +45,7 @@
 			tasks: [
 				{
 					count: 8L
-					id: "160B1FAEBA79ADFF"
+					id: "20EC6584C0021417"
 					item: { count: 1, id: "minecraft:raw_iron" }
 					type: "item"
 				}
@@ -60,10 +60,10 @@
 			y: 0.0d
 		}
 		{
-			id: "29680F27D512E240"
+			id: "22EAA2FF7D227DD5"
 			rewards: [{
 				count: 8
-				id: "0CF0AA487FE9B397"
+				id: "48477FFB611AC450"
 				item: {
 					count: 1
 					id: "minecraft:coal"
@@ -79,7 +79,7 @@
 				}
 				{
 					count: 4L
-					id: "77CA587F128B089F"
+					id: "3B07926087DB9FF9"
 					item: { count: 1, id: "mekanism:raw_osmium" }
 					type: "item"
 				}
@@ -107,7 +107,7 @@
 				}
 				{
 					count: 4L
-					id: "6E6CDD5549947670"
+					id: "06AE09194371DD34"
 					item: { count: 1, id: "immersiveengineering:raw_nickel" }
 					type: "item"
 				}
@@ -120,7 +120,7 @@
 			id: "0C3E848F00B94BF3"
 			rewards: [{
 				count: 16
-				id: "61B10B5F5196BDF2"
+				id: "69FCFAB9237B9EAE"
 				item: {
 					count: 1
 					id: "minecraft:clay_ball"
@@ -138,10 +138,10 @@
 		}
 		{
 			dependencies: ["0C3E848F00B94BF3"]
-			id: "514C5B9922DCA6B3"
+			id: "333FD258E597D642"
 			rewards: [{
 				count: 8
-				id: "77CB26DBFF200533"
+				id: "365961EC91B8E53A"
 				item: {
 					count: 1
 					id: "immersiveengineering:coal_coke"
@@ -161,7 +161,7 @@
 			id: "5E64FCAA9433D11B"
 			rewards: [{
 				count: 8
-				id: "3206B69AA02FE587"
+				id: "6AC82FAB2465346A"
 				item: {
 					count: 1
 					id: "minecraft:iron_ingot"
@@ -170,7 +170,7 @@
 			}]
 			tasks: [
 				{
-					id: "002CCD7FE19149FD"
+					id: "1919417597AD197B"
 					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
 					type: "item"
 				}
@@ -186,7 +186,7 @@
 		}
 		{
 			dependencies: ["5E64FCAA9433D11B"]
-			id: "506B2F4F4094B1FB"
+			id: "1F342C3B614F5A71"
 			rewards: [{
 				count: 4
 				id: "1C72CA906689771D"
@@ -198,7 +198,7 @@
 			}]
 			tasks: [
 				{
-					id: "7E8B124AEEE9560C"
+					id: "7D8280534849B6D6"
 					item: { count: 1, id: "immersiveengineering:watermill" }
 					type: "item"
 				}
@@ -212,10 +212,10 @@
 			y: 1.5d
 		}
 		{
-			id: "6302432A943A82BF"
+			id: "133F404A5F98553E"
 			rewards: [{
 				count: 8
-				id: "36BBABE2015EEC97"
+				id: "11409D6590323342"
 				item: {
 					count: 1
 					id: "minecraft:copper_ingot"
@@ -234,7 +234,7 @@
 			id: "3E01B65856C09BFF"
 			rewards: [{
 				count: 8
-				id: "32D55A26D4B34062"
+				id: "4A8BF53DC562352D"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -249,7 +249,7 @@
 					type: "item"
 				}
 				{
-					id: "7C2EB59A8C220357"
+					id: "38A0D6DE6EF00190"
 					item: { count: 1, id: "immersiveengineering:capacitor_lv" }
 					type: "item"
 				}
@@ -271,7 +271,7 @@
 			}]
 			tasks: [{
 				count: 2L
-				id: "6795D749B550379C"
+				id: "0DCFB057A0405F50"
 				item: { count: 1, id: "immersiveengineering:circuit_board" }
 				type: "item"
 			}]

@@ -33,10 +33,10 @@
 		}
 		{
 			dependencies: ["15E431CE33872204"]
-			id: "1A1EE95C946ED517"
+			id: "5CCC5B6B6463340D"
 			rewards: [{
 				count: 4
-				id: "1ECCD4118672362B"
+				id: "664BC19B1E0C6772"
 				item: {
 					count: 1
 					id: "mekanism:ingot_osmium"
@@ -44,7 +44,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "27FA75B2C528F9CD"
+				id: "35F4C5C8A0DD9B54"
 				item: { count: 1, id: "mekanism:purification_chamber" }
 				type: "item"
 			}]
@@ -73,10 +73,10 @@
 		}
 		{
 			dependencies: ["4E90E7723171E421"]
-			id: "0109025EB4730455"
+			id: "456EC5A68AF419D5"
 			rewards: [{
 				count: 4
-				id: "64CA6B371F710387"
+				id: "157460D017826033"
 				item: {
 					count: 1
 					id: "mekanism:ingot_osmium"
@@ -92,7 +92,7 @@
 			y: 0.0d
 		}
 		{
-			id: "7C79C1C51D606660"
+			id: "708BBC0B6193C6CA"
 			rewards: [{
 				count: 4
 				id: "355B1E2D67F7EA2B"
@@ -104,7 +104,7 @@
 			}]
 			tasks: [{
 				count: 16L
-				id: "6F17A7729A1C6CD8"
+				id: "056588DBE54800BE"
 				item: { count: 1, id: "mekanism:shard_iron" }
 				type: "item"
 			}]
@@ -112,10 +112,10 @@
 			y: 0.0d
 		}
 		{
-			id: "77B3FAA342D32C11"
+			id: "21518200BA393D01"
 			rewards: [{
 				count: 8
-				id: "66084BE363A338DF"
+				id: "4A27A83CF99B62EA"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -170,7 +170,7 @@
 			}]
 			tasks: [{
 				count: 20L
-				id: "1DCE338C40380D4F"
+				id: "577CBC212C97D234"
 				item: { count: 1, id: "mekanism:crystal_iron" }
 				type: "item"
 			}]
@@ -179,10 +179,10 @@
 		}
 		{
 			dependencies: ["4DB522B73A974B28"]
-			id: "6BBB33FB079DB185"
+			id: "18C83A7EA0D019A9"
 			rewards: [{
 				count: 8
-				id: "02C62095AFBF7B95"
+				id: "72C83575AEC0E433"
 				item: {
 					count: 1
 					id: "minecraft:redstone"
@@ -208,7 +208,7 @@
 			id: "782D6AB83078A0F0"
 			rewards: [{
 				count: 16
-				id: "41EFCEDDEAA58FB8"
+				id: "6363759C88D535C4"
 				item: {
 					count: 1
 					id: "minecraft:glass"
@@ -222,7 +222,7 @@
 					type: "item"
 				}
 				{
-					id: "1FF869DE91359432"
+					id: "369E2199B0C8B195"
 					item: { count: 1, id: "industrialforegoing:laser_drill" }
 					type: "item"
 				}
@@ -232,7 +232,7 @@
 		}
 		{
 			dependencies: ["782D6AB83078A0F0"]
-			id: "627E4EB7292761CB"
+			id: "4AD7CD4E7E358BD5"
 			rewards: [{
 				count: 8
 				id: "67C51C8D7157C73A"
@@ -259,7 +259,7 @@
 			y: 1.5d
 		}
 		{
-			id: "325BAADD8D6AA89B"
+			id: "4D42D1401A4AB52E"
 			rewards: [{
 				count: 8
 				id: "4BA95C9826569362"
@@ -271,13 +271,13 @@
 			}]
 			tasks: [
 				{
-					id: "59B1A96C6B942827"
+					id: "722637E060C36227"
 					item: { count: 1, id: "industrialforegoing:purple_laser_lens" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "0D468955F38A3E01"
+					id: "471E6A436BCD0278"
 					item: { count: 1, id: "kubejs:ametrine_crystal" }
 					type: "item"
 				}

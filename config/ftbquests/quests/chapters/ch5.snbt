@@ -10,14 +10,314 @@
 	images: [ ]
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "495494F06D7D9851"
-		tasks: [{
-			id: "741B7D53ABCCF41F"
-			item: { count: 1, id: "ae2:controller" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "106C1C9E75B6824F"
+			rewards: [{
+				count: 8
+				id: "3A2C5EC799F00243"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "32EC9BFAEC3C395D"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5899AA2C14ECD3AC"
+					item: { count: 1, id: "ae2:sky_stone_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6A6CF09BD542E0E1"
+			rewards: [{
+				count: 4
+				id: "5237AAC2184BAC26"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1788428588F2B232"
+					item: { count: 1, id: "ae2:charger" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "033716B51241AD13"
+					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A6CF09BD542E0E1"]
+			id: "6E01ADFFC2D5022E"
+			rewards: [{
+				count: 8
+				id: "795AAEB76775E33B"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "73B3E770AD99F396"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "151887D95831DBA0"
+			rewards: [{
+				count: 8
+				id: "6FFFCD80762C4742"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67DBCFEF666CAEF8"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "102C277957A9C63C"
+			rewards: [{
+				count: 4
+				id: "1CC0F203EAC53DE1"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "446046C977AC4E4F"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2D625165A262F53E"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1E1AF93193B85E37"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102C277957A9C63C"]
+			id: "31C7358EA0E24375"
+			rewards: [{
+				count: 4
+				id: "5CCE8CC3EDBABB6A"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4805E3588847BD9B"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31C7358EA0E24375"]
+			id: "12C064C71E090880"
+			rewards: [{
+				count: 16
+				id: "35501A52B5465EF6"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "057839F75E74B70F"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2312A0AF9F2C183B"
+					item: { count: 1, id: "ae2:item_storage_cell_1k" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12C064C71E090880"]
+			id: "017CD013F2CECA6E"
+			rewards: [{
+				count: 16
+				id: "54D80D298E590C13"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "13D5DD6C80875FB2"
+					item: { count: 1, id: "ae2:crafting_terminal" }
+					type: "item"
+				}
+				{
+					id: "4675BA04E8B21AD4"
+					item: { count: 1, id: "ae2:chest" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "668078272FCE09EB"
+			rewards: [{
+				count: 8
+				id: "6F9805511F4E2EDA"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "05A7D983B0FC1869"
+					item: { count: 1, id: "ae2:import_bus" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1CE655C3252C66A6"
+					item: { count: 1, id: "ae2:export_bus" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "650D2888288B5D73"
+			rewards: [{
+				count: 2
+				id: "352534C82EFA695D"
+				item: {
+					count: 1
+					id: "ae2:logic_processor"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "545CE12EE1AF6758"
+					item: { count: 1, id: "ae2:molecular_assembler" }
+					type: "item"
+				}
+				{
+					id: "2D4ECE6D14E098D0"
+					item: { count: 1, id: "ae2:pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "20CC45F961B8EA3A"
+					item: { count: 1, id: "ae2:crafting_unit" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "1545E40606BB1574"
+			rewards: [{
+				count: 2
+				id: "364749642A38590B"
+				item: {
+					count: 1
+					id: "ae2:engineering_processor"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D72DE3FB748574C"
+					item: { count: 1, id: "extendedae:ex_pattern_provider" }
+					type: "item"
+				}
+				{
+					id: "218239BFB38BCB8C"
+					item: { count: 1, id: "extendedae:ex_drive" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "74E1F33CB3E228A5"
+			rewards: [{
+				count: 8
+				id: "6FEAC202F90B8C68"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19C55E655E7B05DD"
+				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
 }
