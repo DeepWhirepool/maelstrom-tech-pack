@@ -1269,6 +1269,10 @@ file = "kubejs/server_scripts/ll_ic2.js"
 hash = "a726620b0333176c55f3dd15f97feb626804aeb1caebc717eae4fcb90ef9bcd3"
 
 [[files]]
+file = "kubejs/server_scripts/ll_machines.js"
+hash = "48d69a2d6d5eebb44ea878bccffbe137e45fccd3b72cd65749579f15c6af5781"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
