@@ -414,7 +414,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "fecfebc7a5cbbe86469699bf5a916732f448601e33ffcb57f158218f434502ee"
+hash = "323cd65c5ccfa73901039f810336cbb8d3d2b0d25a1627569e523ba44be629bb"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -470,7 +470,7 @@ hash = "5e44a0b15a8f3b9c6b3b8226c8a4ce83bef4847fa5967eb589860b728c21d746"
 
 [[files]]
 file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "aa136da40b874fb6bdd062869d2a68ca4b65db501422454fd5a16e3dd68651da"
+hash = "c0b759f9de36c5e8a4a4bf70f640c48f5fb638a26d4d4700f2695d5fab6793ef"
 
 [[files]]
 file = "config/jei/server/world/default/jei-server.ini"
@@ -479,6 +479,10 @@ hash = "8d8225fc76ea4918d7847badf319ec4d0fca4263e12f6df56f9aa5025403f117"
 [[files]]
 file = "config/jei/world/local/_dump_test/lookupHistory.json"
 hash = "13502098a7852a378d7fdf1f003ce85f5db445b3c8ca5e95b4453d54042b3aee"
+
+[[files]]
+file = "config/jei/world/local/Новый мир (1)/lookupHistory.json"
+hash = "13dcefce826babe80db4ab9796ffa8a45d2ac05356ab5e7af0a14094f3df4096"
 
 [[files]]
 file = "config/jei/world/local/Новый мир/lookupHistory.json"
@@ -791,6 +795,10 @@ hash = "94dcfcada48f172ba4fe1b4c04b1229e0226682dbbbdfda315825d2da4468a09"
 [[files]]
 file = "kubejs/client_scripts/hide_iu.js"
 hash = "4e1b137b164b69bc4c74a8e4c794c1c2f197a82787feb9b427fb5842d9bca965"
+
+[[files]]
+file = "kubejs/client_scripts/hide_iu_modules.js"
+hash = "533d4fa92180e43e75feb638bbf09f3f906bbea8ecbc4fe0c5e1946192dc8b53"
 
 [[files]]
 file = "kubejs/client_scripts/hide_unreachable.js"
@@ -1231,6 +1239,10 @@ hash = "3a32cf5709033c3726d393b15935bdc9eeef999d936f842a56b2699f3b087e30"
 [[files]]
 file = "kubejs/server_scripts/hide_iu.js"
 hash = "1d4a397fa7cd6dbb35ae2d78542642a70684051de861e2ac81222b0da2b0b19f"
+
+[[files]]
+file = "kubejs/server_scripts/hide_iu_modules.js"
+hash = "de1bf9a914be7c121e2e1c59414c9db3d99a8e775ef9b653f792ae1ccfbd0dab"
 
 [[files]]
 file = "kubejs/server_scripts/hide_unreachable.js"
