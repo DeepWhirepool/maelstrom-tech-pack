@@ -45,7 +45,7 @@ ServerEvents.recipes(function (e) {
     'induction_module_1', 'induction_module_2', 'induction_module_3', 'induction_module_4', 'thermal_insulator_1', 'thermal_insulator_2',
     'thermal_insulator_3', 'star_core', 'plasma_reagent_phase', 'plasma_reagent_heliotrope', 'plasma_reagent_luminophase',
     'plasma_reagent_exothermic', 'plasma_reagent_quark', 'thermo_casing', 'thermo_roof', 'thermo_glass', 'thermo_heater',
-    'thermonuclear_melting_complex'].forEach(function (id) { e.remove({ id: L(id) }) })
+    'thermonuclear_melting_complex', 'smelting_crystallizer', 'smelter_crucible'].forEach(function (id) { e.remove({ id: L(id) }) })
 
   // Нейтронная звезда: нейтроний Avaritia + квантовый сплав (T15) + антиматерия Mekanism (SPS)
   // T37: один нейтроний → торий из циклотрона IU (палладиевый блок → торий), связь с ядерной веткой IU
@@ -92,8 +92,13 @@ ServerEvents.recipes(function (e) {
     E: L('energonium_converter') })
   shaped('heliospheric_charging_center', 1, ['HAH', 'SYS', 'HQH'], { H: L('helio_casing'), A: 'draconicevolution:awakened_core', S: L('star_matter_block'),
     Y: L('energon_synthesizer'), Q: 'avaritia:crystal_matrix_ingot' })
-  shaped('thermonuclear_melting_complex', 1, ['TCT', 'MHM', 'TNT'], { T: L('thermo_casing'), C: 'draconicevolution:chaotic_core', M: 'mekanism:pellet_antimatter',
-    H: L('heliospheric_charging_center'), N: 'avaritia:neutron_ingot' })
+  // T66: как в LoliLand, Термояду нужна плавильня -> Плавильно-кристаллизационный комплекс вместо одной из антиматерий
+  shaped('thermonuclear_melting_complex', 1, ['TCT', 'MHS', 'TNT'], { T: L('thermo_casing'), C: 'draconicevolution:chaotic_core', M: 'mekanism:pellet_antimatter',
+    H: L('heliospheric_charging_center'), N: 'avaritia:neutron_ingot', S: L('smelting_crystallizer') })
+  // T66: комплекс — после Преобразователя (его корпус/стекло), до Термояда: доменная печь IE-уровня + Mekanism + IU
+  shaped('smelting_crystallizer', 1, ['CHC', 'RKR', 'CBC'], { C: L('converter_casing'), H: 'mekanism:resistive_heater', R: 'immersiveengineering:plate_steel',
+    K: 'kubejs:circuit_board_t3', B: 'mekanism:basic_fluid_tank' })
+  shaped('smelter_crucible', 1, ['SOS', 'OCO', 'SOS'], { S: 'immersiveengineering:plate_steel', O: 'mekanism:ingot_refined_obsidian', C: 'minecraft:cauldron' })
 
   // Корпуса и стёкла: дёшево (×4–8), 2–3 мода; каждый следующий корпус на базе предыдущего
   shaped('converter_casing', 8, ['SXS', 'XCX', 'SXS'], { S: 'immersiveengineering:plate_steel', X: 'powah:dielectric_paste', C: 'mekanism:steel_casing' })

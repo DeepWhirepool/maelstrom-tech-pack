@@ -1,6 +1,7 @@
 // T64/T65: машинные рецепты LoliLand HiTech -> машины нашей сборки. Файл генерирует _ai/tools/ll_conv.py (machines), руками не править.
 // Зачем: перенос идеи (что во что перерабатывает машина LoliLand) в Mekanism/IE/Oritech; рецепты добавляются, штатные не удаляются.
 // Время <= 20 мин, энергия LoliLand EU*4 = FE. Двойной молекулярный -> дуговая печь IE (у нуклеосинтезатора один слот).
+// T66: Smelting Plant -> maelstromtech:smelting (+ обратная crystallizing), 20 k FE на 144 мБ.
 ServerEvents.recipes(function (e) {
   var n = 0
   // mekanism:crystal_iron <- ReactionChamber hielements:iron_crystal (!Hitech_Alternative_Mekanism.zs)
@@ -45,6 +46,42 @@ ServerEvents.recipes(function (e) {
   e.custom({"type": "immersiveengineering:arc_furnace", "input": {"item": "minecraft:emerald_block"}, "additives": [{"item": "avaritia:compressed_crafting_table"}], "energy": 12000000, "time": 5860, "results": [{"item": "minecraft:emerald_ore"}]}).id("kubejs:ll_machines/arc_furnace/emerald_ore"); n++
   // minecraft:diamond_ore <- DoubleMolecular minecraft:diamond_block (!Hitech_DoubleMolecularTransformer.zs)
   e.custom({"type": "immersiveengineering:arc_furnace", "input": {"item": "minecraft:diamond_block"}, "additives": [{"item": "avaritia:compressed_crafting_table"}], "energy": 12000000, "time": 5860, "results": [{"item": "minecraft:diamond_ore"}]}).id("kubejs:ll_machines/arc_furnace/diamond_ore"); n++
+  // minecraft:gold_ingot <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "minecraft:gold_ingot"}, "count": 1, "result": {"id": "maelstromtech:molten_gold", "amount": 144}, "energy": 20000}).id("kubejs:ll_machines/smelting/gold_ingot"); n++
+  // minecraft:gold_ingot <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_gold", "amount": 144}, "result": {"id": "minecraft:gold_ingot", "count": 1}, "energy": 20000}).id("kubejs:ll_machines/crystallizing/gold_ingot"); n++
+  // minecraft:gold_block <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "minecraft:gold_block"}, "count": 1, "result": {"id": "maelstromtech:molten_gold", "amount": 1296}, "energy": 180000}).id("kubejs:ll_machines/smelting/gold_block"); n++
+  // minecraft:gold_block <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_gold", "amount": 1296}, "result": {"id": "minecraft:gold_block", "count": 1}, "energy": 180000}).id("kubejs:ll_machines/crystallizing/gold_block"); n++
+  // minecraft:iron_block <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "minecraft:iron_block"}, "count": 1, "result": {"id": "maelstromtech:molten_iron", "amount": 1296}, "energy": 180000}).id("kubejs:ll_machines/smelting/iron_block"); n++
+  // minecraft:iron_block <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_iron", "amount": 1296}, "result": {"id": "minecraft:iron_block", "count": 1}, "energy": 180000}).id("kubejs:ll_machines/crystallizing/iron_block"); n++
+  // industrialupgrade:itemingots/niobium <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "industrialupgrade:itemingots/niobium"}, "count": 1, "result": {"id": "maelstromtech:molten_niobium", "amount": 144}, "energy": 20000}).id("kubejs:ll_machines/smelting/itemingots_niobium"); n++
+  // industrialupgrade:itemingots/niobium <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_niobium", "amount": 144}, "result": {"id": "industrialupgrade:itemingots/niobium", "count": 1}, "energy": 20000}).id("kubejs:ll_machines/crystallizing/itemingots_niobium"); n++
+  // immersiveengineering:ingot_aluminum <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "immersiveengineering:ingot_aluminum"}, "count": 1, "result": {"id": "maelstromtech:molten_aluminum", "amount": 144}, "energy": 20000}).id("kubejs:ll_machines/smelting/ingot_aluminum"); n++
+  // immersiveengineering:ingot_aluminum <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_aluminum", "amount": 144}, "result": {"id": "immersiveengineering:ingot_aluminum", "count": 1}, "energy": 20000}).id("kubejs:ll_machines/crystallizing/ingot_aluminum"); n++
+  // immersiveengineering:storage_aluminum <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "immersiveengineering:storage_aluminum"}, "count": 1, "result": {"id": "maelstromtech:molten_aluminum", "amount": 1296}, "energy": 180000}).id("kubejs:ll_machines/smelting/storage_aluminum"); n++
+  // immersiveengineering:storage_aluminum <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_aluminum", "amount": 1296}, "result": {"id": "immersiveengineering:storage_aluminum", "count": 1}, "energy": 180000}).id("kubejs:ll_machines/crystallizing/storage_aluminum"); n++
+  // minecraft:copper_ingot <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "minecraft:copper_ingot"}, "count": 1, "result": {"id": "maelstromtech:molten_copper", "amount": 144}, "energy": 20000}).id("kubejs:ll_machines/smelting/copper_ingot"); n++
+  // minecraft:copper_ingot <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_copper", "amount": 144}, "result": {"id": "minecraft:copper_ingot", "count": 1}, "energy": 20000}).id("kubejs:ll_machines/crystallizing/copper_ingot"); n++
+  // immersiveengineering:ingot_silver <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "immersiveengineering:ingot_silver"}, "count": 1, "result": {"id": "maelstromtech:molten_silver", "amount": 144}, "energy": 20000}).id("kubejs:ll_machines/smelting/ingot_silver"); n++
+  // immersiveengineering:ingot_silver <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_silver", "amount": 144}, "result": {"id": "immersiveengineering:ingot_silver", "count": 1}, "energy": 20000}).id("kubejs:ll_machines/crystallizing/ingot_silver"); n++
+  // immersiveengineering:storage_silver <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:smelting", "ingredient": {"item": "immersiveengineering:storage_silver"}, "count": 1, "result": {"id": "maelstromtech:molten_silver", "amount": 1296}, "energy": 180000}).id("kubejs:ll_machines/smelting/storage_silver"); n++
+  // immersiveengineering:storage_silver <- SmeltingPlant  (!Hitech_SmeltingPlant.zs)
+  e.custom({"type": "maelstromtech:crystallizing", "fluid": {"id": "maelstromtech:molten_silver", "amount": 1296}, "result": {"id": "immersiveengineering:storage_silver", "count": 1}, "energy": 180000}).id("kubejs:ll_machines/crystallizing/storage_silver"); n++
   // industrialupgrade:alloyingot/aluminum_bronze <- AlloyFurnace uniresources:ingotAluminumBrass (!Hitech_alloy_furnace.zs)
   e.custom({"type": "immersiveengineering:arc_furnace", "input": {"basePredicate": {"item": "immersiveengineering:ingot_aluminum"}, "count": 3}, "additives": [{"item": "minecraft:copper_ingot"}], "energy": 200000, "time": 100, "results": [{"item": "industrialupgrade:alloyingot/aluminum_bronze"}]}).id("kubejs:ll_machines/arc_furnace/alloyingot_aluminum_bronze"); n++
   // minecraft:quartz <- Molecular appliedenergistics2:item.ItemCrystalSeed:600 (HiTech_AE2.zs)
