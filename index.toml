@@ -1599,7 +1599,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "fe59d40ed0b55ad95270bf7335f09a5a98c1285ac6f74fe35c65ce94f5ec705f"
+hash = "bd02df5ac1703769e2a9c8bd585098c68107f5947705a049cb6536ed562e6ef1"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
