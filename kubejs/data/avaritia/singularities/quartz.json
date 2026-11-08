@@ -1,0 +1,10 @@
+{
+  "displayName": "singularity.avaritia.quartz",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "name": "avaritia:quartz",
+  "overlayColor": 15394270,
+  "underlayColor": 11969678,
+  "count": 64
+}

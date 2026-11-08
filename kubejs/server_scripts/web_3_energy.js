@@ -43,16 +43,15 @@ var WEB3_SLOT = [
   ['draconicevolution:machines/energy_core_stabilizer', 0, 1, A],
   ['draconicevolution:machines/energy_pylon', 1, 0, A], // T34: вместо одного из двух изумрудов (алмаз один)
   // T34 IU: хранилища и солнечные панели (тип industrialupgrade:shaped_recipe) — тот же кристалл тира
-  ['industrialupgrade:industrialupgrade_31', 2, 1, F], ['industrialupgrade:industrialupgrade_32', 1, 1, F], ['industrialupgrade:industrialupgrade_33', 0, 1, F],
-  ['industrialupgrade:industrialupgrade_34', 1, 0, C], ['industrialupgrade:industrialupgrade_35', 0, 0, C], ['industrialupgrade:industrialupgrade_36', 0, 0, C],
+  // T58: 31–36 (batbox…ult_mfsu) заменены рецептами LoliLand (ll_ic2.js)
   ['industrialupgrade:industrialupgrade_37', 0, 0, EA], ['industrialupgrade:industrialupgrade_38', 0, 0, EA], ['industrialupgrade:industrialupgrade_39', 0, 0, EA],
   ['industrialupgrade:industrialupgrade_40', 2, 0, EA], ['industrialupgrade:industrialupgrade_41', 2, 0, EA],
-  ['industrialupgrade:industrialupgrade_517', 1, 0, F], ['industrialupgrade:industrialupgrade_519', 1, 0, EF],
+  ['industrialupgrade:industrialupgrade_519', 1, 0, EF], // T58: 517 — рецепт LoliLand (ll_ic2.js)
   ['industrialupgrade:industrialupgrade_521', 1, 0, C], ['industrialupgrade:industrialupgrade_523', 1, 0, EA]
 ]
 // [id слияния Draconic, сколько заряженного аметрина добавить]
 var WEB3_FUSION = [
-  ['draconicevolution:machines/reactor_core', 2],
+  // T59: ядро реактора — рецепт LoliLand (ll_draconic.js)
   ['draconicevolution:machines/reactor_stabilizer', 1]
 ]
 

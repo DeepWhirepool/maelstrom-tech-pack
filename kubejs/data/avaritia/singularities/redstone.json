@@ -1,0 +1,10 @@
+{
+  "displayName": "singularity.avaritia.redstone",
+  "ingredient": {
+    "item": "minecraft:redstone_block"
+  },
+  "name": "avaritia:redstone",
+  "overlayColor": 16711680,
+  "underlayColor": 9046273,
+  "count": 64
+}

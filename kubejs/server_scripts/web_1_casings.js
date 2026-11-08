@@ -48,25 +48,6 @@ var WEB1 = [
     }
   },
   {
-    // Корпус машин IU (база всех машин IU): 4 корпусные пластины как в оригинале + ящик Forestry в центре.
-    // Тип рецепта IU сохранён.
-    old: 'industrialupgrade:industrialupgrade_763',
-    id: 'kubejs:web_1/iu_machine_casing',
-    add: function (e, id) {
-      e.custom({
-        type: 'industrialupgrade:shaped_recipe',
-        category: 'misc',
-        key: {
-          A: { item: 'industrialupgrade:crafting_elements/crafting_137_element' },
-          S: { item: 'forestry:sturdy_casing' }
-        },
-        pattern: ['A A', ' S ', 'A A'],
-        result: { count: 1, id: 'industrialupgrade:blockresource/machine' },
-        show_notification: false
-      }).id(id)
-    }
-  },
-  {
     // Стальной корпус Mekanism: первая часть схемы IU (circuit_part1, рецепт industrialupgrade_435) в центре,
     // осмий сдвинут на место одного стекла. T11: вместо точного механизма Create. IU раньше Mekanism, петли нет.
     old: 'mekanism:steel_casing',
@@ -106,19 +87,6 @@ var WEB1 = [
     }
   },
   {
-    // Простая рамка Industrial Foregoing: одно бревно заменено пропитанным корпусом Forestry.
-    old: 'industrialforegoing:machine_frame_pity',
-    id: 'kubejs:web_1/machine_frame_pity',
-    add: function (e, id) {
-      e.shaped('industrialforegoing:machine_frame_pity', ['WIW', 'IRI', 'WCW'], {
-        W: '#minecraft:logs',
-        I: '#c:ingots/iron',
-        R: '#c:storage_blocks/redstone',
-        C: 'forestry:impregnated_casing'
-      }).id(id)
-    }
-  },
-  {
     // Диэлектрический корпус Powah: пластик Industrial Foregoing в пустом центре.
     old: 'powah:crafting/dielectric_casing',
     id: 'kubejs:web_1/dielectric_casing',
@@ -144,22 +112,6 @@ var WEB1 = [
     }
   },
   {
-    // Контроллер AE2: два блока небесного камня заменены улучшенной схемой Mekanism и энергетическим сплавом Ender IO.
-    old: 'ae2:network/blocks/controller',
-    id: 'kubejs:web_1/ae2_controller',
-    add: function (e, id) {
-      // T36 (web_6): верхний флюикс-кристалл → заряженный флюорит (тир 1 кристаллов)
-      e.shaped('ae2:controller', ['aXa', 'bcb', 'EbM'], {
-        X: 'kubejs:energized_fluorite_crystal',
-        a: 'ae2:smooth_sky_stone_block',
-        b: 'ae2:fluix_crystal',
-        c: 'ae2:engineering_processor',
-        E: 'enderio:energetic_alloy_ingot',
-        M: 'mekanism:advanced_control_circuit'
-      }).id(id)
-    }
-  },
-  {
     // Ядро крафта Draconic: два лазуритовых блока заменены атомным сплавом Mekanism и инженерным процессором AE2.
     old: 'draconicevolution:machines/crafting_core',
     id: 'kubejs:web_1/crafting_core',
@@ -170,44 +122,6 @@ var WEB1 = [
         C: 'draconicevolution:draconium_core',
         X: 'mekanism:alloy_atomic',
         P: 'ae2:engineering_processor'
-      }).id(id)
-    }
-  },
-  {
-    // Экстремальный верстак Avaritia: две алмазные решётки в верхнем ряду заменены ядром виверны Draconic
-    // и абсолютной схемой Mekanism. Тип рецепта и уровень стола Avaritia сохранены.
-    old: 'avaritia:extreme_crafting_table',
-    id: 'kubejs:web_1/extreme_crafting_table',
-    add: function (e, id) {
-      e.custom({
-        type: 'avaritia:shaped_table',
-        key: {
-          a: { item: 'avaritia:double_compressed_crafting_table' },
-          b: { item: 'minecraft:lodestone' },
-          c: { item: 'avaritia:diamond_lattice' },
-          d: { item: 'avaritia:crystal_matrix_ingot' },
-          e: { item: 'avaritia:crystal_matrix' },
-          f: { item: 'minecraft:recovery_compass' },
-          g: { item: 'minecraft:dragon_egg' },
-          h: { item: 'minecraft:beacon' },
-          i: { item: 'minecraft:reinforced_deepslate' },
-          j: { item: 'minecraft:netherite_block' },
-          k: { item: 'minecraft:heart_of_the_sea' },
-          W: { item: 'draconicevolution:wyvern_core' },
-          U: { item: 'mekanism:ultimate_control_circuit' },
-          T: { item: 'kubejs:circuit_board_t4' } // T37: вместо нижнего левого магнитного камня
-        },
-        pattern: [
-          'bWcfcUb',
-          'cddgddc',
-          'cdihidc',
-          'cdiaidc',
-          'cdjkjdc',
-          'cdddddc',
-          'Teeeeeb'
-        ],
-        result: { count: 1, id: 'avaritia:extreme_crafting_table' },
-        tier: 3
       }).id(id)
     }
   }

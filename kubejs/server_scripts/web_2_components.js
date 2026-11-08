@@ -115,85 +115,10 @@ var WEB2 = [
       }).id(id)
     }
   },
-  {
-    // Молекулярный сборщик AE2: один железный слиток заменён пластиком Industrial Foregoing.
-    old: 'ae2:network/crafting/molecular_assembler',
-    id: 'kubejs:web_2/molecular_assembler',
-    add: function (e, id) {
-      e.shaped('ae2:molecular_assembler', ['aba', 'cde', 'abP'], {
-        a: '#c:ingots/iron',
-        b: 'ae2:quartz_glass',
-        c: 'ae2:annihilation_core',
-        d: 'minecraft:crafting_table',
-        e: 'ae2:formation_core',
-        P: 'industrialforegoing:plastic'
-      }).id(id)
-    }
-  },
-  {
-    // Ядро виверны Draconic: один слиток дракония заменён вычислительным процессором AE2 (делается в высекателе AE2).
-    old: 'draconicevolution:components/wyvern_core',
-    id: 'kubejs:web_2/wyvern_core',
-    add: function (e, id) {
-      e.shaped('draconicevolution:wyvern_core', ['ABA', 'BCB', 'ABP'], {
-        A: '#c:ingots/draconium',
-        B: 'draconicevolution:draconium_core',
-        C: '#c:nether_stars',
-        P: 'ae2:calculation_processor'
-      }).id(id)
-    }
-  },
-  {
-    // Пробуждённое ядро Draconic (fusion crafting): + полониевая таблетка Mekanism девятым ингредиентом.
-    // Таблетку делают в камере реакций под давлением Mekanism, Draconic там не нужен.
-    old: 'draconicevolution:components/awakened_core',
-    id: 'kubejs:web_2/awakened_core',
-    add: function (e, id) {
-      var w = { consume: true, ingredient: { item: 'draconicevolution:wyvern_core' } }
-      var a = { consume: true, ingredient: { tag: 'c:ingots/draconium_awakened' } }
-      e.custom({
-        type: 'draconicevolution:fusion_crafting',
-        catalyst: { tag: 'c:nether_stars' },
-        ingredients: [w, w, a, a, a, a, w, w,
-          { consume: true, ingredient: { item: 'mekanism:pellet_polonium' } }],
-        result: { count: 1, id: 'draconicevolution:awakened_core' },
-        techLevel: 'wyvern',
-        totalEnergy: 1000000
-      }).id(id)
-    }
-  },
-  {
-    // Слиток кристальной матрицы Avaritia (стол Avaritia): + пробуждённый драконий слиток третьим рядом.
-    // Тип рецепта и уровень стола Avaritia сохранены.
-    old: 'avaritia:crystal_matrix_ingot',
-    id: 'kubejs:web_2/crystal_matrix_ingot',
-    add: function (e, id) {
-      e.custom({
-        type: 'avaritia:shaped_table',
-        key: {
-          x: { item: 'avaritia:diamond_lattice' },
-          y: { item: 'minecraft:nether_star' },
-          D: { item: 'draconicevolution:awakened_draconium_ingot' }
-        },
-        pattern: ['xyx', 'xyx', ' D '],
-        result: { count: 1, id: 'avaritia:crystal_matrix_ingot' },
-        tier: 1
-      }).id(id)
-    }
-  },
-  {
-    // Второй рецепт того же слитка (обычный верстак): иначе через него обходится гейт.
-    // Одна алмазная решётка заменена пробуждённым драконием слитком.
-    old: 'avaritia:crystal_matrix_ingot_normal',
-    id: 'kubejs:web_2/crystal_matrix_ingot_normal',
-    add: function (e, id) {
-      e.shaped('avaritia:crystal_matrix_ingot', ['iai', 'iai', 'iaD'], {
-        a: 'minecraft:nether_star',
-        i: 'avaritia:diamond_lattice',
-        D: 'draconicevolution:awakened_draconium_ingot'
-      }).id(id)
-    }
-  },
+
+
+
+
   {
     // Самая ранняя схема IU (circuit_part1, из неё делаются остальные части схем): кремень заменён
     // простой платой Forestry (Carpenter Forestry, раньше IU). Тип рецепта IU сохранён.

@@ -1,16 +1,11 @@
 // T36: web_6 AE2. Хранилище и автокрафт ME требуют деталей IU, Mekanism, Ender IO и плат kubejs (t2/t3 — Ender IO, IU, AE2).
 // Ячейка сетки — через webSetCell (web_3_energy.js), в бесформенные рецепты деталь добавляется.
-// Контроллер ME — в web_1_casings.js (рецепт уже заменён там, + заряженный флюорит).
+// Контроллер ME и молекулярный сборщик — рецепты LoliLand (ll_ae2.js, T59).
 // Процессоры не трогаем: печать схем в inscriber идёт в режиме inscribe, где верх/низ не расходуются, —
 // пыль в нижнем слоте была бы многоразовым «прессом» (блокер, см. REPORT). Петли с платой t3 (logic_processor) нет.
 
 var WEB6_SLOT = [
-  // компоненты ячеек: вместо одного из 4 повторяющихся (кварц / пыль)
-  ['ae2:network/cells/item_storage_components_cell_1k_part', 0, 1, 'industrialupgrade:circuit/circuit_part1'],
-  ['ae2:network/cells/item_storage_components_cell_4k_part', 0, 0, 'industrialupgrade:circuit/advanced_part1'],
-  ['ae2:network/cells/item_storage_components_cell_16k_part', 0, 0, 'kubejs:circuit_board_t2'],
-  ['ae2:network/cells/item_storage_components_cell_64k_part', 0, 0, 'kubejs:circuit_board_t2'],
-  ['ae2:network/cells/item_storage_components_cell_256k_part', 0, 0, 'kubejs:circuit_board_t3'],
+  // T59: компоненты ячеек 1k–256k — рецепты LoliLand (ll_ae2.js)
   // блок крафта: вместо одного из 4 железных слитков
   ['ae2:network/crafting/cpu_crafting_unit', 0, 0, 'mekanism:basic_control_circuit']
 ]

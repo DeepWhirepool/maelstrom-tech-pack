@@ -8,13 +8,11 @@ var W5F = 'kubejs:fluorite_crystal', W5C = 'kubejs:chrysolite_crystal', W5R = 'm
 // [id рецепта, строка, столбец, предмет]
 var WEB5_SLOT = [
   // Тир 1: IU нано-сет (пустая ячейка; у шлема — одна из 4 нано-деталей), нано-сабля, электроинструменты; Mekanism
-  [IU(1688), 0, 0, W5F], [IU(1689), 2, 1, W5F], [IU(1690), 2, 1, W5F], [IU(1691), 2, 1, W5F],
+  // T58: нано-сет 1688–1691, квант-сет 1696–1699 и алмазная дрель 1641 — рецепты LoliLand (ll_ic2.js)
   [IU(1654), 0, 2, W5F], // нано-сабля: пустой угол
-  [IU(1640), 0, 1, W5F], [IU(1641), 0, 1, W5F], [IU(1639), 0, 0, W5F], // дрель, алмазная дрель, цепная пила: пустая ячейка
+  [IU(1640), 0, 1, W5F], [IU(1639), 0, 0, W5F], // дрель, цепная пила: пустая ячейка
   ['mekanism:atomic_disassembler', 2, 0, W5F], ['mekanism:jetpack', 2, 0, W5F],
   // Тир 2: IU квант-сет — хризолит вместо одной из 2 деталей 285, усиленный сплав Mekanism вместо одного из 2 quantumitems6
-  [IU(1696), 0, 0, W5C], [IU(1696), 2, 0, W5R], [IU(1697), 0, 0, W5C], [IU(1697), 2, 0, W5R],
-  [IU(1698), 0, 0, W5C], [IU(1698), 2, 0, W5R], [IU(1699), 0, 0, W5C], [IU(1699), 2, 0, W5R],
   // IU нано-/квантовый бур: пустой нижний ряд; второй рецепт квантового бура — вместо 2 из 4 пластин
   [IU(652), 2, 0, W5C], [IU(652), 2, 2, W5R], [IU(653), 2, 0, W5C], [IU(653), 2, 2, W5R],
   [IU(655), 0, 0, W5C], [IU(655), 0, 2, W5R],
@@ -25,10 +23,11 @@ var WEB5_SLOT = [
 // Тир 3: слияние Draconic — wyvern + заряженный аметрин, draconic + квантовый сплав (IU-деталь). Мотыги, луки, конденсаторы не трогаем (лимит ~35).
 var WEB5_FUSION = []
 ;['chestpiece', 'sword', 'axe', 'shovel', 'pickaxe'].forEach(function (t) {
-  WEB5_FUSION.push(['draconicevolution:tools/wyvern_' + t, 'kubejs:energized_ametrine_crystal'])
-  WEB5_FUSION.push(['draconicevolution:tools/draconic_' + t, 'kubejs:quantum_alloy_ingot'])
+  // T59: нагрудник виверны и кирка draconic — рецепты LoliLand (ll_draconic.js)
+  if (t != 'chestpiece') WEB5_FUSION.push(['draconicevolution:tools/wyvern_' + t, 'kubejs:energized_ametrine_crystal'])
+  if (t != 'pickaxe') WEB5_FUSION.push(['draconicevolution:tools/draconic_' + t, 'kubejs:quantum_alloy_ingot'])
 })
-WEB5_FUSION.push(['draconicevolution:tools/draconic_staff', 'kubejs:quantum_alloy_ingot'])
+// T59: посох draconic — рецепт LoliLand (ll_draconic.js)
 
 ServerEvents.recipes(function (event) {
   var done = []

@@ -1,0 +1,10 @@
+{
+  "displayName": "singularity.avaritia.diamond",
+  "ingredient": {
+    "item": "minecraft:diamond_block"
+  },
+  "name": "avaritia:diamond",
+  "overlayColor": 10943721,
+  "underlayColor": 1748136,
+  "count": 64
+}

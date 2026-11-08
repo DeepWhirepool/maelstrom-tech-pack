@@ -73,6 +73,10 @@ file = "config/alltheleaks.json"
 hash = "2437057bda7e53d91e7a8c400da308a8d848fbdcc80ed845a9c8dbdabd071482"
 
 [[files]]
+file = "config/almostunified/debug.json"
+hash = "435ad46870d033c8652097d64c6ec592907e5ab6f1877240532a6a1743d4fca5"
+
+[[files]]
 file = "config/almostunified/duplicates.json"
 hash = "b70f57eadf6eec0ce43acd4c441f08feac1432826e04cb8e2736a73997c20c08"
 
@@ -414,7 +418,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "b770395e9fe2006f9a6f0dbe03c8507af97a53977581a3e2574fde42e948fd64"
+hash = "fecfebc7a5cbbe86469699bf5a916732f448601e33ffcb57f158218f434502ee"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -446,7 +450,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/client/default/jei-client.ini"
-hash = "ac6e15818bb14b4ec25d3e84c9b818ac4372de2d4710790add3c042d6f79abd1"
+hash = "b24e44833b5d18de1f874580dcd239dec5bdd537db702ec2985085716fad2ddb"
 
 [[files]]
 file = "config/jei/client/default/jei-colors.ini"
@@ -494,7 +498,7 @@ hash = "5bb7b857c098bea37d02c916399b9b854889bbfbba07d0a6bfe5c5b064ebce38"
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "fdd6958ff17541c8d1c891bd1602088bb6888f41229e966387a07311f32ec6d9"
+hash = "d2e27d29abd0de2a7924f820f3ea963a4a0b12e4874bcd63f917a9db2f087d36"
 
 [[files]]
 file = "config/lithium.properties"
@@ -781,6 +785,10 @@ file = "kubejs/assets/kubejs/textures/item/quantum_alloy_ingot.png"
 hash = "e6a900ff88fede448dbcf6d985e34331d91146eac1ad7f529e73ebda878545ef"
 
 [[files]]
+file = "kubejs/client_scripts/hide_cleanup.js"
+hash = "a6e10c97347e349757847548faf7e719b443a8e3d1d73e0b8ea38016f9a23d7f"
+
+[[files]]
 file = "kubejs/client_scripts/hide_decor.js"
 hash = "94dcfcada48f172ba4fe1b4c04b1229e0226682dbbbdfda315825d2da4468a09"
 
@@ -807,6 +815,54 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "3edb78808ffbee7fac074a21b329a42af4eec794456f8b7c9e77a6d29f0a8824"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/copper.json"
+hash = "ee8b5154a8f7323705dcb7347ce8d3d4243053f164772d63fa1f641a8c2fb818"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/diamond.json"
+hash = "7835d13d051fd4ff6ca5ec8d2752d69b6f04a4e6f3a87780fdc6301dd021c5d4"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/emerald.json"
+hash = "e59f431babfdb5417fe5c019cd5368407c4fad09e4001c52ecf6cfd0aa949091"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/gold.json"
+hash = "41f4f45d29df24bb451dd659cd18d115ebfd88339904bcd3d41b8da9001f9139"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/iron.json"
+hash = "319ad6539a9ab0a25a8cdd95875a3d4bdc815cf65346437be49207b2aaa52a3a"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/lapis_lazuli.json"
+hash = "98124ab279c61f43331d0951e9c0f1821933171640075ebc6dec2390485be85a"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/lead.json"
+hash = "cae1eac45f52c97934341928f6054730808f76f5992e247bf778e65f96e9ed75"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/nickel.json"
+hash = "8669558ff834a45b0b5f512e3987b757bf8e1af354bff74592a91bd65defa7b3"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/quartz.json"
+hash = "c51eee6a909118d1a764ccf9a92478766b6a8e29c9638453c53376ab3b7848c4"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/redstone.json"
+hash = "d17cee6e0e6dd7db7a0c534d1f66e0c8d4f68d23de45c5ed6995394ed2f7acfd"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/silver.json"
+hash = "7936f0f779fdf720ea6dc55c8bc2d17925fd46743c63543b902e36a6c3689e48"
+
+[[files]]
+file = "kubejs/data/avaritia/singularities/tin.json"
+hash = "9ca246877a3f25f4126b8ee364f773595f725157dd75a5d3c5c31a6375d42913"
 
 [[files]]
 file = "kubejs/data/industrialupgrade/neoforge/biome_modifier/calcium_modifier.json"
@@ -1169,6 +1225,10 @@ file = "kubejs/server_scripts/fixes_reach.js"
 hash = "6d1afc8e7d46856fc9c5d94688d2e22c5aedfda5120611cef9df0c09e347baf7"
 
 [[files]]
+file = "kubejs/server_scripts/hide_cleanup.js"
+hash = "c6141156e74a67d820049a8fd564313238544472122c583b8f94cc56c14156d0"
+
+[[files]]
 file = "kubejs/server_scripts/hide_decor.js"
 hash = "3a32cf5709033c3726d393b15935bdc9eeef999d936f842a56b2699f3b087e30"
 
@@ -1193,6 +1253,26 @@ file = "kubejs/server_scripts/laser_ores.js"
 hash = "7141dfbde98649152e5d80374c4980de994b75a8880631ec304bdf04f1510f08"
 
 [[files]]
+file = "kubejs/server_scripts/ll_ae2.js"
+hash = "5a4d59d0f5adcda3c702eea97724499d54cc55ab63d0d5cd6517753f6210acff"
+
+[[files]]
+file = "kubejs/server_scripts/ll_avaritia.js"
+hash = "a8282068a8875e800d14ddafb00dfabfccf61acd45ce8dc93a8e7cdcd2030007"
+
+[[files]]
+file = "kubejs/server_scripts/ll_draconic.js"
+hash = "3da6e1db49a14c6a4ad997682ce237a0573cfd31d0d31df0c01546e275abae22"
+
+[[files]]
+file = "kubejs/server_scripts/ll_forestry.js"
+hash = "051afb6c604b8ed629f300cef3b9a276004ed2e317a795be8860064d9a53ec01"
+
+[[files]]
+file = "kubejs/server_scripts/ll_ic2.js"
+hash = "a726620b0333176c55f3dd15f97feb626804aeb1caebc717eae4fcb90ef9bcd3"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
@@ -1202,15 +1282,15 @@ hash = "ec5872cd6dfab12e3badeb075502f5a7791663c7af59c4b693a52efbdf60774b"
 
 [[files]]
 file = "kubejs/server_scripts/web_1_casings.js"
-hash = "2828cc91417f18229cbdc572c47c1240ad7e3d325a6164d176e724bb106cd253"
+hash = "02b388c410b9e00248aeb50d2e672c2fdad45fafd0f032de16152402b1259072"
 
 [[files]]
 file = "kubejs/server_scripts/web_2_components.js"
-hash = "b29143598c9cca5ead4fff042f43f1ed3a67db9ec2a6c79ed32f0eb2f59bdf8d"
+hash = "97f529a63e676308636a36e3c4eadba8d005c817f9b09ada1832440a65ed13e7"
 
 [[files]]
 file = "kubejs/server_scripts/web_3_energy.js"
-hash = "f7260d98d4e11f7107e9ea285041c0dd3865eb6de7b9ec0df95a7960895e2135"
+hash = "72026a85f56f05a3d5a246302698096a2d85f5ee23da5be5d392f64b28a8691d"
 
 [[files]]
 file = "kubejs/server_scripts/web_4_ores.js"
@@ -1218,11 +1298,11 @@ hash = "c8db7d42bcb4c8951beb41a266586985c593d8a0e1f70a24bc909c9206d8ac4e"
 
 [[files]]
 file = "kubejs/server_scripts/web_5_gear.js"
-hash = "74dda2de514894012e994d950a2d4f22b672acdaf36e7b598e780b6d8d8e8c67"
+hash = "b6dfe91cc76254f8e9421a9c9c6e804c777d9a3f87c30ca86b06a4966bc18d1a"
 
 [[files]]
 file = "kubejs/server_scripts/web_6_ae2.js"
-hash = "e1768881cd10ea460895579e357a4ac0ba3e5b2689669b293af557cbb4e0ca98"
+hash = "d739bbef62c0f35464309e02c90f2c681026a4d6696005d58115c73cb2257259"
 
 [[files]]
 file = "kubejs/server_scripts/web_7_maelstrom.js"
@@ -1642,4 +1722,22 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "4be832dfd0c961fc981fb6e47eeb95197bb33ac1a30a53516b787b32152f961f"
+metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip"
+hash = "fed6c879e732cf7fc7bc6570ebb1def43235aa7e96f62859fbdbdbfa0b484b38"
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip"
+hash = "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "7d13a6a314dcc04bd66c2a8330b986f56730268c56d3148a536a85de83cbf4f5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "cc84a26ef185ac12938d4d8d50986765e552c5086ff7ceb0256ba7d5fb529a16"
 metafile = true
