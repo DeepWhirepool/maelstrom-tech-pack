@@ -3,302 +3,34 @@
 	default_quest_shape: ""
 	filename: "ch6"
 	group: ""
-	icon: {
-		id: "mekanism:jetpack"
-	}
-	id: "17174737DFB304C7"
-	images: [ ]
+	icon: { id: "mekanism:chemical_dissolution_chamber" }
+	id: "B5BC54E60D42D614"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7787D1AB01C630C1"]
 			id: "269EAB6FA8F8E99B"
-			rewards: [{
-				count: 16
-				id: "7BAD9AF335E8BEFD"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "376085DA0CF12CA8"
-				item: { count: 1, id: "industrialupgrade:armour/nano_helmet" }
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "7BAD9AF335E8BEFD", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ count: 1L, id: "376085DA0CF12CA8", item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }, type: "item" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["269EAB6FA8F8E99B"]
 			id: "1E3722BAB254EC61"
-			rewards: [{
-				count: 16
-				id: "3211685AB30B4F70"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1DF6A05AE45624D9"
-					item: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4ECFFBA0C275B551"
-					item: { count: 1, id: "industrialupgrade:armour/nano_leggings" }
-					type: "item"
-				}
-				{
-					id: "62722FCDFB9F1B2A"
-					item: { count: 1, id: "industrialupgrade:armour/nano_boots" }
-					type: "item"
-				}
-			]
+			rewards: [{ count: 4, id: "D2ED1CD53128CFB7", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			tasks: [{ count: 1L, id: "80736A1511F04827", item: { count: 1, id: "mekanism:chemical_washer" }, type: "item" }, { count: 1L, id: "4ECFFBA0C275B551", item: { count: 1, id: "mekanism:chemical_crystallizer" }, type: "item" }]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E3722BAB254EC61"]
-			id: "324E0F220D2A15E4"
-			rewards: [{
-				count: 16
-				id: "2F5911A157AB8538"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F3B1164AFF969AF"
-				item: { count: 1, id: "industrialupgrade:armour/adv_nano_chestplate" }
-				type: "item"
-			}]
+			id: "EC9A29F9E92E2EB9"
+			rewards: [{ count: 8, id: "E808C7272429B53A", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			tasks: [{ count: 20L, id: "A6C5A906F05EEFCB", item: { count: 1, id: "mekanism:crystal_iron" }, type: "item" }]
 			x: 3.0d
 			y: 0.0d
-		}
-		{
-			id: "1A3664466AB6783D"
-			rewards: [{
-				count: 4
-				id: "194E9D8476C87EC9"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "0C2925391445F193"
-					item: { count: 1, id: "industrialupgrade:armour/quantum_helmet" }
-					type: "item"
-				}
-				{
-					id: "49D1616AC0EB26C0"
-					item: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }
-					type: "item"
-				}
-				{
-					id: "0805EB7B98F6AFFC"
-					item: { count: 1, id: "industrialupgrade:armour/quantum_leggings" }
-					type: "item"
-				}
-				{
-					id: "7DD0B6AE5C2DF401"
-					item: { count: 1, id: "industrialupgrade:armour/quantum_boots" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 0.0d
-		}
-		{
-			id: "7B1E135E375AEDBB"
-			rewards: [{
-				count: 8
-				id: "72240DE4ACBF94FC"
-				item: {
-					count: 1
-					id: "mekanism:ingot_osmium"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "44700A853EBA6648"
-				item: { count: 1, id: "mekanism:jetpack" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			id: "074E425D6930736E"
-			rewards: [{
-				count: 8
-				id: "4C2032419FF41FDB"
-				item: {
-					count: 1
-					id: "mekanism:ingot_osmium"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "235793D49EBD7063"
-					item: { count: 1, id: "mekanism:free_runners" }
-					type: "item"
-				}
-				{
-					id: "575057BA2F26BA6D"
-					item: { count: 1, id: "mekanism:scuba_tank" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["074E425D6930736E"]
-			id: "6E90C47840DD3310"
-			rewards: [{
-				count: 16
-				id: "230647E29D4EBA19"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "49B0D97BBBE7F877"
-				item: { count: 1, id: "mekanism:atomic_disassembler" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			id: "59EF8088C25735DD"
-			rewards: [{
-				count: 16
-				id: "6CF1648018266107"
-				item: {
-					count: 1
-					id: "mekanism:ingot_osmium"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "71ECB07D60FCBAA2"
-					item: { count: 1, id: "mekanism:mekasuit_helmet" }
-					type: "item"
-				}
-				{
-					id: "03099D8827BC1972"
-					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
-					type: "item"
-				}
-				{
-					id: "12F75B0842765CBA"
-					item: { count: 1, id: "mekanism:mekasuit_pants" }
-					type: "item"
-				}
-				{
-					id: "2D49022AF7E43696"
-					item: { count: 1, id: "mekanism:mekasuit_boots" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 1.5d
-		}
-		{
-			id: "264F23068E112ED4"
-			rewards: [{
-				count: 2
-				id: "71F50A5F1D52C0F7"
-				item: {
-					count: 1
-					id: "mekanism:alloy_atomic"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "6B2F3D29FBF20D72"
-					item: { count: 1, id: "mekanism:module_base" }
-					type: "item"
-				}
-				{
-					id: "08A3F865C434EB6B"
-					item: { count: 1, id: "mekanism:meka_tool" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["264F23068E112ED4"]
-			id: "08F7B9FA09664DD3"
-			rewards: [{
-				count: 4
-				id: "7DB9B6FEB5500C48"
-				item: {
-					count: 1
-					id: "draconicevolution:draconium_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "73CCF0112EA58771"
-					item: { count: 1, id: "draconicevolution:wyvern_pickaxe" }
-					type: "item"
-				}
-				{
-					id: "3FD1105D8F9F9702"
-					item: { count: 1, id: "draconicevolution:wyvern_sword" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["08F7B9FA09664DD3"]
-			id: "05CA6246261BDC97"
-			rewards: [{
-				count: 4
-				id: "12B5414571AB8A4C"
-				item: {
-					count: 1
-					id: "draconicevolution:draconium_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5AA9EB8064F95BC5"
-					item: { count: 1, id: "draconicevolution:wyvern_chestpiece" }
-					type: "item"
-				}
-				{
-					id: "0708911A2F994324"
-					item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
 		}
 	]
 }

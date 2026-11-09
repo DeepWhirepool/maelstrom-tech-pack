@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch13"
+	group: ""
+	icon: { id: "kubejs:quantum_core" }
+	id: "2CDD641EF323E198"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7BD4D2F24F8AC73F"]
+			id: "6C566156330410DB"
+			rewards: [{ count: 2, id: "5758AF97D5FF7855", item: { count: 1, id: "kubejs:circuit_board_t3" }, type: "item" }]
+			tasks: [{ count: 1L, id: "06CAB3D34C0F7537", item: { count: 1, id: "kubejs:quantum_core" }, type: "item" }, { count: 1L, id: "FA5C3A7EEA6533C7", item: { count: 1, id: "kubejs:antimaterial_core" }, type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C566156330410DB"]
+			id: "2F260BC89D2973F2"
+			rewards: [{ count: 8, id: "43161DD43EBBB01A", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
+			tasks: [{ count: 1L, id: "4A579627D6B729C0", item: { count: 1, id: "kubejs:solar_core1" }, type: "item" }, { count: 1L, id: "058DDB9E36D2F4D0", item: { count: 1, id: "kubejs:solar_core8" }, type: "item" }]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F260BC89D2973F2"]
+			id: "C94422A7C93871D8"
+			rewards: [{ count: 1, id: "F3332A0A61C5D164", item: { count: 1, id: "kubejs:circuit_board_t3" }, type: "item" }]
+			tasks: [{ count: 1L, id: "848580AC2B5FA058", item: { count: 1, id: "kubejs:basis_thermodynamic_core" }, type: "item" }, { count: 1L, id: "E36A76C09F2F77CA", item: { count: 1, id: "kubejs:holographic_thermodynamic_core" }, type: "item" }]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C94422A7C93871D8"]
+			id: "E6EB62F91C1CDA4A"
+			rewards: [{ count: 8, id: "6B91E8D6F6C298A0", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
+			tasks: [{ count: 1L, id: "5EBAF5ED033205A0", item: { count: 1, id: "kubejs:matter_loose_pink" }, type: "item" }, { count: 1L, id: "31B7BE1F1A17CD6F", item: { count: 1, id: "kubejs:matter_loose_blue" }, type: "item" }, { count: 1L, id: "BE60F06001996DFF", item: { count: 1, id: "kubejs:matter_sparkling" }, type: "item" }]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E6EB62F91C1CDA4A"]
+			id: "13EE2AB2F684907B"
+			rewards: [{ count: 8, id: "C03B5389EAE6B49A", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			tasks: [{ count: 1L, id: "6D53940E9F03FD5D", item: { count: 1, id: "kubejs:basis_capacitor" }, type: "item" }, { count: 1L, id: "0CAA8E0B63436353", item: { count: 1, id: "kubejs:multialloy_allow_capacitor" }, type: "item" }]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

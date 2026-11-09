@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch12"
+	group: ""
+	icon: { id: "avaritia:infinity_ingot" }
+	id: "D752D29B6A920F9B"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["A8F5EB6C9F698397"]
+			id: "0508BBB71AA044F6"
+			rewards: [{ count: 2, id: "788FD887600EE5A7", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "659120CAA708B6B3", item: { count: 1, id: "avaritia:eternal_singularity" }, type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0508BBB71AA044F6"]
+			id: "0E3B264F120C3527"
+			rewards: [{ count: 2, id: "1691DE1B244CF74B", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "142459D8BBE62526", item: { count: 1, id: "avaritia:infinity_catalyst" }, type: "item" }]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E3B264F120C3527"]
+			id: "7BD4D2F24F8AC73F"
+			rewards: [{ count: 2, id: "4F0CF98642D8D6DE", item: { count: 1, id: "avaritia:crystal_matrix_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "DE6E5226DF6FCD5B", item: { count: 1, id: "avaritia:infinity_ingot" }, type: "item" }, { count: 9L, id: "C8A20DDB09F55D03", item: { count: 1, id: "avaritia:infinity_nugget" }, type: "item" }]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD4D2F24F8AC73F"]
+			id: "56A72F3E2DACF65A"
+			rewards: [{ count: 4, id: "E4D3803F80BE386E", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "6691C6179028315F", item: { count: 1, id: "avaritia:infinity_sword" }, type: "item" }, { count: 1L, id: "ACC9AAEDA3425371", item: { count: 1, id: "avaritia:infinity_pickaxe" }, type: "item" }]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A72F3E2DACF65A"]
+			id: "A66A215BB851214D"
+			rewards: [{ count: 1, id: "826BB67424C64382", item: { count: 1, id: "maelstromtech:star_matter_block" }, type: "item" }]
+			tasks: [{ count: 1L, id: "CE1A1D709CD20B01", item: { count: 1, id: "avaritia:infinity_helmet" }, type: "item" }, { count: 1L, id: "6485997F50DEFA9B", item: { count: 1, id: "avaritia:infinity_chestplate" }, type: "item" }, { count: 1L, id: "177C28AF62432FCA", item: { count: 1, id: "avaritia:infinity_pants" }, type: "item" }, { count: 1L, id: "A7F19D0A111B95C3", item: { count: 1, id: "avaritia:infinity_boots" }, type: "item" }]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

@@ -67,5 +67,18 @@ ServerEvents.recipes(function (event) {
   event.custom({ type: 'immersiveengineering:crusher', energy: 3200, input: { item: 'industrialupgrade:raw_saltpeter/raw_saltpeter' },
     result: { item: 'immersiveengineering:dust_saltpeter' }, secondaries: [{ chance: 1.0, output: { item: 'immersiveengineering:dust_saltpeter' } }] })
     .id('kubejs:fixes_reach/dust_saltpeter')
-  console.info('[check] fixes_reach: 9 recipes')
+  // DAY5: спектральная панель IU спрятана (панели выше квантовой — наши), а шлем из неё нужен upgrademodule → четверные машины.
+  // Вместо неё — наша дисперсионная панель того же места в лестнице (replaceInput тип IU не берёт — пересоздаём, тип IU сохранён)
+  event.remove({ id: 'industrialupgrade:industrialupgrade_460' })
+  event.custom({ type: 'industrialupgrade:shaped_recipe', category: 'misc', pattern: [' A ', ' C ', 'BEB'],
+    key: { A: { item: 'maelstromtech:dispersion_solar_panel' }, B: { item: 'industrialupgrade:quantumitems4' },
+      C: { item: 'industrialupgrade:armour/spectral_helmet' }, E: { item: 'industrialupgrade:compresscarbonultra' } },
+    result: { count: 1, id: 'industrialupgrade:armour/spectral_solar_helmet' }, show_notification: false }).id('kubejs:fixes_reach/spectral_solar_helmet')
+
+  // DAY5: гелий IU давал только камень Энцелада (космос спрятан) в разделителе IU; рецепт разделителя в коде IU, replaceInput не достаёт.
+  // Тот же «камень → газ» на центрифуге Oritech: кристалл флюорита (уровень охлаждающей смеси) + вода → гелий для helium_cooling_mixture
+  event.custom({ type: 'oritech:centrifuge_fluid', fluidInput: { fluid: 'minecraft:water', amount: 1000 },
+    fluidOutputs: [{ fluid: 'industrialupgrade:iufluidhelium', amount: 500 }], ingredients: [{ item: 'kubejs:fluorite_crystal' }],
+    results: [], time: 100 }).id('kubejs:fixes_reach/helium')
+  console.info('[check] fixes_reach: 11 recipes')
 })

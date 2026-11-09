@@ -19,11 +19,15 @@ function graphWalk(e, out, list) {
 ServerEvents.loaded(function (event) { // в ServerEvents.recipes не видно рецептов KubeJS — берём загруженные из RecipeManager
   var RECIPE = Java.loadClass('net.minecraft.world.item.crafting.Recipe'), JsonOps = Java.loadClass('com.mojang.serialization.JsonOps')
   var ops = event.server.registryAccess().createSerializationContext(JsonOps.INSTANCE), g = [], failed = 0, bad = []
+  var opt = new (Java.loadClass('com.google.gson.JsonObject'))() // DAY8: наши рецепты, машины мода, слияние — для _ai/tools/op_time.py
+  var lad = new (Java.loadClass('com.google.gson.JsonObject'))() // DAY4: полные рецепты лестниц (с количествами) для _ai/tools/ladder_cost.py
   event.server.getRecipeManager().getRecipes().forEach(function (h) {
     try {
       var j = RECIPE.CODEC.encodeStart(ops, h.value()).getOrThrow(), l = [[], []]
       graphWalk(j, false, l)
       g.push({ id: String(h.id()), type: String(j.get('type').getAsString()), 'in': l[0], out: l[1] })
+      if (/^(kubejs|maelstromtech):/.test(String(h.id())) || /fusion/.test(String(j.get('type').getAsString()))) opt.add(String(h.id()), j)
+      if (/^kubejs:(ll_(cores|matter|top)\/|web_3\/(panel|ladder)_)/.test(String(h.id()))) lad.add(String(h.id()), j)
     } catch (e) { failed++ }
   })
   // машины IU держат рецепты в своём реестре (com.denfop.api.Recipes), а не в RecipeManager
@@ -48,5 +52,7 @@ ServerEvents.loaded(function (event) { // в ServerEvents.recipes не видн�
     }) } catch (e) { failed++; bad.push(m) }
   })
   JsonIO.write('local/kubejs/graph.json', { recipes: g })
+  JsonIO.write('local/kubejs/ladder_recipes.json', lad)
+  JsonIO.write('local/kubejs/optime_recipes.json', opt)
   console.info('[_dump_graph] ' + g.length + ' recipes, failed ' + failed + (bad.length ? ' (IU: ' + bad.join(' ') + ')' : ''))
 })

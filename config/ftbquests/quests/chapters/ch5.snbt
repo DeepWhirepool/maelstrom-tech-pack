@@ -3,321 +3,114 @@
 	default_quest_shape: ""
 	filename: "ch5"
 	group: ""
-	icon: {
-		id: "ae2:controller"
-	}
+	icon: { id: "ae2:controller" }
 	id: "39CC0AB83A891969"
-	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			id: "106C1C9E75B6824F"
-			rewards: [{
-				count: 8
-				id: "3A2C5EC799F00243"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 8L
-					id: "32EC9BFAEC3C395D"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "5899AA2C14ECD3AC"
-					item: { count: 1, id: "ae2:sky_stone_block" }
-					type: "item"
-				}
-			]
+			dependencies: ["81600AEAAFFF5136"]
+			id: "AE931F29B670C113"
+			rewards: [{ count: 8, id: "3A2C5EC799F00243", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ count: 8L, id: "C1E4BB9AD3269B7B", item: { count: 1, id: "ae2:certus_quartz_crystal" }, type: "item" }, { count: 4L, id: "8C08C6A5E2A30397", item: { count: 1, id: "ae2:sky_stone_block" }, type: "item" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["AE931F29B670C113"]
 			id: "6A6CF09BD542E0E1"
-			rewards: [{
-				count: 4
-				id: "5237AAC2184BAC26"
-				item: {
-					count: 1
-					id: "ae2:certus_quartz_crystal"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1788428588F2B232"
-					item: { count: 1, id: "ae2:charger" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "033716B51241AD13"
-					item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }
-					type: "item"
-				}
-			]
+			rewards: [{ count: 4, id: "F6B8E04094D95779", item: { count: 1, id: "ae2:certus_quartz_crystal" }, type: "item" }]
+			tasks: [{ count: 1L, id: "9DB4DACC03B87B06", item: { count: 1, id: "ae2:charger" }, type: "item" }, { count: 4L, id: "033716B51241AD13", item: { count: 1, id: "ae2:charged_certus_quartz_crystal" }, type: "item" }]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6A6CF09BD542E0E1"]
-			id: "6E01ADFFC2D5022E"
-			rewards: [{
-				count: 8
-				id: "795AAEB76775E33B"
-				item: {
-					count: 1
-					id: "minecraft:quartz"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "73B3E770AD99F396"
-				item: { count: 1, id: "ae2:fluix_crystal" }
-				type: "item"
-			}]
+			id: "C4D2262EF225F8EB"
+			rewards: [{ count: 8, id: "CA4A962E28589678", item: { count: 1, id: "minecraft:quartz" }, type: "item" }]
+			tasks: [{ count: 8L, id: "C8F5212CED73CA1C", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			id: "151887D95831DBA0"
-			rewards: [{
-				count: 8
-				id: "6FFFCD80762C4742"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "67DBCFEF666CAEF8"
-				item: { count: 1, id: "ae2:inscriber" }
-				type: "item"
-			}]
+			dependencies: ["C4D2262EF225F8EB"]
+			id: "9AE893271241690B"
+			rewards: [{ count: 8, id: "6FFFCD80762C4742", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "D367BF882248E0B3", item: { count: 1, id: "ae2:inscriber" }, type: "item" }]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["9AE893271241690B"]
 			id: "102C277957A9C63C"
-			rewards: [{
-				count: 4
-				id: "1CC0F203EAC53DE1"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 2L
-					id: "446046C977AC4E4F"
-					item: { count: 1, id: "ae2:logic_processor" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "2D625165A262F53E"
-					item: { count: 1, id: "ae2:calculation_processor" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1E1AF93193B85E37"
-					item: { count: 1, id: "ae2:engineering_processor" }
-					type: "item"
-				}
-			]
+			rewards: [{ count: 4, id: "EC5B5C27528CB60C", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
+			tasks: [{ count: 2L, id: "446046C977AC4E4F", item: { count: 1, id: "ae2:logic_processor" }, type: "item" }, { count: 2L, id: "E0212201B9605B1B", item: { count: 1, id: "ae2:calculation_processor" }, type: "item" }, { count: 2L, id: "D39477B3887A5774", item: { count: 1, id: "ae2:engineering_processor" }, type: "item" }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["102C277957A9C63C"]
 			id: "31C7358EA0E24375"
-			rewards: [{
-				count: 4
-				id: "5CCE8CC3EDBABB6A"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4805E3588847BD9B"
-				item: { count: 1, id: "ae2:controller" }
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "A4D0707540EAA724", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
+			tasks: [{ count: 1L, id: "B195A13BBF1F5534", item: { count: 1, id: "ae2:controller" }, type: "item" }]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31C7358EA0E24375"]
 			id: "12C064C71E090880"
-			rewards: [{
-				count: 16
-				id: "35501A52B5465EF6"
-				item: {
-					count: 1
-					id: "ae2:fluix_glass_cable"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "057839F75E74B70F"
-					item: { count: 1, id: "ae2:drive" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "2312A0AF9F2C183B"
-					item: { count: 1, id: "ae2:item_storage_cell_1k" }
-					type: "item"
-				}
-			]
+			rewards: [{ count: 16, id: "35501A52B5465EF6", item: { count: 1, id: "ae2:fluix_glass_cable" }, type: "item" }]
+			tasks: [{ count: 1L, id: "057839F75E74B70F", item: { count: 1, id: "ae2:drive" }, type: "item" }, { count: 2L, id: "2312A0AF9F2C183B", item: { count: 1, id: "ae2:item_storage_cell_1k" }, type: "item" }]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["12C064C71E090880"]
-			id: "017CD013F2CECA6E"
-			rewards: [{
-				count: 16
-				id: "54D80D298E590C13"
-				item: {
-					count: 1
-					id: "ae2:fluix_glass_cable"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "13D5DD6C80875FB2"
-					item: { count: 1, id: "ae2:crafting_terminal" }
-					type: "item"
-				}
-				{
-					id: "4675BA04E8B21AD4"
-					item: { count: 1, id: "ae2:chest" }
-					type: "item"
-				}
-			]
+			id: "B598B667E31E5713"
+			rewards: [{ count: 16, id: "54D80D298E590C13", item: { count: 1, id: "ae2:fluix_glass_cable" }, type: "item" }]
+			tasks: [{ count: 1L, id: "13D5DD6C80875FB2", item: { count: 1, id: "ae2:crafting_terminal" }, type: "item" }, { count: 1L, id: "F9906E45B34A55F4", item: { count: 1, id: "ae2:chest" }, type: "item" }]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
-			id: "668078272FCE09EB"
-			rewards: [{
-				count: 8
-				id: "6F9805511F4E2EDA"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 2L
-					id: "05A7D983B0FC1869"
-					item: { count: 1, id: "ae2:import_bus" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1CE655C3252C66A6"
-					item: { count: 1, id: "ae2:export_bus" }
-					type: "item"
-				}
-			]
+			dependencies: ["B598B667E31E5713"]
+			id: "BFD6BB40D5A2E806"
+			rewards: [{ count: 8, id: "6F9805511F4E2EDA", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ count: 2L, id: "05A7D983B0FC1869", item: { count: 1, id: "ae2:import_bus" }, type: "item" }, { count: 2L, id: "FF4E9B20DAD09D36", item: { count: 1, id: "ae2:export_bus" }, type: "item" }]
 			x: 4.5d
 			y: 1.5d
 		}
 		{
-			id: "650D2888288B5D73"
-			rewards: [{
-				count: 2
-				id: "352534C82EFA695D"
-				item: {
-					count: 1
-					id: "ae2:logic_processor"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "545CE12EE1AF6758"
-					item: { count: 1, id: "ae2:molecular_assembler" }
-					type: "item"
-				}
-				{
-					id: "2D4ECE6D14E098D0"
-					item: { count: 1, id: "ae2:pattern_provider" }
-					type: "item"
-				}
-				{
-					id: "20CC45F961B8EA3A"
-					item: { count: 1, id: "ae2:crafting_unit" }
-					type: "item"
-				}
-			]
+			dependencies: ["BFD6BB40D5A2E806"]
+			id: "DCB6E8A748BA9FEA"
+			rewards: [{ count: 32, id: "352534C82EFA695D", item: { count: 1, id: "minecraft:oak_log" }, type: "item" }]
+			tasks: [{ count: 1L, id: "C499A7B9D32CA5B0", item: { count: 1, id: "avaritia:compressed_crafting_table" }, type: "item" }, { count: 1L, id: "EC885CF48E9A68E5", item: { count: 1, id: "avaritia:double_compressed_crafting_table" }, type: "item" }]
 			x: 3.0d
 			y: 1.5d
 		}
 		{
-			id: "1545E40606BB1574"
-			rewards: [{
-				count: 2
-				id: "364749642A38590B"
-				item: {
-					count: 1
-					id: "ae2:engineering_processor"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "1D72DE3FB748574C"
-					item: { count: 1, id: "extendedae:ex_pattern_provider" }
-					type: "item"
-				}
-				{
-					id: "218239BFB38BCB8C"
-					item: { count: 1, id: "extendedae:ex_drive" }
-					type: "item"
-				}
-			]
+			dependencies: ["DCB6E8A748BA9FEA"]
+			id: "9F16C8679A867F0D"
+			rewards: [{ count: 2, id: "364749642A38590B", item: { count: 1, id: "ae2:logic_processor" }, type: "item" }]
+			tasks: [{ count: 1L, id: "B463B77610FAB3E5", item: { count: 1, id: "ae2:molecular_assembler" }, type: "item" }, { count: 1L, id: "DEC21C0229B2266B", item: { count: 1, id: "ae2:pattern_provider" }, type: "item" }, { count: 1L, id: "39E2B5838A0480C5", item: { count: 1, id: "ae2:crafting_unit" }, type: "item" }]
 			x: 1.5d
 			y: 1.5d
 		}
 		{
-			id: "74E1F33CB3E228A5"
-			rewards: [{
-				count: 8
-				id: "6FEAC202F90B8C68"
-				item: {
-					count: 1
-					id: "ae2:fluix_crystal"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "19C55E655E7B05DD"
-				item: { count: 1, id: "ae2:wireless_crafting_terminal" }
-				type: "item"
-			}]
+			dependencies: ["9F16C8679A867F0D"]
+			id: "ECAA751223527308"
+			rewards: [{ count: 2, id: "6FEAC202F90B8C68", item: { count: 1, id: "ae2:engineering_processor" }, type: "item" }]
+			tasks: [{ count: 1L, id: "A62AF5465A8D9D73", item: { count: 1, id: "extendedae:ex_pattern_provider" }, type: "item" }, { count: 1L, id: "24A36683C2F76FDD", item: { count: 1, id: "extendedae:ex_drive" }, type: "item" }]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["ECAA751223527308"]
+			id: "7787D1AB01C630C1"
+			rewards: [{ count: 8, id: "9434D41147A38D48", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
+			tasks: [{ count: 1L, id: "96E49F5D5174D349", item: { count: 1, id: "ae2:wireless_crafting_terminal" }, type: "item" }]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 }

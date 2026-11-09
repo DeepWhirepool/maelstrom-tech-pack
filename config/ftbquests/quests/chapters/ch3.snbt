@@ -3,286 +3,81 @@
 	default_quest_shape: ""
 	filename: "ch3"
 	group: ""
-	icon: {
-		id: "mekanism:enrichment_chamber"
-	}
+	icon: { id: "mekanism:enrichment_chamber" }
 	id: "4028EA8890594006"
-	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["E9B829DAD0086D0E"]
 			id: "15E431CE33872204"
-			rewards: [{
-				count: 8
-				id: "4547176772D90E27"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "2DFF68A2EC058DDF"
-				item: { count: 1, id: "mekanism:dust_iron" }
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "4547176772D90E27", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			tasks: [{ count: 16L, id: "2DFF68A2EC058DDF", item: { count: 1, id: "mekanism:dust_iron" }, type: "item" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["15E431CE33872204"]
-			id: "5CCC5B6B6463340D"
-			rewards: [{
-				count: 4
-				id: "664BC19B1E0C6772"
-				item: {
-					count: 1
-					id: "mekanism:ingot_osmium"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "35F4C5C8A0DD9B54"
-				item: { count: 1, id: "mekanism:purification_chamber" }
-				type: "item"
-			}]
+			id: "D9A4A0E7ADFE098C"
+			rewards: [{ count: 4, id: "EB236955793FFDC2", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			tasks: [{ count: 1L, id: "85ACD1129BEFF883", item: { count: 1, id: "mekanism:purification_chamber" }, type: "item" }]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["D9A4A0E7ADFE098C"]
 			id: "4E90E7723171E421"
-			rewards: [{
-				count: 4
-				id: "06C65C6811212A42"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 12L
-				id: "6729F7251037BC81"
-				item: { count: 1, id: "mekanism:clump_iron" }
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "06C65C6811212A42", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			tasks: [{ count: 12L, id: "6729F7251037BC81", item: { count: 1, id: "mekanism:clump_iron" }, type: "item" }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4E90E7723171E421"]
-			id: "456EC5A68AF419D5"
-			rewards: [{
-				count: 4
-				id: "157460D017826033"
-				item: {
-					count: 1
-					id: "mekanism:ingot_osmium"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "37258B1E79377473"
-				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
-				type: "item"
-			}]
+			id: "F273D9C049284E12"
+			rewards: [{ count: 4, id: "93DA4C9605458808", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			tasks: [{ count: 1L, id: "37258B1E79377473", item: { count: 1, id: "mekanism:chemical_injection_chamber" }, type: "item" }]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			id: "708BBC0B6193C6CA"
-			rewards: [{
-				count: 4
-				id: "355B1E2D67F7EA2B"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 16L
-				id: "056588DBE54800BE"
-				item: { count: 1, id: "mekanism:shard_iron" }
-				type: "item"
-			}]
+			dependencies: ["F273D9C049284E12"]
+			id: "FE1CE8F4438B84E3"
+			rewards: [{ count: 4, id: "355B1E2D67F7EA2B", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			tasks: [{ count: 16L, id: "AE400ADD399DECB1", item: { count: 1, id: "mekanism:shard_iron" }, type: "item" }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			id: "21518200BA393D01"
-			rewards: [{
-				count: 8
-				id: "4A27A83CF99B62EA"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "475ED379DE4A7FA8"
-				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
-				type: "item"
-			}]
+			dependencies: ["FE1CE8F4438B84E3"]
+			id: "F6D6CF0724DA651F"
+			rewards: [{ count: 8, id: "8185E12465EBC916", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ count: 1L, id: "475ED379DE4A7FA8", item: { count: 1, id: "enderio:sag_mill" }, type: "item" }, { count: 1L, id: "B910585220285AD2", item: { count: 1, id: "enderio:dark_steel_grinding_ball" }, type: "item" }]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["F6D6CF0724DA651F"]
 			id: "36511C4B4A6C4C47"
-			rewards: [{
-				count: 4
-				id: "39EB39BD4CEE4350"
-				item: {
-					count: 1
-					id: "mekanism:ingot_osmium"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2BE52B29371C111E"
-					item: { count: 1, id: "mekanism:chemical_washer" }
-					type: "item"
-				}
-				{
-					id: "73D81A8A78372466"
-					item: { count: 1, id: "mekanism:chemical_crystallizer" }
-					type: "item"
-				}
-			]
+			rewards: [{ count: 16, id: "39EB39BD4CEE4350", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
+			tasks: [{ count: 1L, id: "2BE52B29371C111E", item: { count: 1, id: "industrialforegoing:ore_laser_base" }, type: "item" }, { count: 1L, id: "73D81A8A78372466", item: { count: 1, id: "industrialforegoing:laser_drill" }, type: "item" }]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["36511C4B4A6C4C47"]
 			id: "4DB522B73A974B28"
-			rewards: [{
-				count: 8
-				id: "38C8BF3F4E62A358"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				count: 20L
-				id: "577CBC212C97D234"
-				item: { count: 1, id: "mekanism:crystal_iron" }
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "38C8BF3F4E62A358", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ count: 1L, id: "AE19FD74DC420D07", item: { count: 1, id: "industrialforegoing:green_laser_lens" }, type: "item" }, { count: 4L, id: "B9D50ACD97E27E03", item: { count: 1, id: "kubejs:chrysolite_crystal" }, type: "item" }]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4DB522B73A974B28"]
-			id: "18C83A7EA0D019A9"
-			rewards: [{
-				count: 8
-				id: "72C83575AEC0E433"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "44AB40B65B331F85"
-					item: { count: 1, id: "enderio:sag_mill" }
-					type: "item"
-				}
-				{
-					id: "24ADAF397110473F"
-					item: { count: 1, id: "enderio:dark_steel_grinding_ball" }
-					type: "item"
-				}
-			]
+			id: "EF06F870810F0F7C"
+			rewards: [{ count: 8, id: "B655EF1043E589A5", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			tasks: [{ count: 1L, id: "44AB40B65B331F85", item: { count: 1, id: "industrialforegoing:purple_laser_lens" }, type: "item" }, { count: 4L, id: "24ADAF397110473F", item: { count: 1, id: "kubejs:ametrine_crystal" }, type: "item" }]
 			x: 4.5d
-			y: 1.5d
-		}
-		{
-			id: "782D6AB83078A0F0"
-			rewards: [{
-				count: 16
-				id: "6363759C88D535C4"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5C168C6EDB2AC792"
-					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
-					type: "item"
-				}
-				{
-					id: "369E2199B0C8B195"
-					item: { count: 1, id: "industrialforegoing:laser_drill" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["782D6AB83078A0F0"]
-			id: "4AD7CD4E7E358BD5"
-			rewards: [{
-				count: 8
-				id: "67C51C8D7157C73A"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "42ACC277A3A1C262"
-					item: { count: 1, id: "industrialforegoing:green_laser_lens" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "68EC4250A5041630"
-					item: { count: 1, id: "kubejs:chrysolite_crystal" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			id: "4D42D1401A4AB52E"
-			rewards: [{
-				count: 8
-				id: "4BA95C9826569362"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "722637E060C36227"
-					item: { count: 1, id: "industrialforegoing:purple_laser_lens" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "471E6A436BCD0278"
-					item: { count: 1, id: "kubejs:ametrine_crystal" }
-					type: "item"
-				}
-			]
-			x: 0.0d
 			y: 1.5d
 		}
 	]

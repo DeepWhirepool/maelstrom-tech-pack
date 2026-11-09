@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch11"
+	group: ""
+	icon: { id: "draconicevolution:chaotic_core" }
+	id: "FA94971189ADE9FD"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["9760C678AF99306A"]
+			id: "5D08E5896793B797"
+			rewards: [{ count: 1, id: "8A1E53E9BAF76E8B", item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "B291F8A611F55286", item: { count: 1, id: "draconicevolution:chaos_shard" }, type: "item" }, { count: 4L, id: "216B5B9DB6BFA55F", item: { count: 1, id: "draconicevolution:large_chaos_frag" }, type: "item" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D08E5896793B797"]
+			id: "6FAF100A22FA70EA"
+			rewards: [{ count: 2, id: "1A39C9134A2A0F4D", item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "7C41BF8C4B397F4D", item: { count: 1, id: "draconicevolution:chaotic_core" }, type: "item" }]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FAF100A22FA70EA"]
+			id: "F2C4DBE0738AEBB7"
+			rewards: [{ count: 2, id: "9B7E635930239CC4", item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }, type: "item" }]
+			tasks: [{ count: 1L, id: "D82CA10684FF4A8B", item: { count: 1, id: "draconicevolution:reactor_core" }, type: "item" }, { count: 4L, id: "3E330E79DFB86BBC", item: { count: 1, id: "draconicevolution:reactor_stabilizer" }, type: "item" }, { count: 1L, id: "E7FDDFE3456F57F4", item: { count: 1, id: "draconicevolution:reactor_injector" }, type: "item" }]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F2C4DBE0738AEBB7"]
+			id: "A8F5EB6C9F698397"
+			rewards: [{ count: 1, id: "3040E5D31E060533", item: { count: 1, id: "maelstromtech:speed_upgrade" }, type: "item" }]
+			tasks: [{ count: 1L, id: "CCF9AFBF5E01F0BF", item: { count: 1, id: "maelstromtech:thermonuclear_melting_complex" }, type: "item" }, { count: 1L, id: "A526993282AF9174", item: { count: 1, id: "maelstromtech:molten_draconium_bucket" }, type: "item" }]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+}

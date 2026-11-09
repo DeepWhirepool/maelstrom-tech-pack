@@ -3,249 +3,42 @@
 	default_quest_shape: ""
 	filename: "ch9"
 	group: ""
-	icon: {
-		id: "avaritia:crystal_matrix_ingot"
-	}
-	id: "6D7ACF0947CC65A4"
-	images: [ ]
+	icon: { id: "avaritia:crystal_matrix_ingot" }
+	id: "8AAF5188AE5C45FE"
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["00E5CB4A36B72BE3"]
-			id: "15A8B0E4597F6A1C"
-			rewards: [{
-				count: 32
-				id: "3D3E4968D14EC7EE"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "289319D9D18E1E2D"
-					item: { count: 1, id: "avaritia:compressed_crafting_table" }
-					type: "item"
-				}
-				{
-					id: "5485B13FF2D1FC46"
-					item: { count: 1, id: "avaritia:double_compressed_crafting_table" }
-					type: "item"
-				}
-			]
+			dependencies: ["AB6F9927F9EA8C9E"]
+			id: "AD20629685E0F1CE"
+			rewards: [{ count: 4, id: "3D3E4968D14EC7EE", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			tasks: [{ count: 4L, id: "289319D9D18E1E2D", item: { count: 1, id: "avaritia:diamond_lattice" }, type: "item" }, { count: 2L, id: "5485B13FF2D1FC46", item: { count: 1, id: "avaritia:crystal_matrix_ingot" }, type: "item" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["AD20629685E0F1CE"]
 			id: "4F67E8F502843B33"
-			rewards: [{
-				count: 4
-				id: "3D68FCDB58BD2798"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "693FEDE0E05B8D55"
-				item: { count: 1, id: "avaritia:extreme_crafting_table" }
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "A10D75A341992714", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			tasks: [{ count: 1L, id: "B54D5B4A2ED20C81", item: { count: 1, id: "avaritia:extreme_crafting_table" }, type: "item" }]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F67E8F502843B33"]
-			id: "7648B979DE0C0D61"
-			rewards: [{
-				count: 4
-				id: "0DEF279824466DC3"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "2D8517A05E51E9FC"
-					item: { count: 1, id: "avaritia:diamond_lattice" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "6043C9D8F708C0B6"
-					item: { count: 1, id: "avaritia:crystal_matrix_ingot" }
-					type: "item"
-				}
-			]
+			id: "D4F1F43CD4DCC4CD"
+			rewards: [{ count: 1, id: "0DEF279824466DC3", item: { count: 1, id: "avaritia:star_fuel" }, type: "item" }]
+			tasks: [{ count: 9L, id: "2D8517A05E51E9FC", item: { count: 1, id: "avaritia:neutron_pile" }, type: "item" }, { count: 9L, id: "909B11BA8F4B51D8", item: { count: 1, id: "avaritia:neutron_nugget" }, type: "item" }, { count: 1L, id: "EE4F6C33E338581B", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			id: "4EC4CF38114A0FEC"
-			rewards: [{
-				count: 8
-				id: "59FF1487D38DA8D4"
-				item: {
-					count: 1
-					id: "minecraft:iron_block"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "75F97166F3911A3A"
-				item: { count: 1, id: "avaritia:neutron_compressor" }
-				type: "item"
-			}]
+			dependencies: ["D4F1F43CD4DCC4CD"]
+			id: "C037A1B12A1266D0"
+			rewards: [{ count: 8, id: "9067C8A920099E5D", item: { count: 1, id: "minecraft:iron_block" }, type: "item" }]
+			tasks: [{ count: 1L, id: "75F97166F3911A3A", item: { count: 1, id: "avaritia:neutron_compressor" }, type: "item" }]
 			x: 4.5d
 			y: 0.0d
-		}
-		{
-			id: "2227E707F7B9A08D"
-			rewards: [{
-				id: "0D3BCA53D5949C33"
-				item: {
-					count: 1
-					id: "avaritia:star_fuel"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 9L
-					id: "163A68024C371826"
-					item: { count: 1, id: "avaritia:neutron_pile" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "6C241CE4446EC110"
-					item: { count: 1, id: "avaritia:neutron_nugget" }
-					type: "item"
-				}
-				{
-					id: "4F638F7A7A2932DC"
-					item: { count: 1, id: "avaritia:neutron_ingot" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2227E707F7B9A08D"]
-			id: "10303DCF6BC3383E"
-			rewards: [{
-				count: 2
-				id: "5280FA28E835FE80"
-				item: {
-					count: 1
-					id: "avaritia:neutron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4B10C9B02C5A6ED1"
-				item: { count: 1, id: "avaritia:infinity_catalyst" }
-				type: "item"
-			}]
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["10303DCF6BC3383E"]
-			id: "67C913DD5A5D4A88"
-			rewards: [{
-				count: 2
-				id: "410CEABB230667BD"
-				item: {
-					count: 1
-					id: "avaritia:crystal_matrix_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "3CB3B72788F1C632"
-					item: { count: 1, id: "avaritia:infinity_ingot" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "561C4B0EB256C63C"
-					item: { count: 1, id: "avaritia:infinity_nugget" }
-					type: "item"
-				}
-			]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			id: "5D068A9D1B1D4B61"
-			rewards: [{
-				count: 4
-				id: "31A5DA984D4010EC"
-				item: {
-					count: 1
-					id: "avaritia:neutron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "34763A920F930B12"
-					item: { count: 1, id: "avaritia:infinity_sword" }
-					type: "item"
-				}
-				{
-					id: "755F575EC7450E95"
-					item: { count: 1, id: "avaritia:infinity_pickaxe" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5D068A9D1B1D4B61"]
-			id: "1FEA5925953A08CE"
-			rewards: [{
-				id: "4D2687893A824075"
-				item: {
-					count: 1
-					id: "maelstromtech:star_matter_block"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "58D084B2F7FFFBB7"
-					item: { count: 1, id: "avaritia:infinity_helmet" }
-					type: "item"
-				}
-				{
-					id: "38817A1201FEEC87"
-					item: { count: 1, id: "avaritia:infinity_chestplate" }
-					type: "item"
-				}
-				{
-					id: "35F96266B600E9BF"
-					item: { count: 1, id: "avaritia:infinity_pants" }
-					type: "item"
-				}
-				{
-					id: "05B2BCADF99FF97F"
-					item: { count: 1, id: "avaritia:infinity_boots" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 1.5d
 		}
 	]
 }
