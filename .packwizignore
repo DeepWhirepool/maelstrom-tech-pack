@@ -2,3 +2,5 @@ config/almostunified/debug.json
 update.bat
 FRIEND_SETUP.md
 packwiz-installer-bootstrap.jar
+
+update.ps1

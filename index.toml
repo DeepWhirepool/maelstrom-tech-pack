@@ -153,10 +153,6 @@ file = "config/create-server.toml"
 hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
 
 [[files]]
-file = "config/dynamic_fps.json"
-hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
-
-[[files]]
 file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
@@ -322,7 +318,7 @@ hash = "1a3f7da823459447ea3626744a3552eb138aa3370b9ac5566eeca4d6ade2c147"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch25.snbt"
-hash = "ca78e270b06685109fd97f70be1918ac424269976de2177a4d4b1cf146cbb8f9"
+hash = "92063ab8c8022fcb0467506fc71b50e7c173cf239eb25137a66cc5cc075fe848"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ch26.snbt"
@@ -362,7 +358,7 @@ hash = "5021b05ac6eec891ca839e90b8aa2d711ef3fbeaa224d3876e2dc2f279a772af"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b70a65c000c8c984568209a9a4f001f719ec628e29994da67e4b6e32e33c22aa"
+hash = "74d42e4ab943b3e417ef995fbdee2f75ab091c6760d618e7fb5bb36d89d801b3"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -441,66 +437,6 @@ file = "config/inventoryessentials-common.toml"
 hash = "440658632c045fbcf64cdf6cbd48a64c46e882e3b6dff6aaff2610fffee564ed"
 
 [[files]]
-file = "config/inventoryprofilesnext/_flat/prev-villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/_flat/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
-hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
-
-[[files]]
-file = "config/inventoryprofilesnext/integrationHints/lolireborn.json"
-hash = "95c42c909ac54c521e8935a31b610dfa8fe5e018a74437a4d8ea85bc33733ec0"
-
-[[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "a44027e5b5bf7106a7657a84978cbdb46b0d55ac9db0cf77636d4670c4ebfdc3"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мир/prev-villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мир/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мир111/prev-villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мир111/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мирwqeqwe/prev-villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мирwqeqwe/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мирк3к22к332к23к23к23/prev-villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/inventoryprofilesnext/Новый мирк3к22к332к23к23к23/villager-trading-config-v2.json"
-hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
-
-[[files]]
-file = "config/iris-excluded.json"
-hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
-
-[[files]]
-file = "config/iris.properties"
-hash = "61ca347c88e08c03b3ace7f87524cb3c8b200885a0698ef1b3179dceb9a652c9"
-
-[[files]]
 file = "config/jade/hide-blocks.json"
 hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
 
@@ -523,70 +459,6 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "29d36e893a6b23ab0f67f6b5f97f449b13a8fadc5803baa070a92c21bb70a643"
-
-[[files]]
-file = "config/jei/blacklist.json"
-hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
-
-[[files]]
-file = "config/jei/client/default/jei-client.ini"
-hash = "b24e44833b5d18de1f874580dcd239dec5bdd537db702ec2985085716fad2ddb"
-
-[[files]]
-file = "config/jei/client/default/jei-colors.ini"
-hash = "c6d4ae48280627d04a7ae2b6d3db65e71d73670a72732f5aed9f4cfaac3837c7"
-
-[[files]]
-file = "config/jei/client/default/jei-debug.ini"
-hash = "376cc883cac002d07792f209f7bc1915ea7fa8822effc67734f1589bab9bb806"
-
-[[files]]
-file = "config/jei/client/default/jei-mod-id-format.ini"
-hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
-
-[[files]]
-file = "config/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "2448ef0711dc760c42d149d9544be393f8b4e2a97f78ce26a430aa1bdf8e8db4"
-
-[[files]]
-file = "config/jei/client/ingredient-list-type-sort-order.ini"
-hash = "5e44a0b15a8f3b9c6b3b8226c8a4ce83bef4847fa5967eb589860b728c21d746"
-
-[[files]]
-file = "config/jei/client/recipe-category-sort-order.ini"
-hash = "c0b759f9de36c5e8a4a4bf70f640c48f5fb638a26d4d4700f2695d5fab6793ef"
-
-[[files]]
-file = "config/jei/server/world/default/jei-server.ini"
-hash = "8d8225fc76ea4918d7847badf319ec4d0fca4263e12f6df56f9aa5025403f117"
-
-[[files]]
-file = "config/jei/world/local/_dump_test/lookupHistory.json"
-hash = "13502098a7852a378d7fdf1f003ce85f5db445b3c8ca5e95b4453d54042b3aee"
-
-[[files]]
-file = "config/jei/world/local/_flat/lookupHistory.json"
-hash = "ca8b24640e8952ead1262041151fee97db6074ca5e404b587b16c18ebbbccd13"
-
-[[files]]
-file = "config/jei/world/local/Новый мир (1)/lookupHistory.json"
-hash = "13dcefce826babe80db4ab9796ffa8a45d2ac05356ab5e7af0a14094f3df4096"
-
-[[files]]
-file = "config/jei/world/local/Новый мир/lookupHistory.json"
-hash = "9238d4391d0ea5ab207f1fa991a62492ffb2cfce1e6b03e4d173d358fd0aee41"
-
-[[files]]
-file = "config/jei/world/local/Новый мир111/lookupHistory.json"
-hash = "7879337cdcda69ba1443633ff60417aa4172e88b7a6d33d3b0882b769d496718"
-
-[[files]]
-file = "config/jei/world/local/Новый мирwqeqwe/lookupHistory.json"
-hash = "5bb7b857c098bea37d02c916399b9b854889bbfbba07d0a6bfe5c5b064ebce38"
-
-[[files]]
-file = "config/jei/world/local/Новый мирк3к22к332к23к23к23/lookupHistory.json"
-hash = "5a7ba68fca82852628c7b8685e5bf0a8b08c4fa578014280706d7a030ecb2bf4"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -657,10 +529,6 @@ file = "config/sodium-mixins.properties"
 hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
-file = "config/sodium-options.json"
-hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
-
-[[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "390cb983090cdc5ba9013c0551fcde8ecf579040f970e33de5ecfc500841cb7f"
 
@@ -723,70 +591,6 @@ hash = "a56b1c9a2ba4f1bf630c0152428a85c51b0a356eeaef2d7f2867c0908afb647e"
 [[files]]
 file = "config/whitenoise-client.toml"
 hash = "00c6e34f0adbb41db954d296fd7c55dc3412463a38038dc836626433dd7f6d92"
-
-[[files]]
-file = "config/xaero/lib/client.cfg"
-hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
-
-[[files]]
-file = "config/xaero/lib/common.cfg"
-hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
-
-[[files]]
-file = "config/xaero/lib/profiles/default.cfg"
-hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
-
-[[files]]
-file = "config/xaero/lib/server_profiles/default.cfg"
-hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
-
-[[files]]
-file = "config/xaero/minimap/client.cfg"
-hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
-
-[[files]]
-file = "config/xaero/minimap/common.cfg"
-hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_client.json"
-hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
-
-[[files]]
-file = "config/xaero/minimap/default_radar_categories_server.json"
-hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
-
-[[files]]
-file = "config/xaero/minimap/profiles/default.cfg"
-hash = "532b087fb902469b21ed110c9b6d6d51951368aa4f391c30987ba0a002ddb2bb"
-
-[[files]]
-file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
-
-[[files]]
-file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
-
-[[files]]
-file = "config/xaero/minimap/server_profiles/default.cfg"
-hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
-
-[[files]]
-file = "config/xaero/world-map/client.cfg"
-hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
-
-[[files]]
-file = "config/xaero/world-map/common.cfg"
-hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
-
-[[files]]
-file = "config/xaero/world-map/profiles/default.cfg"
-hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
-
-[[files]]
-file = "config/xaero/world-map/server_profiles/default.cfg"
-hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaerohud.txt"
@@ -1039,6 +843,10 @@ hash = "5c30bd61042cbad96e1ae3247e215b02226dbc2114785162c241cecea5c07023"
 [[files]]
 file = "kubejs/client_scripts/hide_cleanup.js"
 hash = "c10783600d6694c1f69b6dc0b6cc31492f0f12173f6f4b5e3b905a9d0ba067d8"
+
+[[files]]
+file = "kubejs/client_scripts/hide_day11.js"
+hash = "3c4392b3df8504bd12ec8d95d5bd7c9ba7cae7e15eb9c59e066f2e99b3cb0e0d"
 
 [[files]]
 file = "kubejs/client_scripts/hide_decor.js"
@@ -1485,12 +1293,20 @@ file = "kubejs/server_scripts/_dump_iu.js"
 hash = "dc55c6944ffe1673f7af6914e2db617f5a2f92ad9db11b31e2ca109d9bb6e114"
 
 [[files]]
+file = "kubejs/server_scripts/day11_multimachines.js"
+hash = "1e982166bb04ed71e03e40940a5015313f2a5024fea9aa894c337afcf64937a5"
+
+[[files]]
 file = "kubejs/server_scripts/fixes_reach.js"
 hash = "4e1d018307cac8fa958e6935f531e2278e4b5897c73036f937761c04605f2135"
 
 [[files]]
 file = "kubejs/server_scripts/hide_cleanup.js"
 hash = "9badffc28161ace2453e3a3578e96ea3974cb9cf97eb11eea490e4951851055f"
+
+[[files]]
+file = "kubejs/server_scripts/hide_day11.js"
+hash = "903ce0a690882a70c57c9c40fb1eb0e6ca4fb91e3d4af4ff89969b09c6cdfda3"
 
 [[files]]
 file = "kubejs/server_scripts/hide_decor.js"
@@ -1550,7 +1366,7 @@ hash = "051afb6c604b8ed629f300cef3b9a276004ed2e317a795be8860064d9a53ec01"
 
 [[files]]
 file = "kubejs/server_scripts/ll_ic2.js"
-hash = "42a81ed8bcced9ad381253acf28e6b9de9393da44ceb9d91215c3b15cb14d6e6"
+hash = "a0f1e96bb384adbbb43a76b357f69b4cfd2cc7ad8dd8b852d63a187f9571f76b"
 
 [[files]]
 file = "kubejs/server_scripts/ll_machines.js"
@@ -1599,6 +1415,10 @@ hash = "d739bbef62c0f35464309e02c90f2c681026a4d6696005d58115c73cb2257259"
 [[files]]
 file = "kubejs/server_scripts/web_7_maelstrom.js"
 hash = "856526a20cde5a5f13bcd18b66cd2b6b390762eaf999eae5a69920dd97a0b630"
+
+[[files]]
+file = "kubejs/server_scripts/zz_day11_check.js"
+hash = "36aabb9da50d821a304a7ddda9f5225ef1abdd07dce184ae15ca9723a9f11023"
 
 [[files]]
 file = "kubejs/server_scripts/zz_dump_graph.js"
@@ -1883,7 +1703,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "0130ff08432a6b43430c5361c66e8af4cba2dafa3d97966928ba0066e6130053"
+hash = "07057328febf24a1ab4dfaf9ade31af61d9aac3d460afc726c2305bf36a4adab"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"

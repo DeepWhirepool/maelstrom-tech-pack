@@ -4,7 +4,7 @@
 	filename: "ch25"
 	group: ""
 	icon: {
-		id: "industrialupgrade:moremachine/quad_macerator"
+		id: "maelstromtech:macerator_x12"
 	}
 	id: "2314F568A9F7414C"
 	images: [ ]
@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "48146502FF06496D"
+			id: "200995925B916160"
 			rewards: [{
 				count: 4
 				id: "57D6A12D112FECF1"
@@ -24,7 +24,7 @@
 			}]
 			tasks: [{
 				id: "3E4057AF93AAD7E7"
-				item: { count: 1, id: "industrialupgrade:moremachine/triple_macerator" }
+				item: { count: 1, id: "maelstromtech:macerator_x6" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -44,17 +44,22 @@
 			tasks: [
 				{
 					id: "73041FE2D888EB75"
-					item: { count: 1, id: "industrialupgrade:moremachine/triple_furnace" }
+					item: { count: 1, id: "maelstromtech:metal_former_x6" }
 					type: "item"
 				}
 				{
-					id: "6FA552C8C4F30DC2"
-					item: { count: 1, id: "industrialupgrade:moremachine/triple_commpressor" }
+					id: "7EFB7D36A6608E4D"
+					item: { count: 1, id: "maelstromtech:furnace_x6" }
 					type: "item"
 				}
 				{
 					id: "56F6614E92F3A161"
-					item: { count: 1, id: "industrialupgrade:moremachine/triple_extractor" }
+					item: { count: 1, id: "maelstromtech:compressor_x6" }
+					type: "item"
+				}
+				{
+					id: "0C9E97E3DE79F7C4"
+					item: { count: 1, id: "maelstromtech:extractor_x6" }
 					type: "item"
 				}
 			]
@@ -80,7 +85,7 @@
 					type: "item"
 				}
 				{
-					id: "6C2C3C5F457BF148"
+					id: "1BC191E96A6C7061"
 					item: { count: 1, id: "industrialupgrade:moremachine2/double_cutting" }
 					type: "item"
 				}
@@ -95,10 +100,10 @@
 		}
 		{
 			dependencies: ["421996E1A8078635"]
-			id: "51E5A20564E78A8D"
+			id: "349F50795B573E32"
 			rewards: [{
 				count: 4
-				id: "11E48E5EA692C466"
+				id: "2A98A9C573868E53"
 				item: {
 					count: 1
 					id: "minecraft:iron_block"
@@ -107,17 +112,17 @@
 			}]
 			tasks: [
 				{
-					id: "3C0698BE62838825"
+					id: "4C2C24F0DA086A96"
 					item: { count: 1, id: "industrialupgrade:moremachine1/double_recycler" }
 					type: "item"
 				}
 				{
-					id: "634C8D36DAC9910C"
+					id: "74200818B65E15E4"
 					item: { count: 1, id: "industrialupgrade:moremachine1/triple_recycler" }
 					type: "item"
 				}
 				{
-					id: "73C79BA041D5319D"
+					id: "6B096D959C0A0608"
 					item: { count: 1, id: "industrialupgrade:moremachine2/double_rolling" }
 					type: "item"
 				}
@@ -137,8 +142,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "327470BF31334890"
-				item: { count: 1, id: "industrialupgrade:moremachine/quad_macerator" }
+				id: "4C8E8CBD97953F82"
+				item: { count: 1, id: "maelstromtech:macerator_x12" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -146,10 +151,10 @@
 		}
 		{
 			dependencies: ["139290185C8A3699"]
-			id: "18190B4E3B88DC69"
+			id: "0213D85C1400C751"
 			rewards: [{
 				count: 4
-				id: "5F08FA7DF0ED15AE"
+				id: "3AF3D3B51A6D744C"
 				item: {
 					count: 1
 					id: "minecraft:diamond"
@@ -159,17 +164,22 @@
 			tasks: [
 				{
 					id: "1D89E8E41C89AE47"
-					item: { count: 1, id: "industrialupgrade:moremachine/quad_furnace" }
+					item: { count: 1, id: "maelstromtech:metal_former_x12" }
 					type: "item"
 				}
 				{
-					id: "4B0DFA18E0048749"
-					item: { count: 1, id: "industrialupgrade:moremachine/quad_commpressor" }
+					id: "39E61EF4FA7A7D63"
+					item: { count: 1, id: "maelstromtech:furnace_x12" }
 					type: "item"
 				}
 				{
 					id: "5B87D729B1054D88"
-					item: { count: 1, id: "industrialupgrade:moremachine/quad_extractor" }
+					item: { count: 1, id: "maelstromtech:compressor_x12" }
+					type: "item"
+				}
+				{
+					id: "6E36A2F15E89D0AC"
+					item: { count: 1, id: "maelstromtech:extractor_x12" }
 					type: "item"
 				}
 			]
@@ -180,7 +190,7 @@
 			id: "2772018FA46B9FC6"
 			rewards: [{
 				count: 4
-				id: "2CC9F19A161BECA9"
+				id: "33A754BD42B608DD"
 				item: {
 					count: 1
 					id: "minecraft:diamond"
@@ -189,12 +199,12 @@
 			}]
 			tasks: [
 				{
-					id: "2F05AC85A7314150"
+					id: "71A97EA85682CB1B"
 					item: { count: 1, id: "industrialupgrade:moremachine1/quad_recycler" }
 					type: "item"
 				}
 				{
-					id: "4F0168FD479191A4"
+					id: "50614D845F2A3A84"
 					item: { count: 1, id: "industrialupgrade:moremachine2/quad_cutting" }
 					type: "item"
 				}
@@ -215,7 +225,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5ED1260B2D153E0D"
+				id: "1C2A2D51CFABFF53"
 				item: { count: 1, id: "mekanism:ultimate_enriching_factory" }
 				type: "item"
 			}]

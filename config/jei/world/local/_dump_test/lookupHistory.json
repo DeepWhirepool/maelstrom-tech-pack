@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"lolireborn:energonium_converter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"lolireborn:converter_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:lava_bucket"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
