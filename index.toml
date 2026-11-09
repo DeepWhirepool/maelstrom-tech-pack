@@ -1330,7 +1330,7 @@ hash = "3a32cf5709033c3726d393b15935bdc9eeef999d936f842a56b2699f3b087e30"
 
 [[files]]
 file = "kubejs/server_scripts/hide_iu.js"
-hash = "1d4a397fa7cd6dbb35ae2d78542642a70684051de861e2ac81222b0da2b0b19f"
+hash = "2402d119db053d56fe61af8f6976c66f4575ec2cf131e8633cff5bb397e745b6"
 
 [[files]]
 file = "kubejs/server_scripts/hide_iu_modules.js"
@@ -1545,6 +1545,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
+metafile = true
+
+[[files]]
+file = "mods/e4mc.pw.toml"
+hash = "c64bffb51596c65dbea0a7f12a6bd55ea55ef015dcc27779a87f7092714fe9a9"
 metafile = true
 
 [[files]]

@@ -533,7 +533,8 @@ ServerEvents.loaded(function (event) {
     event.server.recipeManager.getRecipes().forEach(function (holder) {
       try {
         var stack = holder.value().getResultItem(reg)
-        var id = String(stack.getItem().builtInRegistryHolder().key().location())
+        // DAY13: ItemStack ID avoids reflecting optional/client methods of concrete Item subclasses.
+        var id = String(stack.id)
         if (set[id]) left.push(String(holder.id()) + ' -> ' + id)
       } catch (e) {}
     })
