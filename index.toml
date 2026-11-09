@@ -937,6 +937,10 @@ file = "kubejs/data/avaritia/singularities/tin.json"
 hash = "9ca246877a3f25f4126b8ee364f773595f725157dd75a5d3c5c31a6375d42913"
 
 [[files]]
+file = "kubejs/data/extendedae/loot_table/blocks/ex_emc_interface.json"
+hash = "cb1e789a51673edebab5f50f5f0ef8b268642ff3d8d2c6d7c8327b1404738bf2"
+
+[[files]]
 file = "kubejs/data/industrialupgrade/neoforge/biome_modifier/calcium_modifier.json"
 hash = "19007f531461a3799fe76c9041927bd7773820ef27d62e0d54404dd52c832859"
 
@@ -1275,6 +1279,18 @@ hash = "5f4949a6f9a019a01003a2bcf9a12d54ab41a83e38ab329d928f97734d1ec0a5"
 [[files]]
 file = "kubejs/data/industrialupgrade/orespawn/zirconium.json"
 hash = "2dfd609432bb750ce908bf29cbd6e1c56e7023195652ee074d9103d94ac5f8ae"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2449.json"
+hash = "5fe4be366bfec10005eb5b3fb7a0244fcdbd73ae9f64be0eea2bc755e52e039f"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2450.json"
+hash = "c84bff40a19e966a0fe256e5f1bef406733b1a1efe9c0c4f03b26a64a9688c00"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2451.json"
+hash = "a1bd6306bb361e9244f4121e84eca052e0a26cd00cefd9f2499f00c3d3d5e018"
 
 [[files]]
 file = "kubejs/data/oritech/neoforge/biome_modifier/uranium_patch.json"
@@ -1703,7 +1719,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "07057328febf24a1ab4dfaf9ade31af61d9aac3d460afc726c2305bf36a4adab"
+hash = "4a615989fef544eaf1f1b6809f6bca473036cb90bbfd7ef1be44faa1b7175482"
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
