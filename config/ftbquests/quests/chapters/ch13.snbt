@@ -3,50 +3,377 @@
 	default_quest_shape: ""
 	filename: "ch13"
 	group: ""
-	icon: { id: "kubejs:quantum_core" }
+	icon: {
+		id: "mekanism:sps_casing"
+	}
 	id: "2CDD641EF323E198"
+	images: [ ]
 	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7BD4D2F24F8AC73F"]
 			id: "6C566156330410DB"
-			rewards: [{ count: 2, id: "5758AF97D5FF7855", item: { count: 1, id: "kubejs:circuit_board_t3" }, type: "item" }]
-			tasks: [{ count: 1L, id: "06CAB3D34C0F7537", item: { count: 1, id: "kubejs:quantum_core" }, type: "item" }, { count: 1L, id: "FA5C3A7EEA6533C7", item: { count: 1, id: "kubejs:antimaterial_core" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "5758AF97D5FF7855"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06CAB3D34C0F7537"
+					item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "55E34D7330551767"
+					item: { count: 1, id: "mekanism:hdpe_sheet" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C566156330410DB"]
 			id: "2F260BC89D2973F2"
-			rewards: [{ count: 8, id: "43161DD43EBBB01A", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "4A579627D6B729C0", item: { count: 1, id: "kubejs:solar_core1" }, type: "item" }, { count: 1L, id: "058DDB9E36D2F4D0", item: { count: 1, id: "kubejs:solar_core8" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "43161DD43EBBB01A"
+				item: {
+					count: 1
+					id: "mekanism:ingot_lead"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "4A579627D6B729C0"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "058DDB9E36D2F4D0"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "23EEBD27EEB504CF"
+					item: { count: 1, id: "mekanismgenerators:control_rod_assembly" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2F260BC89D2973F2"]
-			id: "C94422A7C93871D8"
-			rewards: [{ count: 1, id: "F3332A0A61C5D164", item: { count: 1, id: "kubejs:circuit_board_t3" }, type: "item" }]
-			tasks: [{ count: 1L, id: "848580AC2B5FA058", item: { count: 1, id: "kubejs:basis_thermodynamic_core" }, type: "item" }, { count: 1L, id: "E36A76C09F2F77CA", item: { count: 1, id: "kubejs:holographic_thermodynamic_core" }, type: "item" }]
+			id: "361886E1E79B6BE1"
+			rewards: [{
+				count: 8
+				id: "41DB7921AD3C4DE8"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2CCFCF56E190F690"
+					item: { count: 1, id: "mekanism:solar_neutron_activator" }
+					type: "item"
+				}
+				{
+					id: "55F14EEA44BE36F3"
+					item: { count: 1, id: "mekanism:isotopic_centrifuge" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["C94422A7C93871D8"]
-			id: "E6EB62F91C1CDA4A"
-			rewards: [{ count: 8, id: "6B91E8D6F6C298A0", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "5EBAF5ED033205A0", item: { count: 1, id: "kubejs:matter_loose_pink" }, type: "item" }, { count: 1L, id: "31B7BE1F1A17CD6F", item: { count: 1, id: "kubejs:matter_loose_blue" }, type: "item" }, { count: 1L, id: "BE60F06001996DFF", item: { count: 1, id: "kubejs:matter_sparkling" }, type: "item" }]
+			id: "0C115804E76A7DAF"
+			rewards: [{
+				count: 8
+				id: "6B91E8D6F6C298A0"
+				item: {
+					count: 1
+					id: "mekanism:ingot_lead"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5EBAF5ED033205A0"
+					item: { count: 1, id: "mekanism:pellet_polonium" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "31B7BE1F1A17CD6F"
+					item: { count: 1, id: "mekanism:pellet_plutonium" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E6EB62F91C1CDA4A"]
 			id: "13EE2AB2F684907B"
-			rewards: [{ count: 8, id: "C03B5389EAE6B49A", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "6D53940E9F03FD5D", item: { count: 1, id: "kubejs:basis_capacitor" }, type: "item" }, { count: 1L, id: "0CAA8E0B63436353", item: { count: 1, id: "kubejs:multialloy_allow_capacitor" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "2DBAC6347F1D5F16"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "6D53940E9F03FD5D"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0CAA8E0B63436353"
+					item: { count: 1, id: "mekanism:sps_port" }
+					type: "item"
+				}
+				{
+					id: "118576466FE70FC0"
+					item: { count: 1, id: "mekanism:supercharged_coil" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["13EE2AB2F684907B"]
+			id: "11089B0CB057AC9F"
+			rewards: [{
+				count: 2
+				id: "4D1B11FE4DC884E8"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6066518407B34EAE"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+				{
+					id: "51C06111CA4C7EDE"
+					item: { count: 1, id: "mekanism:antiprotonic_nucleosynthesizer" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F260BC89D2973F2"]
+			id: "648D9E7C0B7152E9"
+			rewards: [{
+				count: 8
+				id: "184F8EBC36EC0783"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "32D6A59E74D3FD28"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2165210D6875115E"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5762FE4F625972F8"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					id: "36545130C504B1F6"
+					item: { count: 1, id: "mekanismgenerators:electromagnetic_coil" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "493AD9283E1FA944"
+			rewards: [{
+				count: 4
+				id: "35FDC2EE5172D73F"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03992B109B4B6288"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_controller" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "30226361E7F568F8"
+					item: { count: 1, id: "mekanismgenerators:fusion_reactor_frame" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1CD699D79A405285"
+					item: { count: 1, id: "mekanismgenerators:laser_focus_matrix" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["493AD9283E1FA944"]
+			id: "367BD41986664787"
+			rewards: [{
+				count: 2
+				id: "5232250E6C59F20F"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "1327C38BFF4DC911"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2A7CFEBFEF7B5AB2"
+					item: { count: 1, id: "mekanism:induction_port" }
+					type: "item"
+				}
+				{
+					id: "0475F31A772A1DB3"
+					item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "71D719244465F893"
+			rewards: [{
+				count: 2
+				id: "4B86E43669A139FA"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD17FF0194E7751"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71D719244465F893"]
+			id: "101BE5484C3757DE"
+			rewards: [{
+				count: 8
+				id: "03E5F281B8F58BFF"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FA9A000BBE16952"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+				{
+					id: "6478C6590EBB4ED1"
+					item: { count: 1, id: "mekanism:quantum_entangloporter" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["101BE5484C3757DE"]
+			id: "1821986D1CBBCF5C"
+			rewards: [{
+				count: 8
+				id: "4020AD3EF5497D51"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "544FF81264C68A85"
+					item: { count: 1, id: "mekanism:qio_drive_array" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7103AC659ADA376E"
+					item: { count: 1, id: "mekanism:qio_drive_base" }
+					type: "item"
+				}
+				{
+					id: "5F3FDCEE48D93E63"
+					item: { count: 1, id: "mekanism:qio_dashboard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 }

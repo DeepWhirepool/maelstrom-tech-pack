@@ -3,34 +3,186 @@
 	default_quest_shape: ""
 	filename: "ch6"
 	group: ""
-	icon: { id: "mekanism:chemical_dissolution_chamber" }
-	id: "B5BC54E60D42D614"
+	icon: {
+		id: "fluxnetworks:flux_controller"
+	}
+	id: "723531F376B9A111"
+	images: [ ]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7787D1AB01C630C1"]
 			id: "269EAB6FA8F8E99B"
-			rewards: [{ count: 8, id: "7BAD9AF335E8BEFD", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "376085DA0CF12CA8", item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "7BAD9AF335E8BEFD"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "376085DA0CF12CA8"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["269EAB6FA8F8E99B"]
 			id: "1E3722BAB254EC61"
-			rewards: [{ count: 4, id: "D2ED1CD53128CFB7", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "80736A1511F04827", item: { count: 1, id: "mekanism:chemical_washer" }, type: "item" }, { count: 1L, id: "4ECFFBA0C275B551", item: { count: 1, id: "mekanism:chemical_crystallizer" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "0BF976FE85EDAD76"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "30EDF9CEC3CB142D"
+					item: { count: 1, id: "fluxnetworks:flux_core" }
+					type: "item"
+				}
+				{
+					id: "4ECFFBA0C275B551"
+					item: { count: 1, id: "fluxnetworks:flux_block" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E3722BAB254EC61"]
-			id: "EC9A29F9E92E2EB9"
-			rewards: [{ count: 8, id: "E808C7272429B53A", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
-			tasks: [{ count: 20L, id: "A6C5A906F05EEFCB", item: { count: 1, id: "mekanism:crystal_iron" }, type: "item" }]
+			id: "68AEA522F0E31A14"
+			rewards: [{
+				count: 8
+				id: "01CD8E3B839653D4"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59E7682895DEDD6E"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			id: "740BF63644DBB903"
+			rewards: [{
+				count: 8
+				id: "194E9D8476C87EC9"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "0C2925391445F193"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "44DB112762B25090"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "473B0AF9ED7F9530"
+			rewards: [{
+				count: 8
+				id: "72240DE4ACBF94FC"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "560FE0624EB8A058"
+				item: { count: 1, id: "fluxnetworks:flux_configurator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "074E425D6930736E"
+			rewards: [{
+				count: 2
+				id: "5088F35FEA55D237"
+				item: {
+					count: 1
+					id: "kubejs:chrysolite_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "235793D49EBD7063"
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["074E425D6930736E"]
+			id: "63B3A238ADC07C58"
+			rewards: [{
+				count: 2
+				id: "52A912119EC45BA5"
+				item: {
+					count: 1
+					id: "kubejs:chrysolite_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49B0D97BBBE7F877"
+				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "60DD781BD194BA40"
+			rewards: [{
+				id: "74E49AC81025E0C9"
+				item: {
+					count: 1
+					id: "kubejs:energized_ametrine_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71ECB07D60FCBAA2"
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 	]
 }

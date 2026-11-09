@@ -3,66 +3,375 @@
 	default_quest_shape: ""
 	filename: "ch15"
 	group: ""
-	icon: { id: "maelstromtech:quantum_generator_3" }
+	icon: {
+		id: "industrialupgrade:armour/quantum_chestplate"
+	}
 	id: "23CEFB78BA106295"
+	images: [ ]
 	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2F65BF448C1824CE"]
-			id: "D36CC2514323E93A"
-			rewards: [{ count: 1, id: "F16B6C5276B9ED6E", item: { count: 1, id: "kubejs:circuit_board_t4" }, type: "item" }]
-			tasks: [{ count: 1L, id: "CAEC79453A4C6931", item: { count: 1, id: "maelstromtech:gold_energy_cell" }, type: "item" }, { count: 1L, id: "4A20D4E2B7710D71", item: { count: 1, id: "maelstromtech:demonic_energy_cell" }, type: "item" }]
+			dependencies: ["535C491ABAF8C491"]
+			id: "5420E1019D28A4C6"
+			rewards: [{
+				count: 2
+				id: "396687A06EF3FE82"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "708144B479515053"
+					item: { count: 1, id: "industrialupgrade:quantumitems2" }
+					type: "item"
+				}
+				{
+					id: "4A20D4E2B7710D71"
+					item: { count: 1, id: "industrialupgrade:quantumitems4" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D36CC2514323E93A"]
-			id: "9255EAD8F5CF4BD8"
-			rewards: [{ count: 1, id: "EFBC90C14F77A78D", item: { count: 1, id: "kubejs:circuit_board_t4" }, type: "item" }]
-			tasks: [{ count: 1L, id: "ACD2B0310C14CA20", item: { count: 1, id: "maelstromtech:eu_generator_1" }, type: "item" }, { count: 1L, id: "7E03372F9D4F3D20", item: { count: 1, id: "maelstromtech:eu_generator_5" }, type: "item" }]
+			id: "5FFE6C90964D3870"
+			rewards: [{
+				count: 16
+				id: "6C3F18505BF6B9FB"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58133EB20C537CBC"
+				item: { count: 1, id: "industrialupgrade:quantumitems7" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9255EAD8F5CF4BD8"]
-			id: "9A0FEC58AD852621"
-			rewards: [{ count: 2, id: "A39D1CAF1791DEB3", item: { count: 1, id: "kubejs:chaos_alloy_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "ECD6C176ECFDB150", item: { count: 1, id: "kubejs:sparkling_core" }, type: "item" }]
+			id: "293EC9D9A47543DB"
+			rewards: [{
+				count: 4
+				id: "6151398FE2E5216C"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B5FC92C0EAC871E"
+					item: { count: 1, id: "industrialupgrade:armour/adv_nano_helmet" }
+					type: "item"
+				}
+				{
+					id: "5CBF9E9C94641DF4"
+					item: { count: 1, id: "industrialupgrade:armour/adv_nano_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5E2C22C7A557CAB8"
+					item: { count: 1, id: "industrialupgrade:armour/adv_nano_leggings" }
+					type: "item"
+				}
+				{
+					id: "110572891CD06978"
+					item: { count: 1, id: "industrialupgrade:armour/adv_nano_boots" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9A0FEC58AD852621"]
-			id: "A96494D93F66820A"
-			rewards: [{ count: 4, id: "46F466D99B6B46BF", item: { count: 1, id: "kubejs:chaos_alloy_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "D7EAFB057C495DF2", item: { count: 1, id: "maelstromtech:sparkling_panel" }, type: "item" }, { count: 1L, id: "91B366ACF639F58F", item: { count: 1, id: "maelstromtech:sparkling_rose_gold_panel" }, type: "item" }]
+			id: "5BE2C50809926A4C"
+			rewards: [{
+				count: 4
+				id: "46F466D99B6B46BF"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38BB86DBAAD50D73"
+					item: { count: 1, id: "industrialupgrade:quantumitems6" }
+					type: "item"
+				}
+				{
+					id: "63591293483CF996"
+					item: { count: 1, id: "industrialupgrade:quantumitems3" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A96494D93F66820A"]
-			id: "8EC648EB1FDB1741"
-			rewards: [{ count: 4, id: "E63DEE873CB24C72", item: { count: 1, id: "kubejs:chaos_alloy_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "BEA687A1425296B7", item: { count: 1, id: "ae2:creative_energy_cell" }, type: "item" }]
+			id: "117E4EAC42B8A80A"
+			rewards: [{
+				count: 4
+				id: "6B26E1F1BFFD1F87"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40A36C58DEEB54C3"
+					item: { count: 1, id: "industrialupgrade:armour/quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "1FCE7B5A8DB92B3F"
+					item: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "327E634519805D06"
+					item: { count: 1, id: "industrialupgrade:armour/quantum_leggings" }
+					type: "item"
+				}
+				{
+					id: "171E0412A01D7046"
+					item: { count: 1, id: "industrialupgrade:armour/quantum_boots" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8EC648EB1FDB1741"]
-			id: "8E54B1ECB5297CEC"
-			rewards: [{ count: 1, id: "8436C7366F676E33", item: { count: 1, id: "avaritia:infinity_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "369C355B7A8342FA", item: { count: 1, id: "maelstromtech:quantum_generator_0" }, type: "item" }, { count: 1L, id: "B8B7B0C3E81E1A03", item: { count: 1, id: "maelstromtech:quantum_generator_2" }, type: "item" }]
+			id: "2F822E7807185510"
+			rewards: [{
+				count: 4
+				id: "3DB0BF9586BDB2F5"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "369C355B7A8342FA"
+					item: { count: 1, id: "industrialupgrade:energy_tools/quantumpickaxe" }
+					type: "item"
+				}
+				{
+					id: "22A6D1D69C46B3D6"
+					item: { count: 1, id: "industrialupgrade:energy_tools/quantumshovel" }
+					type: "item"
+				}
+				{
+					id: "6CA7ACA3CC847923"
+					item: { count: 1, id: "industrialupgrade:energy_tools/quantumaxe" }
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8E54B1ECB5297CEC"]
 			id: "5A11E79393976ABE"
-			rewards: [{ count: 4, id: "149CE09DF1BFFE6F", item: { count: 1, id: "avaritia:infinity_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "39FC41F298786CE5", item: { count: 1, id: "maelstromtech:quantum_generator_3" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "149CE09DF1BFFE6F"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39FC41F298786CE5"
+				item: { count: 1, id: "industrialupgrade:energy_tools/quantumdrill" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["5A11E79393976ABE"]
+			id: "4BC3444E9A645702"
+			rewards: [{
+				count: 4
+				id: "5AAA084E4963D53B"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29040AA8960BB6B5"
+				item: { count: 1, id: "industrialupgrade:energy_tools/vajra" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4DE23CE4E6BF8030"
+			rewards: [{
+				count: 8
+				id: "16FB26DA81F6026A"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "195E6F64F8EAAE99"
+					item: { count: 1, id: "industrialupgrade:armour/impjetpack" }
+					type: "item"
+				}
+				{
+					id: "1D8D457C1300C34D"
+					item: { count: 1, id: "industrialupgrade:armour/perjetpack" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DE23CE4E6BF8030"]
+			id: "2D12D5B279443D21"
+			rewards: [{
+				count: 4
+				id: "32D91F14B347FB2E"
+				item: {
+					count: 1
+					id: "minecraft:lapis_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "02C6875F837CEE2A"
+					item: { count: 1, id: "industrialupgrade:armour/imp_lappack" }
+					type: "item"
+				}
+				{
+					id: "29A263708DD50EB8"
+					item: { count: 1, id: "industrialupgrade:armour/per_lappack" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "49C7716ECF7DA510"
+			rewards: [{
+				count: 4
+				id: "7304AF352E5AFD26"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F9BCF11D945408C"
+					item: { count: 1, id: "industrialupgrade:spectral_box" }
+					type: "item"
+				}
+				{
+					id: "756F81DCF93F1727"
+					item: { count: 1, id: "industrialupgrade:adv_spectral_box" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "259D30F00A2A2B4E"
+			rewards: [{
+				count: 8
+				id: "578F48D84BABDC22"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "11A16AB09FCB6FCC"
+					item: { count: 1, id: "industrialupgrade:armour/spectral_helmet" }
+					type: "item"
+				}
+				{
+					id: "0DC37A665EA50B05"
+					item: { count: 1, id: "industrialupgrade:armour/spectral_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6825C81BA4A2546D"
+					item: { count: 1, id: "industrialupgrade:armour/spectral_leggings" }
+					type: "item"
+				}
+				{
+					id: "43660EA0DB720EDF"
+					item: { count: 1, id: "industrialupgrade:armour/spectral_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["259D30F00A2A2B4E"]
+			id: "4A5EC7325EC26C34"
+			rewards: [{
+				count: 2
+				id: "048514BF2BDE1566"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "23575C90ED1E7157"
+					item: { count: 1, id: "industrialupgrade:energy_tools/spectraldrill" }
+					type: "item"
+				}
+				{
+					id: "2147F197B48B1960"
+					item: { count: 1, id: "industrialupgrade:energy_tools/ultddrill" }
+					type: "item"
+				}
+				{
+					id: "4B328E7F6FB4DD8A"
+					item: { count: 1, id: "industrialupgrade:energy_tools/ult_vajra" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 }

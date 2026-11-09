@@ -3,98 +3,451 @@
 	default_quest_shape: ""
 	filename: "ch1"
 	group: ""
-	icon: { id: "immersiveengineering:hammer" }
-	id: "986D58F8C3C9952D"
+	icon: {
+		id: "industrialupgrade:forge_hammer"
+	}
+	id: "15FF05824B2A289C"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [ ]
 			id: "2E3DAFF9FE3C7325"
-			rewards: [{ count: 4, id: "0AF0E12BA57ED2D3", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "C8A169BDC5CEAEEF", item: { count: 1, id: "immersiveengineering:hammer" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "0AF0E12BA57ED2D3"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40F44D3AF0D5616C"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C8D238D96E655C2"
+					item: { count: 1, id: "immersiveengineering:plate_iron" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E3DAFF9FE3C7325"]
-			id: "C54B982BD4667BA1"
-			rewards: [{ count: 16, id: "18A82B7E561AF9C2", item: { count: 1, id: "minecraft:torch" }, type: "item" }]
-			tasks: [{ count: 8L, id: "BF64FAB660A48172", item: { count: 1, id: "minecraft:raw_iron" }, type: "item" }, { count: 8L, id: "4500DA64A7966592", item: { count: 1, id: "minecraft:raw_copper" }, type: "item" }]
+			id: "26918F7D27A6BAEF"
+			rewards: [{
+				count: 16
+				id: "18A82B7E561AF9C2"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "7930F642F6E97F90"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4500DA64A7966592"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["C54B982BD4667BA1"]
-			id: "D4C185DBCBA1445E"
-			rewards: [{ count: 8, id: "C6F75E5E340E1916", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
-			tasks: [{ count: 4L, id: "5C8BB63112348FF9", item: { count: 1, id: "mekanism:raw_tin" }, type: "item" }, { count: 4L, id: "ADA141BB64A08F71", item: { count: 1, id: "mekanism:raw_osmium" }, type: "item" }]
+			id: "0D30272BE38805D7"
+			rewards: [{
+				count: 8
+				id: "316C9564F3E4FEDF"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5C8BB63112348FF9"
+					item: { count: 1, id: "mekanism:raw_tin" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72E84E2F16142305"
+					item: { count: 1, id: "mekanism:raw_osmium" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D4C185DBCBA1445E"]
 			id: "1F4F96FE33AC9552"
-			rewards: [{ count: 8, id: "7F6D8BE2E99DFB6E", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
-			tasks: [{ count: 4L, id: "422ACE7F23197751", item: { count: 1, id: "immersiveengineering:raw_aluminum" }, type: "item" }, { count: 4L, id: "BD16A0A67BA7F2BA", item: { count: 1, id: "immersiveengineering:raw_nickel" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7F6D8BE2E99DFB6E"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "422ACE7F23197751"
+					item: { count: 1, id: "immersiveengineering:raw_aluminum" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0FE805C7EEB6E1C4"
+					item: { count: 1, id: "immersiveengineering:raw_nickel" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1F4F96FE33AC9552"]
 			id: "0C3E848F00B94BF3"
-			rewards: [{ count: 16, id: "852A69B97B09E186", item: { count: 1, id: "minecraft:clay_ball" }, type: "item" }]
-			tasks: [{ count: 8L, id: "40F99493C461FB32", item: { count: 1, id: "immersiveengineering:coal_coke" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7A014D1AAF744CAE"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40F99493C461FB32"
+					item: { count: 1, id: "industrialupgrade:forge_hammer" }
+					type: "item"
+				}
+				{
+					id: "6BD57D265F2ED8ED"
+					item: { count: 1, id: "industrialupgrade:cutter" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C3E848F00B94BF3"]
-			id: "F8546B8181079A2F"
-			rewards: [{ count: 8, id: "AA8ADC06C2858034", item: { count: 1, id: "immersiveengineering:coal_coke" }, type: "item" }]
-			tasks: [{ count: 4L, id: "290CB4504C2D323C", item: { count: 1, id: "immersiveengineering:ingot_steel" }, type: "item" }]
+			id: "039ABF57E5A6E7AE"
+			rewards: [{
+				count: 4
+				id: "46EBA775666E9DC5"
+				item: {
+					count: 1
+					id: "industrialupgrade:sapling/rubber_sapling"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "290CB4504C2D323C"
+					item: { count: 1, id: "industrialupgrade:tools/treetap" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "739C87FFD2FBA9AC"
+					item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_290_element" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "341541E3C5954E9F"
+					item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_271_element" }
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F8546B8181079A2F"]
 			id: "5E64FCAA9433D11B"
-			rewards: [{ count: 8, id: "E62FF15D6F899646", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "97BA5A958FC9F061", item: { count: 1, id: "immersiveengineering:heavy_engineering" }, type: "item" }, { count: 8L, id: "73F751DAE2434353", item: { count: 1, id: "immersiveengineering:dust_iron" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7E343EBB95D1DCBE"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "72278EA81259784E"
+					item: { count: 1, id: "industrialupgrade:wiring/copper" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73F751DAE2434353"
+					item: { count: 1, id: "industrialupgrade:wiring/copper1" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21E64ACDCBA91436"
+					item: { count: 1, id: "industrialupgrade:wiring/tin1" }
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5E64FCAA9433D11B"]
-			id: "D7606BBD7AA67326"
-			rewards: [{ count: 8, id: "1C72CA906689771D", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 4L, id: "C4E9628FA5941ADA", item: { count: 1, id: "immersiveengineering:wirecoil_copper" }, type: "item" }, { count: 1L, id: "30F11CF77CB03A88", item: { count: 1, id: "immersiveengineering:capacitor_lv" }, type: "item" }]
+			id: "453B5DAFA751ADBD"
+			rewards: [{
+				count: 16
+				id: "1C72CA906689771D"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7E67D0B506F8BF52"
+				item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_272_element" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["D7606BBD7AA67326"]
-			id: "D2A63192A59333DF"
-			rewards: [{ count: 4, id: "8E7412A6EC187620", item: { count: 1, id: "immersiveengineering:wirecoil_copper" }, type: "item" }]
-			tasks: [{ count: 1L, id: "25A3CCD28F35A3BF", item: { count: 1, id: "immersiveengineering:watermill" }, type: "item" }, { count: 1L, id: "3BC705A66D1FA903", item: { count: 1, id: "immersiveengineering:dynamo" }, type: "item" }]
+			id: "1AD3BB05CFC2C70E"
+			rewards: [{
+				count: 8
+				id: "70EECCA1D1A91BFE"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "25A3CCD28F35A3BF"
+					item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BC705A66D1FA903"
+					item: { count: 1, id: "industrialupgrade:blockresource/machine" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["D2A63192A59333DF"]
 			id: "3E01B65856C09BFF"
-			rewards: [{ count: 8, id: "CD26D744CA490832", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "644133D095D2C198", item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "708F5B7FAA716477"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "644133D095D2C198"
+				item: { count: 1, id: "industrialupgrade:simplemachine/furnace_iu" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3E01B65856C09BFF"]
 			id: "1663A74A591C248A"
-			rewards: [{ count: 2, id: "35CD3E81B48C594E", item: { count: 1, id: "immersiveengineering:ingot_steel" }, type: "item" }]
-			tasks: [{ count: 2L, id: "D065A32C57B9B994", item: { count: 1, id: "immersiveengineering:circuit_board" }, type: "item" }]
+			rewards: [{
+				count: 32
+				id: "35CD3E81B48C594E"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71B50726CEDD5509"
+				item: { count: 1, id: "industrialupgrade:basemachine3/generator_iu" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["1663A74A591C248A"]
+			id: "462C4E5CC4B1C79E"
+			rewards: [{
+				count: 16
+				id: "16AC014AE70F0288"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "43B1EAC7C6AD7D03"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "7739C6447E31A5C6"
+			rewards: [{
+				count: 8
+				id: "5CC0DF1E4271EDB6"
+				item: {
+					count: 1
+					id: "immersiveengineering:coal_coke"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "06C3A5D1928D271B"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7739C6447E31A5C6"]
+			id: "49DB5054F9F7E785"
+			rewards: [{
+				count: 8
+				id: "5CF73D90B2E99579"
+				item: {
+					count: 1
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E266E996E6C340A"
+				item: { count: 1, id: "industrialupgrade:simplemachine/macerator_iu" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49DB5054F9F7E785"]
+			id: "23C77FBC2508C21E"
+			rewards: [{
+				count: 16
+				id: "6D44FF3A6297E5D7"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "284F5DDCF1078E29"
+					item: { count: 1, id: "avaritia:compressed_crafting_table" }
+					type: "item"
+				}
+				{
+					id: "063553696CFEE0B3"
+					item: { count: 1, id: "industrialupgrade:simplemachine/compressor_iu" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23C77FBC2508C21E"]
+			id: "09F87A7BA4D1461C"
+			rewards: [{
+				count: 8
+				id: "6EC08BB9279149F8"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "60B52E8A8EF48FC5"
+					item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_13_element" }
+					type: "item"
+				}
+				{
+					id: "7B45224D9DE61611"
+					item: { count: 1, id: "industrialupgrade:simplemachine/extractor_iu" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09F87A7BA4D1461C"]
+			id: "70533543B86D2277"
+			rewards: [{
+				count: 16
+				id: "68BD3B4958159345"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "47DCD770EFD436EC"
+					item: { count: 1, id: "industrialupgrade:battery/re_battery" }
+					type: "item"
+				}
+				{
+					id: "49B88DF4F9994C25"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
 		}
 	]
 }

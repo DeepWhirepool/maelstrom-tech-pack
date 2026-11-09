@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch16"
+	group: ""
+	icon: {
+		id: "industrialupgrade:machines/quantum_solar_paneliu"
+	}
+	id: "4E3F3ECAFAA6A5BD"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A5EC7325EC26C34"]
+			id: "72A6D1E9BB275118"
+			rewards: [{
+				count: 4
+				id: "6A0C5C2C3B58D746"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "283F6125C6838071"
+					item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium2" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "025763A27B54BF39"
+					item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium_enriched" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6724FEE8CF75454C"
+					item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium_plate" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "209909912AC06925"
+			rewards: [{
+				count: 8
+				id: "488FF8E133094553"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67EC9301E466852E"
+				item: { count: 1, id: "industrialupgrade:machines/hybrid_solar_paneliu" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "713E53063E11D178"
+			rewards: [{
+				count: 8
+				id: "1BE6F9B619BA9A68"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "599C543203F2CCA6"
+				item: { count: 1, id: "industrialupgrade:machines/ultimate_solar_paneliu" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["713E53063E11D178"]
+			id: "688A69CC521BB184"
+			rewards: [{
+				id: "180C8EB1BDB14B03"
+				item: {
+					count: 1
+					id: "kubejs:circuit_board_t2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0455D8FFCC73E72F"
+				item: { count: 1, id: "industrialupgrade:machines/quantum_solar_paneliu" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "511E25226FF29D09"
+			rewards: [{
+				count: 4
+				id: "14EA36EE0A5DE0C8"
+				item: {
+					count: 1
+					id: "minecraft:lapis_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4DF99EC54E3B36A9"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/adv_mfsu" }
+					type: "item"
+				}
+				{
+					id: "0B15558E0923FFE8"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/ult_mfsu" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["511E25226FF29D09"]
+			id: "087CEF5FA3FE92E4"
+			rewards: [{
+				count: 8
+				id: "5CD30B7FE76CFBD8"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75EC4BBAC6CC11F9"
+					item: { count: 1, id: "industrialupgrade:itemcore/specore" }
+					type: "item"
+				}
+				{
+					id: "2BD11A4A75D39B51"
+					item: { count: 1, id: "industrialupgrade:itemcore/phocore" }
+					type: "item"
+				}
+				{
+					id: "44AB6262D942C48A"
+					item: { count: 1, id: "industrialupgrade:itemcore/barcore" }
+					type: "item"
+				}
+				{
+					id: "0E87111DCE4CE3D7"
+					item: { count: 1, id: "industrialupgrade:itemcore/gracore" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "7C0281754642B5DD"
+			rewards: [{
+				count: 2
+				id: "4869C2011E07345B"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "445B14DDD44D266F"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/per_mfsu" }
+					type: "item"
+				}
+				{
+					id: "106BB58D48B177A0"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/bar_mfsu" }
+					type: "item"
+				}
+				{
+					id: "2B2E91CCEA18E833"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/had_mfsu" }
+					type: "item"
+				}
+				{
+					id: "63E4BC764CAA2EA0"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/gra_mfsu" }
+					type: "item"
+				}
+				{
+					id: "085A7CD830201181"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/qua_mfsu" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C0281754642B5DD"]
+			id: "5E3FC01310B21114"
+			rewards: [{
+				count: 16
+				id: "0C8ED6B8979409E7"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33A2C963FB0D27FB"
+					item: { count: 1, id: "industrialupgrade:basemachine/imp_matter" }
+					type: "item"
+				}
+				{
+					id: "2588A0E2319FF9C1"
+					item: { count: 1, id: "industrialupgrade:basemachine/per_matter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "0895FFCBB1A8A79F"
+			rewards: [{
+				count: 8
+				id: "270871FBB732CBDC"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D0ECBEF38090DA3"
+					item: { count: 1, id: "industrialupgrade:basemachine3/adv_replicator" }
+					type: "item"
+				}
+				{
+					id: "341A0F9E2BBDDB05"
+					item: { count: 1, id: "industrialupgrade:basemachine3/imp_replicator" }
+					type: "item"
+				}
+				{
+					id: "20FCDD53911C71CA"
+					item: { count: 1, id: "industrialupgrade:basemachine3/per_replicator" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "515B752D812A4E46"
+			rewards: [{
+				count: 4
+				id: "0445B6710E6C109D"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A706BF38A655058"
+				item: { count: 1, id: "industrialupgrade:basemachine/quantum_quarry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "50864DDA817A0180"
+			rewards: [{
+				count: 8
+				id: "60662278ECA16451"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "545CD3F9501A6881"
+					item: { count: 1, id: "industrialupgrade:basemachine/adv_quantum_quarry" }
+					type: "item"
+				}
+				{
+					id: "5F12DC82B7052E0F"
+					item: { count: 1, id: "industrialupgrade:basemachine/imp_quantum_quarry" }
+					type: "item"
+				}
+				{
+					id: "24CDE68DDA880901"
+					item: { count: 1, id: "industrialupgrade:basemachine/per_quantum_quarry" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50864DDA817A0180"]
+			id: "729291894621DDC8"
+			rewards: [{
+				count: 16
+				id: "7997FF621602E057"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "77A62F9DC84AD732"
+				item: { count: 1, id: "industrialupgrade:basemachine2/combiner_matter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

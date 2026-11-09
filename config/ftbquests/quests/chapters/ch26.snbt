@@ -1,0 +1,178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch26"
+	group: ""
+	icon: {
+		id: "maelstromtech:quantum_generator_3"
+	}
+	id: "5EDB0D4B700840B2"
+	images: [ ]
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["269A72AF795FECB3"]
+			id: "551A70EF29CBB049"
+			rewards: [{
+				id: "1462C502DE3690DC"
+				item: {
+					count: 1
+					id: "kubejs:circuit_board_t4"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "615DB0085D980E74"
+					item: { count: 1, id: "maelstromtech:gold_energy_cell" }
+					type: "item"
+				}
+				{
+					id: "72BE5E80E5BB15E5"
+					item: { count: 1, id: "maelstromtech:demonic_energy_cell" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["551A70EF29CBB049"]
+			id: "4DFBA68C0238B467"
+			rewards: [{
+				id: "019639D71CD4EE2F"
+				item: {
+					count: 1
+					id: "kubejs:circuit_board_t4"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6CBB2F3D240A3639"
+					item: { count: 1, id: "maelstromtech:eu_generator_1" }
+					type: "item"
+				}
+				{
+					id: "71FDD5190FA6D712"
+					item: { count: 1, id: "maelstromtech:eu_generator_5" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DFBA68C0238B467"]
+			id: "392774AA8CE82E0B"
+			rewards: [{
+				count: 2
+				id: "2AFB7118A0C12BF3"
+				item: {
+					count: 1
+					id: "kubejs:chaos_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61019FC67A8B66D0"
+				item: { count: 1, id: "kubejs:sparkling_core" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["392774AA8CE82E0B"]
+			id: "45D52223E56A0A4D"
+			rewards: [{
+				count: 4
+				id: "4C3C1DE4001044A3"
+				item: {
+					count: 1
+					id: "kubejs:chaos_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3892D4997818B0BB"
+					item: { count: 1, id: "maelstromtech:sparkling_panel" }
+					type: "item"
+				}
+				{
+					id: "7886ED369AB437EA"
+					item: { count: 1, id: "maelstromtech:sparkling_rose_gold_panel" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45D52223E56A0A4D"]
+			id: "07A607491E2762CD"
+			rewards: [{
+				count: 4
+				id: "625F0D89724B6474"
+				item: {
+					count: 1
+					id: "kubejs:chaos_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6600E8612158E1"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "486F61CA08C480E1"
+			rewards: [{
+				id: "6AD622B13577CB9E"
+				item: {
+					count: 1
+					id: "avaritia:infinity_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67A75197ADAE7A7C"
+					item: { count: 1, id: "maelstromtech:quantum_generator_0" }
+					type: "item"
+				}
+				{
+					id: "607CEA6F3A32B58F"
+					item: { count: 1, id: "maelstromtech:quantum_generator_2" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "10D88BFABB22F196"
+			rewards: [{
+				count: 4
+				id: "558FD3C93CB338D7"
+				item: {
+					count: 1
+					id: "avaritia:infinity_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "539BD730D061C0ED"
+				item: { count: 1, id: "maelstromtech:quantum_generator_3" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+}

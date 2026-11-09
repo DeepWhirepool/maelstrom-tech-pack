@@ -1,0 +1,216 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch18"
+	group: ""
+	icon: {
+		id: "mekanism:jetpack"
+	}
+	id: "71034ECD9E8C3867"
+	images: [ ]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6994DD6BBA459BED"
+			rewards: [{
+				count: 8
+				id: "2CD19F85CCA02E73"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46881D54E8F3A20B"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5991C40D119500DC"
+			rewards: [{
+				count: 8
+				id: "7F3EC4F69983EBD6"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "157500993CA79F32"
+					item: { count: 1, id: "mekanism:free_runners" }
+					type: "item"
+				}
+				{
+					id: "228398D947C3FC3A"
+					item: { count: 1, id: "mekanism:scuba_tank" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5991C40D119500DC"]
+			id: "562C151E17E5E89B"
+			rewards: [{
+				count: 16
+				id: "4C876C881CDAF4A5"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D856BE6BF76EE8E"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["562C151E17E5E89B"]
+			id: "0177B4BFEA96AE3B"
+			rewards: [{
+				count: 16
+				id: "6711F8E807A87500"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20FE71943FA58941"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "6CB81CFBDB4B178E"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+				{
+					id: "4AB1AF29A85C5AEF"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					id: "2DC5D33DD4BBF872"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "35BD38B9ECA51ACF"
+			rewards: [{
+				count: 2
+				id: "6104B733572F6FA5"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "36A92BD5AEB4DECD"
+					item: { count: 1, id: "mekanism:module_base" }
+					type: "item"
+				}
+				{
+					id: "01A0A68A663C071A"
+					item: { count: 1, id: "mekanism:meka_tool" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "3F872662CE3E57B4"
+			rewards: [{
+				count: 4
+				id: "4BC840806E1D795D"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5D8108943AD04B63"
+					item: { count: 1, id: "draconicevolution:wyvern_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "5E30C5EAAE975C00"
+					item: { count: 1, id: "draconicevolution:wyvern_sword" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "73DA052433E669E2"
+			rewards: [{
+				count: 4
+				id: "27A68F062E0E8BE8"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09928EA7A040F743"
+					item: { count: 1, id: "draconicevolution:wyvern_chestpiece" }
+					type: "item"
+				}
+				{
+					id: "0E1098928B61FC98"
+					item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73DA052433E669E2"]
+			id: "5599A5FD693B94C7"
+			rewards: [{
+				count: 2
+				id: "30EA160806D9F2EE"
+				item: {
+					count: 1
+					id: "draconicevolution:awakened_draconium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "23327A8E70C3347D"
+				item: { count: 1, id: "draconicevolution:draconic_chestpiece" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch22"
+	group: ""
+	icon: {
+		id: "avaritia:infinity_ingot"
+	}
+	id: "2A9F22E7E5F829FF"
+	images: [ ]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0935B712139D59D8"]
+			id: "52CAC5639C4CCA90"
+			rewards: [{
+				count: 2
+				id: "11EDFA98B3D4817F"
+				item: {
+					count: 1
+					id: "avaritia:neutron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26C61A1ACE038DB1"
+				item: { count: 1, id: "avaritia:eternal_singularity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5C73DCC006E243F4"
+			rewards: [{
+				count: 2
+				id: "55DF2E00A5FBB4B9"
+				item: {
+					count: 1
+					id: "avaritia:neutron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BCB7474585E9991"
+				item: { count: 1, id: "avaritia:infinity_catalyst" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0CC1F3195330302C"
+			rewards: [{
+				count: 2
+				id: "5F3692BC68569130"
+				item: {
+					count: 1
+					id: "avaritia:crystal_matrix_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "362D269A6144C2A9"
+					item: { count: 1, id: "avaritia:infinity_ingot" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "17B62915FC9764B7"
+					item: { count: 1, id: "avaritia:infinity_nugget" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CC1F3195330302C"]
+			id: "30F28049BA9CC431"
+			rewards: [{
+				count: 4
+				id: "0522B7707D272982"
+				item: {
+					count: 1
+					id: "avaritia:neutron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70ED0CE1424C09A8"
+					item: { count: 1, id: "avaritia:infinity_sword" }
+					type: "item"
+				}
+				{
+					id: "3E30379612325736"
+					item: { count: 1, id: "avaritia:infinity_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30F28049BA9CC431"]
+			id: "6ED30F38E85F4135"
+			rewards: [{
+				id: "2813601E1C7C0A7D"
+				item: {
+					count: 1
+					id: "maelstromtech:star_matter_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6FDF26F04931C493"
+					item: { count: 1, id: "avaritia:infinity_helmet" }
+					type: "item"
+				}
+				{
+					id: "294ED4F259C9C878"
+					item: { count: 1, id: "avaritia:infinity_chestplate" }
+					type: "item"
+				}
+				{
+					id: "33B687B8EB93CF33"
+					item: { count: 1, id: "avaritia:infinity_pants" }
+					type: "item"
+				}
+				{
+					id: "63ADAD1A4793AF55"
+					item: { count: 1, id: "avaritia:infinity_boots" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

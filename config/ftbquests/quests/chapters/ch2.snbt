@@ -3,106 +3,468 @@
 	default_quest_shape: ""
 	filename: "ch2"
 	group: ""
-	icon: { id: "mekanismgenerators:heat_generator" }
+	icon: {
+		id: "industrialupgrade:basemachine3/geogenerator_iu"
+	}
 	id: "0FCA1F07704E16F6"
+	images: [ ]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1663A74A591C248A"]
+			dependencies: ["70533543B86D2277"]
 			id: "25356BB1DFCF39CB"
-			rewards: [{ count: 4, id: "1FB521F7AEED4B68", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "191CCC8219573A7E", item: { count: 1, id: "mekanism:steel_casing" }, type: "item" }]
+			rewards: [{
+				id: "1FB521F7AEED4B68"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "191CCC8219573A7E"
+				item: { count: 1, id: "industrialupgrade:basemachine3/geogenerator_iu" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["25356BB1DFCF39CB"]
-			id: "8C7766930B34016B"
-			rewards: [{ count: 8, id: "CE96F6F22E898156", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "0E60E10A809D8EB8", item: { count: 1, id: "mekanism:enrichment_chamber" }, type: "item" }]
+			id: "573A5D1DAB2A05C2"
+			rewards: [{
+				count: 8
+				id: "460603A4C7247E94"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "0E60E10A809D8EB8"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+					type: "item"
+				}
+				{
+					id: "7AD210D8AE855B6B"
+					item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8C7766930B34016B"]
-			id: "DB28ECA775451EF6"
-			rewards: [{ count: 8, id: "05B924E81788B83C", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
-			tasks: [{ count: 8L, id: "470483D538186D7D", item: { count: 1, id: "mekanism:fluorite_gem" }, type: "item" }]
+			id: "1BA26969ADCFB8E6"
+			rewards: [{
+				count: 4
+				id: "05B924E81788B83C"
+				item: {
+					count: 1
+					id: "immersiveengineering:wirecoil_copper"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "470483D538186D7D"
+					item: { count: 1, id: "immersiveengineering:watermill" }
+					type: "item"
+				}
+				{
+					id: "54DB95A9F5C76909"
+					item: { count: 1, id: "immersiveengineering:dynamo" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["DB28ECA775451EF6"]
 			id: "1092C19166FA7B5A"
-			rewards: [{ count: 4, id: "21A219279D984109", item: { count: 1, id: "mekanism:fluorite_gem" }, type: "item" }]
-			tasks: [{ count: 4L, id: "80CE6797249CA0BB", item: { count: 1, id: "kubejs:fluorite_crystal" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "21A219279D984109"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74DF91B4052592F3"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1092C19166FA7B5A"]
-			id: "87F843221299B6BD"
-			rewards: [{ count: 4, id: "EC36BF92136C28F7", item: { count: 1, id: "mekanism:fluorite_gem" }, type: "item" }]
-			tasks: [{ count: 1L, id: "C22D2CAAAFACCBCB", item: { count: 1, id: "mekanismgenerators:heat_generator" }, type: "item" }]
+			id: "71C5AD35551353B5"
+			rewards: [{
+				count: 16
+				id: "4FBD7706FA00700F"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "64E9984C946A2A48"
+					item: { count: 1, id: "industrialupgrade:circuit/circuit_part1" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "07ED1FA0DDAFECC5"
+					item: { count: 1, id: "industrialupgrade:battery/energy_crystal" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["87F843221299B6BD"]
 			id: "01BF2424E18B6A7C"
-			rewards: [{ count: 4, id: "1948CC981D90F509", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "F67A646885DE796E", item: { count: 1, id: "mekanismgenerators:solar_generator" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "1948CC981D90F509"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D92E753B8B6638A"
+				item: { count: 1, id: "mekanism:steel_casing" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["01BF2424E18B6A7C"]
-			id: "81E5D241BCDC70C5"
-			rewards: [{ count: 8, id: "E934D9547E06C898", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "25C6331A0C1CEED3", item: { count: 1, id: "powah:thermo_generator_basic" }, type: "item" }, { count: 1L, id: "6D980673A7EFCB06", item: { count: 1, id: "powah:solar_panel_basic" }, type: "item" }]
+			id: "0778A62B83CFD1D9"
+			rewards: [{
+				count: 8
+				id: "505E7BD1BC1F2A94"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25C6331A0C1CEED3"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["81E5D241BCDC70C5"]
 			id: "7A28CDACD1ED7916"
-			rewards: [{ count: 8, id: "89B203D00E1B6407", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "8783BA9960A07B6E", item: { count: 1, id: "industrialupgrade:machines/advanced_solar_paneliu" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "14CF03A5F53EF70D"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0393DFF58DCAAF2F"
+				item: { count: 1, id: "mekanism:fluorite_gem" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7A28CDACD1ED7916"]
-			id: "E16E8CA6E8B822EC"
-			rewards: [{ count: 8, id: "3828E4125154F922", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
-			tasks: [{ count: 8L, id: "019557E126C2C992", item: { count: 1, id: "mekanism:basic_universal_cable" }, type: "item" }, { count: 8L, id: "CC8C937AF361EF32", item: { count: 1, id: "powah:energy_cable_basic" }, type: "item" }]
+			id: "735D98B10A925834"
+			rewards: [{
+				count: 4
+				id: "3828E4125154F922"
+				item: {
+					count: 1
+					id: "mekanism:fluorite_gem"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "019557E126C2C992"
+				item: { count: 1, id: "kubejs:fluorite_crystal" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["E16E8CA6E8B822EC"]
-			id: "D090DD257C7ED8A9"
-			rewards: [{ count: 4, id: "68BF15A052FDAA44", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "AFC9482FB676EA3C", item: { count: 1, id: "mekanism:basic_energy_cube" }, type: "item" }]
+			id: "791D81582B1696E0"
+			rewards: [{
+				count: 4
+				id: "68BF15A052FDAA44"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "053DEDF99C4E0700"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["D090DD257C7ED8A9"]
 			id: "53977DFE9FCBDE2C"
-			rewards: [{ count: 8, id: "CF4A44126BB3A253", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "12FAEE8ED88DA28A", item: { count: 1, id: "powah:energy_cell_basic" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "1577EC3458CB1F15"
+				item: {
+					count: 1
+					id: "mekanism:fluorite_gem"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12FAEE8ED88DA28A"
+					item: { count: 1, id: "mekanismgenerators:heat_generator" }
+					type: "item"
+				}
+				{
+					id: "170F12EDD3C4CC75"
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["53977DFE9FCBDE2C"]
-			id: "E9B829DAD0086D0E"
-			rewards: [{ count: 8, id: "1B96BAD7C9F3B4F5", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "B7423A5BFBB5BAA2", item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }, type: "item" }, { count: 1L, id: "F2467B53FD1E2AE5", item: { count: 1, id: "enderio:basic_capacitor_bank" }, type: "item" }]
+			id: "79F83B79CB8091C6"
+			rewards: [{
+				count: 8
+				id: "1B96BAD7C9F3B4F5"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DEC0099C06E1A96"
+				item: { count: 1, id: "industrialupgrade:machines/advanced_solar_paneliu" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			id: "5F10350E8E09A911"
+			rewards: [{
+				count: 8
+				id: "0BB5B5B620F894FD"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "381506920E03F0FF"
+					item: { count: 1, id: "industrialupgrade:transformer_iu/lv" }
+					type: "item"
+				}
+				{
+					id: "0016DA5C854FF502"
+					item: { count: 1, id: "industrialupgrade:transformer_iu/mv" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "05E2A1D0ED030AFE"
+			rewards: [{
+				count: 16
+				id: "06865C70EE58F034"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "45D644162F7511C9"
+					item: { count: 1, id: "industrialupgrade:battery/advanced_re_battery" }
+					type: "item"
+				}
+				{
+					id: "35D602AC8D37DC43"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/cesu_iu" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "6CE64BD2E1672BC7"
+			rewards: [{
+				count: 8
+				id: "5358183E858A03F7"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "697E6648E39FBE82"
+					item: { count: 1, id: "industrialupgrade:wiring/gold1" }
+					type: "item"
+				}
+				{
+					id: "7710CFDF99E6C1A3"
+					item: { count: 1, id: "industrialupgrade:wiring_storage/mfe_iu" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6CE64BD2E1672BC7"]
+			id: "78D4F919CD23B9A1"
+			rewards: [{
+				count: 8
+				id: "31AA047C3BE09DBC"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2C73C3FF954B32C5"
+					item: { count: 1, id: "powah:thermo_generator_basic" }
+					type: "item"
+				}
+				{
+					id: "739875D20D063D72"
+					item: { count: 1, id: "powah:solar_panel_basic" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78D4F919CD23B9A1"]
+			id: "08D7DBF0A3FE19DD"
+			rewards: [{
+				count: 8
+				id: "2F40F9828BAEB819"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "7112D1A2C0A585C6"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "10CB56B20E0E3217"
+					item: { count: 1, id: "powah:energy_cable_basic" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08D7DBF0A3FE19DD"]
+			id: "623FB1F864D6A65B"
+			rewards: [{
+				count: 4
+				id: "2EEC4734ACC09D15"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "111589B94259D8FB"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+				{
+					id: "4AD037A7636EA9CC"
+					item: { count: 1, id: "powah:energy_cell_basic" }
+					type: "item"
+				}
+				{
+					id: "0DF1D959328109E1"
+					item: { count: 1, id: "enderio:basic_capacitor_bank" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["623FB1F864D6A65B"]
+			id: "14A6C30F6174C939"
+			rewards: [{
+				count: 8
+				id: "128F5B15C9673718"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "04B7C9A2F4420227"
+				item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_276_element" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
 		}
 	]
 }

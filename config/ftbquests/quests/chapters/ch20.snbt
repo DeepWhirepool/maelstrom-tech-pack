@@ -1,0 +1,305 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch20"
+	group: ""
+	icon: {
+		id: "maelstromtech:red_energon"
+	}
+	id: "4148EA160643D608"
+	images: [ ]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3B6D26B3612359B2"]
+			id: "3362FB01077EFE20"
+			rewards: [{
+				id: "3F390A6DCF2CEB4B"
+				item: {
+					count: 1
+					id: "kubejs:quantum_alloy_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C641F6AE4D9451C"
+				item: { count: 1, id: "maelstromtech:neutron_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3362FB01077EFE20"]
+			id: "0377029E95BAD330"
+			rewards: [{
+				id: "1B3041AEE0BF3B3B"
+				item: {
+					count: 1
+					id: "maelstromtech:speed_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12D7CB8FC2DCF259"
+					item: { count: 1, id: "maelstromtech:plasma_charger" }
+					type: "item"
+				}
+				{
+					id: "1A48EE08E59CDC59"
+					item: { count: 1, id: "maelstromtech:charged_neutron_star" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0377029E95BAD330"]
+			id: "3A05121521956FB0"
+			rewards: [{
+				id: "629972575CB2B71B"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51DDF5D3622CC001"
+					item: { count: 1, id: "maelstromtech:red_energon_generator" }
+					type: "item"
+				}
+				{
+					id: "14BFF35387B6D2FE"
+					item: { count: 1, id: "maelstromtech:dark_energon_generator" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A05121521956FB0"]
+			id: "3621C3A26233FAAE"
+			rewards: [{
+				count: 8
+				id: "4D9C216746ADB9AB"
+				item: {
+					count: 1
+					id: "maelstromtech:converter_casing"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "73027BF692AC41FD"
+					item: { count: 1, id: "maelstromtech:red_energon" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1FC65E4B90FD10B0"
+					item: { count: 1, id: "maelstromtech:dark_energon" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "1E83AF338789EA37"
+			rewards: [{
+				count: 8
+				id: "274593F8DEFA77CE"
+				item: {
+					count: 1
+					id: "maelstromtech:converter_glass"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34CC02F333D69C57"
+					item: { count: 1, id: "maelstromtech:energonium_converter" }
+					type: "item"
+				}
+				{
+					id: "6D935FD3E0C0EAAF"
+					item: { count: 1, id: "maelstromtech:red_energonium_bucket" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E83AF338789EA37"]
+			id: "14ED20126C7EA9F4"
+			rewards: [{
+				id: "18845CA1582129A7"
+				item: {
+					count: 1
+					id: "maelstromtech:smelter_crucible"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6444DB9F8E8AEAA0"
+					item: { count: 1, id: "maelstromtech:smelting_crystallizer" }
+					type: "item"
+				}
+				{
+					id: "1BFF5730EC0BA52C"
+					item: { count: 1, id: "maelstromtech:molten_iron_bucket" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14ED20126C7EA9F4"]
+			id: "42CF8E69D74116E6"
+			rewards: [{
+				count: 8
+				id: "6926458E534845F0"
+				item: {
+					count: 1
+					id: "maelstromtech:converter_casing"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5F943E15086BCAB2"
+					item: { count: 1, id: "maelstromtech:energon_synthesizer" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "095353D0846562C2"
+					item: { count: 1, id: "maelstromtech:pulsing_energon_crystal" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42CF8E69D74116E6"]
+			id: "437B648961E14658"
+			rewards: [{
+				id: "047C7A78BF540872"
+				item: {
+					count: 1
+					id: "maelstromtech:pulsing_energon_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "5492FD51EC2D2182"
+				item: { count: 1, id: "maelstromtech:star_matter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "320998C005BA61F1"
+			rewards: [{
+				count: 4
+				id: "3393649D257B2592"
+				item: {
+					count: 1
+					id: "maelstromtech:star_matter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B98E5199A4A0643"
+				item: { count: 1, id: "maelstromtech:star_core" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["320998C005BA61F1"]
+			id: "46C8C81E024283FF"
+			rewards: [{
+				id: "41D221C02D6FBE68"
+				item: {
+					count: 1
+					id: "maelstromtech:speed_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1AE51067B80683AD"
+				item: { count: 1, id: "maelstromtech:plasma_reagent_phase" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "341AFF226503FA8C"
+			rewards: [{
+				id: "3D6E22BF416ACD1F"
+				item: {
+					count: 1
+					id: "maelstromtech:thermal_insulator_1"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27017CE1838357D5"
+					item: { count: 1, id: "maelstromtech:heliospheric_charging_center" }
+					type: "item"
+				}
+				{
+					id: "687D48EAED2F0E83"
+					item: { count: 1, id: "maelstromtech:microstar" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "6FE95748EBEE4D1C"
+			rewards: [{
+				count: 2
+				id: "62DFBEC790C74907"
+				item: {
+					count: 1
+					id: "maelstromtech:speed_upgrade"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "600373DB750C5C90"
+					item: { count: 1, id: "maelstromtech:liquid_neutron_compressor" }
+					type: "item"
+				}
+				{
+					id: "1A7EBC144338963A"
+					item: { count: 1, id: "maelstromtech:liquid_singularity_lava" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

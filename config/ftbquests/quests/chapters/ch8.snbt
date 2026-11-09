@@ -3,81 +3,217 @@
 	default_quest_shape: ""
 	filename: "ch8"
 	group: ""
-	icon: { id: "draconicevolution:draconium_ingot" }
+	icon: {
+		id: "industrialupgrade:simplemachine/generator_matter"
+	}
 	id: "3FC5F549D6D734E1"
+	images: [ ]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["EC9A29F9E92E2EB9"]
 			id: "09A77B8F00EDE0DD"
-			rewards: [{ count: 4, id: "DADCA66A0268F930", item: { count: 1, id: "minecraft:ender_pearl" }, type: "item" }]
-			tasks: [{ count: 8L, id: "55FE725F3F88E2C6", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "3D51148037ECADEA"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55FE725F3F88E2C6"
+				item: { count: 1, id: "industrialupgrade:simplemachine/generator_matter" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["09A77B8F00EDE0DD"]
 			id: "052DD878A261BDC9"
-			rewards: [{ count: 4, id: "417D86A4F2EE632B", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 2L, id: "208C3FAFCB185943", item: { count: 1, id: "draconicevolution:draconium_core" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "417D86A4F2EE632B"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "208C3FAFCB185943"
+					item: { count: 1, id: "industrialupgrade:basemachine3/scanner_iu" }
+					type: "item"
+				}
+				{
+					id: "0CC37C773E588E36"
+					item: { count: 1, id: "industrialupgrade:basemachine3/pattern_storage_iu" }
+					type: "item"
+				}
+				{
+					id: "4042D1AA5C044ACA"
+					item: { count: 1, id: "industrialupgrade:basemachine3/replicator_iu" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["052DD878A261BDC9"]
 			id: "1179333ADAA25BAC"
-			rewards: [{ count: 2, id: "9942559AC4E9213B", item: { count: 1, id: "minecraft:redstone_block" }, type: "item" }]
-			tasks: [{ count: 1L, id: "511D013FB4BE47A8", item: { count: 1, id: "draconicevolution:crafting_core" }, type: "item" }, { count: 4L, id: "708897DAF2A0AEB0", item: { count: 1, id: "draconicevolution:basic_crafting_injector" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "2A7289FAB3DDD13F"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "511D013FB4BE47A8"
+					item: { count: 1, id: "industrialupgrade:transformer_iu/hv" }
+					type: "item"
+				}
+				{
+					id: "708897DAF2A0AEB0"
+					item: { count: 1, id: "industrialupgrade:transformer_iu/ev" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1179333ADAA25BAC"]
-			id: "DE5225D63B299DE6"
-			rewards: [{ count: 4, id: "3632EEF54D6512D8", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "FBB4A234D09DA0CB", item: { count: 1, id: "draconicevolution:wyvern_core" }, type: "item" }]
+			id: "2AEEF34E607F9F0D"
+			rewards: [{
+				count: 4
+				id: "3632EEF54D6512D8"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F42671861944368"
+				item: { count: 1, id: "industrialupgrade:molecular/molecular" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["DE5225D63B299DE6"]
-			id: "F1F38C8E377569D7"
-			rewards: [{ count: 1, id: "AE47F39B419E2490", item: { count: 1, id: "draconicevolution:draconium_core" }, type: "item" }]
-			tasks: [{ count: 4L, id: "7F71B8F62B96C15C", item: { count: 1, id: "draconicevolution:wyvern_crafting_injector" }, type: "item" }]
+			id: "5B067C170DBF6FBD"
+			rewards: [{
+				id: "1B4390F86D304A97"
+				item: {
+					count: 1
+					id: "industrialupgrade:itemingots/iridium_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7F71B8F62B96C15C"
+					item: { count: 1, id: "industrialupgrade:itemcore/advcore" }
+					type: "item"
+				}
+				{
+					id: "3F142022C3EC6EC4"
+					item: { count: 1, id: "industrialupgrade:itemcore/hybcore" }
+					type: "item"
+				}
+				{
+					id: "385A61A0B91B79B9"
+					item: { count: 1, id: "industrialupgrade:itemcore/ultcore" }
+					type: "item"
+				}
+				{
+					id: "2F0F6C2A6C340DD3"
+					item: { count: 1, id: "industrialupgrade:itemcore/quacore" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F1F38C8E377569D7"]
-			id: "97AD0A176811512D"
-			rewards: [{ count: 8, id: "2234A0E8FA5C2C8D", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "0B22EF7A32BCF579", item: { count: 1, id: "draconicevolution:energy_core" }, type: "item" }, { count: 4L, id: "A3A165E7229A42DC", item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }, type: "item" }, { count: 1L, id: "73E26D270E9795B3", item: { count: 1, id: "draconicevolution:energy_pylon" }, type: "item" }]
+			id: "29D9B3DAC59A7506"
+			rewards: [{
+				count: 4
+				id: "2234A0E8FA5C2C8D"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "0B22EF7A32BCF579"
+					item: { count: 1, id: "industrialupgrade:photoniy" }
+					type: "item"
+				}
+				{
+					id: "7306074373125FFD"
+					item: { count: 1, id: "industrialupgrade:photoniy_ingot" }
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["97AD0A176811512D"]
-			id: "881AC3B6DC65579B"
-			rewards: [{ count: 8, id: "F82D884F70CAE42A", item: { count: 1, id: "minecraft:ender_pearl" }, type: "item" }]
-			tasks: [{ count: 1L, id: "3D09CA63A80CACF0", item: { count: 1, id: "draconicevolution:dragon_heart" }, type: "item" }]
+			id: "7E5353D9D3EF967A"
+			rewards: [{
+				count: 8
+				id: "2EB026EF7634F467"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D09CA63A80CACF0"
+				item: { count: 1, id: "industrialupgrade:basemachine/adv_matter" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["881AC3B6DC65579B"]
 			id: "478589736C191B19"
-			rewards: [{ count: 8, id: "B6DEFB86E8A245F6", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 4L, id: "DB5A7067B38237DF", item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "432365846153DD87"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6CBC0FB034EF810E"
+					item: { count: 1, id: "industrialupgrade:double_molecular" }
+					type: "item"
+				}
+				{
+					id: "0F70AF0DCB5216B8"
+					item: { count: 1, id: "industrialupgrade:quad_molecular" }
+					type: "item"
+				}
+			]
 			x: 6.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["478589736C191B19"]
-			id: "AB6F9927F9EA8C9E"
-			rewards: [{ count: 1, id: "B8DBA87DA9C60AFF", item: { count: 1, id: "draconicevolution:wyvern_core" }, type: "item" }]
-			tasks: [{ count: 1L, id: "297142FFDB5DDB81", item: { count: 1, id: "draconicevolution:awakened_core" }, type: "item" }]
-			x: 4.5d
 			y: 1.5d
 		}
 	]

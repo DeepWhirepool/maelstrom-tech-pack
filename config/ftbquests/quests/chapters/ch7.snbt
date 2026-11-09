@@ -3,106 +3,327 @@
 	default_quest_shape: ""
 	filename: "ch7"
 	group: ""
-	icon: { id: "mekanism:jetpack" }
-	id: "BE06CFEB407D1747"
+	icon: {
+		id: "industrialupgrade:armour/nano_chestplate"
+	}
+	id: "29F045A326357889"
+	images: [ ]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["EC9A29F9E92E2EB9"]
-			id: "E78B788BCC67A74C"
-			rewards: [{ count: 16, id: "28A88D855D165396", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "C71434AD261124CF", item: { count: 1, id: "industrialupgrade:armour/nano_helmet" }, type: "item" }]
+			dependencies: ["01E8BA6640AD260C"]
+			id: "6403679C782AFB1E"
+			rewards: [{
+				count: 8
+				id: "28A88D855D165396"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "40243902DBD4E67F"
+				item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_279_element" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E78B788BCC67A74C"]
 			id: "147A964CC9EEE6F7"
-			rewards: [{ count: 16, id: "98C96CE520CEFACB", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
-			tasks: [{ count: 1L, id: "8FC9BFA6F9A56CFD", item: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }, type: "item" }, { count: 1L, id: "623AFA9F71BE4323", item: { count: 1, id: "industrialupgrade:armour/nano_leggings" }, type: "item" }, { count: 1L, id: "2420B5A1CFB67353", item: { count: 1, id: "industrialupgrade:armour/nano_boots" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "1E087A10410DD2DA"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "630F6CEF9D00A5F9"
+				item: { count: 1, id: "industrialupgrade:energy_tools/drill" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["147A964CC9EEE6F7"]
 			id: "713B23F2E84B5F4A"
-			rewards: [{ count: 16, id: "E96DAA181E0BE713", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
-			tasks: [{ count: 1L, id: "7CC55BE3F7E365BA", item: { count: 1, id: "industrialupgrade:armour/adv_nano_chestplate" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "347FD1AB56168A45"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC55BE3F7E365BA"
+				item: { count: 1, id: "industrialupgrade:energy_tools/chainsaw" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["713B23F2E84B5F4A"]
 			id: "37F6D6E2C8D5339E"
-			rewards: [{ count: 4, id: "9F78BD354ABD3CD0", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
-			tasks: [{ count: 1L, id: "BBCF2C838EA5E77C", item: { count: 1, id: "industrialupgrade:armour/quantum_helmet" }, type: "item" }, { count: 1L, id: "D00116161BD8AB52", item: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }, type: "item" }, { count: 1L, id: "57A03F7BD03DD15F", item: { count: 1, id: "industrialupgrade:armour/quantum_leggings" }, type: "item" }, { count: 1L, id: "32284F1676A07018", item: { count: 1, id: "industrialupgrade:armour/quantum_boots" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "63E397C9893DFD7D"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34A6C3E64802A30E"
+				item: { count: 1, id: "industrialupgrade:energy_tools/diamond_drill" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["37F6D6E2C8D5339E"]
 			id: "48F0686E231A133E"
-			rewards: [{ count: 8, id: "11FBB18F4C91CFDA", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "4E4854515F0EE3BF", item: { count: 1, id: "mekanism:jetpack" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "11FBB18F4C91CFDA"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E4854515F0EE3BF"
+					item: { count: 1, id: "industrialupgrade:armour/batpack" }
+					type: "item"
+				}
+				{
+					id: "13DC25BB34BCE59A"
+					item: { count: 1, id: "industrialupgrade:armour/lappack" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["48F0686E231A133E"]
 			id: "49B9718F8340DB2B"
-			rewards: [{ count: 8, id: "E74FB17C8C1E8E91", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "BA0EDC2A4A4C82C4", item: { count: 1, id: "mekanism:free_runners" }, type: "item" }, { count: 1L, id: "C419C7CBFBE28833", item: { count: 1, id: "mekanism:scuba_tank" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "3A2E35C1885F7511"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "59B86B2C3F9E7349"
+				item: { count: 1, id: "industrialupgrade:armour/jetpack" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["49B9718F8340DB2B"]
-			id: "C2ABCDA0BB3E7642"
-			rewards: [{ count: 16, id: "4C59B257E154E0C2", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "875C2F224E38AC29", item: { count: 1, id: "mekanism:atomic_disassembler" }, type: "item" }]
+			id: "09E7552252CC4CE4"
+			rewards: [{
+				count: 8
+				id: "4C59B257E154E0C2"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "09249989B915B56A"
+					item: { count: 1, id: "industrialupgrade:reactors/heat_exchange" }
+					type: "item"
+				}
+				{
+					id: "2447E9A63961D3F2"
+					item: { count: 1, id: "industrialupgrade:armour/nightvision_goggles" }
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["C2ABCDA0BB3E7642"]
 			id: "08E420EF229E8932"
-			rewards: [{ count: 16, id: "6D570EEF89BB5E0F", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
-			tasks: [{ count: 1L, id: "D0183C800AE5DC04", item: { count: 1, id: "mekanism:mekasuit_helmet" }, type: "item" }, { count: 1L, id: "203B7B20553456BC", item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }, type: "item" }, { count: 1L, id: "2E06390E298D5B35", item: { count: 1, id: "mekanism:mekasuit_pants" }, type: "item" }, { count: 1L, id: "CF4507AA616CB031", item: { count: 1, id: "mekanism:mekasuit_boots" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "6D570EEF89BB5E0F"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24AC4EA9301044A7"
+					item: { count: 1, id: "industrialupgrade:armour/nano_helmet" }
+					type: "item"
+				}
+				{
+					id: "203B7B20553456BC"
+					item: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2E06390E298D5B35"
+					item: { count: 1, id: "industrialupgrade:armour/nano_leggings" }
+					type: "item"
+				}
+				{
+					id: "5AA8E4D18A479AF5"
+					item: { count: 1, id: "industrialupgrade:armour/nano_boots" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["08E420EF229E8932"]
 			id: "754C1685038EAA48"
-			rewards: [{ count: 2, id: "A7465C3ADFE80553", item: { count: 1, id: "mekanism:alloy_atomic" }, type: "item" }]
-			tasks: [{ count: 4L, id: "52501C70EA468D07", item: { count: 1, id: "mekanism:module_base" }, type: "item" }, { count: 1L, id: "E95DDD2DE2A2D50C", item: { count: 1, id: "mekanism:meka_tool" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "0CD2DA68EE21B940"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52501C70EA468D07"
+				item: { count: 1, id: "industrialupgrade:energy_tools/nano_saber" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["754C1685038EAA48"]
 			id: "4614211973A4AA95"
-			rewards: [{ count: 4, id: "CB4A21696A0A4BF3", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "3B926ACEBB3D9389", item: { count: 1, id: "draconicevolution:wyvern_pickaxe" }, type: "item" }, { count: 1L, id: "CC41AB95D38AD19C", item: { count: 1, id: "draconicevolution:wyvern_sword" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "7C18BFEE558D508B"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B926ACEBB3D9389"
+					item: { count: 1, id: "industrialupgrade:energy_tools/nanopickaxe" }
+					type: "item"
+				}
+				{
+					id: "0852E9D205EC16DB"
+					item: { count: 1, id: "industrialupgrade:energy_tools/nanoshovel" }
+					type: "item"
+				}
+				{
+					id: "10C6AF959FF19C7C"
+					item: { count: 1, id: "industrialupgrade:energy_tools/nanoaxe" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4614211973A4AA95"]
 			id: "54D6700367AABC30"
-			rewards: [{ count: 4, id: "653E6A47E592EEFC", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "E5A281CAFF09DF2C", item: { count: 1, id: "draconicevolution:wyvern_chestpiece" }, type: "item" }, { count: 1L, id: "6C58A44676EB1BD6", item: { count: 1, id: "draconicevolution:wyvern_capacitor" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "653E6A47E592EEFC"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7A7AE57ACC3A7FDA"
+				item: { count: 1, id: "industrialupgrade:nanobox" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["54D6700367AABC30"]
-			id: "8292EEAAFB7E0253"
-			rewards: [{ count: 2, id: "0B7E18F6FC64F89E", item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }, type: "item" }]
-			tasks: [{ count: 1L, id: "1DA0914E06BA718E", item: { count: 1, id: "draconicevolution:draconic_chestpiece" }, type: "item" }]
+			id: "59177C7B3FCDDAEE"
+			rewards: [{
+				count: 2
+				id: "0B7E18F6FC64F89E"
+				item: {
+					count: 1
+					id: "kubejs:chrysolite_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DA0914E06BA718E"
+				item: { count: 1, id: "industrialupgrade:energy_tools/nanodrill" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			id: "5EAC6956D1D93B7F"
+			rewards: [{
+				count: 16
+				id: "5618F5B20E6C3041"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "540A472E556E5870"
+					item: { count: 1, id: "industrialupgrade:armour/advjetpack" }
+					type: "item"
+				}
+				{
+					id: "26EE2B8101367C8A"
+					item: { count: 1, id: "industrialupgrade:armour/advanced_batpack" }
+					type: "item"
+				}
+				{
+					id: "4A9E3485442FAB56"
+					item: { count: 1, id: "industrialupgrade:armour/adv_lappack" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 }

@@ -3,162 +3,263 @@
 	default_quest_shape: ""
 	filename: "ch14"
 	group: ""
-	icon: { id: "maelstromtech:dispersion_solar_panel" }
-	id: "E3F2375BA5139933"
+	icon: {
+		id: "oritech:accelerator_controller"
+	}
+	id: "4BFF249BA8BF9ED4"
+	images: [ ]
 	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["13EE2AB2F684907B"]
-			id: "CF303B3CBD39B35E"
-			rewards: [{ count: 1, id: "D72D0685C6C617A1", item: { count: 1, id: "kubejs:circuit_board_t2" }, type: "item" }]
-			tasks: [{ count: 1L, id: "717E342280B15FAD", item: { count: 1, id: "industrialupgrade:machines/quantum_solar_paneliu" }, type: "item" }]
+			dependencies: ["11089B0CB057AC9F"]
+			id: "000742487F8270D2"
+			rewards: [{
+				count: 8
+				id: "22C58F62DA2997DA"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_nickel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "717E342280B15FAD"
+					item: { count: 1, id: "oritech:motor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "38AFA9845FBDD439"
+					item: { count: 1, id: "oritech:machine_frame_block" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CF303B3CBD39B35E"]
 			id: "5786873B6991CBC4"
-			rewards: [{ count: 8, id: "B7DB02D998E32AC8", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "846E15599DDC5624", item: { count: 1, id: "maelstromtech:dispersion_solar_panel" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "4660D4C396870F3D"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_electrum"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5918787204058556"
+					item: { count: 1, id: "oritech:pulverizer_block" }
+					type: "item"
+				}
+				{
+					id: "08FAAE57C08AFD32"
+					item: { count: 1, id: "oritech:foundry_block" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5786873B6991CBC4"]
-			id: "9EFFBF6D1E3F3334"
-			rewards: [{ count: 8, id: "132E8914DF09E7F9", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "39C0841A72768BC9", item: { count: 1, id: "maelstromtech:gravitomagnetic_solar_panel" }, type: "item" }]
+			id: "04D850F876A822DB"
+			rewards: [{
+				count: 8
+				id: "132E8914DF09E7F9"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39C0841A72768BC9"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9EFFBF6D1E3F3334"]
-			id: "949AF3DE2531227E"
-			rewards: [{ count: 8, id: "DCA4661FC832A239", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "D8C8F288DFF32194", item: { count: 1, id: "maelstromtech:anisotropic_solar_panel" }, type: "item" }]
+			id: "4A43A8951C4911EB"
+			rewards: [{
+				count: 4
+				id: "6D7795008A3F8E49"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_electrum"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "57EFE732F0E3B8A5"
+				item: { count: 1, id: "oritech:fluxite" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["949AF3DE2531227E"]
 			id: "71C7F373EB291B25"
-			rewards: [{ count: 8, id: "1B79677C4907BD4E", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "EB46C453CB470E3E", item: { count: 1, id: "maelstromtech:fluctuation_solar_panel" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "1B79677C4907BD4E"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "77EC90620867B49A"
+					item: { count: 1, id: "oritech:accelerator_ring" }
+					type: "item"
+				}
+				{
+					id: "2D34F23E7BFA8828"
+					item: { count: 1, id: "oritech:accelerator_sensor" }
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["71C7F373EB291B25"]
 			id: "535C491ABAF8C491"
-			rewards: [{ count: 8, id: "31885A2E3005FDAE", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "67B1036482BF90E6", item: { count: 1, id: "maelstromtech:aberration_solar_panel" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "31885A2E3005FDAE"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "67B1036482BF90E6"
+					item: { count: 1, id: "oritech:accelerator_motor" }
+					type: "item"
+				}
+				{
+					id: "7CFFD86FA03511A3"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["535C491ABAF8C491"]
 			id: "7644EBBDBAF0D849"
-			rewards: [{ count: 8, id: "06B204E620C925BB", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "DD5E5845819A5A64", item: { count: 1, id: "maelstromtech:parametric_solar_panel" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "06B204E620C925BB"
+				item: {
+					count: 1
+					id: "oritech:fluxite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A769F784A02F751"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7644EBBDBAF0D849"]
 			id: "038144A74218EE9C"
-			rewards: [{ count: 8, id: "FFBF38CA003F8C07", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "766AE878ACEE7217", item: { count: 1, id: "maelstromtech:chronodynamic_solar_panel" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "5B4BA932BBD1CBB2"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "766AE878ACEE7217"
+				item: { count: 1, id: "oritech:overcharged_crystal" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["038144A74218EE9C"]
 			id: "4F0FAF0AA5F88D52"
-			rewards: [{ count: 8, id: "9D27FE32D69448EE", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "C4EE626BBCE15855", item: { count: 1, id: "maelstromtech:antimaterial_solar_panel" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "7968D0C71775AF68"
+				item: {
+					count: 1
+					id: "oritech:fluxite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F78BB2A60C5A38C"
+				item: { count: 1, id: "oritech:heisenberg_compensator" }
+				type: "item"
+			}]
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4F0FAF0AA5F88D52"]
 			id: "1D1792A14DEC652A"
-			rewards: [{ count: 8, id: "AD47F235F65DD831", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "8679BDBC77068709", item: { count: 1, id: "maelstromtech:purple_spectrum_thermodynamic_panel" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "159C8C0C895E313A"
+				item: {
+					count: 1
+					id: "oritech:fluxite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DFAD22FD3C7FBAA"
+				item: { count: 1, id: "oritech:particle_collector_block" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1D1792A14DEC652A"]
-			id: "E44443ACDDBC1DAD"
-			rewards: [{ count: 4, id: "B3EA6349AAB9909A", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
-			tasks: [{ count: 1L, id: "C3345F6822726DF7", item: { count: 1, id: "maelstromtech:ultimate_holographic_thermodynamic_panel" }, type: "item" }]
+			id: "781EA22E51ECEE0D"
+			rewards: [{
+				count: 2
+				id: "271FA23DE14D81B0"
+				item: {
+					count: 1
+					id: "oritech:overcharged_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E1370BF967951A5"
+				item: { count: 1, id: "maelstromtech:plasma_reagent_quark" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["E44443ACDDBC1DAD"]
-			id: "A4C08987E7E872C1"
-			rewards: [{ count: 8, id: "5C030498AA9250FE", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "9135D64FB991B63D", item: { count: 1, id: "maelstromtech:bronze_electrolyzed_panel" }, type: "item" }]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["A4C08987E7E872C1"]
-			id: "E77BC7BB7205B78B"
-			rewards: [{ count: 4, id: "77399263DF8A5056", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
-			tasks: [{ count: 1L, id: "1790DFA6F0F85DF9", item: { count: 1, id: "maelstromtech:multiallow_ultimate_electrolyzed_panel" }, type: "item" }]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["E77BC7BB7205B78B"]
-			id: "F92C49FFB189CDDD"
-			rewards: [{ count: 8, id: "312BB456E582C52B", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "AEACC9ECDA2AED0B", item: { count: 1, id: "maelstromtech:beekeeper_blue_panel" }, type: "item" }]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["F92C49FFB189CDDD"]
-			id: "3AFC153D2DFFB444"
-			rewards: [{ count: 4, id: "40409ECFCF99D860", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
-			tasks: [{ count: 1L, id: "63E39819CECCE709", item: { count: 1, id: "maelstromtech:ultimate_four_color_beekeeper_panel" }, type: "item" }]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3AFC153D2DFFB444"]
-			id: "143D963A8328986E"
-			rewards: [{ count: 8, id: "0591B59E738DDFBD", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "16A0F9D23C22579F", item: { count: 1, id: "maelstromtech:chaos_guardian_panel" }, type: "item" }]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["143D963A8328986E"]
-			id: "B64115359CB03937"
-			rewards: [{ count: 4, id: "3A352EAEAEF854E4", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
-			tasks: [{ count: 1L, id: "B29B3F7B5D749D18", item: { count: 1, id: "maelstromtech:dragon_slayer_ultimate_panel" }, type: "item" }]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["B64115359CB03937"]
-			id: "08FC5086553FF86E"
-			rewards: [{ count: 8, id: "584F78532BAF29C3", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
-			tasks: [{ count: 1L, id: "A4FDA90B06E07C6D", item: { count: 1, id: "maelstromtech:panel_nightmares" }, type: "item" }]
-			x: 7.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["08FC5086553FF86E"]
-			id: "2F65BF448C1824CE"
-			rewards: [{ count: 4, id: "49A16BDCC53ADB22", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
-			tasks: [{ count: 1L, id: "2B7E8B324FAE6062", item: { count: 1, id: "maelstromtech:ultimate_dimension_traveler_panel" }, type: "item" }]
-			x: 7.5d
-			y: 4.5d
 		}
 	]
 }
