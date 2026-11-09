@@ -17,7 +17,7 @@ Bootstrap лежит в папке minecraft инстанса. Для новой
 
 В 0.1.15 в индексе было 49 личных файлов из этих групп (sodium-options в том снимке отсутствовал). Они удалены из управления начиная с 0.1.16. Прямой bootstrap удаляет ранее управляемый файл даже после локального изменения; update.ps1 здесь НЕ участвует и не защищает настройки.
 1. Штатно закрыть мир/остановить хост. Отдельно скопировать всю папку мира вместе с playerdata/FTB team/quest data. Открытый мир не копировать.
-2. Сделать внешнюю копию перечисленных настроек. Не удалять `.packwiz` и его manifest: это потеряет сведения об управляемых файлах.
+2. Сделать внешнюю копию перечисленных настроек. Не удалять `packwiz.json` (локальный manifest bootstrap): это потеряет сведения об управляемых файлах.
 3. Выполнить одно обновление bootstrap отдельно, без запуска Minecraft, в папке minecraft инстанса. В PowerShell, подставив путь к Java 21 из Prism:
    ```powershell
    & 'C:\путь-к-Java-21\bin\java.exe' -Djava.awt.headless=true -jar .\packwiz-installer-bootstrap.jar -g https://raw.githubusercontent.com/DeepWhirepool/maelstrom-tech-pack/main/pack.toml
