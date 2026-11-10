@@ -4,3 +4,14 @@ FRIEND_SETUP.md
 packwiz-installer-bootstrap.jar
 
 update.ps1
+
+# Client settings and per-world data (personal)
+config/ftbchunks-client.snbt
+config/jei/client/*-sort-order.ini
+config/jei/**/lookupHistory.json
+config/jei/world/
+config/xaero/*/profiles/
+config/inventoryprofilesnext/*
+!config/inventoryprofilesnext/integrationHints/
+_ai/tools/packwiz.exe
+__pycache__/
