@@ -605,14 +605,6 @@ file = "config/whitenoise-client.toml"
 hash = "00c6e34f0adbb41db954d296fd7c55dc3412463a38038dc836626433dd7f6d92"
 
 [[files]]
-file = "config/xaerohud.txt"
-hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -1573,6 +1565,22 @@ file = "kubejs/startup_scripts/materials.js"
 hash = "4c096f78cbe588c1d0859b64cd3b406a5ea1b3c053672bfd11f1676de742d627"
 
 [[files]]
+file = "mods/FallingTree-1.21.1-1.21.1.11.jar"
+hash = "70ee147602d2239e7a093e166fdf0c0abcef959d5d457c0f8f3669ef9b483dc4"
+
+[[files]]
+file = "mods/FastFurnace-1.21.1-9.0.1.jar"
+hash = "4a8743c5d870aa9885d65e20d728c76fec894e01e81d1b49ef0f4459a67f0eea"
+
+[[files]]
+file = "mods/FastWorkbench-1.21.1-9.1.3.jar"
+hash = "abf593ba1584c761f198989008d334c95932afe0a7c6b16af4baa16b54fd1449"
+
+[[files]]
+file = "mods/FluxNetworks-1.21.1-8.0.0.jar"
+hash = "29e511b2d76f85bd247aa213a92bb059ecc037fcc3fed82baffcff97b638d3a6"
+
+[[files]]
 file = "mods/actually-harvest.pw.toml"
 hash = "55e42a2bc361c0319990d362aa3f2a92fec0ca1dcbf567c94481aca169991496"
 metafile = true
@@ -1588,9 +1596,8 @@ hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
 metafile = true
 
 [[files]]
-file = "mods/alltheleaks.pw.toml"
-hash = "086cb09b402389a49e01f984e1898dd688b490fba4c42fef9ca274b5dc5f648a"
-metafile = true
+file = "mods/alltheleaks-1.1.16-1.21.1-neoforge.jar"
+hash = "05dea4e7a7ca3c6e11804adc79cee3534eb3f2ef1ea49bbf9afb839227e3bba5"
 
 [[files]]
 file = "mods/almostunified.pw.toml"
@@ -1703,28 +1710,8 @@ hash = "03494a76b42b1b79e4d36a93317b8e884cafdb7e08f6103ce47ecd4e4df57645"
 metafile = true
 
 [[files]]
-file = "mods/falling-tree.pw.toml"
-hash = "5fe387bcad2d72c9bdd7047c19fed3959dcc65e2615e188ae743c517c08209df"
-metafile = true
-
-[[files]]
-file = "mods/fastfurnace.pw.toml"
-hash = "4f7c443c70a28284bfb40e613c835167c9c71f2db257714275041f16e280b6d9"
-metafile = true
-
-[[files]]
-file = "mods/fastworkbench.pw.toml"
-hash = "0d13e70b59a7f4623237f6b03e22368235d123030f36f18312fd20a8f7d2e459"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
-metafile = true
-
-[[files]]
-file = "mods/flux-networks.pw.toml"
-hash = "ad8209e472d463c9fcd19ca708fcd9c1a4a1bc69c9f0ca22efeacb414e9ab7a8"
 metafile = true
 
 [[files]]
@@ -1733,29 +1720,24 @@ hash = "269f548613a9cd56afd6963efb00716324bda763eaf6b30aeaa4f04521312dda"
 metafile = true
 
 [[files]]
-file = "mods/ftb-chunks-forge.pw.toml"
-hash = "90d8290ba2c103b55eacba92ed0f08c77a3832795b99fb03e77f9dc3885c7fd9"
-metafile = true
+file = "mods/ftb-chunks-neoforge-2101.1.23.jar"
+hash = "6750da28d725bfb4c7da43157bb9b82492226ce5acab595ef782d48f41ff5647"
 
 [[files]]
-file = "mods/ftb-library-forge.pw.toml"
-hash = "df64ca595f6f0f79e3a4a844fd0a887b44f5e007f5deb9ac011b5cf67b3a2127"
-metafile = true
+file = "mods/ftb-library-neoforge-2101.1.39.jar"
+hash = "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95"
 
 [[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-hash = "ce69874826195a0aed63a54128c8656b80e564cd32db59c1f9cfe3367150fd5e"
-metafile = true
+file = "mods/ftb-quests-neoforge-2101.1.38.jar"
+hash = "3752657a82c69b0a80c034700df86f1a3d7c5f3e3aad814b5af748b9082a834b"
 
 [[files]]
-file = "mods/ftb-teams-forge.pw.toml"
-hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
-metafile = true
+file = "mods/ftb-teams-neoforge-2101.1.12.jar"
+hash = "b3f33436070b7ae4a706280561f1d2f1d1eb1a089cb13ec9851e99646165aed2"
 
 [[files]]
-file = "mods/ftb-ultimine-forge.pw.toml"
-hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
-metafile = true
+file = "mods/ftb-ultimine-neoforge-2101.1.15.jar"
+hash = "1393a85ceb6e4794450d5f06043e3a033278e31b86de8e03950d8b87604b2213"
 
 [[files]]
 file = "mods/geckolib.pw.toml"

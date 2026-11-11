@@ -15,3 +15,5 @@ config/inventoryprofilesnext/*
 !config/inventoryprofilesnext/integrationHints/
 _ai/tools/packwiz.exe
 __pycache__/
+config/xaerohud.txt
+config/xaeropatreon.txt

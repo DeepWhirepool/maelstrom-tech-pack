@@ -138,41 +138,41 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:tropical_fish": false
-			"minecraft:zombie_villager": true
-			"minecraft:spider": true
-			"minecraft:vindicator": true
 			"minecraft:wolf": true
-			"minecraft:witch": true
-			"minecraft:squid": true
-			"minecraft:sheep": true
-			"minecraft:frog": true
 			"minecraft:glow_squid": true
-			"minecraft:turtle": true
-			"minecraft:zombie": true
-			"minecraft:bogged": true
-			"minecraft:cod": false
-			"minecraft:axolotl": true
-			"minecraft:panda": true
-			"minecraft:drowned": true
-			"minecraft:evoker": true
-			"minecraft:pig": true
-			"minecraft:enderman": true
-			"minecraft:cow": true
-			"minecraft:donkey": true
-			"minecraft:armadillo": true
-			"minecraft:salmon": false
-			"minecraft:llama": true
-			"minecraft:pufferfish": false
-			"minecraft:allay": true
-			"minecraft:creeper": true
-			"minecraft:chicken": true
 			"minecraft:horse": true
-			"minecraft:skeleton": true
-			"minecraft:elder_guardian": true
-			"minecraft:bee": true
+			"minecraft:enderman": true
+			"minecraft:squid": true
+			"minecraft:allay": true
+			"minecraft:turtle": true
+			"minecraft:donkey": true
+			"minecraft:bogged": true
+			"minecraft:salmon": false
+			"minecraft:frog": true
+			"minecraft:pufferfish": false
+			"minecraft:drowned": true
 			"minecraft:bat": true
+			"minecraft:llama": true
+			"minecraft:armadillo": true
+			"minecraft:cow": true
 			"minecraft:dolphin": true
+			"minecraft:bee": true
+			"minecraft:vindicator": true
+			"minecraft:spider": true
+			"minecraft:zombie": true
+			"minecraft:creeper": true
+			"minecraft:zombie_villager": true
+			"minecraft:elder_guardian": true
+			"minecraft:chicken": true
+			"minecraft:evoker": true
+			"minecraft:axolotl": true
+			"minecraft:tropical_fish": false
+			"minecraft:skeleton": true
+			"minecraft:pig": true
+			"minecraft:witch": true
+			"minecraft:cod": false
+			"minecraft:sheep": true
+			"minecraft:panda": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
