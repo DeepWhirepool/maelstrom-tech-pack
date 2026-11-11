@@ -14,7 +14,7 @@ var WEB4_SLOT = [
   // шары: центр креста — сплав IU или Mekanism (24 шара на крафт)
   ['enderio:redstone_alloy_grinding_ball', 1, 1, 'industrialupgrade:alloyingot/red_brass'],
   ['enderio:conductive_alloy_grinding_ball', 1, 1, 'industrialupgrade:alloyingot/nichrome'],
-  ['enderio:soularium_grinding_ball', 1, 1, 'industrialupgrade:alloyingot/alumel'],
+  ['enderio:soularium_grinding_ball', 1, 1, 'mekanism:ingot_osmium'], // был alumel (алюминий+титан): руды титана в мире нет
   ['enderio:dark_steel_grinding_ball', 1, 1, 'industrialupgrade:alloyingot/stainless_steel'],
   ['enderio:pulsating_alloy_grinding_ball', 1, 1, 'industrialupgrade:alloyingot/permalloy'],
   ['enderio:energetic_alloy_grinding_ball', 1, 1, 'mekanism:alloy_infused'],

@@ -1,0 +1,13 @@
+name = "Angel Extra Utilities"
+filename = "angel_utilities-1.0.9-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/klKZx0ma/versions/vhmagt7r/angel_utilities-1.0.9-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "5f0d4407c6311516259574178cbc7d0f0d5f0fdcbdd5f03e54d91420d7bcd95de31da1ce6f81bcdfc930507cf2fe16bcd34e8e54656fc232b93694ff50091f78"
+
+[update]
+[update.modrinth]
+mod-id = "klKZx0ma"
+version = "vhmagt7r"

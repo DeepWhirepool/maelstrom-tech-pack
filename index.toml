@@ -6,7 +6,7 @@ hash = "30f65aaf3d7a290ffac48908187c3cf2507c339f1fb71f485723c89592bfee3e"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "fa311a5086b0cc91ad4ddd1a13d39d841675e9294c70d8366e88526520d276e9"
+hash = "d015f1568ea3e2a18edc4d80b09cd5e04bda04212f5303c92ddc8c72e72af81e"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -59,6 +59,14 @@ hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 [[files]]
 file = "config/actuallyharvest-common.toml"
 hash = "8daa1bba5f63716488845a1b1809291f41020caec548656ecad2789608b1952d"
+
+[[files]]
+file = "config/advanced_ae-client.toml"
+hash = "2589ed3e028e2e3c3224d8b5167fea9be8620e9f4290c0f56c8a8942e236f18c"
+
+[[files]]
+file = "config/advanced_ae-common.toml"
+hash = "a8a9ecfd4d9e535897e3cdf5c383edcc870dadff1b5ef7f5572b3e287f4e5eca"
 
 [[files]]
 file = "config/ae2-client.toml"
@@ -227,10 +235,6 @@ hash = "6d14f494ec588d7f258fc1b1d21834779694baae4bb7e9fa6244df9a53fd1933"
 [[files]]
 file = "config/forestry-server.toml"
 hash = "9c5aff44074e4d598efb89ed46375860dc55f127afd049b7463d23c4095092d4"
-
-[[files]]
-file = "config/ftbchunks-client.snbt"
-hash = "dedece9dde376539875056acbbf1274e1fadc847a07b7c388884e5091b31572b"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -430,7 +434,7 @@ hash = "5ef57c9a4f31dd0b8f326b6d96f44477923a1e304d89b84df151520643789c6e"
 
 [[files]]
 file = "config/industrialupgrade-common.toml"
-hash = "82e204c91b1fef6283d9be22a345debfad06fb8268686129f7762b885fd94a97"
+hash = "eda40c32d1fd314137dcc712995af847d2b23a549d504052f13ad5947580bbbe"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
@@ -467,6 +471,10 @@ hash = "d2e27d29abd0de2a7924f820f3ea963a4a0b12e4874bcd63f917a9db2f087d36"
 [[files]]
 file = "config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
+
+[[files]]
+file = "config/megacells-common.toml"
+hash = "bcda62c284c8c0e454cc69952b9887cb72f5135cdae86ac6fc0bae37ed63cdb9"
 
 [[files]]
 file = "config/mezz_config/client/default/settings.ini"
@@ -542,7 +550,7 @@ hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "24afb13aaf80b8cd9ee0e6790f779bfc892aa7f8800ce11ef0badf2f29335193"
+hash = "54f01c5f9230393b31082c3a023ebb4ba39df7f626c2de51ebdd72119e1de986"
 
 [[files]]
 file = "config/spark/config.json"
@@ -585,6 +593,10 @@ file = "config/visible_energy-common.toml"
 hash = "526688842d6b14879c71963a986fa533b271a08f3980aac21bc04c992302798a"
 
 [[files]]
+file = "config/wands.json"
+hash = "49dc3bc8bdf924580e25a7121b4a6dd1086f0b31e88d713a10133784e60f69d1"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "a56b1c9a2ba4f1bf630c0152428a85c51b0a356eeaef2d7f2867c0908afb647e"
 
@@ -603,6 +615,66 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/_disabled/client_scripts/hide_iu.js"
+hash = "4e1b137b164b69bc4c74a8e4c794c1c2f197a82787feb9b427fb5842d9bca965"
+
+[[files]]
+file = "kubejs/_disabled/client_scripts/hide_iu_modules.js"
+hash = "533d4fa92180e43e75feb638bbf09f3f906bbea8ecbc4fe0c5e1946192dc8b53"
+
+[[files]]
+file = "kubejs/_disabled/client_scripts/hide_iu_tiers.js"
+hash = "9d7ef3162543d8a97fcd0ec0873c84c6353159c60cc5a353ad440c418febedb4"
+
+[[files]]
+file = "kubejs/_disabled/client_scripts/hide_iu_whitelist.js"
+hash = "72c313a1db5f5c4d24652489bc63bd2bda4e663e7907cdbc76e3d6544be60154"
+
+[[files]]
+file = "kubejs/_disabled/ll_ae2.js"
+hash = "5a4d59d0f5adcda3c702eea97724499d54cc55ab63d0d5cd6517753f6210acff"
+
+[[files]]
+file = "kubejs/_disabled/ll_avaritia.js"
+hash = "a8282068a8875e800d14ddafb00dfabfccf61acd45ce8dc93a8e7cdcd2030007"
+
+[[files]]
+file = "kubejs/_disabled/ll_draconic.js"
+hash = "3da6e1db49a14c6a4ad997682ce237a0573cfd31d0d31df0c01546e275abae22"
+
+[[files]]
+file = "kubejs/_disabled/ll_forestry.js"
+hash = "051afb6c604b8ed629f300cef3b9a276004ed2e317a795be8860064d9a53ec01"
+
+[[files]]
+file = "kubejs/_disabled/ll_ic2.js"
+hash = "a0f1e96bb384adbbb43a76b357f69b4cfd2cc7ad8dd8b852d63a187f9571f76b"
+
+[[files]]
+file = "kubejs/_disabled/ll_machines.js"
+hash = "01800301393c957caa45e25fa4fd268914d2e2f771033bddf5d21f6a72a95df9"
+
+[[files]]
+file = "kubejs/_disabled/ll_top.js"
+hash = "49e26bca8a01f2a1e9fed2c332497d3402740970da6cf831057e10bbf8573f9c"
+
+[[files]]
+file = "kubejs/_disabled/server_scripts/hide_iu.js"
+hash = "2402d119db053d56fe61af8f6976c66f4575ec2cf131e8633cff5bb397e745b6"
+
+[[files]]
+file = "kubejs/_disabled/server_scripts/hide_iu_modules.js"
+hash = "de1bf9a914be7c121e2e1c59414c9db3d99a8e775ef9b653f792ae1ccfbd0dab"
+
+[[files]]
+file = "kubejs/_disabled/server_scripts/hide_iu_tiers.js"
+hash = "af0b06eb6df0932abda421c2b6fb85290c18f8861976e41425262363d2b20707"
+
+[[files]]
+file = "kubejs/_disabled/server_scripts/hide_iu_whitelist.js"
+hash = "2bfb39e449af832ba986527611a3ffd9c7537eca0a13af1d0ef07b9e460f1501"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
@@ -845,32 +917,28 @@ file = "kubejs/client_scripts/hide_cleanup.js"
 hash = "c10783600d6694c1f69b6dc0b6cc31492f0f12173f6f4b5e3b905a9d0ba067d8"
 
 [[files]]
+file = "kubejs/client_scripts/hide_creative.js"
+hash = "29f334dcc087fd0bfbb1ef6a72f4e029ce614550c4cb8709fc6505519793431b"
+
+[[files]]
 file = "kubejs/client_scripts/hide_day11.js"
-hash = "3c4392b3df8504bd12ec8d95d5bd7c9ba7cae7e15eb9c59e066f2e99b3cb0e0d"
+hash = "1977016d58bf564555df8cc9d444158089ec0f4fb55726bf8d9bf2c16939beb7"
 
 [[files]]
 file = "kubejs/client_scripts/hide_decor.js"
 hash = "94dcfcada48f172ba4fe1b4c04b1229e0226682dbbbdfda315825d2da4468a09"
 
 [[files]]
-file = "kubejs/client_scripts/hide_iu.js"
-hash = "4e1b137b164b69bc4c74a8e4c794c1c2f197a82787feb9b427fb5842d9bca965"
+file = "kubejs/client_scripts/hide_ic2.js"
+hash = "30d9491fd892ac72759c8c4fc21154a13c0dbee5653246662278924c5ed7857d"
 
 [[files]]
-file = "kubejs/client_scripts/hide_iu_modules.js"
-hash = "533d4fa92180e43e75feb638bbf09f3f906bbea8ecbc4fe0c5e1946192dc8b53"
-
-[[files]]
-file = "kubejs/client_scripts/hide_iu_tiers.js"
-hash = "9d7ef3162543d8a97fcd0ec0873c84c6353159c60cc5a353ad440c418febedb4"
-
-[[files]]
-file = "kubejs/client_scripts/hide_iu_whitelist.js"
-hash = "72c313a1db5f5c4d24652489bc63bd2bda4e663e7907cdbc76e3d6544be60154"
+file = "kubejs/client_scripts/hide_powerutils.js"
+hash = "34876622acdd8d48c57c5ff816f679e556a28bf4b73e62e458f08917562ae5a8"
 
 [[files]]
 file = "kubejs/client_scripts/hide_unreachable.js"
-hash = "ee70d784fbf2e2e00529912f6fdd03b59691b1159673419a501dd967845a46b1"
+hash = "a1fd878c591440ad0ec0e0bc12e4f02f17779c0f6abba35cb8b9d8dd715b6fde"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -1013,6 +1081,10 @@ file = "kubejs/data/industrialupgrade/orespawn/coal.json"
 hash = "075cf612972bcdf51475f83a82108f116857876cb989fa59263469cb5f56f5f6"
 
 [[files]]
+file = "kubejs/data/industrialupgrade/orespawn/cobalt.json"
+hash = "f9736ba643a20931f02333248827f6104a7af277ed37291fd0428bc4e60080fc"
+
+[[files]]
 file = "kubejs/data/industrialupgrade/orespawn/coltan.json"
 hash = "9ef5e7fdb755c081f44b06fd605775a007cf029d0d023de42b9d3a9d9a33b86e"
 
@@ -1121,6 +1193,10 @@ file = "kubejs/data/industrialupgrade/orespawn/manganese.json"
 hash = "cbd825ff44338e4ee9658475dc2e7168e5b9736340342d6efeef07dad0dd8f53"
 
 [[files]]
+file = "kubejs/data/industrialupgrade/orespawn/mikhail.json"
+hash = "8896e90356859ce0bda863fd2bd73aa059e14193826549f1df8d5a2c1402a49c"
+
+[[files]]
 file = "kubejs/data/industrialupgrade/orespawn/molybdenum.json"
 hash = "e523f8c7f28892091fe6d6e3eff1321ee2ce539b0eee9fe0a0983afd1e5ef172"
 
@@ -1189,6 +1265,10 @@ file = "kubejs/data/industrialupgrade/orespawn/ruby.json"
 hash = "0053b1932eaa8eabdc21f1906b95a3b4f904ed31a7e024fdd2174d87a94dabb6"
 
 [[files]]
+file = "kubejs/data/industrialupgrade/orespawn/sapphire.json"
+hash = "4fc8e1c57d093af33157a78b2d1038c4c9fb72d1511f8cafd028a24b302e7fb2"
+
+[[files]]
 file = "kubejs/data/industrialupgrade/orespawn/sheelite.json"
 hash = "47e19c19c43928bd2f447bf14717a36996bf7e8f51cf2207a54283bb114c7460"
 
@@ -1241,8 +1321,20 @@ file = "kubejs/data/industrialupgrade/orespawn/tin.json"
 hash = "e5b07126db9b3cb1290cf820639665ed194d64fd85907692da31780fdefaadc9"
 
 [[files]]
+file = "kubejs/data/industrialupgrade/orespawn/titanium.json"
+hash = "8e95665f4b0f8fcb79ea47416faea422fe58346929769d5950ea618aa5eed356"
+
+[[files]]
 file = "kubejs/data/industrialupgrade/orespawn/todorokite.json"
 hash = "31a28e8177dbbe90ef1c6fdd0a9ff8e3194234ae0ccf84769cff5909f2c404d9"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/orespawn/topaz.json"
+hash = "7cbbe663735b5940acbb874e285ee134fc30d465e17218becbbe24efd183a703"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/orespawn/tungsten.json"
+hash = "7147a16c9bfb65a9a92f8352d5a757911f45245465290f11ad77ebd3b4932773"
 
 [[files]]
 file = "kubejs/data/industrialupgrade/orespawn/uranite.json"
@@ -1281,6 +1373,50 @@ file = "kubejs/data/industrialupgrade/orespawn/zirconium.json"
 hash = "2dfd609432bb750ce908bf29cbd6e1c56e7023195652ee074d9103d94ac5f8ae"
 
 [[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2433.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2434.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2435.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2436.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2437.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2443.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2444.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2445.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2446.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2447.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
+file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2448.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
 file = "kubejs/data/industrialupgrade/recipe/industrialupgrade_2449.json"
 hash = "5fe4be366bfec10005eb5b3fb7a0244fcdbd73ae9f64be0eea2bc755e52e039f"
 
@@ -1309,12 +1445,16 @@ file = "kubejs/server_scripts/_dump_iu.js"
 hash = "dc55c6944ffe1673f7af6914e2db617f5a2f92ad9db11b31e2ca109d9bb6e114"
 
 [[files]]
+file = "kubejs/server_scripts/ae2_gates.js"
+hash = "39e41199e7f4fe320638d018aa843b1fecc389d409264af447461a6aeee8eaea"
+
+[[files]]
 file = "kubejs/server_scripts/day11_multimachines.js"
-hash = "1e982166bb04ed71e03e40940a5015313f2a5024fea9aa894c337afcf64937a5"
+hash = "88e81a691c35f77a69214f71e1988319041c1445623695b6bc6002a5044491cf"
 
 [[files]]
 file = "kubejs/server_scripts/fixes_reach.js"
-hash = "4e1d018307cac8fa958e6935f531e2278e4b5897c73036f937761c04605f2135"
+hash = "ce4cd6e6d0845cd700da7c712f70cf02d2d531570814f9dbde9287509d19083b"
 
 [[files]]
 file = "kubejs/server_scripts/hide_cleanup.js"
@@ -1322,31 +1462,23 @@ hash = "9badffc28161ace2453e3a3578e96ea3974cb9cf97eb11eea490e4951851055f"
 
 [[files]]
 file = "kubejs/server_scripts/hide_day11.js"
-hash = "903ce0a690882a70c57c9c40fb1eb0e6ca4fb91e3d4af4ff89969b09c6cdfda3"
+hash = "6f1501aca5074cfd6423e0136c44d90cacf4656b7bfd93d377ee4a4af6445e09"
 
 [[files]]
 file = "kubejs/server_scripts/hide_decor.js"
 hash = "3a32cf5709033c3726d393b15935bdc9eeef999d936f842a56b2699f3b087e30"
 
 [[files]]
-file = "kubejs/server_scripts/hide_iu.js"
-hash = "2402d119db053d56fe61af8f6976c66f4575ec2cf131e8633cff5bb397e745b6"
-
-[[files]]
-file = "kubejs/server_scripts/hide_iu_modules.js"
-hash = "de1bf9a914be7c121e2e1c59414c9db3d99a8e775ef9b653f792ae1ccfbd0dab"
-
-[[files]]
-file = "kubejs/server_scripts/hide_iu_tiers.js"
-hash = "af0b06eb6df0932abda421c2b6fb85290c18f8861976e41425262363d2b20707"
-
-[[files]]
-file = "kubejs/server_scripts/hide_iu_whitelist.js"
-hash = "2bfb39e449af832ba986527611a3ffd9c7537eca0a13af1d0ef07b9e460f1501"
+file = "kubejs/server_scripts/hide_ic2.js"
+hash = "cb863476a93523170b6ff874426f8aa5967f2dc6c16e28799e931d9cd0125d10"
 
 [[files]]
 file = "kubejs/server_scripts/hide_unreachable.js"
-hash = "bc84b04c3bdc79dde379d2cd7a18b2009a764f1e45787a5dfebe7729735dde51"
+hash = "541a0ff9f30a458bbe95a308418e2e8965319fd225fd6007283b7425f526c615"
+
+[[files]]
+file = "kubejs/server_scripts/ic2_recipes.js"
+hash = "96e9bd80d9b3c3d63740567bd76d6b49811be4be70d47768647f5f31a88a3a4d"
 
 [[files]]
 file = "kubejs/server_scripts/iu_byproducts.js"
@@ -1361,40 +1493,12 @@ file = "kubejs/server_scripts/laser_ores.js"
 hash = "7141dfbde98649152e5d80374c4980de994b75a8880631ec304bdf04f1510f08"
 
 [[files]]
-file = "kubejs/server_scripts/ll_ae2.js"
-hash = "5a4d59d0f5adcda3c702eea97724499d54cc55ab63d0d5cd6517753f6210acff"
-
-[[files]]
-file = "kubejs/server_scripts/ll_avaritia.js"
-hash = "a8282068a8875e800d14ddafb00dfabfccf61acd45ce8dc93a8e7cdcd2030007"
-
-[[files]]
 file = "kubejs/server_scripts/ll_cores.js"
 hash = "2e75b61d47a11e5f04fd726f78a18fdd76de0b1982a825d5290ee09dde20501d"
 
 [[files]]
-file = "kubejs/server_scripts/ll_draconic.js"
-hash = "3da6e1db49a14c6a4ad997682ce237a0573cfd31d0d31df0c01546e275abae22"
-
-[[files]]
-file = "kubejs/server_scripts/ll_forestry.js"
-hash = "051afb6c604b8ed629f300cef3b9a276004ed2e317a795be8860064d9a53ec01"
-
-[[files]]
-file = "kubejs/server_scripts/ll_ic2.js"
-hash = "a0f1e96bb384adbbb43a76b357f69b4cfd2cc7ad8dd8b852d63a187f9571f76b"
-
-[[files]]
-file = "kubejs/server_scripts/ll_machines.js"
-hash = "01800301393c957caa45e25fa4fd268914d2e2f771033bddf5d21f6a72a95df9"
-
-[[files]]
 file = "kubejs/server_scripts/ll_matter.js"
 hash = "1cf9038f12d3f9416fa58877b0cf8df9c890b06776f3a83e07bb62065be1074f"
-
-[[files]]
-file = "kubejs/server_scripts/ll_top.js"
-hash = "49e26bca8a01f2a1e9fed2c332497d3402740970da6cf831057e10bbf8573f9c"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -1403,6 +1507,22 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 [[files]]
 file = "kubejs/server_scripts/materials_recipes.js"
 hash = "ec5872cd6dfab12e3badeb075502f5a7791663c7af59c4b693a52efbdf60774b"
+
+[[files]]
+file = "kubejs/server_scripts/power_gates.js"
+hash = "f41f0449d939eeb4a5b1fbe5ae9062e61012b82a55d2e772ff00886f374c3b83"
+
+[[files]]
+file = "kubejs/server_scripts/rubber_farm.js"
+hash = "62a0eefad7e1abedf4425f7484da855f8ac7e5ae5ab4712c584a803aad6c0b6f"
+
+[[files]]
+file = "kubejs/server_scripts/stage_gates.js"
+hash = "372acfc6a08e3d870f4dbd3c8cdd00932a403e6983e1b246c10459319909807c"
+
+[[files]]
+file = "kubejs/server_scripts/uu_matter.js"
+hash = "0ab5e1f3c0c840b9c3737267608e5bdc44ff7cb4001784e454860dcbffcef79d"
 
 [[files]]
 file = "kubejs/server_scripts/web_1_casings.js"
@@ -1418,7 +1538,7 @@ hash = "22be91f1c80af343d682e20ec5b6f0459bd4e18f6e4b5312bdb2d7396c35e397"
 
 [[files]]
 file = "kubejs/server_scripts/web_4_ores.js"
-hash = "c8db7d42bcb4c8951beb41a266586985c593d8a0e1f70a24bc909c9206d8ac4e"
+hash = "5b6b0b8d10958e3dc5bd0dd830b3c2ba7f43134d38b6a2f52a6e99a2eeb65875"
 
 [[files]]
 file = "kubejs/server_scripts/web_5_gear.js"
@@ -1458,6 +1578,11 @@ hash = "55e42a2bc361c0319990d362aa3f2a92fec0ca1dcbf567c94481aca169991496"
 metafile = true
 
 [[files]]
+file = "mods/advancedae.pw.toml"
+hash = "44791600b6d51fed024525689166334f8e3bc97cce2acef9190f244319ea6cf8"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
 metafile = true
@@ -1470,6 +1595,11 @@ metafile = true
 [[files]]
 file = "mods/almostunified.pw.toml"
 hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
+metafile = true
+
+[[files]]
+file = "mods/angel-utilities.pw.toml"
+hash = "205c206b3b2f976ed314ec116a8f537f08cbb0c98044869fbe7788886be88e0b"
 metafile = true
 
 [[files]]
@@ -1513,6 +1643,11 @@ hash = "e86ba611faf7caeed1ea1191e17d6f396e9467a055facf94ab106ef87c24b305"
 metafile = true
 
 [[files]]
+file = "mods/building-wands.pw.toml"
+hash = "98de570e4873e332455e5526ed5b62779cdb23c217efac51ad864ae510861456"
+metafile = true
+
+[[files]]
 file = "mods/carry-on.pw.toml"
 hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
 metafile = true
@@ -1545,11 +1680,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
-metafile = true
-
-[[files]]
-file = "mods/e4mc.pw.toml"
-hash = "c64bffb51596c65dbea0a7f12a6bd55ea55ef015dcc27779a87f7092714fe9a9"
 metafile = true
 
 [[files]]
@@ -1683,6 +1813,11 @@ hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]
+file = "mods/iron-chests.pw.toml"
+hash = "dece537517d18acee6cb2d7078200f0476b5d7e2424676d1b290994fd40b2b48"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "4de3e4a1a49e332c1ad313283e0403c4273b628d634c17a9ff0c9da3d6b67f9a"
 metafile = true
@@ -1724,7 +1859,12 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "4a615989fef544eaf1f1b6809f6bca473036cb90bbfd7ef1be44faa1b7175482"
+hash = "1a5466cb96f9af91d5cb27b48763017bf5c774bdc4817199eb60f4e47e404150"
+
+[[files]]
+file = "mods/mega.pw.toml"
+hash = "c9f9996ced5f4abf2ab982bb2521bef1798cf1fc6d6ebc435e38075894921efe"
+metafile = true
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
@@ -1789,11 +1929,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
-metafile = true
-
-[[files]]
-file = "mods/quantum-generators.pw.toml"
-hash = "6afa4594c71075bd279e2715e5fae931e28a1d7c35cb88e3fc4ea28f0982aa7c"
 metafile = true
 
 [[files]]

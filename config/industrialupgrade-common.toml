@@ -847,7 +847,7 @@
 	#Improved Matter Fabricator: energy storage (old value 900000F)
 	# Default: 900000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	improved_matter_fabricator_energy_storage = 900000.0
+	improved_matter_fabricator_energy_storage = 900.0
 	#Improved Oil Refiner: air pollution amount (old value 0.2)
 	# Default: 0.2
 	# Range: 0.0 ~ 1000000.0
@@ -1647,7 +1647,7 @@
 	#Matter Fabricator: energy storage (old value 1000000F)
 	# Default: 1000000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	matter_fabricator_energy_storage = 1000000.0
+	matter_fabricator_energy_storage = 1000.0
 	#Generator Perfect: air pollution amount (old value 0.2)
 	# Default: 0.2
 	# Range: 0.0 ~ 1000000.0
@@ -1799,7 +1799,7 @@
 	#Advanced Matter Fabricator: energy storage (old value 800000F)
 	# Default: 800000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	advanced_matter_fabricator_energy_storage = 800000.0
+	advanced_matter_fabricator_energy_storage = 800.0
 	#Advanced Oil Refiner: air pollution amount (old value 0.2)
 	# Default: 0.2
 	# Range: 0.0 ~ 1000000.0
@@ -2171,7 +2171,7 @@
 	#Perfect Matter Fabricator: energy storage (old value 700000F)
 	# Default: 700000.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	perfect_matter_fabricator_energy_storage = 700000.0
+	perfect_matter_fabricator_energy_storage = 700.0
 	#Perfect Redstone Generator: air pollution amount (old value 0.1)
 	# Default: 0.1
 	# Range: 0.0 ~ 1000000.0
