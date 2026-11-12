@@ -3,279 +3,637 @@
 	default_quest_shape: ""
 	filename: "energy"
 	group: ""
-	icon: { id: "industrialupgrade:wiring_storage/mfsu_iu" }
+	icon: {
+		id: "industrialupgrade:wiring_storage/mfsu_iu"
+	}
 	id: "6AF521A5E89F8DCF"
-	images: [{ alpha: 255, color: 16777215, height: 15.7d, image: "kubejs:textures/quests/ch_energy.png", order: -10, rotation: 0.0d, width: 33.3d, x: 12.65d, y: 0.25d }]
+	images: [{
+		height: 15.7d
+		id: "4C5F86431691AB1C"
+		image: "kubejs:textures/quests/ch_energy.png"
+		order: -10
+		rotation: 0.0d
+		width: 33.3d
+		x: 12.65d
+		y: 0.25d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "industrialupgrade:battery/re_battery" }
+			icon: {
+				id: "industrialupgrade:battery/re_battery"
+			}
 			id: "7CE7FA512F427214"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "0916603054EDF441", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "0916603054EDF441"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["49F2E15ACBBEFF33", "44BC16D77AC07609"]
-			icon: { count: 1, id: "mekanismgenerators:heat_generator" }
+			dependencies: [
+				"49F2E15ACBBEFF33"
+				"44BC16D77AC07609"
+			]
+			icon: {
+				id: "mekanismgenerators:heat_generator"
+			}
 			id: "75653975143FBC7F"
-			rewards: [{ count: 1, id: "7108F606BD0E5F78", item: { count: 1, id: "minecraft:lava_bucket" }, type: "item" }]
+			rewards: [{
+				id: "7108F606BD0E5F78"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "44CE519469A8FB01", item: { count: 1, id: "mekanismgenerators:heat_generator" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				id: "44CE519469A8FB01"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74A465DE14F03163"]
-			icon: { count: 1, id: "industrialupgrade:basemachine3/geogenerator_iu" }
+			icon: {
+				id: "industrialupgrade:basemachine3/geogenerator_iu"
+			}
 			id: "5C9A513A3DB36F0E"
-			rewards: [{ count: 1, id: "143B8C2D48316E3E", item: { count: 1, id: "minecraft:lava_bucket" }, type: "item" }]
+			rewards: [{
+				id: "143B8C2D48316E3E"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "09EB0CCE7B507503", item: { count: 1, id: "industrialupgrade:basemachine3/geogenerator_iu" }, type: "item" }]
-			x: 4.60d
-			y: -0.80d
+			tasks: [{
+				id: "09EB0CCE7B507503"
+				item: { count: 1, id: "industrialupgrade:basemachine3/geogenerator_iu" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: -0.8d
 		}
 		{
 			dependencies: ["74A465DE14F03163"]
-			icon: { count: 1, id: "industrialupgrade:battery/re_battery" }
+			icon: {
+				id: "industrialupgrade:battery/re_battery"
+			}
 			id: "0E305D5A42FDA556"
-			rewards: [{ count: 8, id: "722671C63F3B88C1", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "722671C63F3B88C1"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 2L, id: "075F6993064DBFA8", item: { count: 1, id: "industrialupgrade:battery/re_battery" }, type: "item" }]
-			x: 6.90d
-			y: -0.40d
+			tasks: [{
+				count: 2L
+				id: "075F6993064DBFA8"
+				item: { count: 1, id: "industrialupgrade:battery/re_battery" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: -0.4d
 		}
 		{
 			dependencies: ["0E305D5A42FDA556"]
-			icon: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }
+			icon: {
+				id: "industrialupgrade:wiring_storage/batbox_iu"
+			}
 			id: "39FE718EA9D422CF"
-			rewards: [{ count: 16, id: "54C7E19CD6CC35D4", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "54C7E19CD6CC35D4"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "141CE5D503DC9AEE", item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "141CE5D503DC9AEE"
+				item: { count: 1, id: "industrialupgrade:wiring_storage/batbox_iu" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["39FE718EA9D422CF"]
-			icon: { count: 1, id: "industrialupgrade:transformer_iu/mv" }
+			icon: {
+				id: "industrialupgrade:transformer_iu/mv"
+			}
 			id: "6B527037F798F89E"
-			rewards: [{ count: 8, id: "573606CBF2E4D265", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "573606CBF2E4D265"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "2747D0FDE8097522", item: { count: 1, id: "industrialupgrade:transformer_iu/mv" }, type: "item" }]
-			x: 11.50d
-			y: -1.90d
+			tasks: [{
+				id: "2747D0FDE8097522"
+				item: { count: 1, id: "industrialupgrade:transformer_iu/mv" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.9d
 		}
 		{
 			dependencies: ["39FE718EA9D422CF"]
-			icon: { count: 1, id: "industrialupgrade:wiring_storage/cesu_iu" }
+			icon: {
+				id: "industrialupgrade:wiring_storage/cesu_iu"
+			}
 			id: "775AB13FCD68D1BD"
-			rewards: [{ count: 4, id: "3F3DF21AD1618036", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "3F3DF21AD1618036"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "78E1E8E0F9E060F4", item: { count: 1, id: "industrialupgrade:wiring_storage/cesu_iu" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				id: "78E1E8E0F9E060F4"
+				item: { count: 1, id: "industrialupgrade:wiring_storage/cesu_iu" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["07D97DCA4974CBD2"]
-			icon: { count: 1, id: "kubejs:fluorite_crystal" }
+			icon: {
+				id: "kubejs:fluorite_crystal"
+			}
 			id: "125D53D683D7A3D9"
-			rewards: [{ count: 4, id: "3A5A9B68DB1C880E", item: { count: 1, id: "mekanism:fluorite_gem" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "3A5A9B68DB1C880E"
+				item: {
+					count: 1
+					id: "mekanism:fluorite_gem"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 2L, id: "25D9E37371FFAC3A", item: { count: 1, id: "kubejs:fluorite_crystal" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				count: 2L
+				id: "25D9E37371FFAC3A"
+				item: { count: 1, id: "kubejs:fluorite_crystal" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75653975143FBC7F"]
-			icon: { count: 1, id: "powah:furnator_starter" }
+			icon: {
+				id: "powah:furnator_starter"
+			}
 			id: "148A61F0C1EA4722"
-			rewards: [{ count: 16, id: "6EEBD2481EEC3A9F", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "6EEBD2481EEC3A9F"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "13D30E16D6DB214C", item: { count: 1, id: "powah:furnator_starter" }, type: "item" }]
-			x: 16.10d
-			y: 1.90d
+			tasks: [{
+				id: "13D30E16D6DB214C"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 1.9d
 		}
 		{
-			dependencies: ["125D53D683D7A3D9", "148A61F0C1EA4722"]
-			icon: { count: 1, id: "powah:solar_panel_basic" }
+			dependencies: [
+				"125D53D683D7A3D9"
+				"148A61F0C1EA4722"
+			]
+			icon: {
+				id: "powah:solar_panel_basic"
+			}
 			id: "37AD199AC893C0C3"
-			rewards: [{ count: 8, id: "7CAE1AFA854286CD", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7CAE1AFA854286CD"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "5588AFD570B0E269", item: { count: 1, id: "powah:solar_panel_basic" }, type: "item" }]
-			x: 18.40d
-			y: 0.00d
+			tasks: [{
+				id: "5588AFD570B0E269"
+				item: { count: 1, id: "powah:solar_panel_basic" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["125D53D683D7A3D9"]
-			icon: { count: 1, id: "mekanism:basic_energy_cube" }
+			icon: {
+				id: "mekanism:basic_energy_cube"
+			}
 			id: "65097D6A6F21331D"
-			rewards: [{ count: 4, id: "6B4B72F64488C15D", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6B4B72F64488C15D"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "3E6BEB2C0C1EC55F", item: { count: 1, id: "mekanism:basic_energy_cube" }, type: "item" }]
-			x: 20.70d
-			y: -1.90d
+			tasks: [{
+				id: "3E6BEB2C0C1EC55F"
+				item: { count: 1, id: "mekanism:basic_energy_cube" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: -1.9d
 		}
 		{
-			dependencies: ["775AB13FCD68D1BD", "4C6AC41A4E55F9BE"]
-			icon: { count: 1, id: "industrialupgrade:wiring_storage/mfsu_iu" }
+			dependencies: [
+				"775AB13FCD68D1BD"
+				"4C6AC41A4E55F9BE"
+			]
+			icon: {
+				id: "industrialupgrade:wiring_storage/mfsu_iu"
+			}
 			id: "705F7F73C3046095"
-			rewards: [{ count: 16, id: "1BD682A9988C2E10", item: { count: 1, id: "minecraft:lapis_lazuli" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "1BD682A9988C2E10"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "232B6CBEBC351E5F", item: { count: 1, id: "industrialupgrade:wiring_storage/mfsu_iu" }, type: "item" }]
-			x: 20.70d
-			y: -3.60d
+			tasks: [{
+				id: "232B6CBEBC351E5F"
+				item: { count: 1, id: "industrialupgrade:wiring_storage/mfsu_iu" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: -3.6d
 		}
 		{
 			dependencies: ["26FBAB1F2E6D29C0"]
-			icon: { count: 1, id: "mekanismgenerators:wind_generator" }
+			icon: {
+				id: "mekanismgenerators:wind_generator"
+			}
 			id: "47FC54E3092CACE9"
-			rewards: [{ count: 4, id: "3312ACDB21776AD1", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "3312ACDB21776AD1"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "6F49563D4B15F08D", item: { count: 1, id: "mekanismgenerators:wind_generator" }, type: "item" }]
-			x: 23.00d
-			y: 0.00d
+			tasks: [{
+				id: "6F49563D4B15F08D"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["26FBAB1F2E6D29C0"]
-			icon: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+			icon: {
+				id: "mekanismgenerators:advanced_solar_generator"
+			}
 			id: "46925C3E8F875098"
-			rewards: [{ count: 16, id: "6BBC4FD55AFB210B", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "6BBC4FD55AFB210B"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "1316CC1F076554B1", item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }, type: "item" }]
-			x: 25.30d
-			y: 1.90d
+			tasks: [{
+				id: "1316CC1F076554B1"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: 25.3d
+			y: 1.9d
 		}
 		{
 			dependencies: ["26FBAB1F2E6D29C0"]
-			icon: { count: 1, id: "fluxnetworks:flux_controller" }
+			icon: {
+				id: "fluxnetworks:flux_controller"
+			}
 			id: "76446326B9767EEA"
-			rewards: [{ count: 16, id: "2604DB346DF1F366", item: { count: 1, id: "fluxnetworks:flux_dust" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "2604DB346DF1F366"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "684D1F82C6489796", item: { count: 1, id: "fluxnetworks:flux_controller" }, type: "item" }]
-			x: 25.30d
-			y: -1.90d
+			tasks: [{
+				id: "684D1F82C6489796"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 25.3d
+			y: -1.9d
 		}
 		{
 			dependencies: ["74A465DE14F03163"]
-			icon: { count: 1, id: "industrialupgrade:basemachine3/simple_wind_generator" }
+			icon: {
+				id: "industrialupgrade:basemachine3/simple_wind_generator"
+			}
 			id: "006BA0A32C36E7F2"
-			rewards: [{ count: 1, id: "3878DFD1021CD7F6", item: { count: 1, id: "industrialupgrade:rotor/rotor_wood" }, type: "item" }]
+			rewards: [{
+				id: "3878DFD1021CD7F6"
+				item: {
+					count: 1
+					id: "industrialupgrade:rotor/rotor_wood"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "0A6E112487AA0EEF", item: { count: 1, id: "industrialupgrade:basemachine3/simple_wind_generator" }, type: "item" }]
-			x: 0.00d
-			y: 4.10d
+			tasks: [{
+				id: "0A6E112487AA0EEF"
+				item: { count: 1, id: "industrialupgrade:basemachine3/simple_wind_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.1d
 		}
 		{
 			dependencies: ["006BA0A32C36E7F2"]
-			icon: { count: 1, id: "industrialupgrade:rotor/rotor_iron" }
+			icon: {
+				id: "industrialupgrade:rotor/rotor_iron"
+			}
 			id: "1B20C4899874A607"
-			rewards: [{ count: 8, id: "116C354574AD9241", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "116C354574AD9241"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "49595738DFF2F1DA", item: { count: 1, id: "industrialupgrade:rotor/rotor_iron" }, type: "item" }]
-			x: 2.30d
-			y: 4.10d
+			tasks: [{
+				id: "49595738DFF2F1DA"
+				item: { count: 1, id: "industrialupgrade:rotor/rotor_iron" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 4.1d
 		}
 		{
-			dependencies: ["1B20C4899874A607", "26FBAB1F2E6D29C0"]
-			icon: { count: 1, id: "industrialupgrade:basemachine3/adv_wind_generator" }
+			dependencies: [
+				"1B20C4899874A607"
+				"26FBAB1F2E6D29C0"
+			]
+			icon: {
+				id: "industrialupgrade:basemachine3/adv_wind_generator"
+			}
 			id: "2B2D7856FC92F058"
-			rewards: [{ count: 4, id: "28C006DB05E41CC1", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_282_element" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "28C006DB05E41CC1"
+				item: {
+					count: 1
+					id: "industrialupgrade:crafting_elements/crafting_282_element"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "69C0986FCAB61CFF", item: { count: 1, id: "industrialupgrade:basemachine3/adv_wind_generator" }, type: "item" }]
-			x: 4.60d
-			y: 4.10d
+			tasks: [{
+				id: "69C0986FCAB61CFF"
+				item: { count: 1, id: "industrialupgrade:basemachine3/adv_wind_generator" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 4.1d
 		}
 		{
 			dependencies: ["2B2D7856FC92F058"]
-			icon: { count: 1, id: "industrialupgrade:rotor/iridium" }
+			icon: {
+				id: "industrialupgrade:rotor/iridium"
+			}
 			id: "6BFB399E7B7E3E45"
-			rewards: [{ count: 2, id: "7BB946CB604C49D1", item: { count: 1, id: "industrialupgrade:itemplates/iridium_plate" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "7BB946CB604C49D1"
+				item: {
+					count: 1
+					id: "industrialupgrade:itemplates/iridium_plate"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "01A92663BC6BC168", item: { count: 1, id: "industrialupgrade:rotor/iridium" }, type: "item" }]
-			x: 6.90d
-			y: 4.10d
+			tasks: [{
+				id: "01A92663BC6BC168"
+				item: { count: 1, id: "industrialupgrade:rotor/iridium" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 4.1d
 		}
 		{
-			dependencies: ["6BFB399E7B7E3E45", "26FBAB1F2E6D29C0"]
-			icon: { count: 1, id: "maelstromtech:chrysolite_wind_rotor" }
+			dependencies: [
+				"6BFB399E7B7E3E45"
+				"26FBAB1F2E6D29C0"
+			]
+			icon: {
+				id: "maelstromtech:chrysolite_wind_rotor"
+			}
 			id: "4DAABB64510C69F7"
-			rewards: [{ count: 2, id: "692857B942400F66", item: { count: 1, id: "kubejs:chrysolite_crystal" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "692857B942400F66"
+				item: {
+					count: 1
+					id: "kubejs:chrysolite_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "384A39D1C023B0FC", item: { count: 1, id: "maelstromtech:chrysolite_wind_rotor" }, type: "item" }]
-			x: 9.20d
-			y: 4.10d
+			tasks: [{
+				id: "384A39D1C023B0FC"
+				item: { count: 1, id: "maelstromtech:chrysolite_wind_rotor" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 4.1d
 		}
 		{
-			dependencies: ["4DAABB64510C69F7", "2D34AA8C81E3003B"]
-			icon: { count: 1, id: "maelstromtech:ametrine_wind_rotor" }
+			dependencies: [
+				"4DAABB64510C69F7"
+				"2D34AA8C81E3003B"
+			]
+			icon: {
+				id: "maelstromtech:ametrine_wind_rotor"
+			}
 			id: "43CDC32B6DE53735"
-			rewards: [{ count: 1, id: "4ED299E996A2B109", item: { count: 1, id: "kubejs:energized_ametrine_crystal" }, type: "item" }]
+			rewards: [{
+				id: "4ED299E996A2B109"
+				item: {
+					count: 1
+					id: "kubejs:energized_ametrine_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "1B78511587E96EC0", item: { count: 1, id: "maelstromtech:ametrine_wind_rotor" }, type: "item" }]
-			x: 11.50d
-			y: 4.10d
+			tasks: [{
+				id: "1B78511587E96EC0"
+				item: { count: 1, id: "maelstromtech:ametrine_wind_rotor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.1d
 		}
 		{
 			dependencies: ["43CDC32B6DE53735"]
-			icon: { count: 1, id: "industrialupgrade:basemachine3/imp_wind_generator" }
+			icon: {
+				id: "industrialupgrade:basemachine3/imp_wind_generator"
+			}
 			id: "2FEC495DA829AA82"
-			rewards: [{ count: 2, id: "7AA65AF5553802EF", item: { count: 1, id: "mekanism:pellet_plutonium" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "7AA65AF5553802EF"
+				item: {
+					count: 1
+					id: "mekanism:pellet_plutonium"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "4F118A005BBF3BC8", item: { count: 1, id: "industrialupgrade:basemachine3/imp_wind_generator" }, type: "item" }]
-			x: 13.80d
-			y: 4.10d
+			tasks: [{
+				id: "4F118A005BBF3BC8"
+				item: { count: 1, id: "industrialupgrade:basemachine3/imp_wind_generator" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 4.1d
 		}
 		{
-			dependencies: ["2FEC495DA829AA82", "0FDF3E3AA401D6C1"]
-			icon: { count: 1, id: "maelstromtech:quantum_wind_rotor" }
+			dependencies: [
+				"2FEC495DA829AA82"
+				"0FDF3E3AA401D6C1"
+			]
+			icon: {
+				id: "maelstromtech:quantum_wind_rotor"
+			}
 			id: "38E2233895CBED66"
-			rewards: [{ count: 2, id: "648F10CA382BADDA", item: { count: 1, id: "mekanism:pellet_plutonium" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "648F10CA382BADDA"
+				item: {
+					count: 1
+					id: "mekanism:pellet_plutonium"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "3AD6AFBF15C46568", item: { count: 1, id: "maelstromtech:quantum_wind_rotor" }, type: "item" }]
-			x: 16.10d
-			y: 4.10d
+			tasks: [{
+				id: "3AD6AFBF15C46568"
+				item: { count: 1, id: "maelstromtech:quantum_wind_rotor" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 4.1d
 		}
 		{
-			dependencies: ["38E2233895CBED66", "72735F288CEFDEBA"]
-			icon: { count: 1, id: "maelstromtech:void_wind_rotor" }
+			dependencies: [
+				"38E2233895CBED66"
+				"72735F288CEFDEBA"
+			]
+			icon: {
+				id: "maelstromtech:void_wind_rotor"
+			}
 			id: "2C60A43EF1B321C0"
-			rewards: [{ count: 1, id: "5ECDBD997CBA6222", item: { count: 1, id: "draconicevolution:wyvern_core" }, type: "item" }]
+			rewards: [{
+				id: "5ECDBD997CBA6222"
+				item: {
+					count: 1
+					id: "draconicevolution:wyvern_core"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "17BEAB2E118ECCBF", item: { count: 1, id: "maelstromtech:void_wind_rotor" }, type: "item" }]
-			x: 18.40d
-			y: 4.10d
+			tasks: [{
+				id: "17BEAB2E118ECCBF"
+				item: { count: 1, id: "maelstromtech:void_wind_rotor" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 4.1d
 		}
 	]
 }

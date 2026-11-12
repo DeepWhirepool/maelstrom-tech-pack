@@ -3,168 +3,353 @@
 	default_quest_shape: ""
 	filename: "start"
 	group: ""
-	icon: { id: "minecraft:crafting_table" }
+	icon: {
+		id: "minecraft:crafting_table"
+	}
 	id: "3EEEA95ECFE88051"
-	images: [{ alpha: 255, color: 16777215, height: 12.7d, image: "kubejs:textures/quests/ch_start.png", order: -10, rotation: 0.0d, width: 28.7d, x: 10.35d, y: 0.45d }]
+	images: [{
+		height: 12.7d
+		id: "7FEA111658EBD694"
+		image: "kubejs:textures/quests/ch_start.png"
+		order: -10
+		rotation: 0.0d
+		width: 28.7d
+		x: 10.35d
+		y: 0.45d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: []
-			icon: { count: 1, id: "minecraft:crafting_table" }
+			icon: {
+				id: "minecraft:crafting_table"
+			}
 			id: "1D79CEACEA21937D"
-			rewards: [{ count: 8, id: "0740EE2847EFE051", item: { count: 1, id: "minecraft:bread" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "0740EE2847EFE051"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "1C51C07853713C24", item: { count: 1, id: "minecraft:crafting_table" }, type: "item" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "1C51C07853713C24"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "minecraft:filled_map" }
+			icon: {
+				id: "minecraft:filled_map"
+			}
 			id: "1826BC54A7EAFAB0"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "3D4EBE6ABC2FB939", type: "checkmark" }]
-			x: 2.30d
-			y: -1.90d
+			tasks: [{
+				id: "3D4EBE6ABC2FB939"
+				type: "checkmark"
+			}]
+			x: 2.3d
+			y: -1.9d
 		}
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "minecraft:book" }
+			icon: {
+				id: "minecraft:book"
+			}
 			id: "273976CBCCAFDB80"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "1E7A404321AB7201", type: "checkmark" }]
-			x: 2.30d
-			y: 1.90d
+			tasks: [{
+				id: "1E7A404321AB7201"
+				type: "checkmark"
+			}]
+			x: 2.3d
+			y: 1.9d
 		}
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "immersiveengineering:hammer" }
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
 			id: "4A1DC65847DBC1AF"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "748D75D1D88B6941", type: "checkmark" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				id: "748D75D1D88B6941"
+				type: "checkmark"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A1DC65847DBC1AF"]
-			icon: { count: 1, id: "minecraft:raw_iron" }
+			icon: {
+				id: "minecraft:raw_iron"
+			}
 			id: "2EBA076B0BE750B8"
-			rewards: [{ count: 16, id: "5527107A814215AA", item: { count: 1, id: "minecraft:torch" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "5527107A814215AA"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "7062F950FCFA6A85", item: { count: 1, id: "minecraft:raw_iron" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "7062F950FCFA6A85"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2EBA076B0BE750B8"]
-			icon: { count: 1, id: "minecraft:raw_copper" }
+			icon: {
+				id: "minecraft:raw_copper"
+			}
 			id: "44BC16D77AC07609"
-			rewards: [{ count: 8, id: "729526B2321D52FA", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "729526B2321D52FA"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "1E5DAC332894CE9C", item: { count: 1, id: "minecraft:raw_copper" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "1E5DAC332894CE9C"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44BC16D77AC07609"]
-			icon: { count: 1, id: "mekanism:raw_tin" }
+			icon: {
+				id: "mekanism:raw_tin"
+			}
 			id: "32EF6B068D15CC53"
-			rewards: [{ count: 8, id: "07ACBFBE300A1790", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "07ACBFBE300A1790"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "4B4BFF929274AA74", item: { count: 1, id: "mekanism:raw_tin" }, type: "item" }]
-			x: 9.20d
-			y: -1.90d
+			tasks: [{
+				count: 4L
+				id: "4B4BFF929274AA74"
+				item: { count: 1, id: "mekanism:raw_tin" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: -1.9d
 		}
 		{
 			dependencies: ["44BC16D77AC07609"]
-			icon: { count: 1, id: "mekanism:raw_osmium" }
+			icon: {
+				id: "mekanism:raw_osmium"
+			}
 			id: "49F2E15ACBBEFF33"
-			rewards: [{ count: 8, id: "42FECF92058383B2", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "42FECF92058383B2"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "315342A5CB52FED0", item: { count: 1, id: "mekanism:raw_osmium" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "315342A5CB52FED0"
+				item: { count: 1, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2EBA076B0BE750B8"]
-			icon: { count: 1, id: "immersiveengineering:hammer" }
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
 			id: "4DE4FA543230DF2A"
-			rewards: [{ count: 4, id: "3D2F1AC6E9D02E5E", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "3D2F1AC6E9D02E5E"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "420B2F25B367007E", item: { count: 1, id: "immersiveengineering:hammer" }, type: "item" }]
-			x: 11.50d
-			y: 2.80d
+			tasks: [{
+				id: "420B2F25B367007E"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.8d
 		}
 		{
 			dependencies: ["4DE4FA543230DF2A"]
-			icon: { count: 1, id: "immersiveengineering:plate_iron" }
+			icon: {
+				id: "immersiveengineering:plate_iron"
+			}
 			id: "6CCE8C843CFF2AF3"
-			rewards: [{ count: 4, id: "212F43E6148DD71F", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "212F43E6148DD71F"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "6DE3282FB1F3318D", item: { count: 1, id: "immersiveengineering:plate_iron" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "6DE3282FB1F3318D"
+				item: { count: 1, id: "immersiveengineering:plate_iron" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6CCE8C843CFF2AF3"]
-			icon: { count: 1, id: "immersiveengineering:coal_coke" }
+			icon: {
+				id: "immersiveengineering:coal_coke"
+			}
 			id: "5BA2B50281B37B21"
-			rewards: [{ count: 16, id: "67F0931A3DC9AE12", item: { count: 1, id: "minecraft:clay_ball" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "67F0931A3DC9AE12"
+				item: {
+					count: 1
+					id: "minecraft:clay_ball"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 8L, id: "02FF08B859341BE3", item: { count: 1, id: "immersiveengineering:coal_coke" }, type: "item" }]
-			x: 16.10d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "02FF08B859341BE3"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5BA2B50281B37B21"]
-			icon: { count: 1, id: "immersiveengineering:ingot_steel" }
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
 			id: "5BCB1DDFB39AF6BE"
-			rewards: [{ count: 8, id: "7230E94254548953", item: { count: 1, id: "immersiveengineering:coal_coke" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7230E94254548953"
+				item: {
+					count: 1
+					id: "immersiveengineering:coal_coke"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 4L, id: "64EB17FB6BAF4376", item: { count: 1, id: "immersiveengineering:ingot_steel" }, type: "item" }]
-			x: 18.40d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "64EB17FB6BAF4376"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5BCB1DDFB39AF6BE"]
-			icon: { count: 1, id: "immersiveengineering:raw_aluminum" }
+			icon: {
+				id: "immersiveengineering:raw_aluminum"
+			}
 			id: "20650AE597A021DF"
-			rewards: [{ count: 8, id: "658D6FF8B9767566", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "658D6FF8B9767566"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "789540A0B0978E87", item: { count: 1, id: "immersiveengineering:raw_aluminum" }, type: "item" }]
-			x: 20.70d
-			y: 1.90d
+			tasks: [{
+				count: 4L
+				id: "789540A0B0978E87"
+				item: { count: 1, id: "immersiveengineering:raw_aluminum" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: 1.9d
 		}
 		{
 			dependencies: ["5BCB1DDFB39AF6BE"]
-			icon: { count: 1, id: "immersiveengineering:dust_iron" }
+			icon: {
+				id: "immersiveengineering:dust_iron"
+			}
 			id: "4CD1112BFC988674"
-			rewards: [{ count: 8, id: "6328D930F72E1632", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "6328D930F72E1632"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "1C573BA9D2C84B47", item: { count: 1, id: "immersiveengineering:dust_iron" }, type: "item" }]
-			x: 20.70d
-			y: -1.90d
+			tasks: [{
+				count: 8L
+				id: "1C573BA9D2C84B47"
+				item: { count: 1, id: "immersiveengineering:dust_iron" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: -1.9d
 		}
 	]
 }

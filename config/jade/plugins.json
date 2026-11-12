@@ -59,16 +59,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "enderio": {
-    "soul_bound": true
-  },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
   "oritech": {
     "machine_core_controller": true
   },
@@ -91,12 +81,6 @@
     "block_properties": false,
     "mod_name": true
   },
-  "waystones": {
-    "waystone": true
-  },
-  "gravestone": {
-    "grave": true
-  },
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -115,5 +99,24 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "enderio": {
+    "soul_bound": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "maelstromtech": {
+    "machine": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "gravestone": {
+    "grave": true
   }
 }

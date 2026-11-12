@@ -3,111 +3,248 @@
 	default_quest_shape: ""
 	filename: "oritech"
 	group: ""
-	icon: { id: "oritech:motor" }
+	icon: {
+		id: "oritech:motor"
+	}
 	id: "2AB957C6D02F7422"
-	images: [{ alpha: 255, color: 16777215, height: 8.0d, image: "kubejs:textures/quests/ch_oritech.png", order: -10, rotation: 0.0d, width: 26.4d, x: 9.20d, y: 0.00d }]
+	images: [{
+		height: 8.0d
+		id: "68DA86437D3EBC75"
+		image: "kubejs:textures/quests/ch_oritech.png"
+		order: -10
+		rotation: 0.0d
+		width: 26.4d
+		x: 9.2d
+		y: 0.0d
+	}]
 	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5BCB1DDFB39AF6BE"]
-			icon: { count: 1, id: "oritech:motor" }
+			icon: {
+				id: "oritech:motor"
+			}
 			id: "4741541B4EDC6298"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "53AB44BEC2446CEF", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "53AB44BEC2446CEF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4741541B4EDC6298"]
-			icon: { count: 1, id: "oritech:motor" }
+			icon: {
+				id: "oritech:motor"
+			}
 			id: "5AD19CB91CDB12BB"
-			rewards: [{ count: 8, id: "7DDC938A460FB546", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7DDC938A460FB546"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 2L, id: "125C4C7E15008930", item: { count: 1, id: "oritech:motor" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				count: 2L
+				id: "125C4C7E15008930"
+				item: { count: 1, id: "oritech:motor" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5AD19CB91CDB12BB"]
-			icon: { count: 1, id: "oritech:pulverizer_block" }
+			icon: {
+				id: "oritech:pulverizer_block"
+			}
 			id: "0923C5525129E75A"
-			rewards: [{ count: 8, id: "24D349A2B0189B50", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "24D349A2B0189B50"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "4E60BB4381D53DEB", item: { count: 1, id: "oritech:pulverizer_block" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				id: "4E60BB4381D53DEB"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0923C5525129E75A"]
-			icon: { count: 1, id: "oritech:assembler_block" }
+			icon: {
+				id: "oritech:assembler_block"
+			}
 			id: "594681FF0B6DBB7E"
-			rewards: [{ count: 16, id: "7333E87B01230039", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "7333E87B01230039"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "1E53890FD19B5472", item: { count: 1, id: "oritech:assembler_block" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				id: "1E53890FD19B5472"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
-			dependencies: ["594681FF0B6DBB7E", "27B888B6AE8EFBCE"]
-			icon: { count: 1, id: "oritech:fluxite" }
+			dependencies: [
+				"594681FF0B6DBB7E"
+				"27B888B6AE8EFBCE"
+			]
+			icon: {
+				id: "oritech:fluxite"
+			}
 			id: "7C9EAFE2A0A72A9D"
-			rewards: [{ count: 8, id: "5B1BDDE657B92416", item: { count: 1, id: "minecraft:amethyst_shard" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "5B1BDDE657B92416"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "3B37ABD0110E53A9", item: { count: 1, id: "oritech:fluxite" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "3B37ABD0110E53A9"
+				item: { count: 1, id: "oritech:fluxite" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7C9EAFE2A0A72A9D"]
-			icon: { count: 1, id: "oritech:accelerator_ring" }
+			icon: {
+				id: "oritech:accelerator_ring"
+			}
 			id: "05EA7379AAB2A092"
-			rewards: [{ count: 8, id: "7E3BEB1B7B830E47", item: { count: 1, id: "mekanism:ingot_steel" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7E3BEB1B7B830E47"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "3E9C99BC3B0AF421", item: { count: 1, id: "oritech:accelerator_ring" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "3E9C99BC3B0AF421"
+				item: { count: 1, id: "oritech:accelerator_ring" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["05EA7379AAB2A092", "72735F288CEFDEBA"]
-			icon: { count: 1, id: "oritech:accelerator_controller" }
+			dependencies: [
+				"05EA7379AAB2A092"
+				"72735F288CEFDEBA"
+			]
+			icon: {
+				id: "oritech:accelerator_controller"
+			}
 			id: "559778D392E190BA"
-			rewards: [{ count: 2, id: "65551E88C886A4B1", item: { count: 1, id: "minecraft:redstone_block" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "65551E88C886A4B1"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "0DC8819C48FB2B1D", item: { count: 1, id: "oritech:accelerator_controller" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				id: "0DC8819C48FB2B1D"
+				item: { count: 1, id: "oritech:accelerator_controller" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["559778D392E190BA"]
-			icon: { count: 1, id: "oritech:atomic_forge_block" }
+			icon: {
+				id: "oritech:atomic_forge_block"
+			}
 			id: "1C831FDA1FA46B9F"
-			rewards: [{ count: 2, id: "2F2703159C4CBE88", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "2F2703159C4CBE88"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "24D2623A5113BABC", item: { count: 1, id: "oritech:atomic_forge_block" }, type: "item" }]
-			x: 16.10d
-			y: 0.00d
+			tasks: [{
+				id: "24D2623A5113BABC"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1C831FDA1FA46B9F"]
-			icon: { count: 1, id: "oritech:overcharged_crystal" }
+			icon: {
+				id: "oritech:overcharged_crystal"
+			}
 			id: "498406F7700741F7"
-			rewards: [{ count: 2, id: "4382B14BC3A90B2D", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "4382B14BC3A90B2D"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "1D713E20EB1A3B61", item: { count: 1, id: "oritech:overcharged_crystal" }, type: "item" }]
-			x: 18.40d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "1D713E20EB1A3B61"
+				item: { count: 1, id: "oritech:overcharged_crystal" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 0.0d
 		}
 	]
 }

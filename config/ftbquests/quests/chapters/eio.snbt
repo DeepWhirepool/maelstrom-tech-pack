@@ -3,78 +3,176 @@
 	default_quest_shape: ""
 	filename: "eio"
 	group: ""
-	icon: { id: "enderio:sag_mill" }
+	icon: {
+		id: "enderio:sag_mill"
+	}
 	id: "3ACB3BC6FBAA88E0"
-	images: [{ alpha: 255, color: 16777215, height: 8.0d, image: "kubejs:textures/quests/ch_eio.png", order: -10, rotation: 0.0d, width: 19.5d, x: 5.75d, y: 0.00d }]
+	images: [{
+		height: 8.0d
+		id: "5F3196F34DB2E41C"
+		image: "kubejs:textures/quests/ch_eio.png"
+		order: -10
+		rotation: 0.0d
+		width: 19.5d
+		x: 5.75d
+		y: 0.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "enderio:sag_mill" }
+			icon: {
+				id: "enderio:sag_mill"
+			}
 			id: "456E1A57F18E9C71"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "429ED2983B386FF6", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "429ED2983B386FF6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["456E1A57F18E9C71", "5BCB1DDFB39AF6BE"]
-			icon: { count: 1, id: "enderio:sag_mill" }
+			dependencies: [
+				"456E1A57F18E9C71"
+				"5BCB1DDFB39AF6BE"
+			]
+			icon: {
+				id: "enderio:sag_mill"
+			}
 			id: "6598FE85D14E6807"
-			rewards: [{ count: 8, id: "751DC8D0C42EE50D", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "751DC8D0C42EE50D"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "4A7386F97231E217", item: { count: 1, id: "enderio:sag_mill" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				id: "4A7386F97231E217"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6598FE85D14E6807"]
-			icon: { count: 1, id: "enderio:energetic_alloy_ingot" }
+			icon: {
+				id: "enderio:energetic_alloy_ingot"
+			}
 			id: "5F9BD0BA57AC3489"
-			rewards: [{ count: 4, id: "38DD67F8E3EBFE13", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "38DD67F8E3EBFE13"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "4863F4E66578DF6B", item: { count: 1, id: "enderio:energetic_alloy_ingot" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "4863F4E66578DF6B"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
-			dependencies: ["125D53D683D7A3D9", "0E305D5A42FDA556"]
-			icon: { count: 1, id: "industrialupgrade:energy_tools/drill" }
+			dependencies: [
+				"125D53D683D7A3D9"
+				"0E305D5A42FDA556"
+			]
+			icon: {
+				id: "industrialupgrade:energy_tools/drill"
+			}
 			id: "772C4F4DC0AFBD66"
-			rewards: [{ count: 8, id: "5F15693C47D93442", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "5F15693C47D93442"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "172A6445AC89BC6B", item: { count: 1, id: "industrialupgrade:energy_tools/drill" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				id: "172A6445AC89BC6B"
+				item: { count: 1, id: "industrialupgrade:energy_tools/drill" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
-			dependencies: ["772C4F4DC0AFBD66", "705F7F73C3046095"]
-			icon: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }
+			dependencies: [
+				"772C4F4DC0AFBD66"
+				"705F7F73C3046095"
+			]
+			icon: {
+				id: "industrialupgrade:armour/nano_chestplate"
+			}
 			id: "4AD119DF453A6A8E"
-			rewards: [{ count: 16, id: "08AF8D8592C60ADA", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "08AF8D8592C60ADA"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "7DE802413607E871", item: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "7DE802413607E871"
+				item: { count: 1, id: "industrialupgrade:armour/nano_chestplate" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4AD119DF453A6A8E", "1E354D1E68CFDD49"]
-			icon: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }
+			dependencies: [
+				"4AD119DF453A6A8E"
+				"1E354D1E68CFDD49"
+			]
+			icon: {
+				id: "industrialupgrade:armour/quantum_chestplate"
+			}
 			id: "7ADA886F39D36BBD"
-			rewards: [{ count: 2, id: "7CF2952AB137BA3E", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "7CF2952AB137BA3E"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "35581F0E72F3D717", item: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				id: "35581F0E72F3D717"
+				item: { count: 1, id: "industrialupgrade:armour/quantum_chestplate" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 	]
 }

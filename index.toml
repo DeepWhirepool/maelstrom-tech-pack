@@ -242,11 +242,11 @@ hash = "ce5a04713181bd830382ae0f5f1baa0b4b6aff7fb416d81728579ee8539625f8"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
-hash = "e1ac9a10774e52792eadc82de142a4b898517a5e2bd243e323132cd807fa8218"
+hash = "47e7d28e93ca4501903b4c29ed6903bc6529b1f7818a200f97c59f394da5ad4e"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
-hash = "e5b5eeed06eb5c90e2c309e945a8bf38388e42e523648c349d9c5854e7b5d034"
+hash = "bba957083d10e20c342734b7db60e0c4cef0e309a50bd6044ee75c0881ece014"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -254,63 +254,63 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "9e5c43e1c3e32113faae38f5c4f9e4a538a6ce2b40e95a1529e32a892df3c85a"
+hash = "b9dc091e55bd04224786eb870f1c3a91fa865f9e122a77b172d4a1ea18dfed1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/crystals.snbt"
-hash = "6770c8fa0390ed70b2322f52ff9af8a469379956743fdfd7b0c9512c5b682ed7"
+hash = "40c698af0d8c1cf8a32d05e0594391e947b44d2fabffd2f917a880e17a19cd6b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic.snbt"
-hash = "6875421e51706d14135016275756b255c4a22186551f34e4a92ea550b3ed22d7"
+hash = "30f025318c0ea584f6c7adf3b19142f3c1e23e3cc6122b581347f8bc6d2fd3e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eio.snbt"
-hash = "2ada46423d6654266310ca1a124ed19356a061f866784dca6ce88c46adaabb2f"
+hash = "5bd60dc7696f26628238419c4082699bcfdb145853665467c68859ee828286fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy.snbt"
-hash = "6709255e202bf5c28aabce784a2dec153dc36ab3153759ce30378478b458ebb1"
+hash = "c9ce4ea118cd4242c57983a027083bce1137cc57ebb3d4e50eb667ebf785f408"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/final.snbt"
-hash = "c6d17ed532cb795e895540ed1b2c687b8e71d5cdb4f6d25ffaf71642163f742b"
+hash = "89b844815cab09dcd3980ad61bc697fb8a00a9cbaf14b1efb679b1e2004b8b3e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fluids.snbt"
-hash = "293ec26a10fdf08161d0a9d43335e1cdc218da8c84474d5d45f1e7e95de27f2e"
+hash = "32dfa43a258554622d4e49747bb20485db503516a5a5633486bd32cb754501a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forestry.snbt"
-hash = "1c918012bc56c408a3c831bc2810630da9469da7d4dabad52de06400f983a76a"
+hash = "d9c989a49627629f17bbc9f40015af0ebda132012991fb35f5696cab7dbf30dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iu.snbt"
-hash = "2c62f020e5e55fe52c49ad0e52dd24d8492e173bfa37ef2ed9fab2d590811d1c"
+hash = "a30e36373132cce15f4c5c3a4fa670000d6c0b778e7056972b00c0c856b6f73a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mek.snbt"
-hash = "1cf2f838fc126083719be49325825b3bf2984d5ce0c918ba34f06756e103dfa3"
+hash = "70ad0899867d43960d8a648be0a046ae9f5fce4230fde76b15a5cf7c4b2a3d45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mt.snbt"
-hash = "219f1050292be27d0e5f74fa8327dd95678f94dbc4cee16ae86e5b694a082409"
+hash = "41abfc9042ffa4f75460cd82a08408ebca23159bed49c77dc904058b439e7357"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/optional.snbt"
-hash = "1e3d7bb16e7d38e62a299cd15c1a37d85eae14c4b259326a9fde19c0e3f5edf2"
+hash = "b1ecc380541f2c85290f74b935f8a3dafa5486b5a7eeb56a2888962de522f8e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "80ba32fd4f2b20c817dd527e57b2941b112c003555e4f74c0d363424b7b1ccfa"
+hash = "2b4470363f7dffad84a4443f63d408e427513c785a2563e568472c7feeb09255"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/solar.snbt"
-hash = "cf8998b5fccbb575ab3a69966435dbb5ecf3cf6bc92fb347f171efb1f27511d2"
+hash = "ce432e1105014775036e1720c4d62c1d4a4416110201c7989ed34d7feb913cb4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "81cbd426e734e0c75c5060e295a9d9e0274326a7dfe86748e916f8b53fcf297c"
+hash = "452a21a75d5c8c6e4d93bdff423f50924dfae11c111be8136f53a209135c7113"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -414,7 +414,7 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "2aa1c0bf8ee522508e6792f94784f5a02851698c42e70ba5052a6aed1b3a4d00"
+hash = "e75da970ebad79a8c144360d2afeab044ce700d96b23e66c8eb59565a79acc95"
 
 [[files]]
 file = "config/jade/server-plugin-overrides.json"
@@ -641,6 +641,14 @@ file = "kubejs/assets/ftbquests/ftb_quests_theme.txt"
 hash = "74a8c0aa007b630e3f3720214079a07f9229abf6128b847026cdc5d61a88250d"
 
 [[files]]
+file = "kubejs/assets/industrialupgrade/textures/item/treetap.png"
+hash = "d0368e06e365c35cc20ada835adeff1dadf5021a053606d4fedc3e280893dc06"
+
+[[files]]
+file = "kubejs/assets/industrialupgrade/textures/item/treetap.png.mcmeta"
+hash = "00ea6590e25e6cf3c1f06127f46bafd8c0c680886c47c35216b6ff6ec5ad5ada"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
 hash = "c252cdf11ba8d63aecc8f671e94c5ff0506f59160fbb6769f699e19370862cf9"
 
@@ -654,35 +662,51 @@ hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/aberration_core.png"
-hash = "fb46539b75f95811fe4777b92e0bbb1f7a5fbff5f215ec64febfcb999623e2ca"
+hash = "519c5ded8a2e19d834e1d461df373e27387576a4a55e6d29761a2685dc19befb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/aberration_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ametrine_crystal.png"
-hash = "14e8d6bd139451c5ce521e509ee68a573e5b63af21beb3063d85fa993ed033dd"
+hash = "971833763d93ae1e0ae87a0b37242ea9351c65816a904ee17cd658b83dc57f4c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ametrine_crystal.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/ametrine_dust.png"
-hash = "b8f31005ac167439728470214e8aef45457ec20a18a83ec9cb0278e978f399b8"
+hash = "8b9297bbf0a94479a4d4f2e62b22e66e2dad857c2f17e2f096569d0945090139"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ametrine_dust.png.mcmeta"
+hash = "00ea6590e25e6cf3c1f06127f46bafd8c0c680886c47c35216b6ff6ec5ad5ada"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/anisotropic_core.png"
-hash = "14df450147f31bf64b81a7e08a81f46f26d68a07406e14ef4227027b3ccebd34"
+hash = "087c761ca0fbfc7f21398c22867174fec26e24032b78450f89738863ce5c25bb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/anisotropic_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/antimaterial_core.png"
-hash = "5dd9458636bd0afba4ff31936057b5613a2aeba10fe2f1b9dd77f318d51b6c31"
+hash = "1d0286ebbe3a290ce05096dedadd566ad776c88ab6d99d5365aea7b202963859"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/antimaterial_core.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/basis_capacitor.png"
-hash = "fe243b902796ea561e8594a4269dd70f687b042ccd774b8bd26d95559dd777a1"
+hash = "3da3bf8442ba21f31127d16668b1c64df850d74e4ad798a81994c608ed5e574d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/basis_capacitor.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/basis_thermodynamic_core.png"
@@ -690,71 +714,115 @@ hash = "3d95b0de52fe3db0f5a4ad91743ac5e67403e21505d2ce78fbc000d121264dcb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/bronze_allow_capacitor.png"
-hash = "5e0b98612664d5ecc30851cdc5e2f1ca7adfe6864d3e1c283c73d8fd88743a28"
+hash = "f6fc99aec715eb9c3cc9d4df5e3aebaae90e7379a0bdf94276883a6ab4c884a3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_allow_capacitor.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/chaos_alloy_ingot.png"
-hash = "032ef6562a9f1acd0bbe369be971dc4d3d88c9664e82a54172cfd74cef6ad202"
+hash = "a259f3caab4ec2baf2a7da2935c76484f576807f3a8298d90937b614dc46eb22"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chaos_alloy_ingot.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/chromodynamic_core.png"
-hash = "6ee143dc96ebc3bf413f762e825b423602155fd032d881a7a3bf1e68b881e0c0"
+hash = "92511b5df8b3bce7482e5bf438ee62d0a154d435e0bf2c347fb30145b12e46ed"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chromodynamic_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/chrysolite_crystal.png"
-hash = "5aaae7fdef0531380dad1256ac6db1d361dc0e177eed44ffe05cf9e8c05398f6"
+hash = "13c825b1f4927dcb39f0d7f36ccd81eee62b6e5a1d7849c757226d647e464679"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chrysolite_crystal.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/chrysolite_dust.png"
-hash = "e1086fb29e31d26e17313f1c4cbef202932b79edf2dab2a1d94da023f6897c06"
+hash = "4daad6f85a7e714a3aad71dccb10c8b8d8e62a340968ff8380d1d11bc69d21c7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/chrysolite_dust.png.mcmeta"
+hash = "00ea6590e25e6cf3c1f06127f46bafd8c0c680886c47c35216b6ff6ec5ad5ada"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/circuit_board_t1.png"
-hash = "6b6a522576d213a063712220e4a7d8d39c253a5b295fdc57033d26394e2732c3"
+hash = "0971cad936caf10650e60650ec5756dfe220e1854e939e6b70533752584f11bc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/circuit_board_t1.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/circuit_board_t2.png"
-hash = "18c8d146442d312f1fe8a8666fcde27b45a5874680cb8a012fe9aefd9956d154"
+hash = "245d3b07200967b2532afe0cb8035afcc79e27ca39cd3d6cccdaa0690163dc56"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/circuit_board_t2.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/circuit_board_t3.png"
-hash = "c1704e9295c9a137df33995c2e0f5d348861aa73b01b087e37a0fe01f88ee745"
+hash = "369db495a7acfb77b698c34f41bee155bb4c702100b94e8e2caf3108e67524d5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/circuit_board_t3.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/circuit_board_t4.png"
-hash = "f5f7e3a14bd2916340bf6ff82fb104540642ba31cafe8edebb8f6795ecb1487b"
+hash = "0891b267d1512d0029c0456597a924ab00856acf87cd085b87453201b78f77b5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/circuit_board_t4.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/cololess_capacitor.png"
-hash = "1a5a0f344068637f1d81edd583aa55f9fd3c96aa5351643536e5851ea9a04d98"
+hash = "975f270f6dec8b9f36e2ae0ddbaa918a9c127e0c1fb1f81395ff299c195a2b90"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/cololess_capacitor.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/dispersion_core.png"
-hash = "c8ee68336578a134278be2e56257df381c55308c46cee66c74d534cd35816de1"
+hash = "686330817f31d067ece27fbefaf90e96bb25324bda61cf35e1ed4f17ae4ee536"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/dispersion_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_ametrine_crystal.png"
-hash = "33f41152cd5597d9bddfb502669c45e532a1242fdfbba29d7b552e299fa5e638"
+hash = "b86128f822f029fedccdee611d20ea53c7e4b95534eae32a3125164be6373d2f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_ametrine_crystal.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_chrysolite_crystal.png"
-hash = "ee0a92e3af2478882526ea9f08d557e20273e2181f5dc50aea8c908446c1b322"
+hash = "091df9e9c65be5cc778737216a8c380ac1f53e387a96509a67e3625e7243f786"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_chrysolite_crystal.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_fluorite_crystal.png"
-hash = "088061114f00eada789f278b36fe2c0b3b790f8b6759f18e8fd0b1748100e858"
+hash = "d73ff22ddbc2704c8fee7fea2a9794ac9d12858412d8302e07ec661089ec082a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/energized_fluorite_crystal.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
@@ -762,31 +830,51 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/fluctuation_core.png"
-hash = "7d6021fa23125ce1c5a93e78d5f2c294d6d3400753c7f0a42e16d4ac1a3e07ab"
+hash = "43114abb6c244d17817892f68a3e177e8f3cd1ec06e0295d9abc67116bfc0ed4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluctuation_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/fluorite_crystal.png"
-hash = "9c934449a3c19af5ee84e7324aab461afa720fb3289ed377722768fdfb056cad"
+hash = "51fe3156f27f841b5a37ae897b1e5088b00007f9fb6be8e17bd0f50e3416e641"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluorite_crystal.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/fluorite_dust.png"
-hash = "8bc6699a2c0a3a3dd7fc6054769647ce5c33a118d327d053495a65eda59ba090"
+hash = "3c013727cd48a30d430049629affce84df1339d209e02473ce535d3dd38c1f26"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fluorite_dust.png.mcmeta"
+hash = "00ea6590e25e6cf3c1f06127f46bafd8c0c680886c47c35216b6ff6ec5ad5ada"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/glowstone_allow_capacitor.png"
-hash = "cfec64107919787fbdc78c670459aa904bcc75cbbb92a0178d144f98854e1a0d"
+hash = "9382af4b85e370f0f385e9e7bc6c0a337bfd9b266799a5f327d0ac5098ee1385"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/glowstone_allow_capacitor.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/gravitomagnetic_core.png"
-hash = "0af24df8289b992dd7b000077be18695eb88be509126b5e0a12eb763fd2fbe3e"
+hash = "3a8c14b4a0ef3c60533e582c1cfdca6881bc6e5d61d172c778a545e5f9361c34"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/gravitomagnetic_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/holographic_thermodynamic_core.png"
-hash = "53a2027773d5880b31d15c614707691ebcdc438ffcc629c8d27645b51292ca6b"
+hash = "5e6be4ebc94dd152226dddd1f162e93c244bf2977bdc6f850a6b86443dd6c017"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/holographic_thermodynamic_core.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/matter_loose_blue.png"
@@ -862,43 +950,67 @@ hash = "0476a5c396e06e18f6268c70cad7b2dd46d1cafa946d33590da7b5562d0ffda7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/multialloy_allow_capacitor.png"
-hash = "371024c1c21fcd5047769f93a59de9827355c6fb1ca068d9ee4fb2870c1811b5"
+hash = "573816caccb868cf5d216595317d91845c51c02011ae0b98ab5a232b98100deb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/multialloy_allow_capacitor.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/obsidian_allow_capacitor.png"
-hash = "d2de998610ee1c37263d1db251b8d58921566a19f90ee4d4bdf8191fce97df01"
+hash = "304040ef4d877baefa37205f2c54e40b5f122f395eaab501f22110bf19a9de91"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/obsidian_allow_capacitor.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/osmium_allow_capacitor.png"
-hash = "19bff19c0b071fe879424959c52b2f19e53705b4540336e57de3aaacd89a3f9c"
+hash = "154a267f1555c7af38e2b8260b2d17e048db04cd759d70eb278c14593514a1cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/osmium_allow_capacitor.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/parametric_core.png"
-hash = "0b879a6a72c2d50505e979b94fe0e22fe9ee1f2faaa064c1123b1c427b79d698"
+hash = "b8900e79337ce38a219a807be5c74b4f5e136aee17fc085f6a63fad718f68013"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/parametric_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/purple_spectrum_thermodynamic_core.png"
-hash = "3305803ce6c00800ee7cc846bad7d557a7264549c5911a632a0c7507acc4938a"
+hash = "616ea4b43c6b514ea440c955114ad0fffcf7e27664990db0dab7ea7fa670a61c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/purple_spectrum_thermodynamic_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/quantum_alloy_ingot.png"
-hash = "e6a900ff88fede448dbcf6d985e34331d91146eac1ad7f529e73ebda878545ef"
+hash = "af5d732d54dede9f8e6c0b56d4fed5357afbfc28964f0d1e5454fcc0829a57e7"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/quantum_alloy_ingot.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/quantum_core.png"
-hash = "18a0d388a7465acd5af26f5f32b32a9046927190793c91708b3fdb522cdde741"
+hash = "2d6d9448f678dc0bc9b6ebca0ad9ac0cfc688b419c0a250cbc6acd7bc79b6e8e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/quantum_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/red_spectrum_thermodynamic_core.png"
-hash = "bca8bc5cbfe5a67e40a3855e0400742ac6a6a06efdf1d7448430302ae6988f7b"
+hash = "33a799837be083045858daa88b232dfe00171be1f0089001e8f53900ad6a8906"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/red_spectrum_thermodynamic_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/solar_core1.png"
@@ -942,23 +1054,27 @@ hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/sparkling_core.png"
-hash = "3249e87636a79af4a61bdffd05134f2ee8500c0e89161f167d4b7acbcf42e61f"
+hash = "2ad23b0cd2ea57912b826f1265cd403ae2fed004d25e2b61a60219120ece90a3"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/sparkling_core.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/transparent_thermodynamic_core.png"
-hash = "a39a6bbf05aee46bea9c54fd0d1aa668f07675a63f0ca2433a5af16d63d57681"
+hash = "13bf162b29f540539be8ca3944e6fa0e1d514cb60c835b1248054bb4b72d0cdb"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/transparent_thermodynamic_core.png.mcmeta"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/turquoise_spectrum_thermodynamic_core.png"
-hash = "42670e2251143ef8e215edc9dc17d1a063be15f554e998ae2fb6b14a239ddf83"
+hash = "d14d41fb8861cc0a2d837d94a5a047a6d50ad0f00e12c8819ea1e6221daadd79"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/turquoise_spectrum_thermodynamic_core.png.mcmeta"
-hash = "9b5265ee649cd10f6dc4bab8def3daba2a987e3cf9166600df4a545f55f99668"
+hash = "d65fee7f81547658d56c7fe0f77a85d85183c88677654d5836297cb8b2a8a5eb"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/ch_ae2.png"
@@ -1997,7 +2113,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "4eeb011d0e9b46fa9f27f326ca6be5f28fdc1f7132c5c6263541eab480149cce"
+hash = "b5009d4eabfacd84abb5454c5e651260ac50f86dd510c79b2a623dfd0ea72eb9"
 
 [[files]]
 file = "mods/mega.pw.toml"

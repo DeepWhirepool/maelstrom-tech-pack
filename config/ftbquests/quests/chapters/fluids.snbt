@@ -3,77 +3,166 @@
 	default_quest_shape: ""
 	filename: "fluids"
 	group: ""
-	icon: { id: "minecraft:water_bucket" }
+	icon: {
+		id: "minecraft:water_bucket"
+	}
 	id: "59809423D2DDAA41"
-	images: [{ alpha: 255, color: 16777215, height: 8.0d, image: "kubejs:textures/quests/ch_fluids.png", order: -10, rotation: 0.0d, width: 19.5d, x: 5.75d, y: 0.00d }]
+	images: [{
+		height: 8.0d
+		id: "558A133F5CBA4A60"
+		image: "kubejs:textures/quests/ch_fluids.png"
+		order: -10
+		rotation: 0.0d
+		width: 19.5d
+		x: 5.75d
+		y: 0.0d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "industrialupgrade:itemcell/itemcell" }
+			icon: {
+				id: "industrialupgrade:itemcell/itemcell"
+			}
 			id: "41EB4E5574027484"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "11E2936B4E6D0F3B", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "11E2936B4E6D0F3B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["32EF6B068D15CC53"]
-			icon: { count: 1, id: "industrialupgrade:itemcell/itemcell" }
+			icon: {
+				id: "industrialupgrade:itemcell/itemcell"
+			}
 			id: "72FCEB758F965FF3"
-			rewards: [{ count: 4, id: "6BF7A4F67F65546B", item: { count: 1, id: "industrialupgrade:itemcell/itemcell" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6BF7A4F67F65546B"
+				item: {
+					count: 1
+					id: "industrialupgrade:itemcell/itemcell"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "0163B8D811FEE36A", item: { count: 1, id: "industrialupgrade:itemcell/itemcell" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "0163B8D811FEE36A"
+				item: { count: 1, id: "industrialupgrade:itemcell/itemcell" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["235DB8EE52D1D3A4"]
-			icon: { count: 1, id: "maelstromtech:iron_treetap" }
+			icon: {
+				id: "maelstromtech:iron_treetap"
+			}
 			id: "46D28737B613609E"
-			rewards: [{ count: 4, id: "73306CDE96AA24CD", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "73306CDE96AA24CD"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "49693501E4E6D29F", item: { count: 1, id: "maelstromtech:iron_treetap" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				id: "49693501E4E6D29F"
+				item: { count: 1, id: "maelstromtech:iron_treetap" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
-			dependencies: ["46D28737B613609E", "456E1A57F18E9C71"]
-			icon: { count: 1, id: "enderio:farming_station" }
+			dependencies: [
+				"46D28737B613609E"
+				"456E1A57F18E9C71"
+			]
+			icon: {
+				id: "enderio:farming_station"
+			}
 			id: "2A413F679E563D4B"
-			rewards: [{ count: 8, id: "038A3B780DD82175", item: { count: 1, id: "industrialupgrade:sapling/rubber_sapling" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "038A3B780DD82175"
+				item: {
+					count: 1
+					id: "industrialupgrade:sapling/rubber_sapling"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "433806E390CA64B1", item: { count: 1, id: "enderio:farming_station" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				id: "433806E390CA64B1"
+				item: { count: 1, id: "enderio:farming_station" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6F3DBF9DF06F7DCE"]
-			icon: { count: 1, id: "mekanism:basic_fluid_tank" }
+			icon: {
+				id: "mekanism:basic_fluid_tank"
+			}
 			id: "54B54C39FE19AD5A"
-			rewards: [{ count: 2, id: "0E365107192563C7", item: { count: 1, id: "minecraft:bucket" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "0E365107192563C7"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "5409E616BDC9381B", item: { count: 1, id: "mekanism:basic_fluid_tank" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "5409E616BDC9381B"
+				item: { count: 1, id: "mekanism:basic_fluid_tank" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["54B54C39FE19AD5A"]
-			icon: { count: 1, id: "mekanism:electric_pump" }
+			icon: {
+				id: "mekanism:electric_pump"
+			}
 			id: "0ECA16F7D304A0C1"
-			rewards: [{ count: 2, id: "16060D2EA2CCDDEC", item: { count: 1, id: "minecraft:bucket" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "16060D2EA2CCDDEC"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "3DA8B15EEBB14645", item: { count: 1, id: "mekanism:electric_pump" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				id: "3DA8B15EEBB14645"
+				item: { count: 1, id: "mekanism:electric_pump" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 	]
 }

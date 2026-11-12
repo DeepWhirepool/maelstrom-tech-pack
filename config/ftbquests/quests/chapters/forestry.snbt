@@ -3,134 +3,296 @@
 	default_quest_shape: ""
 	filename: "forestry"
 	group: ""
-	icon: { id: "forestry:apiary" }
+	icon: {
+		id: "forestry:apiary"
+	}
 	id: "1227B553231C9DBF"
-	images: [{ alpha: 255, color: 16777215, height: 11.8d, image: "kubejs:textures/quests/ch_forestry.png", order: -10, rotation: 0.0d, width: 28.7d, x: 10.35d, y: 0.00d }]
+	images: [{
+		height: 11.8d
+		id: "2C5FFB409C5C2BE1"
+		image: "kubejs:textures/quests/ch_forestry.png"
+		order: -10
+		rotation: 0.0d
+		width: 28.7d
+		x: 10.35d
+		y: 0.0d
+	}]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2A413F679E563D4B"]
-			icon: { count: 1, id: "forestry:bee_house" }
+			icon: {
+				id: "forestry:bee_house"
+			}
 			id: "66664B1762967FFB"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "08A33BB9632FA120", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "08A33BB9632FA120"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66664B1762967FFB"]
-			icon: { count: 1, id: "forestry:scoop" }
+			icon: {
+				id: "forestry:scoop"
+			}
 			id: "6CC372199AA9DE93"
-			rewards: [{ count: 16, id: "741400DEA712D09C", item: { count: 1, id: "minecraft:oak_log" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "741400DEA712D09C"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "5DA35EEDA5382CE2", item: { count: 1, id: "forestry:scoop" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				id: "5DA35EEDA5382CE2"
+				item: { count: 1, id: "forestry:scoop" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6CC372199AA9DE93"]
-			icon: { count: 1, id: "forestry:apiary" }
+			icon: {
+				id: "forestry:apiary"
+			}
 			id: "5A88633FBBD56486"
-			rewards: [{ count: 2, id: "03B8CEC42A391114", item: { count: 1, id: "forestry:untreated_frame" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "03B8CEC42A391114"
+				item: {
+					count: 1
+					id: "forestry:untreated_frame"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "2FDDAD90E88456F8", item: { count: 1, id: "forestry:apiary" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				id: "2FDDAD90E88456F8"
+				item: { count: 1, id: "forestry:apiary" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A88633FBBD56486"]
-			icon: { count: 1, id: "forestry:honey_comb" }
+			icon: {
+				id: "forestry:honey_comb"
+			}
 			id: "2C2E4AE04FF9F772"
-			rewards: [{ count: 4, id: "7531805E21E33CAF", item: { count: 1, id: "forestry:beeswax" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "7531805E21E33CAF"
+				item: {
+					count: 1
+					id: "forestry:beeswax"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "401E11BB80C374DC", item: { count: 1, id: "forestry:honey_comb" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "401E11BB80C374DC"
+				item: { count: 1, id: "forestry:honey_comb" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C2E4AE04FF9F772"]
-			icon: { count: 1, id: "forestry:centrifuge" }
+			icon: {
+				id: "forestry:centrifuge"
+			}
 			id: "115E12A5653E0F6C"
-			rewards: [{ count: 8, id: "78C794465090A148", item: { count: 1, id: "forestry:beeswax" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "78C794465090A148"
+				item: {
+					count: 1
+					id: "forestry:beeswax"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "66256434CF51AEB2", item: { count: 1, id: "forestry:centrifuge" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "66256434CF51AEB2"
+				item: { count: 1, id: "forestry:centrifuge" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["115E12A5653E0F6C"]
-			icon: { count: 1, id: "forestry:carpenter" }
+			icon: {
+				id: "forestry:carpenter"
+			}
 			id: "77BEE31963B11A29"
-			rewards: [{ count: 8, id: "09E389B23D9CAA64", item: { count: 1, id: "forestry:beeswax" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "09E389B23D9CAA64"
+				item: {
+					count: 1
+					id: "forestry:beeswax"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "0C010E3C4ABEA981", item: { count: 1, id: "forestry:carpenter" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				id: "0C010E3C4ABEA981"
+				item: { count: 1, id: "forestry:carpenter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["77BEE31963B11A29"]
-			icon: { count: 1, id: "forestry:proven_frame" }
+			icon: {
+				id: "forestry:proven_frame"
+			}
 			id: "38042A3B8A5F3C46"
-			rewards: [{ count: 8, id: "4D4DF8B2304D622C", item: { count: 1, id: "forestry:honey_drop" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "4D4DF8B2304D622C"
+				item: {
+					count: 1
+					id: "forestry:honey_drop"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 2L, id: "3E65DE846B50D8C4", item: { count: 1, id: "forestry:proven_frame" }, type: "item" }]
-			x: 13.80d
-			y: -1.90d
+			tasks: [{
+				count: 2L
+				id: "3E65DE846B50D8C4"
+				item: { count: 1, id: "forestry:proven_frame" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: -1.9d
 		}
 		{
 			dependencies: ["77BEE31963B11A29"]
-			icon: { count: 1, id: "forestry:royal_jelly" }
+			icon: {
+				id: "forestry:royal_jelly"
+			}
 			id: "1F969D89E0E6445F"
-			rewards: [{ count: 8, id: "46BC41DB12BDA4DC", item: { count: 1, id: "forestry:honeydew" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "46BC41DB12BDA4DC"
+				item: {
+					count: 1
+					id: "forestry:honeydew"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "517F86338BAD60B6", item: { count: 1, id: "forestry:royal_jelly" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "517F86338BAD60B6"
+				item: { count: 1, id: "forestry:royal_jelly" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F969D89E0E6445F"]
-			icon: { count: 1, id: "forestry:alveary_block" }
+			icon: {
+				id: "forestry:alveary_block"
+			}
 			id: "05B6EBE0EF7ABD1D"
-			rewards: [{ count: 4, id: "04AD9EC338BC0501", item: { count: 1, id: "forestry:royal_jelly" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "04AD9EC338BC0501"
+				item: {
+					count: 1
+					id: "forestry:royal_jelly"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 24L, id: "245BF63D5911A702", item: { count: 1, id: "forestry:alveary_block" }, type: "item" }]
-			x: 16.10d
-			y: 0.00d
+			tasks: [{
+				count: 24L
+				id: "245BF63D5911A702"
+				item: { count: 1, id: "forestry:alveary_block" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
 		}
 		{
-			dependencies: ["05B6EBE0EF7ABD1D", "497CD97810B4D924"]
-			icon: { count: 1, id: "maelstromtech:perfect_apiary" }
+			dependencies: [
+				"05B6EBE0EF7ABD1D"
+				"497CD97810B4D924"
+			]
+			icon: {
+				id: "maelstromtech:perfect_apiary"
+			}
 			id: "0050D5187F5849F1"
-			rewards: [{ count: 8, id: "5719B66FEAA37316", item: { count: 1, id: "forestry:royal_jelly" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "5719B66FEAA37316"
+				item: {
+					count: 1
+					id: "forestry:royal_jelly"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "19E464F6C47AF26E", item: { count: 1, id: "maelstromtech:perfect_apiary" }, type: "item" }]
-			x: 18.40d
-			y: 0.00d
+			tasks: [{
+				id: "19E464F6C47AF26E"
+				item: { count: 1, id: "maelstromtech:perfect_apiary" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0050D5187F5849F1"]
-			icon: { count: 1, id: "maelstromtech:apiary_upgrade_speed_3" }
+			icon: {
+				id: "maelstromtech:apiary_upgrade_speed_3"
+			}
 			id: "7BA0BE96F5D5F025"
-			rewards: [{ count: 4, id: "001743A01B58B2CA", item: { count: 1, id: "forestry:royal_jelly" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "001743A01B58B2CA"
+				item: {
+					count: 1
+					id: "forestry:royal_jelly"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "05950F70BD931C8A", item: { count: 1, id: "maelstromtech:apiary_upgrade_speed_3" }, type: "item" }]
-			x: 20.70d
-			y: 1.90d
+			tasks: [{
+				id: "05950F70BD931C8A"
+				item: { count: 1, id: "maelstromtech:apiary_upgrade_speed_3" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: 1.9d
 		}
 	]
 }

@@ -3,114 +3,248 @@
 	default_quest_shape: ""
 	filename: "mt"
 	group: ""
-	icon: { id: "maelstromtech:star_core" }
+	icon: {
+		id: "maelstromtech:star_core"
+	}
 	id: "1E232FAE02082457"
-	images: [{ alpha: 255, color: 16777215, height: 8.0d, image: "kubejs:textures/quests/ch_mt.png", order: -10, rotation: 0.0d, width: 26.4d, x: 9.20d, y: 0.00d }]
+	images: [{
+		height: 8.0d
+		id: "13832EE599AEFDE9"
+		image: "kubejs:textures/quests/ch_mt.png"
+		order: -10
+		rotation: 0.0d
+		width: 26.4d
+		x: 9.2d
+		y: 0.0d
+	}]
 	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "maelstromtech:star_matter" }
+			icon: {
+				id: "maelstromtech:star_matter"
+			}
 			id: "2C23EF2AAD8E59D6"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "75428A26AE5A86D3", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "75428A26AE5A86D3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2C23EF2AAD8E59D6", "3CFCBBF71503AF57", "1E354D1E68CFDD49"]
-			icon: { count: 1, id: "maelstromtech:neutron_star" }
+			dependencies: [
+				"2C23EF2AAD8E59D6"
+				"3CFCBBF71503AF57"
+				"1E354D1E68CFDD49"
+			]
+			icon: {
+				id: "maelstromtech:neutron_star"
+			}
 			id: "15A4B3D8DBCE2F2F"
-			rewards: [{ count: 1, id: "746A028DF924F06E", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			rewards: [{
+				id: "746A028DF924F06E"
+				item: {
+					count: 1
+					id: "avaritia:neutron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "7268F5E04D850149", item: { count: 1, id: "maelstromtech:neutron_star" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				id: "7268F5E04D850149"
+				item: { count: 1, id: "maelstromtech:neutron_star" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
-			dependencies: ["15A4B3D8DBCE2F2F", "0A36F788E4404D8C"]
-			icon: { count: 1, id: "maelstromtech:plasma_charger" }
+			dependencies: [
+				"15A4B3D8DBCE2F2F"
+				"0A36F788E4404D8C"
+			]
+			icon: {
+				id: "maelstromtech:plasma_charger"
+			}
 			id: "0351030223C9CAE8"
-			rewards: [{ count: 4, id: "46B9C3447A6711EA", item: { count: 1, id: "minecraft:redstone_block" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "46B9C3447A6711EA"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "116C441DD8C8D27B", item: { count: 1, id: "maelstromtech:plasma_charger" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				id: "116C441DD8C8D27B"
+				item: { count: 1, id: "maelstromtech:plasma_charger" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0351030223C9CAE8"]
-			icon: { count: 1, id: "maelstromtech:red_energon_generator" }
+			icon: {
+				id: "maelstromtech:red_energon_generator"
+			}
 			id: "3EBDFBCA7B610CD8"
-			rewards: [{ count: 1, id: "26B784DBA59E2557", item: { count: 1, id: "minecraft:lava_bucket" }, type: "item" }]
+			rewards: [{
+				id: "26B784DBA59E2557"
+				item: {
+					count: 1
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "5D372C26094F7B8D", item: { count: 1, id: "maelstromtech:red_energon_generator" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				id: "5D372C26094F7B8D"
+				item: { count: 1, id: "maelstromtech:red_energon_generator" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3EBDFBCA7B610CD8"]
-			icon: { count: 1, id: "maelstromtech:energonium_converter" }
+			icon: {
+				id: "maelstromtech:energonium_converter"
+			}
 			id: "550E2DEC02FA587A"
-			rewards: [{ count: 16, id: "77B24EBC53F4B27A", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "77B24EBC53F4B27A"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "09FD0D2EF55657D9", item: { count: 1, id: "maelstromtech:energonium_converter" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "09FD0D2EF55657D9"
+				item: { count: 1, id: "maelstromtech:energonium_converter" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["550E2DEC02FA587A"]
-			icon: { count: 1, id: "maelstromtech:energon_synthesizer" }
+			icon: {
+				id: "maelstromtech:energon_synthesizer"
+			}
 			id: "1206B08BEC0AF7DD"
-			rewards: [{ count: 8, id: "720C7A4D303814E6", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "720C7A4D303814E6"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "28BE0316B05EBE02", item: { count: 1, id: "maelstromtech:energon_synthesizer" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				id: "28BE0316B05EBE02"
+				item: { count: 1, id: "maelstromtech:energon_synthesizer" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1206B08BEC0AF7DD", "5DDA1DE294B6D9F0"]
-			icon: { count: 1, id: "maelstromtech:star_core" }
+			dependencies: [
+				"1206B08BEC0AF7DD"
+				"5DDA1DE294B6D9F0"
+			]
+			icon: {
+				id: "maelstromtech:star_core"
+			}
 			id: "66CB09D34DCC2415"
-			rewards: [{ count: 1, id: "43CF4DC1F78419DB", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			rewards: [{
+				id: "43CF4DC1F78419DB"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "6DE1DB1B183D22D8", item: { count: 1, id: "maelstromtech:star_core" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				id: "6DE1DB1B183D22D8"
+				item: { count: 1, id: "maelstromtech:star_core" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66CB09D34DCC2415"]
-			icon: { count: 1, id: "maelstromtech:heliospheric_charging_center" }
+			icon: {
+				id: "maelstromtech:heliospheric_charging_center"
+			}
 			id: "3058C5F7D9FCC59C"
-			rewards: [{ count: 16, id: "611050DD050A498E", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "611050DD050A498E"
+				item: {
+					count: 1
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "78D72E2F51BC5FCF", item: { count: 1, id: "maelstromtech:heliospheric_charging_center" }, type: "item" }]
-			x: 16.10d
-			y: 0.00d
+			tasks: [{
+				id: "78D72E2F51BC5FCF"
+				item: { count: 1, id: "maelstromtech:heliospheric_charging_center" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3058C5F7D9FCC59C"]
-			icon: { count: 1, id: "maelstromtech:thermonuclear_melting_complex" }
+			icon: {
+				id: "maelstromtech:thermonuclear_melting_complex"
+			}
 			id: "5BCD90A32A91A00F"
-			rewards: [{ count: 4, id: "64700F3A6F39004E", item: { count: 1, id: "minecraft:iron_block" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "64700F3A6F39004E"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "52B5880B9FF3754F", item: { count: 1, id: "maelstromtech:thermonuclear_melting_complex" }, type: "item" }]
-			x: 18.40d
-			y: 0.00d
+			tasks: [{
+				id: "52B5880B9FF3754F"
+				item: { count: 1, id: "maelstromtech:thermonuclear_melting_complex" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 0.0d
 		}
 	]
 }

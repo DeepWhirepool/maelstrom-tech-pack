@@ -138,41 +138,41 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:spider": true
-			"minecraft:sheep": true
-			"minecraft:pig": true
-			"minecraft:enderman": true
-			"minecraft:elder_guardian": true
-			"minecraft:zombie_villager": true
-			"minecraft:squid": true
-			"minecraft:cod": false
-			"minecraft:pufferfish": false
-			"minecraft:evoker": true
-			"minecraft:horse": true
-			"minecraft:donkey": true
-			"minecraft:skeleton": true
-			"minecraft:bee": true
-			"minecraft:creeper": true
-			"minecraft:turtle": true
-			"minecraft:panda": true
-			"minecraft:allay": true
-			"minecraft:bat": true
-			"minecraft:dolphin": true
-			"minecraft:glow_squid": true
-			"minecraft:salmon": false
-			"minecraft:llama": true
-			"minecraft:cow": true
-			"minecraft:tropical_fish": false
-			"minecraft:drowned": true
-			"minecraft:zombie": true
-			"minecraft:bogged": true
-			"minecraft:chicken": true
 			"minecraft:armadillo": true
-			"minecraft:axolotl": true
-			"minecraft:vindicator": true
-			"minecraft:witch": true
+			"minecraft:bat": true
+			"minecraft:horse": true
+			"minecraft:dolphin": true
+			"minecraft:evoker": true
+			"minecraft:cow": true
+			"minecraft:squid": true
+			"minecraft:turtle": true
+			"minecraft:salmon": false
+			"minecraft:skeleton": true
+			"minecraft:bogged": true
+			"minecraft:enderman": true
 			"minecraft:wolf": true
+			"minecraft:pufferfish": false
+			"minecraft:zombie_villager": true
+			"minecraft:llama": true
 			"minecraft:frog": true
+			"minecraft:donkey": true
+			"minecraft:pig": true
+			"minecraft:elder_guardian": true
+			"minecraft:axolotl": true
+			"minecraft:cod": false
+			"minecraft:zombie": true
+			"minecraft:creeper": true
+			"minecraft:spider": true
+			"minecraft:vindicator": true
+			"minecraft:glow_squid": true
+			"minecraft:allay": true
+			"minecraft:sheep": true
+			"minecraft:panda": true
+			"minecraft:chicken": true
+			"minecraft:bee": true
+			"minecraft:drowned": true
+			"minecraft:tropical_fish": false
+			"minecraft:witch": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
