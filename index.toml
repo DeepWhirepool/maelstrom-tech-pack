@@ -2113,7 +2113,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "b5009d4eabfacd84abb5454c5e651260ac50f86dd510c79b2a623dfd0ea72eb9"
+hash = "c600f1bce5a1192b5316908b39ec494f2e064467a8445f20256f95c70eaa8d67"
 
 [[files]]
 file = "mods/mega.pw.toml"
