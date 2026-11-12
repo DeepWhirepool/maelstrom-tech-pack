@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "final"
+	group: ""
+	icon: { id: "avaritia:neutron_ingot" }
+	id: "64817B247D992A44"
+	images: [{ alpha: 255, color: 16777215, height: 15.5d, image: "kubejs:textures/quests/ch_final.png", order: -10, rotation: 0.0d, width: 24.1d, x: 8.05d, y: 3.75d }]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5DDA1DE294B6D9F0"]
+			icon: { count: 1, id: "avaritia:extreme_crafting_table" }
+			id: "279EAAF602187BCE"
+			rewards: []
+			shape: "gear"
+			size: 1.0d
+			tasks: [{ id: "11C075D7EBCDC81A", type: "checkmark" }]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["279EAAF602187BCE"]
+			icon: { count: 1, id: "avaritia:neutron_ingot" }
+			id: "3CFCBBF71503AF57"
+			rewards: [{ count: 2, id: "0C59ED660235735A", item: { count: 1, id: "minecraft:iron_block" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 2L, id: "3FB3C593F32C2D64", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			x: 2.30d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3CFCBBF71503AF57"]
+			icon: { count: 1, id: "avaritia:crystal_matrix_ingot" }
+			id: "005B78DE41DC55E0"
+			rewards: [{ count: 4, id: "5EEEE5D6B8B32999", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 2L, id: "601C5E79A35B02A4", item: { count: 1, id: "avaritia:crystal_matrix_ingot" }, type: "item" }]
+			x: 4.60d
+			y: 1.90d
+		}
+		{
+			dependencies: ["5BCD90A32A91A00F", "005B78DE41DC55E0"]
+			icon: { count: 1, id: "avaritia:infinity_ingot" }
+			id: "2EDAFC134877282C"
+			rewards: [{ count: 4, id: "3124DBFD15A9B39B", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "67FA54CACC3C95D5", item: { count: 1, id: "avaritia:infinity_ingot" }, type: "item" }]
+			x: 6.90d
+			y: 4.10d
+		}
+		{
+			dependencies: ["2EDAFC134877282C", "641DD4A58FC2EB65"]
+			icon: { count: 1, id: "maelstromtech:quantum_generator_3" }
+			id: "685E1B019FB63CD8"
+			rewards: [{ count: 4, id: "4FF9BFB66A066496", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "3965C78450645B07", item: { count: 1, id: "maelstromtech:quantum_generator_3" }, type: "item" }]
+			x: 9.20d
+			y: 4.10d
+		}
+		{
+			dependencies: ["5BCD90A32A91A00F"]
+			icon: { count: 1, id: "maelstromtech:liquid_neutron_compressor" }
+			id: "4F70B9B04A72B6F4"
+			rewards: [{ count: 1, id: "3AD07D119B51F8BB", item: { count: 1, id: "minecraft:lava_bucket" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "2972D9E2E8701336", item: { count: 1, id: "maelstromtech:liquid_neutron_compressor" }, type: "item" }]
+			x: 0.00d
+			y: 6.30d
+		}
+		{
+			dependencies: ["4F70B9B04A72B6F4"]
+			icon: { count: 1, id: "maelstromtech:liquid_singularity_lava" }
+			id: "2F5F0292F8133FE5"
+			rewards: [{ count: 2, id: "6F0868C6DCFB8004", item: { count: 1, id: "minecraft:iron_block" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "3198C119B0752C3D", item: { count: 1, id: "maelstromtech:liquid_singularity_lava" }, type: "item" }]
+			x: 2.30d
+			y: 6.30d
+		}
+		{
+			dependencies: ["2F5F0292F8133FE5"]
+			icon: { count: 1, id: "avaritia:eternal_singularity" }
+			id: "0AAAEF91F10CCD26"
+			rewards: [{ count: 2, id: "7589D4B0EDB7CAF9", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "24BFBEBA38290048", item: { count: 1, id: "avaritia:eternal_singularity" }, type: "item" }]
+			x: 4.60d
+			y: 6.30d
+		}
+		{
+			dependencies: ["0AAAEF91F10CCD26", "011B4A288DE1EB73"]
+			icon: { count: 1, id: "kubejs:sparkling_core" }
+			id: "4690EB77DBE5F1DD"
+			rewards: [{ count: 1, id: "2456C3F3D396F02F", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "4E5D06E29FBE9399", item: { count: 1, id: "kubejs:sparkling_core" }, type: "item" }]
+			x: 6.90d
+			y: 6.30d
+		}
+		{
+			dependencies: ["4690EB77DBE5F1DD"]
+			icon: { count: 1, id: "maelstromtech:sparkling_panel" }
+			id: "77B70DB7B88E5812"
+			rewards: [{ count: 1, id: "34695A1B40847615", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "4B8D234D77F4E22D", item: { count: 1, id: "maelstromtech:sparkling_panel" }, type: "item" }]
+			x: 9.20d
+			y: 6.30d
+		}
+		{
+			dependencies: ["77B70DB7B88E5812"]
+			icon: { count: 1, id: "maelstromtech:legendary_assembly_complex" }
+			id: "2373493C0B6C7574"
+			rewards: [{ count: 8, id: "32164A1B2235F850", item: { count: 1, id: "avaritia:neutron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "298851AD634F3EE9", item: { count: 1, id: "maelstromtech:legendary_assembly_complex" }, type: "item" }]
+			x: 11.50d
+			y: 6.30d
+		}
+		{
+			dependencies: ["2373493C0B6C7574"]
+			icon: { count: 1, id: "maelstromtech:quantum_generator_0" }
+			id: "35B6538C80F903FE"
+			rewards: [{ count: 2, id: "53D72CC406302872", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "235B3D8F8773F048", item: { count: 1, id: "maelstromtech:quantum_generator_0" }, type: "item" }]
+			x: 13.80d
+			y: 7.50d
+		}
+		{
+			dependencies: ["685E1B019FB63CD8", "2373493C0B6C7574"]
+			icon: { count: 1, id: "maelstromtech:quantum_generator_upgrade" }
+			id: "7B1EDE2751B36BD6"
+			rewards: [{ count: 8, id: "7DB40F6F72D55B16", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "5C16EAE9CBEA85E4", item: { count: 1, id: "maelstromtech:quantum_generator_upgrade" }, type: "item" }]
+			x: 16.10d
+			y: 6.30d
+		}
+	]
+}

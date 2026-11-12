@@ -80,5 +80,9 @@ ServerEvents.recipes(function (event) {
   event.custom({ type: 'oritech:centrifuge_fluid', fluidInput: { fluid: 'minecraft:water', amount: 1000 },
     fluidOutputs: [{ fluid: 'industrialupgrade:iufluidhelium', amount: 500 }], ingredients: [{ item: 'kubejs:fluorite_crystal' }],
     results: [], time: 100 }).id('kubejs:fixes_reach/helium')
-  console.info('[check] fixes_reach: 10 recipes')
+  // QUEUE16: блок электрума IE не крафтится (крафт 9 слитков → блок пропал из RecipeManager, есть только UU-репликатор IU),
+  // а он вход совершенной пасеки, искрящейся панели из розового золота, энергоячеек и квантового генератора 2
+  event.shaped('immersiveengineering:storage_electrum', ['III', 'III', 'III'], { I: '#c:ingots/electrum' }).id('kubejs:fixes_reach/storage_electrum')
+  event.shapeless('9x immersiveengineering:ingot_electrum', ['immersiveengineering:storage_electrum']).id('kubejs:fixes_reach/electrum_from_block')
+  console.info('[check] fixes_reach: 12 recipes')
 })

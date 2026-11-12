@@ -15,11 +15,10 @@ var WEB3_SLOT = [
   ['mekanism:energy_cube/advanced', 0, 1, EF],
   ['mekanism:energy_cube/elite', 0, 1, C],
   ['mekanism:energy_cube/ultimate', 0, 1, EA],
-  ['mekanismgenerators:generator/solar', 1, 0, F], // T34: вместо одного из двух сплавов (центр — единственный слиток)
-  ['mekanismgenerators:generator/heat', 0, 1, F], // T34: вместо одного из трёх слитков железа
-  ['mekanismgenerators:generator/wind', 0, 0, C], // T34: пустой угол
+  // T80: солнечный и тепловой генераторы Mekanism — ступень «Старт» (_ai/generators_ladder.md): без кристалла, родной рецепт
+  ['mekanismgenerators:generator/wind', 0, 0, C], ['mekanismgenerators:generator/wind', 0, 2, C], // T80: оба пустых верхних угла — симметрично
   ['mekanismgenerators:generator/gas_burning', 0, 1, C],
-  ['mekanismgenerators:reactor/controller', 0, 0, EA], // T34: вместо одной из двух ultimate-схем
+  ['mekanismgenerators:reactor/controller', 0, 1, EA], // T80: вместо стеклянной панели сверху по центру (симметрично, обе ultimate-схемы на месте)
   // Powah: ячейки — верхний конденсатор (basic_2 — путь через starter, тоже закрыт); генераторы basic — тир 1
   ['powah:crafting/energy_cell_basic', 0, 1, F],
   ['powah:crafting/energy_cell_basic_2', 0, 1, F],
@@ -28,8 +27,8 @@ var WEB3_SLOT = [
   ['powah:crafting/energy_cell_niotic', 0, 1, C],
   ['powah:crafting/energy_cell_spirited', 0, 1, EA],
   ['powah:crafting/energy_cell_nitro', 0, 1, EA],
-  ['powah:crafting/reactor_basic', 0, 1, F], // T34: вместо одного из 4 больших конденсаторов (уранинит один)
-  ['powah:crafting/thermo_generator_basic', 0, 0, F], // T34: вместо одной из двух диэлектрических паст
+  ['powah:crafting/reactor_basic', 0, 1, EA], ['powah:crafting/reactor_basic', 2, 1, EA], // T80: ступень «Поздний» → аметрин, сверху и снизу (симметрично)
+  ['powah:crafting/thermo_generator_basic', 0, 1, F], // T80: вместо единственного железа сверху по центру (симметрично)
   ['powah:crafting/solar_panel_basic', 2, 1, F],
   // Ender IO: банк конденсаторов (оба рецепта advanced, чтобы не было обхода)
   ['enderio:basic_capacitor_bank', 0, 1, F],
@@ -136,7 +135,8 @@ var WEB3_LADDERS = [
     ['ultimate_holographic_thermodynamic_panel', 4]]],
   ['enderio:vibrant_alloy_ingot', 'immersiveengineering:ingot_electrum', [['bronze_electrolyzed_panel', 0], ['glowstone_electrolyzed_panel', 1],
     ['obsidian_electrolyzed_panel', 2], ['osmium_electrolyzed_panel', 3], ['multiallow_ultimate_electrolyzed_panel', 4]]],
-  ['forestry:royal_jelly', 'forestry:impregnated_frame', [['beekeeper_blue_panel', 0], ['beekeeper_green_panel', 1], ['beekeeper_purple_panel', 2],
+  // QUEUE16: K пчеловодческой лестницы — сотовая пластина (только из совершенной пасеки), было forestry:impregnated_frame
+  ['forestry:royal_jelly', 'maelstromtech:honeycomb_plate', [['beekeeper_blue_panel', 0], ['beekeeper_green_panel', 1], ['beekeeper_purple_panel', 2],
     ['beekeeper_amber_panel', 3], ['improved_beekeeper_blue_panel', 1, 'beekeeper_blue_panel'], ['improved_beekeeper_green_panel', 2, 'beekeeper_green_panel'],
     ['improved_beekeeper_purple_panel', 3, 'beekeeper_purple_panel'], ['improved_beekeeper_amber_panel', 4, 'beekeeper_amber_panel'],
     ['ultimate_four_color_beekeeper_panel', 5, 'improved_beekeeper_amber_panel']]],

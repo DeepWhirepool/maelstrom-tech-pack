@@ -1,0 +1,340 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iu"
+	group: ""
+	icon: { id: "industrialupgrade:forge_hammer" }
+	id: "61B662991AF44936"
+	images: [{ alpha: 255, color: 16777215, height: 17.6d, image: "kubejs:textures/quests/ch_iu.png", order: -10, rotation: 0.0d, width: 47.1d, x: 19.55d, y: 1.20d }]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D79CEACEA21937D"]
+			icon: { count: 1, id: "industrialupgrade:forge_hammer" }
+			id: "5ECA7ECBAE5CA34E"
+			rewards: []
+			shape: "gear"
+			size: 1.0d
+			tasks: [{ id: "72DCDA96F9E59E20", type: "checkmark" }]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["2EBA076B0BE750B8"]
+			icon: { count: 1, id: "industrialupgrade:forge_hammer" }
+			id: "5447CC13B784E48B"
+			rewards: [{ count: 8, id: "524B90BA40040B27", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "45DB3FCC50FFD758", item: { count: 1, id: "industrialupgrade:forge_hammer" }, type: "item" }]
+			x: 2.30d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5447CC13B784E48B"]
+			icon: { count: 1, id: "industrialupgrade:cutter" }
+			id: "08CF9FE830856DD6"
+			rewards: [{ count: 4, id: "111A7F041D353BEA", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "28E69B9AE6817445", item: { count: 1, id: "industrialupgrade:cutter" }, type: "item" }]
+			x: 4.60d
+			y: 0.00d
+		}
+		{
+			dependencies: ["1D79CEACEA21937D"]
+			icon: { count: 1, id: "industrialupgrade:tools/treetap" }
+			id: "235DB8EE52D1D3A4"
+			rewards: [{ count: 4, id: "44E95618EF5E089C", item: { count: 1, id: "industrialupgrade:sapling/rubber_sapling" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "495ACDABE49A2F71", item: { count: 1, id: "industrialupgrade:tools/treetap" }, type: "item" }]
+			x: 6.90d
+			y: 0.00d
+		}
+		{
+			dependencies: ["235DB8EE52D1D3A4"]
+			icon: { count: 1, id: "industrialupgrade:crafting_elements/crafting_271_element" }
+			id: "705B8F26CA520563"
+			rewards: [{ count: 8, id: "7C29F316826BB036", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 8L, id: "65F5244FBAA8FC5B", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_271_element" }, type: "item" }]
+			x: 9.20d
+			y: 0.00d
+		}
+		{
+			dependencies: ["08CF9FE830856DD6", "705B8F26CA520563"]
+			icon: { count: 1, id: "industrialupgrade:wiring/copper1" }
+			id: "4573E924CC60CD4F"
+			rewards: [{ count: 8, id: "75F07E62E97FF75E", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 8L, id: "3358556202EE5386", item: { count: 1, id: "industrialupgrade:wiring/copper1" }, type: "item" }]
+			x: 11.50d
+			y: 2.80d
+		}
+		{
+			dependencies: ["4573E924CC60CD4F", "6CCE8C843CFF2AF3"]
+			icon: { count: 1, id: "industrialupgrade:crafting_elements/crafting_272_element" }
+			id: "7D42340CD01CFC9F"
+			rewards: [{ count: 16, id: "600EE38688D79943", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 2L, id: "1352008249BC1618", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_272_element" }, type: "item" }]
+			x: 13.80d
+			y: 0.00d
+		}
+		{
+			dependencies: ["7D42340CD01CFC9F"]
+			icon: { count: 1, id: "industrialupgrade:blockresource/machine" }
+			id: "4A9CB22B1AA0B777"
+			rewards: [{ count: 8, id: "7D3516FCF2822AFE", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "095F39EFE2421033", item: { count: 1, id: "industrialupgrade:blockresource/machine" }, type: "item" }]
+			x: 16.10d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4A9CB22B1AA0B777", "7D42340CD01CFC9F"]
+			icon: { count: 1, id: "industrialupgrade:basemachine3/generator_iu" }
+			id: "74A465DE14F03163"
+			rewards: [{ count: 32, id: "40F4F01173F9C5EA", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "7377BF55307F1ACB", item: { count: 1, id: "industrialupgrade:basemachine3/generator_iu" }, type: "item" }]
+			x: 18.40d
+			y: -2.00d
+		}
+		{
+			dependencies: ["74A465DE14F03163"]
+			icon: { count: 1, id: "industrialupgrade:simplemachine/macerator_iu" }
+			id: "712D0FA76F731BF4"
+			rewards: [{ count: 8, id: "39FAE04D38C54AC7", item: { count: 1, id: "minecraft:flint" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "264663188711AEC9", item: { count: 1, id: "industrialupgrade:simplemachine/macerator_iu" }, type: "item" }]
+			x: 20.70d
+			y: 0.00d
+		}
+		{
+			dependencies: ["74A465DE14F03163"]
+			icon: { count: 1, id: "industrialupgrade:simplemachine/compressor_iu" }
+			id: "016E69D450231DCD"
+			rewards: [{ count: 16, id: "127BAEAB05BC80C6", item: { count: 1, id: "minecraft:oak_log" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "720F4F9191811326", item: { count: 1, id: "industrialupgrade:simplemachine/compressor_iu" }, type: "item" }]
+			x: 23.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["016E69D450231DCD"]
+			icon: { count: 1, id: "industrialupgrade:simplemachine/extractor_iu" }
+			id: "0437BBD04D5DD09F"
+			rewards: [{ count: 8, id: "2E20E61EEF6B2FBD", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "5CD4EA51C3E8A009", item: { count: 1, id: "industrialupgrade:simplemachine/extractor_iu" }, type: "item" }]
+			x: 25.30d
+			y: -1.90d
+		}
+		{
+			dependencies: ["016E69D450231DCD"]
+			icon: { count: 1, id: "industrialupgrade:simplemachine/furnace_iu" }
+			id: "67EA7F089724FBC2"
+			rewards: [{ count: 16, id: "6D3723348C313E0A", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "1815696CF75C335D", item: { count: 1, id: "industrialupgrade:simplemachine/furnace_iu" }, type: "item" }]
+			x: 25.30d
+			y: 1.90d
+		}
+		{
+			dependencies: ["016E69D450231DCD"]
+			icon: { count: 1, id: "industrialupgrade:upgrades/overclocker" }
+			id: "1A731C5D6F3A0FBC"
+			rewards: [{ count: 8, id: "0C058E5F8FD86F11", item: { count: 1, id: "minecraft:ice" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 2L, id: "0563AAAFD484596A", item: { count: 1, id: "industrialupgrade:upgrades/overclocker" }, type: "item" }]
+			x: 25.30d
+			y: -3.60d
+		}
+		{
+			dependencies: ["1A731C5D6F3A0FBC"]
+			icon: { count: 1, id: "industrialupgrade:upgrades/ejector" }
+			id: "43573DFF9AC4AE77"
+			rewards: [{ count: 2, id: "01E415F8CEBC4DA5", item: { count: 1, id: "minecraft:hopper" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "25CCA4E34BD7496C", item: { count: 1, id: "industrialupgrade:upgrades/ejector" }, type: "item" }]
+			x: 27.60d
+			y: -1.90d
+		}
+		{
+			dependencies: ["016E69D450231DCD"]
+			icon: { count: 1, id: "industrialupgrade:crafting_elements/crafting_273_element" }
+			id: "047814C97E70A128"
+			rewards: [{ count: 8, id: "7310561FE5FCCD06", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 2L, id: "2D6B9F706B332D9E", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_273_element" }, type: "item" }]
+			x: 27.60d
+			y: 0.00d
+		}
+		{
+			dependencies: ["047814C97E70A128", "5BCB1DDFB39AF6BE"]
+			icon: { count: 1, id: "industrialupgrade:blockresource/advanced_machine" }
+			id: "4C6AC41A4E55F9BE"
+			rewards: [{ count: 4, id: "7CD69DBC69F33FBE", item: { count: 1, id: "immersiveengineering:ingot_steel" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "63AD88C94CF215EE", item: { count: 1, id: "industrialupgrade:blockresource/advanced_machine" }, type: "item" }]
+			x: 29.90d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4C6AC41A4E55F9BE"]
+			icon: { count: 1, id: "industrialupgrade:moremachine3/centrifuge_iu" }
+			id: "637AB49AE0BD46ED"
+			rewards: [{ count: 8, id: "1D573E19032B4024", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "4E466250D776167A", item: { count: 1, id: "industrialupgrade:moremachine3/centrifuge_iu" }, type: "item" }]
+			x: 32.20d
+			y: 1.90d
+		}
+		{
+			dependencies: ["4C6AC41A4E55F9BE"]
+			icon: { count: 1, id: "industrialupgrade:basemachine3/rolling_machine" }
+			id: "3A1D2B5A5388002A"
+			rewards: [{ count: 8, id: "7D3D9CE66CA71AF2", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "07A1D38743E655CE", item: { count: 1, id: "industrialupgrade:basemachine3/rolling_machine" }, type: "item" }]
+			x: 32.20d
+			y: -1.90d
+		}
+		{
+			dependencies: ["712D0FA76F731BF4", "3A8FC016EAAD0925"]
+			icon: { count: 1, id: "maelstromtech:macerator_x6" }
+			id: "7515E50DFEF02CEE"
+			rewards: [{ count: 16, id: "5B3D331E04A317E1", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "1613933A384AA58D", item: { count: 1, id: "maelstromtech:macerator_x6" }, type: "item" }]
+			x: 23.00d
+			y: 4.10d
+		}
+		{
+			dependencies: ["7515E50DFEF02CEE"]
+			icon: { count: 1, id: "maelstromtech:furnace_x6" }
+			id: "448652871CF34494"
+			rewards: [{ count: 16, id: "5FF8F4319E875CCF", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "24D7520FD44EBE62", item: { count: 1, id: "maelstromtech:furnace_x6" }, type: "item" }]
+			x: 25.30d
+			y: 4.10d
+		}
+		{
+			dependencies: ["448652871CF34494"]
+			icon: { count: 1, id: "maelstromtech:compressor_x6" }
+			id: "60F7797F14F9C038"
+			rewards: [{ count: 8, id: "13AFF8846CFA109A", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "5701E96C791F6F0B", item: { count: 1, id: "maelstromtech:compressor_x6" }, type: "item" }]
+			x: 27.60d
+			y: 6.00d
+		}
+		{
+			dependencies: ["448652871CF34494"]
+			icon: { count: 1, id: "maelstromtech:extractor_x6" }
+			id: "41E925CD6E26EF67"
+			rewards: [{ count: 8, id: "5B26E2EF8F4F36E1", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_271_element" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "5E9CCB662A9DECF2", item: { count: 1, id: "maelstromtech:extractor_x6" }, type: "item" }]
+			x: 27.60d
+			y: 2.20d
+		}
+		{
+			dependencies: ["448652871CF34494"]
+			icon: { count: 1, id: "maelstromtech:metal_former_x6" }
+			id: "4187902D4B860F98"
+			rewards: [{ count: 16, id: "183B2A11EE6866C5", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "34BBEDD9A9F4A5E5", item: { count: 1, id: "maelstromtech:metal_former_x6" }, type: "item" }]
+			x: 27.60d
+			y: 4.10d
+		}
+		{
+			dependencies: ["4187902D4B860F98", "1E354D1E68CFDD49"]
+			icon: { count: 1, id: "maelstromtech:macerator_x12" }
+			id: "66A7D1CDA915357F"
+			rewards: [{ count: 4, id: "1E8F0C686D528EE0", item: { count: 1, id: "minecraft:iron_block" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "7D80AABE4E3DF6D6", item: { count: 1, id: "maelstromtech:macerator_x12" }, type: "item" }]
+			x: 29.90d
+			y: 4.10d
+		}
+		{
+			dependencies: ["4C6AC41A4E55F9BE", "5C8F2DA251102BC0"]
+			icon: { count: 1, id: "industrialupgrade:molecular/molecular" }
+			id: "0CF8A692176F512C"
+			rewards: [{ count: 8, id: "0CEFA71B260F17A8", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tags: ["important"]
+			tasks: [{ count: 1L, id: "4FDCB721FB9536A1", item: { count: 1, id: "industrialupgrade:molecular/molecular" }, type: "item" }]
+			x: 32.20d
+			y: 0.00d
+		}
+		{
+			dependencies: ["0CF8A692176F512C"]
+			icon: { count: 1, id: "industrialupgrade:itemsunnarium/sunnariumpart" }
+			id: "59139A26FDD9698A"
+			rewards: [{ count: 16, id: "64B757FA498E725D", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 4L, id: "18F6D774CF47D3B1", item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnariumpart" }, type: "item" }]
+			x: 34.50d
+			y: -0.40d
+		}
+		{
+			dependencies: ["59139A26FDD9698A"]
+			icon: { count: 1, id: "industrialupgrade:crafting_elements/crafting_291_element" }
+			id: "323AD59315FABE92"
+			rewards: [{ count: 4, id: "781B380AF603D206", item: { count: 1, id: "minecraft:iron_block" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 4L, id: "477AD8BE4BCD8170", item: { count: 1, id: "industrialupgrade:crafting_elements/crafting_291_element" }, type: "item" }]
+			x: 36.80d
+			y: 0.00d
+		}
+		{
+			dependencies: ["0CF8A692176F512C"]
+			icon: { count: 1, id: "minecraft:nether_star" }
+			id: "33D23D6D2FBDCFF1"
+			rewards: [{ count: 8, id: "2D92ED383087CDBA", item: { count: 1, id: "minecraft:soul_sand" }, type: "item" }]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{ count: 1L, id: "15CFE01F48D5199E", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			x: 39.10d
+			y: 1.90d
+		}
+	]
+}

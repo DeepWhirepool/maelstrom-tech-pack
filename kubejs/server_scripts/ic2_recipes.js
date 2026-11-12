@@ -31,6 +31,16 @@ var IC2_SHAPED = [
   ['basemachine3/simple_wind_generator', 1, ['I I', ' g ', 'I I'], { I: IFE, g: GEN }],
   ['rotor/rotor_wood', 1, ['LSL', 'SIS', 'LSL'], { L: '#minecraft:logs', S: 'minecraft:stick', I: IFE }],
   ['rotor/rotor_iron', 1, ['PIP', 'IBI', 'PIP'], { P: PFE, I: IFE, B: 'minecraft:iron_block' }],
+  // T88: лестница роторов IU до иридиевого — верстаком вместо сборщика роторов (лопасти + ядра ветра IU скрыты);
+  // каждый следующий из прошлого ротора + металл тира. Углеродный (ур. 5) и иридиевый (6) встают только в продвинутый ветряк (5–8)
+  ['rotor/rotor_bronze', 1, ['PIP', 'IRI', 'PIP'], { P: U('itemplates/bronze_plate'), I: '#c:ingots/bronze', R: U('rotor/rotor_wood') }],
+  ['rotor/rotor_steel', 1, ['PCP', 'CRC', 'PCP'], { P: '#c:plates/steel', C: U('casing/steel'), R: U('rotor/rotor_iron') }],
+  ['rotor/rotor_carbon', 1, ['CPC', 'PRP', 'CPC'], { C: CPL, P: '#c:plates/steel', R: U('rotor/rotor_steel') }],
+  ['rotor/iridium', 1, ['IDI', 'DRD', 'IDI'], { I: IPL, D: U('itemplates/iridium_plate'), R: U('rotor/rotor_carbon') }],
+  // T88: продвинутый ветряк (роторы ур. 5–8: углерод, иридий, наши хризолит/аметрин; пик 490–3900 FE/т) — гейт хризолит (S3),
+  // улучшенный (ур. 9–11: квантовый/пустотный/сингулярный; 7800+ FE/т) — гейт плутоний (S4) + заряж. аметрин
+  ['basemachine3/adv_wind_generator', 1, ['PAP', 'CGC', 'PAP'], { P: '#c:plates/steel', A: ACIR, C: 'kubejs:chrysolite_crystal', G: U('basemachine3/simple_wind_generator') }],
+  ['basemachine3/imp_wind_generator', 1, ['IEI', 'AGA', 'IEI'], { I: IPL, E: 'kubejs:energized_ametrine_crystal', A: 'mekanism:pellet_plutonium', G: U('basemachine3/adv_wind_generator') }],
   // солнечные панели (IC2 + ASP)
   ['basemachine3/solar_iu', 1, ['CgC', 'gCg', 'cGc'], { C: '#c:dusts/coal', g: 'minecraft:glass', c: CIR, G: GEN }],
   ['machines/advanced_solar_paneliu', 1, ['RRR', 'ASA', 'CMC'], { R: RGLASS, A: ALLOY, S: U('basemachine3/solar_iu'), C: ACIR, M: ACASE }],
@@ -38,7 +48,6 @@ var IC2_SHAPED = [
   ['machines/ultimate_solar_paneliu', 1, ['IEI', 'HAH', 'IEI'], { I: IPL, E: ESUN, H: U('machines/hybrid_solar_paneliu'), A: ACIR }], // ≈
   ['machines/quantum_solar_paneliu', 1, ['UAU', 'QIQ', 'UAU'], { U: U('machines/ultimate_solar_paneliu'), A: ACIR, Q: U('itemcore/quacore'), I: IPL }], // ≈
   // TODO crossmod: соларит, обогащённый соларит и квантовое ядро — временные простые рецепты
-  ['itemsunnarium/sunnarium2', 1, ['GUG', 'UCU', 'GUG'], { G: 'minecraft:glowstone', U: '#c:ingots/uranium', C: ACIR }],
   ['itemsunnarium/sunnarium_enriched', 1, ['SLS'], { S: SUN, L: LAP }],
   ['itemcore/quacore', 1, ['ALA', 'LEL', 'ALA'], { A: ACASE, L: LAP, E: ESUN }],
   // кабели и трансформаторы
@@ -91,6 +100,24 @@ var IC2_SHAPED = [
   ['upgrades/overclocker', 1, ['III', 'WCW'], { I: 'minecraft:ice', W: CU1, C: CIR }], // капсула 10k → лёд
   ['upgrades/transformer', 1, ['GGG', 'WTW', 'GCG'], { G: 'minecraft:glass', W: AU1, T: U('transformer_iu/mv'), C: CIR }],
   ['upgrades/energy_storage', 1, ['PPP', 'WBW', 'PCP'], { P: PLANK, W: CU1, B: RE, C: CIR }],
+  // Q15-1: инструменты и заряжающие батареи IU (решение пользователя). LL: IC2 iridium drill / GraviSuite advDDrill, vajra /
+  // hielements quantum (9x9 с предметами чужих модов) — переведены на тиры паутины: нано-дрель — хризолит (S3), квантовые — квантовый сплав (S4),
+  // ultddrill и ваджра — ядро виверны (S5, перед эндгеймом), чтобы не быть дешевле Meka-Tool/Draconic своего уровня.
+  ['energy_tools/nanodrill', 1, ['ACA', 'PDP', 'ABA'], { A: 'mekanism:alloy_reinforced', C: 'kubejs:energized_chrysolite_crystal', P: CPL, D: U('energy_tools/diamond_drill'), B: EC }],
+  ['energy_tools/quantumpickaxe', 1, ['QIQ', 'LTL', 'QCQ'], { Q: 'kubejs:quantum_alloy_ingot', I: IPL, L: LAP, T: 'minecraft:diamond_pickaxe', C: 'kubejs:circuit_board_t3' }],
+  ['energy_tools/quantumaxe', 1, ['QIQ', 'LTL', 'QCQ'], { Q: 'kubejs:quantum_alloy_ingot', I: IPL, L: LAP, T: 'minecraft:diamond_axe', C: 'kubejs:circuit_board_t3' }],
+  ['energy_tools/quantumshovel', 1, ['QIQ', 'LTL', 'QCQ'], { Q: 'kubejs:quantum_alloy_ingot', I: IPL, L: LAP, T: 'minecraft:diamond_shovel', C: 'kubejs:circuit_board_t3' }],
+  ['energy_tools/ultddrill', 1, ['OWO', 'XDX', 'CLC'], { O: U('upgrades/overclocker'), W: 'draconicevolution:wyvern_core', X: 'minecraft:diamond_block', D: U('energy_tools/nanodrill'), C: 'kubejs:circuit_board_t3', L: LAP }],
+  ['energy_tools/vajra', 1, ['PEP', 'QWQ', 'PLP'], { P: CPL, E: 'kubejs:energized_ametrine_crystal', Q: 'kubejs:quantum_alloy_ingot', W: 'draconicevolution:wyvern_core', L: LAP }],
+  ['battery/charging_re_battery', 1, ['CBC', 'B B', 'CBC'], { C: CIR, B: RE }], // LL = IC2
+  ['battery/advanced_charging_re_battery', 1, ['EBE', 'BOB', 'EBE'], { E: '#c:plates/bronze', B: ARE, O: U('battery/charging_re_battery') }], // теплообменник IC2 → бронза (реакторов IU нет)
+  ['battery/charging_energy_crystal', 1, ['ECE', 'COC', 'ECE'], { E: '#c:plates/gold', C: EC, O: U('battery/advanced_charging_re_battery') }],
+  ['battery/charging_lapotron_crystal', 1, ['CLC', 'LOL', 'CLC'], { C: 'minecraft:diamond', L: LAP, O: U('battery/charging_energy_crystal') }],
+  // T77 аудит: выталкиватель/затягиватель — улучшения автоматизации IC2, в LoliLand входят в рецепты машин (IC2:upgradeModule:3..6); были скрыты без замены
+  ['upgrades/ejector', 1, ['THT', ' C '], { T: '#c:plates/tin', H: 'minecraft:hopper', C: CIR }],
+  ['upgrades/pulling', 1, ['TST', ' C '], { T: '#c:plates/tin', S: 'minecraft:sticky_piston', C: CIR }],
+  ['upgrades/fluid_ejector', 1, ['THT', 'BCB'], { T: '#c:plates/tin', H: 'minecraft:hopper', B: 'minecraft:bucket', C: CIR }],
+  ['upgrades/fluid_pulling', 1, ['TST', 'BCB'], { T: '#c:plates/tin', S: 'minecraft:sticky_piston', B: 'minecraft:bucket', C: CIR }],
   // компоненты
   ['blockresource/machine', 1, ['PPP', 'P P', 'PPP'], { P: PFE }],
   ['blockresource/advanced_machine', 1, [' C ', 'AMA', ' C '], { C: CPL, A: ALLOY, M: CASE }],
@@ -119,7 +146,8 @@ var IC2_MACHINE = [
 // машинные рецепты IU для предметов ic2_keep с входами IU вне набора — удалить все: [машина, выход]
 var IC2_MACHINE_DEL = [
   ['sunnurium', SUN], ['enrichment', ESUN], ['molecular', U('itemcore/quacore')],
-  ['rotor_assembler', U('rotor/rotor_wood')], ['rotor_assembler', U('rotor/rotor_iron')], ['handlerho', U('baseore/iridium')], ['farmer', U('raw_latex')],
+  ['rotor_assembler', U('rotor/rotor_wood')], ['rotor_assembler', U('rotor/rotor_iron')], ['rotor_assembler', U('rotor/rotor_bronze')],
+  ['rotor_assembler', U('rotor/rotor_steel')], ['rotor_assembler', U('rotor/rotor_carbon')], ['rotor_assembler', U('rotor/iridium')], ['handlerho', U('baseore/iridium')], ['farmer', U('raw_latex')],
   ['antiupgradeblock', U('upgrademodules/upgrademodule')] // 5г: модуль теперь верстаком
 ]
 
@@ -133,7 +161,9 @@ ServerEvents.recipes(function (event) {
   })
   ;['crafting_elements/crafting_274_element', 'crafting_elements/crafting_282_element', 'crafting_elements/crafting_291_element',
     'crafting_elements/crafting_271_element', 'battery/energy_crystal', 'itemdust/coal_dust', 'itemdust/lapis_dust', 'raw_latex',
-    'sapling/rubber_sapling', 'baseore/iridium'].forEach(function (s) { ids[U(s)] = 1 })
+    'sapling/rubber_sapling', 'baseore/iridium',
+    'itemsunnarium/sunnarium2' // T83: санариум как в LoliLand — только молекулярный преобразователь (molecular_transformer.js)
+  ].forEach(function (s) { ids[U(s)] = 1 })
   // фильтр {output} у типов IU цепляет и входы (снёс бы ~100 чужих рецептов с корпусом) — сверяем id результата в JSON
   var rm = []
   CRAFT.forEach(function (ty) {

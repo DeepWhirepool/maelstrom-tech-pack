@@ -72,7 +72,7 @@
 		# Position of the sidebar
 		# Default: "top_left"
 		# Valid values: "top_left", "top_right", "bottom_left", "bottom_right"
-		position: "top_left"
+		position: "bottom_left"
 	}
 	tooltips: {
 		# Add the name of the mod that entities belong to in the entity face selection GUI.
