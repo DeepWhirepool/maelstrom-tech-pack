@@ -88,7 +88,8 @@ ServerEvents.recipes(function (e) {
     C: 'kubejs:circuit_board_t3', P: L('plasma_charger'), L: 'minecraft:blue_ice' })
   shaped('energonium_converter', 1, ['CRC', 'KUK', 'CDC'], { C: L('converter_casing'), R: L('red_energon_generator'), D: L('dark_energon_generator'),
     K: 'kubejs:circuit_board_t4', U: 'mekanism:ultimate_control_circuit' })
-  shaped('energon_synthesizer', 1, ['CXC', 'KEK', 'CXC'], { C: L('converter_casing'), X: 'draconicevolution:wyvern_energy_core', K: 'kubejs:circuit_board_t4',
+  // T102: синтезатор и плавильня — на своих корпусах
+  shaped('energon_synthesizer', 1, ['CXC', 'KEK', 'CXC'], { C: L('synth_casing'), X: 'draconicevolution:wyvern_energy_core', K: 'kubejs:circuit_board_t4',
     E: L('energonium_converter') })
   shaped('heliospheric_charging_center', 1, ['HAH', 'SYS', 'HQH'], { H: L('helio_casing'), A: 'draconicevolution:awakened_core', S: L('star_matter_block'),
     Y: L('energon_synthesizer'), Q: 'avaritia:crystal_matrix_ingot' })
@@ -96,7 +97,7 @@ ServerEvents.recipes(function (e) {
   shaped('thermonuclear_melting_complex', 1, ['TCT', 'MHS', 'TNT'], { T: L('thermo_casing'), C: 'draconicevolution:chaotic_core', M: 'mekanism:pellet_antimatter',
     H: L('heliospheric_charging_center'), N: 'avaritia:neutron_ingot', S: L('smelting_crystallizer') })
   // T66: комплекс — после Преобразователя (его корпус/стекло), до Термояда: доменная печь IE-уровня + Mekanism + IU
-  shaped('smelting_crystallizer', 1, ['CHC', 'RKR', 'CBC'], { C: L('converter_casing'), H: 'mekanism:resistive_heater', R: 'immersiveengineering:plate_steel',
+  shaped('smelting_crystallizer', 1, ['CHC', 'RKR', 'CBC'], { C: L('smelter_casing'), H: 'mekanism:resistive_heater', R: 'immersiveengineering:plate_steel',
     K: 'kubejs:circuit_board_t3', B: 'mekanism:basic_fluid_tank' })
   // T67: жидкостный компрессор — эндгейм после Термояда: нейтронный компрессор Avaritia + бак Mekanism + кристалл энергона
   shaped('liquid_neutron_compressor', 1, ['NTN', 'PXP', 'NAN'], { N: 'avaritia:neutron_ingot', T: 'mekanism:ultimate_fluid_tank',
@@ -106,6 +107,13 @@ ServerEvents.recipes(function (e) {
   // Корпуса и стёкла: дёшево (×4–8), 2–3 мода; каждый следующий корпус на базе предыдущего
   shaped('converter_casing', 8, ['SXS', 'XCX', 'SXS'], { S: 'immersiveengineering:plate_steel', X: 'powah:dielectric_paste', C: 'mekanism:steel_casing' })
   shaped('converter_glass', 8, ['GAG', 'APA', 'GAG'], { G: 'mekanism:structural_glass', A: 'ae2:quartz_glass', P: 'powah:dielectric_paste' })
+  // T102: свои корпус/стекло Плавильни и Синтезатора — цепочкой от корпуса Преобразователя + деталь своей ступени,
+  // каждая следующая структура в 2–4 раза дороже: плавильня — усиленный сплав + хризолит (S3), синтезатор — атомный сплав
+  // + заряженный аметрин (S4). Стекло — прошлое стекло + усиливающая деталь.
+  shaped('smelter_casing', 4, ['ACA', 'CHC', 'ACA'], { A: 'mekanism:alloy_reinforced', C: L('converter_casing'), H: 'kubejs:chrysolite_crystal' })
+  shaped('smelter_glass', 4, ['GIG', 'IKI', 'GIG'], { G: L('converter_glass'), I: 'immersiveengineering:insulating_glass', K: 'kubejs:chrysolite_crystal' })
+  shaped('synth_casing', 4, ['ACA', 'CEC', 'ACA'], { A: 'mekanism:alloy_atomic', C: L('smelter_casing'), E: 'kubejs:energized_ametrine_crystal' })
+  shaped('synth_glass', 4, ['GAG', 'AEA', 'GAG'], { G: L('smelter_glass'), A: 'mekanism:alloy_atomic', E: 'kubejs:energized_ametrine_crystal' })
   shaped('helio_casing', 8, ['DND', 'NCN', 'DND'], { D: 'draconicevolution:draconium_ingot', N: 'enderio:dark_steel_ingot', C: L('converter_casing') })
   shaped('helio_grate', 4, ['HBH', 'B B', 'HBH'], { H: L('helio_casing'), B: 'enderio:dark_steel_bars' })
   shaped('helio_lamp', 4, ['GSG', 'S S', 'GSG'], { G: L('converter_glass'), S: 'powah:crystal_spirited' })

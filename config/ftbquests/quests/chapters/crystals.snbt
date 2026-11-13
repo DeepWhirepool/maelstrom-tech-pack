@@ -3,335 +3,148 @@
 	default_quest_shape: ""
 	filename: "crystals"
 	group: ""
-	icon: {
-		id: "powah:energizing_orb"
-	}
+	icon: { id: "powah:energizing_orb" }
 	id: "042FDF2B96B84801"
-	images: [{
-		height: 12.7d
-		id: "1EF1CE54784D0E43"
-		image: "kubejs:textures/quests/ch_crystals.png"
-		order: -10
-		rotation: 0.0d
-		width: 28.7d
-		x: 10.35d
-		y: 0.45d
-	}]
+	images: [{ alpha: 255, color: 16777215, height: 12.7d, image: "kubejs:textures/quests/ch_crystals.png", order: -10, rotation: 0.0d, width: 28.7d, x: 10.35d, y: 0.45d }]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: {
-				id: "industrialforegoing:machine_frame_pity"
-			}
+			icon: { count: 1, id: "industrialforegoing:machine_frame_pity" }
 			id: "1905873677A13B42"
+			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{
-				id: "4A8F2D360567EC95"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
+			tasks: [{ id: "4A8F2D360567EC95", type: "checkmark" }]
+			x: 0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5BCB1DDFB39AF6BE"]
-			icon: {
-				id: "industrialforegoing:machine_frame_pity"
-			}
+			icon: { count: 1, id: "industrialforegoing:machine_frame_pity" }
 			id: "48864BF540F42B8F"
-			rewards: [{
-				count: 8
-				id: "345B1CB14E44178A"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "345B1CB14E44178A", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "7DA4C5F6C141AD01"
-				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
-				type: "item"
-			}]
-			x: 2.3d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "7DA4C5F6C141AD01", item: { count: 1, id: "industrialforegoing:machine_frame_pity" }, type: "item" }]
+			x: 2.30d
+			y: 0.00d
 		}
 		{
-			dependencies: [
-				"48864BF540F42B8F"
-				"4A9CB22B1AA0B777"
-			]
-			icon: {
-				id: "industrialforegoing:ore_laser_base"
-			}
+			dependencies: ["48864BF540F42B8F", "4A9CB22B1AA0B777"]
+			icon: { count: 1, id: "industrialforegoing:ore_laser_base" }
 			id: "22142C2ACB6115D9"
-			rewards: [{
-				count: 16
-				id: "021A93B2834122E6"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 16, id: "021A93B2834122E6", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "4E87536FDE989107"
-				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
-				type: "item"
-			}]
-			x: 4.6d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "4E87536FDE989107", item: { count: 1, id: "industrialforegoing:ore_laser_base" }, type: "item" }]
+			x: 4.60d
+			y: 0.00d
 		}
 		{
 			dependencies: ["22142C2ACB6115D9"]
-			icon: {
-				id: "kubejs:chrysolite_crystal"
-			}
+			icon: { count: 1, id: "kubejs:chrysolite_crystal" }
 			id: "26FBAB1F2E6D29C0"
-			rewards: [{
-				count: 8
-				id: "0D0746E8B194E395"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "0D0746E8B194E395", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				count: 2L
-				id: "667470F574505181"
-				item: { count: 1, id: "kubejs:chrysolite_crystal" }
-				type: "item"
-			}]
-			x: 6.9d
-			y: 0.0d
+			tasks: [{ count: 2L, id: "667470F574505181", item: { count: 1, id: "kubejs:chrysolite_crystal" }, type: "item" }]
+			x: 6.90d
+			y: 0.00d
 		}
 		{
 			dependencies: ["26FBAB1F2E6D29C0"]
-			icon: {
-				id: "kubejs:ametrine_crystal"
-			}
+			icon: { count: 1, id: "kubejs:ametrine_crystal" }
 			id: "34A533961C21B56E"
-			rewards: [{
-				count: 8
-				id: "2DEB80F29DC3DCAE"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "2DEB80F29DC3DCAE", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				count: 2L
-				id: "7E72B6D891E2982E"
-				item: { count: 1, id: "kubejs:ametrine_crystal" }
-				type: "item"
-			}]
-			x: 9.2d
-			y: 0.4d
+			tasks: [{ count: 2L, id: "7E72B6D891E2982E", item: { count: 1, id: "kubejs:ametrine_crystal" }, type: "item" }]
+			x: 9.20d
+			y: 0.40d
 		}
 		{
 			dependencies: ["148A61F0C1EA4722"]
-			icon: {
-				id: "powah:energizing_orb"
-			}
+			icon: { count: 1, id: "powah:energizing_orb" }
 			id: "27B888B6AE8EFBCE"
-			rewards: [{
-				count: 8
-				id: "1955760B98B17CF6"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "1955760B98B17CF6", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "00042B8A596D589F"
-				item: { count: 1, id: "powah:energizing_orb" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "00042B8A596D589F", item: { count: 1, id: "powah:energizing_orb" }, type: "item" }]
+			x: 11.50d
+			y: 0.00d
 		}
 		{
-			dependencies: [
-				"27B888B6AE8EFBCE"
-				"125D53D683D7A3D9"
-			]
-			icon: {
-				id: "kubejs:energized_fluorite_crystal"
-			}
+			dependencies: ["27B888B6AE8EFBCE", "125D53D683D7A3D9"]
+			icon: { count: 1, id: "kubejs:energized_fluorite_crystal" }
 			id: "71627472CC1558DE"
-			rewards: [{
-				count: 2
-				id: "4CEF10BA40BC361E"
-				item: {
-					count: 1
-					id: "kubejs:fluorite_crystal"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "4CEF10BA40BC361E", item: { count: 1, id: "kubejs:fluorite_crystal" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				count: 2L
-				id: "3BD4EDE3A27E0E8B"
-				item: { count: 1, id: "kubejs:energized_fluorite_crystal" }
-				type: "item"
-			}]
-			x: 13.8d
-			y: 0.0d
+			tasks: [{ count: 2L, id: "3BD4EDE3A27E0E8B", item: { count: 1, id: "kubejs:energized_fluorite_crystal" }, type: "item" }]
+			x: 13.80d
+			y: 0.00d
 		}
 		{
-			dependencies: [
-				"27B888B6AE8EFBCE"
-				"26FBAB1F2E6D29C0"
-			]
-			icon: {
-				id: "kubejs:energized_chrysolite_crystal"
-			}
+			dependencies: ["27B888B6AE8EFBCE", "26FBAB1F2E6D29C0"]
+			icon: { count: 1, id: "kubejs:energized_chrysolite_crystal" }
 			id: "446376A883F261E5"
-			rewards: [{
-				id: "469D9FAD9A608E85"
-				item: {
-					count: 1
-					id: "kubejs:chrysolite_crystal"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 1, id: "469D9FAD9A608E85", item: { count: 1, id: "kubejs:chrysolite_crystal" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				count: 2L
-				id: "0A8CA21F243FCC96"
-				item: { count: 1, id: "kubejs:energized_chrysolite_crystal" }
-				type: "item"
-			}]
-			x: 16.1d
-			y: -1.9d
+			tasks: [{ count: 2L, id: "0A8CA21F243FCC96", item: { count: 1, id: "kubejs:energized_chrysolite_crystal" }, type: "item" }]
+			x: 16.10d
+			y: -1.90d
 		}
 		{
-			dependencies: [
-				"27B888B6AE8EFBCE"
-				"34A533961C21B56E"
-			]
-			icon: {
-				id: "kubejs:energized_ametrine_crystal"
-			}
+			dependencies: ["27B888B6AE8EFBCE", "34A533961C21B56E"]
+			icon: { count: 1, id: "kubejs:energized_ametrine_crystal" }
 			id: "2D34AA8C81E3003B"
-			rewards: [{
-				id: "5CC3EB739843BBEB"
-				item: {
-					count: 1
-					id: "kubejs:ametrine_crystal"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 1, id: "5CC3EB739843BBEB", item: { count: 1, id: "kubejs:ametrine_crystal" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				count: 2L
-				id: "38A24298B5D298D3"
-				item: { count: 1, id: "kubejs:energized_ametrine_crystal" }
-				type: "item"
-			}]
-			x: 16.1d
-			y: 2.8d
+			tasks: [{ count: 2L, id: "38A24298B5D298D3", item: { count: 1, id: "kubejs:energized_ametrine_crystal" }, type: "item" }]
+			x: 16.10d
+			y: 2.80d
 		}
 		{
 			dependencies: ["125D53D683D7A3D9"]
-			icon: {
-				id: "kubejs:circuit_board_t1"
-			}
+			icon: { count: 1, id: "kubejs:circuit_board_t1" }
 			id: "3A8FC016EAAD0925"
-			rewards: [{
-				count: 2
-				id: "05C02734981E1F35"
-				item: {
-					count: 1
-					id: "kubejs:fluorite_dust"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "05C02734981E1F35", item: { count: 1, id: "kubejs:fluorite_dust" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				count: 2L
-				id: "6C1F7FC6CD193947"
-				item: { count: 1, id: "kubejs:circuit_board_t1" }
-				type: "item"
-			}]
-			x: 18.4d
-			y: 1.9d
+			tasks: [{ count: 2L, id: "6C1F7FC6CD193947", item: { count: 1, id: "kubejs:circuit_board_t1" }, type: "item" }]
+			x: 18.40d
+			y: 1.90d
 		}
 		{
-			dependencies: [
-				"3A8FC016EAAD0925"
-				"71627472CC1558DE"
-			]
-			icon: {
-				id: "kubejs:circuit_board_t2"
-			}
+			dependencies: ["3A8FC016EAAD0925", "71627472CC1558DE"]
+			icon: { count: 1, id: "kubejs:circuit_board_t2" }
 			id: "7F4B3DF9C608E900"
-			rewards: [{
-				count: 2
-				id: "2A78EAEC82C2633E"
-				item: {
-					count: 1
-					id: "enderio:energetic_alloy_ingot"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "2A78EAEC82C2633E", item: { count: 1, id: "enderio:energetic_alloy_ingot" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "442360F88A897ABD"
-				item: { count: 1, id: "kubejs:circuit_board_t2" }
-				type: "item"
-			}]
-			x: 20.7d
-			y: -1.9d
+			tasks: [{ count: 1L, id: "442360F88A897ABD", item: { count: 1, id: "kubejs:circuit_board_t2" }, type: "item" }]
+			x: 20.70d
+			y: -1.90d
 		}
 		{
 			dependencies: ["2D34AA8C81E3003B"]
-			icon: {
-				id: "kubejs:quantum_alloy_ingot"
-			}
+			icon: { count: 1, id: "kubejs:quantum_alloy_ingot" }
 			id: "1E354D1E68CFDD49"
-			rewards: [{
-				id: "560784CFBA20BA18"
-				item: {
-					count: 1
-					id: "mekanism:ingot_refined_obsidian"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 1, id: "560784CFBA20BA18", item: { count: 1, id: "mekanism:ingot_refined_obsidian" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "6FC9096B7EDCD0F2"
-				item: { count: 1, id: "kubejs:quantum_alloy_ingot" }
-				type: "item"
-			}]
-			x: 18.4d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "6FC9096B7EDCD0F2", item: { count: 1, id: "kubejs:quantum_alloy_ingot" }, type: "item" }]
+			x: 18.40d
+			y: 0.00d
 		}
 	]
 }

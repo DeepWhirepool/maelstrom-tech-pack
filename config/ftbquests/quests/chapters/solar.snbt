@@ -3,695 +3,303 @@
 	default_quest_shape: ""
 	filename: "solar"
 	group: ""
-	icon: {
-		id: "industrialupgrade:machines/hybrid_solar_paneliu"
-	}
+	icon: { id: "industrialupgrade:machines/hybrid_solar_paneliu" }
 	id: "4BFDACBB53B62BC6"
-	images: [{
-		height: 14.0d
-		id: "7DD158D65236A808"
-		image: "kubejs:textures/quests/ch_solar.png"
-		order: -10
-		rotation: 0.0d
-		width: 37.9d
-		x: 14.95d
-		y: 3.0d
-	}]
+	images: [{ alpha: 255, color: 16777215, height: 14.0d, image: "kubejs:textures/quests/ch_solar.png", order: -10, rotation: 0.0d, width: 37.9d, x: 14.95d, y: 3.00d }]
 	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["705F7F73C3046095"]
-			icon: {
-				id: "industrialupgrade:simplemachine/generator_matter"
-			}
+			icon: { count: 1, id: "industrialupgrade:simplemachine/generator_matter" }
 			id: "088A074E60AF9F37"
-			rewards: [{
-				count: 16
-				id: "10EDC07DCD6A234E"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 16, id: "10EDC07DCD6A234E", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "7DE3B97531DCBAD8"
-				item: { count: 1, id: "industrialupgrade:simplemachine/generator_matter" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "7DE3B97531DCBAD8", item: { count: 1, id: "industrialupgrade:simplemachine/generator_matter" }, type: "item" }]
+			x: 0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["088A074E60AF9F37"]
-			icon: {
-				id: "industrialupgrade:transformer_iu/ev"
-			}
+			icon: { count: 1, id: "industrialupgrade:transformer_iu/ev" }
 			id: "5C8F2DA251102BC0"
-			rewards: [{
-				count: 4
-				id: "3D3E8236050F9F5A"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "3D3E8236050F9F5A", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "1FFDB067BFD3B641"
-				item: { count: 1, id: "industrialupgrade:transformer_iu/ev" }
-				type: "item"
-			}]
-			x: 2.3d
-			y: 1.9d
+			tasks: [{ count: 1L, id: "1FFDB067BFD3B641", item: { count: 1, id: "industrialupgrade:transformer_iu/ev" }, type: "item" }]
+			x: 2.30d
+			y: 1.90d
 		}
 		{
 			dependencies: ["088A074E60AF9F37"]
-			icon: {
-				id: "industrialupgrade:basemachine/adv_matter"
-			}
+			icon: { count: 1, id: "industrialupgrade:basemachine/adv_matter" }
 			id: "2A3477190243AD38"
-			rewards: [{
-				count: 4
-				id: "19AE311E2B6B8852"
-				item: {
-					count: 1
-					id: "minecraft:glowstone"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "19AE311E2B6B8852", item: { count: 1, id: "minecraft:glowstone" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "40DB9600FC5715DE"
-				item: { count: 1, id: "industrialupgrade:basemachine/adv_matter" }
-				type: "item"
-			}]
-			x: 2.3d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "40DB9600FC5715DE", item: { count: 1, id: "industrialupgrade:basemachine/adv_matter" }, type: "item" }]
+			x: 2.30d
+			y: 0.00d
 		}
 		{
-			dependencies: [
-				"2A3477190243AD38"
-				"0CF8A692176F512C"
-			]
-			icon: {
-				id: "industrialupgrade:itemsunnarium/sunnarium2"
-			}
+			dependencies: ["2A3477190243AD38", "0CF8A692176F512C"]
+			icon: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium2" }
 			id: "4F3A5C466D372B4F"
-			rewards: [{
-				count: 8
-				id: "6B33D84D84CB8304"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "6B33D84D84CB8304", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				count: 2L
-				id: "65F78B5D52952D11"
-				item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium2" }
-				type: "item"
-			}]
-			x: 4.6d
-			y: 0.0d
+			tasks: [{ count: 2L, id: "65F78B5D52952D11", item: { count: 1, id: "industrialupgrade:itemsunnarium/sunnarium2" }, type: "item" }]
+			x: 4.60d
+			y: 0.00d
 		}
 		{
 			dependencies: ["4F3A5C466D372B4F"]
-			icon: {
-				id: "industrialupgrade:machines/hybrid_solar_paneliu"
-			}
+			icon: { count: 1, id: "industrialupgrade:machines/hybrid_solar_paneliu" }
 			id: "7595A092737F26F6"
-			rewards: [{
-				count: 8
-				id: "724F2799E9B868B4"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "724F2799E9B868B4", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "3530BD8211954034"
-				item: { count: 1, id: "industrialupgrade:machines/hybrid_solar_paneliu" }
-				type: "item"
-			}]
-			x: 6.9d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "3530BD8211954034", item: { count: 1, id: "industrialupgrade:machines/hybrid_solar_paneliu" }, type: "item" }]
+			x: 6.90d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7595A092737F26F6"]
-			icon: {
-				id: "industrialupgrade:machines/ultimate_solar_paneliu"
-			}
+			icon: { count: 1, id: "industrialupgrade:machines/ultimate_solar_paneliu" }
 			id: "7333E0CAB3C20A68"
-			rewards: [{
-				count: 8
-				id: "701EEB6F6AD2B507"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "701EEB6F6AD2B507", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "689F624EDCEC9FAA"
-				item: { count: 1, id: "industrialupgrade:machines/ultimate_solar_paneliu" }
-				type: "item"
-			}]
-			x: 9.2d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "689F624EDCEC9FAA", item: { count: 1, id: "industrialupgrade:machines/ultimate_solar_paneliu" }, type: "item" }]
+			x: 9.20d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7333E0CAB3C20A68"]
-			icon: {
-				id: "industrialupgrade:machines/quantum_solar_paneliu"
-			}
+			icon: { count: 1, id: "industrialupgrade:machines/quantum_solar_paneliu" }
 			id: "714278AF81D3457E"
-			rewards: [{
-				count: 2
-				id: "6B4AC470620C6466"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "6B4AC470620C6466", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "45DF91406F1F0C24"
-				item: { count: 1, id: "industrialupgrade:machines/quantum_solar_paneliu" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: 0.0d
+			tasks: [{ count: 1L, id: "45DF91406F1F0C24", item: { count: 1, id: "industrialupgrade:machines/quantum_solar_paneliu" }, type: "item" }]
+			x: 11.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["2D34AA8C81E3003B"]
-			icon: {
-				id: "kubejs:quantum_core"
-			}
+			icon: { count: 1, id: "kubejs:quantum_core" }
 			id: "0FDF3E3AA401D6C1"
-			rewards: [{
-				id: "6AC67C2D8434B696"
-				item: {
-					count: 1
-					id: "kubejs:ametrine_crystal"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 1, id: "6AC67C2D8434B696", item: { count: 1, id: "kubejs:ametrine_crystal" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "09D5932EA2763F15"
-				item: { count: 1, id: "kubejs:quantum_core" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "09D5932EA2763F15", item: { count: 1, id: "kubejs:quantum_core" }, type: "item" }]
+			x: 0.00d
+			y: 4.10d
 		}
 		{
 			dependencies: ["0FDF3E3AA401D6C1"]
-			icon: {
-				id: "kubejs:solar_core1"
-			}
+			icon: { count: 1, id: "kubejs:solar_core1" }
 			id: "602EE5C920A1EC75"
-			rewards: [{
-				count: 8
-				id: "13C3A87108F32C48"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "13C3A87108F32C48", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "1CB19C13B9740F8F"
-				item: { count: 1, id: "kubejs:solar_core1" }
-				type: "item"
-			}]
-			x: 2.3d
-			y: 5.7d
+			tasks: [{ count: 1L, id: "1CB19C13B9740F8F", item: { count: 1, id: "kubejs:solar_core1" }, type: "item" }]
+			x: 2.30d
+			y: 5.70d
 		}
 		{
 			dependencies: ["0FDF3E3AA401D6C1"]
-			icon: {
-				id: "maelstromtech:matter_generator_t1"
-			}
+			icon: { count: 1, id: "maelstromtech:matter_generator_t1" }
 			id: "51EC6FFB83BE613E"
-			rewards: [{
-				count: 4
-				id: "7C2135D120AE48B1"
-				item: {
-					count: 1
-					id: "industrialupgrade:itemingots/platinum_ingot"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "7C2135D120AE48B1", item: { count: 1, id: "industrialupgrade:itemingots/platinum_ingot" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "0D14090EC7AE7CC0"
-				item: { count: 1, id: "maelstromtech:matter_generator_t1" }
-				type: "item"
-			}]
-			x: 4.6d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "0D14090EC7AE7CC0", item: { count: 1, id: "maelstromtech:matter_generator_t1" }, type: "item" }]
+			x: 4.60d
+			y: 4.10d
 		}
 		{
 			dependencies: ["51EC6FFB83BE613E"]
-			icon: {
-				id: "maelstromtech:matter_generator_t1_x12"
-			}
+			icon: { count: 1, id: "maelstromtech:matter_generator_t1_x12" }
 			id: "452790D20D88F07B"
-			rewards: [{
-				id: "20411E503E3DE11C"
-				item: {
-					count: 1
-					id: "draconicevolution:wyvern_core"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 1, id: "20411E503E3DE11C", item: { count: 1, id: "draconicevolution:wyvern_core" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "76977BAB1E5AE33A"
-				item: { count: 1, id: "maelstromtech:matter_generator_t1_x12" }
-				type: "item"
-			}]
-			x: 6.9d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "76977BAB1E5AE33A", item: { count: 1, id: "maelstromtech:matter_generator_t1_x12" }, type: "item" }]
+			x: 6.90d
+			y: 6.00d
 		}
 		{
 			dependencies: ["51EC6FFB83BE613E"]
-			icon: {
-				id: "kubejs:matter_loose_pink"
-			}
+			icon: { count: 1, id: "kubejs:matter_loose_pink" }
 			id: "2D12A54A7C835531"
-			rewards: [{
-				count: 8
-				id: "7E7D09BFC54E7955"
-				item: {
-					count: 1
-					id: "minecraft:glowstone_dust"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "7E7D09BFC54E7955", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "1CDB17149275B2F8"
-				item: { count: 1, id: "kubejs:matter_loose_pink" }
-				type: "item"
-			}]
-			x: 6.9d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "1CDB17149275B2F8", item: { count: 1, id: "kubejs:matter_loose_pink" }, type: "item" }]
+			x: 6.90d
+			y: 4.10d
 		}
 		{
 			dependencies: ["2D12A54A7C835531"]
-			icon: {
-				id: "kubejs:matter_sparkling"
-			}
+			icon: { count: 1, id: "kubejs:matter_sparkling" }
 			id: "3A9FC8846E74703E"
-			rewards: [{
-				id: "4CAB4D41D096959D"
-				item: {
-					count: 1
-					id: "minecraft:nether_star"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 1, id: "4CAB4D41D096959D", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "05DE8191C005AB91"
-				item: { count: 1, id: "kubejs:matter_sparkling" }
-				type: "item"
-			}]
-			x: 9.2d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "05DE8191C005AB91", item: { count: 1, id: "kubejs:matter_sparkling" }, type: "item" }]
+			x: 9.20d
+			y: 6.00d
 		}
 		{
-			dependencies: [
-				"2D12A54A7C835531"
-				"602EE5C920A1EC75"
-				"714278AF81D3457E"
-			]
-			icon: {
-				id: "maelstromtech:dispersion_solar_panel"
-			}
+			dependencies: ["2D12A54A7C835531", "602EE5C920A1EC75", "714278AF81D3457E"]
+			icon: { count: 1, id: "maelstromtech:dispersion_solar_panel" }
 			id: "497CD97810B4D924"
-			rewards: [{
-				count: 2
-				id: "72A29A7094EE391E"
-				item: {
-					count: 1
-					id: "kubejs:energized_fluorite_crystal"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "72A29A7094EE391E", item: { count: 1, id: "kubejs:energized_fluorite_crystal" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "793FE343B1CA48B0"
-				item: { count: 1, id: "maelstromtech:dispersion_solar_panel" }
-				type: "item"
-			}]
-			x: 13.8d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "793FE343B1CA48B0", item: { count: 1, id: "maelstromtech:dispersion_solar_panel" }, type: "item" }]
+			x: 13.80d
+			y: 4.10d
 		}
 		{
 			dependencies: ["497CD97810B4D924"]
-			icon: {
-				id: "maelstromtech:purple_spectrum_thermodynamic_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:purple_spectrum_thermodynamic_panel" }
 			id: "70F7DA47ED50EDF0"
-			rewards: [{
-				count: 8
-				id: "0D1AAFE7B4C252E0"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "0D1AAFE7B4C252E0", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "2DC36D7BF8FCE6B2"
-				item: { count: 1, id: "maelstromtech:purple_spectrum_thermodynamic_panel" }
-				type: "item"
-			}]
-			x: 16.1d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "2DC36D7BF8FCE6B2", item: { count: 1, id: "maelstromtech:purple_spectrum_thermodynamic_panel" }, type: "item" }]
+			x: 16.10d
+			y: 6.00d
 		}
 		{
 			dependencies: ["497CD97810B4D924"]
-			icon: {
-				id: "maelstromtech:gravitomagnetic_solar_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:gravitomagnetic_solar_panel" }
 			id: "5EFFEA0BF428D66B"
-			rewards: [{
-				count: 8
-				id: "1E57841DA0E406B0"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "1E57841DA0E406B0", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "08CEF6D4D8D5DABD"
-				item: { count: 1, id: "maelstromtech:gravitomagnetic_solar_panel" }
-				type: "item"
-			}]
-			x: 16.1d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "08CEF6D4D8D5DABD", item: { count: 1, id: "maelstromtech:gravitomagnetic_solar_panel" }, type: "item" }]
+			x: 16.10d
+			y: 4.10d
 		}
 		{
 			dependencies: ["5EFFEA0BF428D66B"]
-			icon: {
-				id: "maelstromtech:bronze_electrolyzed_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:bronze_electrolyzed_panel" }
 			id: "0EDD58DAFCFE30C1"
-			rewards: [{
-				count: 8
-				id: "3B564194FB82D49C"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "3B564194FB82D49C", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "7E2ADF2945BF6B6E"
-				item: { count: 1, id: "maelstromtech:bronze_electrolyzed_panel" }
-				type: "item"
-			}]
-			x: 18.4d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "7E2ADF2945BF6B6E", item: { count: 1, id: "maelstromtech:bronze_electrolyzed_panel" }, type: "item" }]
+			x: 18.40d
+			y: 6.00d
 		}
 		{
 			dependencies: ["5EFFEA0BF428D66B"]
-			icon: {
-				id: "maelstromtech:anisotropic_solar_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:anisotropic_solar_panel" }
 			id: "433AF2610848D066"
-			rewards: [{
-				count: 8
-				id: "77054793B82F9920"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "77054793B82F9920", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "4D5C645C7703E387"
-				item: { count: 1, id: "maelstromtech:anisotropic_solar_panel" }
-				type: "item"
-			}]
-			x: 18.4d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "4D5C645C7703E387", item: { count: 1, id: "maelstromtech:anisotropic_solar_panel" }, type: "item" }]
+			x: 18.40d
+			y: 4.10d
 		}
 		{
-			dependencies: [
-				"433AF2610848D066"
-				"1F969D89E0E6445F"
-			]
-			icon: {
-				id: "maelstromtech:beekeeper_blue_panel"
-			}
+			dependencies: ["433AF2610848D066", "1F969D89E0E6445F"]
+			icon: { count: 1, id: "maelstromtech:beekeeper_blue_panel" }
 			id: "658A7D6014FB85B9"
-			rewards: [{
-				count: 2
-				id: "4AB1DFD76DC76F74"
-				item: {
-					count: 1
-					id: "forestry:royal_jelly"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "4AB1DFD76DC76F74", item: { count: 1, id: "forestry:royal_jelly" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "6386E33ED6C204DF"
-				item: { count: 1, id: "maelstromtech:beekeeper_blue_panel" }
-				type: "item"
-			}]
-			x: 20.7d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "6386E33ED6C204DF", item: { count: 1, id: "maelstromtech:beekeeper_blue_panel" }, type: "item" }]
+			x: 20.70d
+			y: 6.00d
 		}
 		{
-			dependencies: [
-				"433AF2610848D066"
-				"279EAAF602187BCE"
-			]
-			icon: {
-				id: "maelstromtech:fluctuation_solar_panel"
-			}
+			dependencies: ["433AF2610848D066", "279EAAF602187BCE"]
+			icon: { count: 1, id: "maelstromtech:fluctuation_solar_panel" }
 			id: "673B73A4FE247D39"
-			rewards: [{
-				count: 8
-				id: "5B808207C5D1C51B"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "5B808207C5D1C51B", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "0BB49F640D59CC9D"
-				item: { count: 1, id: "maelstromtech:fluctuation_solar_panel" }
-				type: "item"
-			}]
-			x: 20.7d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "0BB49F640D59CC9D", item: { count: 1, id: "maelstromtech:fluctuation_solar_panel" }, type: "item" }]
+			x: 20.70d
+			y: 4.10d
 		}
 		{
-			dependencies: [
-				"673B73A4FE247D39"
-				"1F944D866D73CC81"
-			]
-			icon: {
-				id: "maelstromtech:chaos_guardian_panel"
-			}
+			dependencies: ["673B73A4FE247D39", "1F944D866D73CC81"]
+			icon: { count: 1, id: "maelstromtech:chaos_guardian_panel" }
 			id: "5C62945632894976"
-			rewards: [{
-				count: 2
-				id: "21D8D567E008220E"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "21D8D567E008220E", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "385FC3C88D3049F8"
-				item: { count: 1, id: "maelstromtech:chaos_guardian_panel" }
-				type: "item"
-			}]
-			x: 23.0d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "385FC3C88D3049F8", item: { count: 1, id: "maelstromtech:chaos_guardian_panel" }, type: "item" }]
+			x: 23.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["673B73A4FE247D39"]
-			icon: {
-				id: "maelstromtech:aberration_solar_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:aberration_solar_panel" }
 			id: "1792F8E64AFDE11D"
-			rewards: [{
-				count: 8
-				id: "2B3B773FF434FD99"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "2B3B773FF434FD99", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "7E1B8EF82A0DB491"
-				item: { count: 1, id: "maelstromtech:aberration_solar_panel" }
-				type: "item"
-			}]
-			x: 23.0d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "7E1B8EF82A0DB491", item: { count: 1, id: "maelstromtech:aberration_solar_panel" }, type: "item" }]
+			x: 23.00d
+			y: 4.10d
 		}
 		{
 			dependencies: ["1792F8E64AFDE11D"]
-			icon: {
-				id: "maelstromtech:panel_nightmares"
-			}
+			icon: { count: 1, id: "maelstromtech:panel_nightmares" }
 			id: "356DE8B814AA6CDF"
-			rewards: [{
-				count: 2
-				id: "52FC2A690B14BC54"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 2, id: "52FC2A690B14BC54", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "54330853BEF90686"
-				item: { count: 1, id: "maelstromtech:panel_nightmares" }
-				type: "item"
-			}]
-			x: 25.3d
-			y: 6.0d
+			tasks: [{ count: 1L, id: "54330853BEF90686", item: { count: 1, id: "maelstromtech:panel_nightmares" }, type: "item" }]
+			x: 25.30d
+			y: 6.00d
 		}
 		{
 			dependencies: ["1792F8E64AFDE11D"]
-			icon: {
-				id: "maelstromtech:parametric_solar_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:parametric_solar_panel" }
 			id: "7DAB113735690F76"
-			rewards: [{
-				count: 8
-				id: "2485799E8D464D54"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "2485799E8D464D54", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "416831B15B2DFB19"
-				item: { count: 1, id: "maelstromtech:parametric_solar_panel" }
-				type: "item"
-			}]
-			x: 25.3d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "416831B15B2DFB19", item: { count: 1, id: "maelstromtech:parametric_solar_panel" }, type: "item" }]
+			x: 25.30d
+			y: 4.10d
 		}
 		{
-			dependencies: [
-				"7DAB113735690F76"
-				"3B7AFC7D4A0C1109"
-			]
-			icon: {
-				id: "maelstromtech:chronodynamic_solar_panel"
-			}
+			dependencies: ["7DAB113735690F76", "3B7AFC7D4A0C1109"]
+			icon: { count: 1, id: "maelstromtech:chronodynamic_solar_panel" }
 			id: "14B878BB8E502168"
-			rewards: [{
-				count: 8
-				id: "68B361A0CD74A7CD"
-				item: {
-					count: 1
-					id: "minecraft:glass"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 8, id: "68B361A0CD74A7CD", item: { count: 1, id: "minecraft:glass" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{
-				id: "5C12C4EE390A877D"
-				item: { count: 1, id: "maelstromtech:chronodynamic_solar_panel" }
-				type: "item"
-			}]
-			x: 27.6d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "5C12C4EE390A877D", item: { count: 1, id: "maelstromtech:chronodynamic_solar_panel" }, type: "item" }]
+			x: 27.60d
+			y: 4.10d
 		}
 		{
 			dependencies: ["14B878BB8E502168"]
-			icon: {
-				id: "maelstromtech:antimaterial_solar_panel"
-			}
+			icon: { count: 1, id: "maelstromtech:antimaterial_solar_panel" }
 			id: "011B4A288DE1EB73"
-			rewards: [{
-				count: 4
-				id: "58076C0419158729"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
+			rewards: [{ count: 4, id: "58076C0419158729", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{
-				id: "02C1D7015E4D37F6"
-				item: { count: 1, id: "maelstromtech:antimaterial_solar_panel" }
-				type: "item"
-			}]
-			x: 29.9d
-			y: 4.1d
+			tasks: [{ count: 1L, id: "02C1D7015E4D37F6", item: { count: 1, id: "maelstromtech:antimaterial_solar_panel" }, type: "item" }]
+			x: 29.90d
+			y: 4.10d
 		}
 	]
 }

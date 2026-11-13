@@ -254,63 +254,63 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae2.snbt"
-hash = "b9dc091e55bd04224786eb870f1c3a91fa865f9e122a77b172d4a1ea18dfed1e"
+hash = "9e5c43e1c3e32113faae38f5c4f9e4a538a6ce2b40e95a1529e32a892df3c85a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/crystals.snbt"
-hash = "40c698af0d8c1cf8a32d05e0594391e947b44d2fabffd2f917a880e17a19cd6b"
+hash = "6770c8fa0390ed70b2322f52ff9af8a469379956743fdfd7b0c9512c5b682ed7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/draconic.snbt"
-hash = "30f025318c0ea584f6c7adf3b19142f3c1e23e3cc6122b581347f8bc6d2fd3e8"
+hash = "6875421e51706d14135016275756b255c4a22186551f34e4a92ea550b3ed22d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eio.snbt"
-hash = "5bd60dc7696f26628238419c4082699bcfdb145853665467c68859ee828286fb"
+hash = "2ada46423d6654266310ca1a124ed19356a061f866784dca6ce88c46adaabb2f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/energy.snbt"
-hash = "c9ce4ea118cd4242c57983a027083bce1137cc57ebb3d4e50eb667ebf785f408"
+hash = "6709255e202bf5c28aabce784a2dec153dc36ab3153759ce30378478b458ebb1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/final.snbt"
-hash = "89b844815cab09dcd3980ad61bc697fb8a00a9cbaf14b1efb679b1e2004b8b3e"
+hash = "c6d17ed532cb795e895540ed1b2c687b8e71d5cdb4f6d25ffaf71642163f742b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fluids.snbt"
-hash = "32dfa43a258554622d4e49747bb20485db503516a5a5633486bd32cb754501a1"
+hash = "293ec26a10fdf08161d0a9d43335e1cdc218da8c84474d5d45f1e7e95de27f2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forestry.snbt"
-hash = "d9c989a49627629f17bbc9f40015af0ebda132012991fb35f5696cab7dbf30dc"
+hash = "1c918012bc56c408a3c831bc2810630da9469da7d4dabad52de06400f983a76a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iu.snbt"
-hash = "a30e36373132cce15f4c5c3a4fa670000d6c0b778e7056972b00c0c856b6f73a"
+hash = "9531bb1af7349aa080e52d321fad88f545ea1f790c42ab1cb6e3822b867db1cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mek.snbt"
-hash = "70ad0899867d43960d8a648be0a046ae9f5fce4230fde76b15a5cf7c4b2a3d45"
+hash = "1cf2f838fc126083719be49325825b3bf2984d5ce0c918ba34f06756e103dfa3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mt.snbt"
-hash = "41abfc9042ffa4f75460cd82a08408ebca23159bed49c77dc904058b439e7357"
+hash = "219f1050292be27d0e5f74fa8327dd95678f94dbc4cee16ae86e5b694a082409"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/optional.snbt"
-hash = "b1ecc380541f2c85290f74b935f8a3dafa5486b5a7eeb56a2888962de522f8e5"
+hash = "957ccef76669d139ce988abd834fc144d5fbcd6775844e4bdcdac523486a2315"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
-hash = "2b4470363f7dffad84a4443f63d408e427513c785a2563e568472c7feeb09255"
+hash = "3549256d212edbd22062e88c0b740b49fcc92f45951eab9dc65dd2f639ab079b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/solar.snbt"
-hash = "ce432e1105014775036e1720c4d62c1d4a4416110201c7989ed34d7feb913cb4"
+hash = "cf8998b5fccbb575ab3a69966435dbb5ecf3cf6bc92fb347f171efb1f27511d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "452a21a75d5c8c6e4d93bdff423f50924dfae11c111be8136f53a209135c7113"
+hash = "81cbd426e734e0c75c5060e295a9d9e0274326a7dfe86748e916f8b53fcf297c"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -318,11 +318,11 @@ hash = "5021b05ac6eec891ca839e90b8aa2d711ef3fbeaa224d3876e2dc2f279a772af"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "734ee335c3ad78074bfce460b47b493f6ef12105afb72cb1e91472f20cbd5d49"
+hash = "c9a4cc20da3f4d76be471ec03c3e44707763064ae0f7f8ce2552b9d57582e873"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "c6b27c3d019bb95ca2dc0b073dabb4d2c116b57b988261e14d2ac26d0d25ffd4"
+hash = "c4dc41936395995954fa55d66fe28174ca03b4d21a8b58f2b205fa428f84d261"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1110,7 +1110,7 @@ hash = "00eba47af7b11f8ea1a21774a00b6efa01d61a2fcd02d83a8dcc8735989e92ec"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/ch_iu.png"
-hash = "7e788f313a1c488840a502bb4d8fab8fd7a152014c682db80e57781d34e5523b"
+hash = "3e490080026a143cdb72348faf3d030f04c202f06508c075a9ae1bfbfcf9cde5"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/ch_mek.png"
@@ -1126,7 +1126,7 @@ hash = "cfa5e26c2c094718b82699e2b1b4f2e12e89d4f5d33a1c41d81b44165c05250d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/ch_oritech.png"
-hash = "70f1916c481cf01262cc5ffa32a59bfd95abf561548f594657771be756fc8c0c"
+hash = "166fd75b57773376050056ae261cd09caefe31383e6c36ceb461a6877002c146"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/ch_solar.png"
@@ -1159,6 +1159,10 @@ hash = "94dcfcada48f172ba4fe1b4c04b1229e0226682dbbbdfda315825d2da4468a09"
 [[files]]
 file = "kubejs/client_scripts/hide_ic2.js"
 hash = "8e18b8f131e1d945d9dce019cd5636a0411fa309e5f28bf0388ca73de3fb3e2b"
+
+[[files]]
+file = "kubejs/client_scripts/hide_jetpacks.js"
+hash = "a5130ef2347f0d53f46fb3d3b6e62bebfe71f272f963ef3412b1e89f4c4267b0"
 
 [[files]]
 file = "kubejs/client_scripts/hide_powerutils.js"
@@ -1689,6 +1693,10 @@ file = "kubejs/server_scripts/day11_multimachines.js"
 hash = "88e81a691c35f77a69214f71e1988319041c1445623695b6bc6002a5044491cf"
 
 [[files]]
+file = "kubejs/server_scripts/duct_tape.js"
+hash = "448626d95acfff161dfccb60e190588d1cdc17412c24f7bdd05ee68ed58b84d6"
+
+[[files]]
 file = "kubejs/server_scripts/fixes_reach.js"
 hash = "d26646cc34dd7a2e600771887ee61120175a84217e89ce1c3a805bae4369b252"
 
@@ -1723,6 +1731,10 @@ hash = "df43719a62e3bda0e15ab0d7da7b0c14c68f1c8e5ad4db30d10e3c38ea4660b3"
 [[files]]
 file = "kubejs/server_scripts/iu_easy_recipes.js"
 hash = "8a49c445016f6ecd467f1b3210aebd5c310ba293d36ec48f12cac7c261a46d88"
+
+[[files]]
+file = "kubejs/server_scripts/jetpacks_t104.js"
+hash = "e7b67f95ab03642504f0920d5e4b87ab2f8e82b3a076ad1d2a800b8876de070a"
 
 [[files]]
 file = "kubejs/server_scripts/laser_ores.js"
@@ -1810,7 +1822,11 @@ hash = "d739bbef62c0f35464309e02c90f2c681026a4d6696005d58115c73cb2257259"
 
 [[files]]
 file = "kubejs/server_scripts/web_7_maelstrom.js"
-hash = "856526a20cde5a5f13bcd18b66cd2b6b390762eaf999eae5a69920dd97a0b630"
+hash = "64e3eb3ecfceeaac7d54e8b5ae25b63910dab2e40aa5c6ec39c2fe065fc26a38"
+
+[[files]]
+file = "kubejs/server_scripts/web_8_oritech.js"
+hash = "464d3e83a1ebd1a504ef213f6699e3a8ca9df4fe8bcc48832a62c2b9758ad735"
 
 [[files]]
 file = "kubejs/server_scripts/wind_rotors.js"
@@ -2113,7 +2129,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "7491211d9e17b018943afc038ace19bd5ff1375f0620e0291942cb7b6db532ae"
+hash = "b1a2f2d4c8df73c8d6da59d4fd51602ddfa1829b4705f2e0dddbdda6572e5036"
 
 [[files]]
 file = "mods/mega.pw.toml"
