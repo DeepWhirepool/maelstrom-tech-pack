@@ -326,11 +326,11 @@ hash = "5021b05ac6eec891ca839e90b8aa2d711ef3fbeaa224d3876e2dc2f279a772af"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "762a7fd8c53f3afc9d3af22441992da579976ed62ba3501f23041ee98b879e5a"
+hash = "07097d51f347ed42a402e09b18d905b2de37aa958df53d4fef2ba1639a1dae14"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "335ed359ee9c2dae10d745931b8d67331d41787e8f2d441f8b0cd43cfa300d16"
+hash = "e482d372e643704bad4828ce3fa561e0f887fb67cfb1cbef5645f4920c1e44d8"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -418,7 +418,7 @@ hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
+hash = "82d0a23d1237268ba00fc36908326fc9714907da61a60114d8c7efc022d99841"
 
 [[files]]
 file = "config/jade/plugins.json"
@@ -2187,7 +2187,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "33be1db1e7b4dd8b349cb78c1cebe8e13cb143b8e934bcdbb877cadd75658247"
+hash = "1018838ef8d19f0a82bdc546660172c725e5b503b9e4aa9478e0f74b03f1284b"
 
 [[files]]
 file = "mods/mega.pw.toml"
