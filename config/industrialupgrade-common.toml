@@ -8,13 +8,13 @@
 
 [Ability]
 	#Enable special mining abilities.
-	abilityAllow = true
+	abilityAllow = false
 	#Enable vein mining with a pickaxe (mine connected ore blocks at once).
 	abilityPickaxeAllow = true
 	#Enable tree felling with an axe (break the entire connected tree at once).
 	abilityTreeAllow = true
 	#Render ability visual effects and overlays.
-	abilityAllowRender = true
+	abilityAllowRender = false
 	#Consume hunger/saturation when using special abilities.
 	abilityAllowUseFood = true
 

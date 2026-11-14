@@ -1,0 +1,13 @@
+name = "Durability Viewer Continuation"
+filename = "durabilityviewer_continuation-1.2.0-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/t3pe6TOk/versions/e4G6E0go/durabilityviewer_continuation-1.2.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "1c9f914d678595c0f71fc600a58a03a0b551e132160122ff102c4b29374aba709c5f9a7512246e2c1f0a3f7c307c4207a00fdd70c35f5bddbc471dfc413702e4"
+
+[update]
+[update.modrinth]
+mod-id = "t3pe6TOk"
+version = "e4G6E0go"

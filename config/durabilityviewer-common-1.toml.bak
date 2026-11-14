@@ -1,0 +1,13 @@
+# T109: HUD прочности брони и предметов в руках — правый нижний угол, в процентах, без лишнего
+showExpectedHits = false
+showInventoryItemDurability = false
+armorAroundHotbar = false
+effectDuration = false
+hudPosition = "BOTTOM_RIGHT"
+hideDamageOverPercent = 100
+soundBelowDurability = 20
+soundBelowPercent = 10
+showPercentRatherThanDurability = true
+percentToShowDamageRatherThanDurability = 100
+showFreeInventorySlots = false
+showAllTrinkets = false

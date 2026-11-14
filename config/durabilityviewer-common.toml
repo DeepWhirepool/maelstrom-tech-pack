@@ -1,0 +1,37 @@
+#If true, durability will be multiplied by the Unbreaking level (Expected Hits). 
+#If false, shows the raw durability values.
+showExpectedHits = false
+#show inventory item durability
+showInventoryItemDurability = false
+#Armor Around Hotbar
+armorAroundHotbar = false
+#show effect duration
+effectDuration = false
+#HUD position
+#Allowed Values: BOTTOM_RIGHT, BOTTOM_LEFT, TOP_RIGHT, TOP_LEFT
+hudPosition = "BOTTOM_RIGHT"
+#hide hud damage over percent
+# Default: 100
+# Range: 0 ~ 100
+hideDamageOverPercent = 100
+#play sound when durability is lower than this
+# Default: 20
+# Range: 0 ~ 1500
+soundBelowDurability = 20
+#play sound when percent is lower than this
+# Default: 10
+# Range: 0 ~ 100
+soundBelowPercent = 10
+#show percent rather than durability
+showPercentRatherThanDurability = true
+#percent to show damage rather than durability
+# Default: 80
+# Range: 0 ~ 100
+percentToShowDamageRatherThanDurability = 100
+#show free inventory slots
+showFreeInventorySlots = false
+#show  trinkets
+showAllTrinkets = false
+#warning mode
+#Allowed Values: NONE, SOUND, VISUAL, BOTH
+warningMode = "SOUND"

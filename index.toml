@@ -6,7 +6,7 @@ hash = "30f65aaf3d7a290ffac48908187c3cf2507c339f1fb71f485723c89592bfee3e"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "d015f1568ea3e2a18edc4d80b09cd5e04bda04212f5303c92ddc8c72e72af81e"
+hash = "fa311a5086b0cc91ad4ddd1a13d39d841675e9294c70d8366e88526520d276e9"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -161,6 +161,14 @@ file = "config/create-server.toml"
 hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
 
 [[files]]
+file = "config/durabilityviewer-common-1.toml.bak"
+hash = "3015b9b0916871e9bf4fd492d59d5d068c7c7d21cf4b5dcb4f03e1e971a30fc9"
+
+[[files]]
+file = "config/durabilityviewer-common.toml"
+hash = "7392de79133e4b2196dab019f3b736cc6e07554e4e1abac94cd1d775da8ccee9"
+
+[[files]]
 file = "config/enchdesc.json"
 hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
 
@@ -242,7 +250,7 @@ hash = "ce5a04713181bd830382ae0f5f1baa0b4b6aff7fb416d81728579ee8539625f8"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
-hash = "47e7d28e93ca4501903b4c29ed6903bc6529b1f7818a200f97c59f394da5ad4e"
+hash = "cb34f8b7006c5733ca012ba55862ab7e8a336f4ea8d598877b0ec1e0fd7b64c9"
 
 [[files]]
 file = "config/ftbquests-client.snbt"
@@ -394,7 +402,7 @@ hash = "5ef57c9a4f31dd0b8f326b6d96f44477923a1e304d89b84df151520643789c6e"
 
 [[files]]
 file = "config/industrialupgrade-common.toml"
-hash = "eda40c32d1fd314137dcc712995af847d2b23a549d504052f13ad5947580bbbe"
+hash = "b66d91530e10aad5e06cd7eb117114f624ec47055ebc6871eb40cc4ce71a92bb"
 
 [[files]]
 file = "config/inventoryessentials-common.toml"
@@ -461,6 +469,26 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
+file = "config/oreexcavation-client.toml"
+hash = "2a365c7a53b9bada08b609ef2fb08fb43450b47d880ba16880a6eb6cf7badfe4"
+
+[[files]]
+file = "config/oreexcavation-common.toml"
+hash = "80c0458f1c7978fa5e64a905fbfa85f2e8d50de4d83bfb1cc5c457e542ba60f9"
+
+[[files]]
+file = "config/oreexcavation/block_groups.json"
+hash = "ff14f52f50c25ff7a3e9079b9d91075234f92674e1adcda562cf8155060d4f7a"
+
+[[files]]
+file = "config/oreexcavation/shapes.json"
+hash = "2a2429b18ea0ef737d05653964fa5443a2a80cf5b4d80e0f9b8a6022df34bb0d"
+
+[[files]]
+file = "config/oreexcavation/tool_overrides.json"
+hash = "a456dc73234254ee94ddb1a3a6461729127c85b833370c83bb945a3d14e5344e"
+
+[[files]]
 file = "config/oritech-client.toml"
 hash = "5301b6f30f1cb2e69ca11253e66ee3d3ff4bc4fb31642a7d352930ada0b21be0"
 
@@ -522,7 +550,7 @@ hash = "12f65a872b73c931b0a192d7e95c7d89f7ef7f1fd33f3ee7ff6bbda12fb8845f"
 
 [[files]]
 file = "config/sophisticatedcore-common.toml"
-hash = "54f01c5f9230393b31082c3a023ebb4ba39df7f626c2de51ebdd72119e1de986"
+hash = "158fc716300f97f46b1c1d69801c056e30009e845bb91794a2e023cbe80554f2"
 
 [[files]]
 file = "config/spark/config.json"
@@ -1139,6 +1167,10 @@ hash = "030095add9192940f4c515aace8a3cb3e73bace418341c48060f6ee8dc75b4cc"
 [[files]]
 file = "kubejs/assets/kubejs/textures/quests/panel_bg.png"
 hash = "e43a63b68e26b4ebedb1897a9a660eaf76377e5ed73ba4d91d542286db4de21a"
+
+[[files]]
+file = "kubejs/client_scripts/hide_chipped.js"
+hash = "402bc0c66f3813fd30e43c84dd1cab9a9e2b6eb5f5f32cca426b489dfa52019f"
 
 [[files]]
 file = "kubejs/client_scripts/hide_cleanup.js"
@@ -1968,6 +2000,11 @@ hash = "838dbcb90c93bab58691e82c95045bd97c3e096e3a2680a00cf063e56ce35ce3"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
@@ -1990,6 +2027,11 @@ metafile = true
 [[files]]
 file = "mods/draconic-evolution.pw.toml"
 hash = "61dbbdcc41c7bf50540b8d1e83fdf61d9367f392690b45d3cdece8aad55370ac"
+metafile = true
+
+[[files]]
+file = "mods/durability-viewer-continuation.pw.toml"
+hash = "cfea805d00e2a5cfc4599fa3e84c00126155295b0c603d67ce2c19c8579a4010"
 metafile = true
 
 [[files]]
@@ -2042,10 +2084,6 @@ hash = "3752657a82c69b0a80c034700df86f1a3d7c5f3e3aad814b5af748b9082a834b"
 [[files]]
 file = "mods/ftb-teams-neoforge-2101.1.12.jar"
 hash = "b3f33436070b7ae4a706280561f1d2f1d1eb1a089cb13ec9851e99646165aed2"
-
-[[files]]
-file = "mods/ftb-ultimine-neoforge-2101.1.15.jar"
-hash = "1393a85ceb6e4794450d5f06043e3a033278e31b86de8e03950d8b87604b2213"
 
 [[files]]
 file = "mods/geckolib.pw.toml"
@@ -2149,7 +2187,7 @@ metafile = true
 
 [[files]]
 file = "mods/maelstromtech-1.0.0.jar"
-hash = "b1a2f2d4c8df73c8d6da59d4fd51602ddfa1829b4705f2e0dddbdda6572e5036"
+hash = "33be1db1e7b4dd8b349cb78c1cebe8e13cb143b8e934bcdbb877cadd75658247"
 
 [[files]]
 file = "mods/mega.pw.toml"
@@ -2187,8 +2225,8 @@ hash = "11835b8555c23090b12d6ca9be871a6b5bfcec5ff7f48e77ef09c784af40b69e"
 metafile = true
 
 [[files]]
-file = "mods/ore-vein-miner.pw.toml"
-hash = "9cfd085d29e433e5e0dbaae108ec33d733b0fb0bca3e72c0b554de59468f7a95"
+file = "mods/ore-excavation.pw.toml"
+hash = "8a32a12fac64157e5773f60611f565e1335c4d5b9b5c7f679de5f70dc65e6409"
 metafile = true
 
 [[files]]
@@ -2224,6 +2262,11 @@ metafile = true
 [[files]]
 file = "mods/re-avaritia.pw.toml"
 hash = "7ad6511e31102c4b68aac616b66b31aed26f80b8f1fb2d32bc84e97653cffe22"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
 metafile = true
 
 [[files]]
