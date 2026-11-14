@@ -14,7 +14,7 @@ var IU_BYPRODUCTS = [
   ['ore_aluminum', 'itemdust/magnesium_dust', 0.15], ['raw_ore_aluminum', 'itemdust/magnesium_dust', 0.15],
   ['ore_gold', 'itemdust/iridium_dust', 0.05], ['raw_ore_gold', 'itemdust/iridium_dust', 0.05],
   ['ore_coal', 'itemdust/sulfur_dust', 0.2], // заменяет серу по тегу (могла выпасть сера Mekanism)
-  ['ore_redstone', 'raw_saltpeter/raw_saltpeter', 0.2], // пыли селитры у IU нет, только сырьё
+  ['ore_redstone', 'raw_saltpeter/raw_saltpeter', 0.5], // пыли селитры у IU нет, только сырьё; T106: 0.2 → 0.5
   ['ore_emerald', 'itemdust/spinel_dust', 0.2], ['ore_diamond', 'itemdust/spinel_dust', 0.2],
   ['bone_meal', 'itemdust/calcium_dust_dust', 0.2] // кость -> костная мука (известняка в сборке нет)
 ]
@@ -34,6 +34,31 @@ ServerEvents.recipes(function (event) {
       return !(s.output && s.output.tag == 'c:dusts/sulfur' && item.indexOf('sulfur') >= 0)
     })
     json.secondaries.push({ chance: b[2], output: { id: item } })
+  })
+  // T107 п.1 (решение пользователя): сырая руда в дробилке IE → ровно 2 пыли (было 1 + 33%), как во всех дробилках (ore_dusts.js)
+  OD_METALS.forEach(function (m) {
+    var id = 'immersiveengineering:crusher/raw_ore_' + m
+    if (!recipes[id]) event.forEachRecipe({ id: id }, function (r) { recipes[id] = JSON.parse(String(r.json)) })
+    var json = recipes[id]
+    var dust = odTarget('c:dusts/' + m)
+    if (!json || !dust) return
+    // AU уже переписал выход в {item} (IE так теряет количество) — пишем {id, count}; побочка той же пыли убирается
+    json.secondaries = (json.secondaries || []).filter(function (s) {
+      var o = s.output || {}, t = o.tag || (o.basePredicate && o.basePredicate.tag)
+      return !(t == 'c:dusts/' + m || o.id == dust || o.item == dust)
+    })
+    json.result = { id: dust, count: 2 }
+  })
+  // T106 п.1: выход по тегу → единый предмет (AU этот формат IE не меняет, и выпадала скрытая пыль IE)
+  var unify = function (o) {
+    var tag = o && (o.tag || (o.basePredicate && o.basePredicate.tag))
+    var it = tag && odTarget(tag)
+    return it ? { id: it, count: o.count || 1 } : o
+  }
+  Object.keys(recipes).forEach(function (id) {
+    var json = recipes[id]
+    json.result = unify(json.result)
+    ;(json.secondaries || []).forEach(function (s) { s.output = unify(s.output) })
   })
   var n = 0
   Object.keys(recipes).forEach(function (id) {

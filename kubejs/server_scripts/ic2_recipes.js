@@ -129,7 +129,7 @@ var IC2_SHAPED = [
   ['crafting_elements/crafting_285_element', 1, ['IAI', 'ADA', 'IAI'], { I: IRID, A: ALLOY, D: 'minecraft:diamond' }],
   ['crafting_elements/crafting_294_element', 1, ['CCC', 'CIC', 'CCC'], { C: U('wiring/copper'), I: IFE }],
   ['crafting_elements/crafting_276_element', 1, [' T ', 'CIC', ' T '], { T: U('casing/tin'), C: COIL, I: IFE }],
-  ['crafting_elements/crafting_290_element', 1, ['x'], [U('raw_latex')]], // смола без сушилки латекса
+  ['crafting_elements/crafting_290_element', 1, ['x'], [U('raw_latex')]], // T107: сырой латекс скрыт, краник даёт латекс сразу (rubber_farm.js); 1:1 — для уже накопленного сырого
   ['glass/reinforced', 7, ['GAG', 'GGG', 'GAG'], { G: 'minecraft:glass', A: ALLOY }],
   // 5г: входы day11/ll_* без собираемого рецепта (шлем/антиблок/пластина/генератор материи скрыты)
   ['upgrademodules/upgrademodule', 1, [' A ', 'RMR', ' P '], { A: ACIR, R: RED, M: CASE, P: PFE }], // вход maelstromtech:*_x6; вместо антиблока из spectral_solar_helmet
@@ -187,7 +187,7 @@ ServerEvents.recipes(function (event) {
       result: { count: cnt, id: out }, show_notification: false }).id('kubejs:ic2/hand_' + id); n++
   }
   ;['copper', 'tin', 'iron', 'bronze', 'lead', 'gold'].forEach(function (m) {
-    hand('forge_hammer', '#c:ingots/' + m, U('itemplates/' + m + '_plate'), 1, 'plate_' + m)
+    // T106: пластины из слитка — в hand_plates.js (любой молот, все металлы)
     hand('forge_hammer', '#c:plates/' + m, U('casing/' + m), 2, 'casing_' + m)
   })
   ;[['copper', 2], ['tin', 3], ['gold', 4], ['iron', 4]].forEach(function (c) { hand('cutter', '#c:plates/' + c[0], U('wiring/' + c[0]), c[1], 'cable_' + c[0]) })

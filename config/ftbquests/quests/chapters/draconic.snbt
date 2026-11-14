@@ -3,113 +3,246 @@
 	default_quest_shape: ""
 	filename: "draconic"
 	group: ""
-	icon: { id: "draconicevolution:wyvern_core" }
+	icon: {
+		id: "draconicevolution:wyvern_core"
+	}
 	id: "7900513677B7D21F"
-	images: [{ alpha: 255, color: 16777215, height: 9.9d, image: "kubejs:textures/quests/ch_draconic.png", order: -10, rotation: 0.0d, width: 26.4d, x: 9.20d, y: 0.95d }]
+	images: [{
+		height: 9.9d
+		id: "3AA7EB9FEE9105B2"
+		image: "kubejs:textures/quests/ch_draconic.png"
+		order: -10
+		rotation: 0.0d
+		width: 26.4d
+		x: 9.2d
+		y: 0.95d
+	}]
 	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "draconicevolution:draconium_ingot" }
+			icon: {
+				id: "draconicevolution:draconium_ingot"
+			}
 			id: "13309691801B0136"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "6A776B018F58D0BD", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "6A776B018F58D0BD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["13309691801B0136", "5BCB1DDFB39AF6BE"]
-			icon: { count: 1, id: "draconicevolution:draconium_ingot" }
+			dependencies: [
+				"13309691801B0136"
+				"5BCB1DDFB39AF6BE"
+			]
+			icon: {
+				id: "draconicevolution:draconium_ingot"
+			}
 			id: "3E37F5E4C238581E"
-			rewards: [{ count: 4, id: "36E920A53C8073C8", item: { count: 1, id: "minecraft:obsidian" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "36E920A53C8073C8"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "41D78DC030DAE344", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "41D78DC030DAE344"
+				item: { count: 1, id: "draconicevolution:draconium_ingot" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3E37F5E4C238581E"]
-			icon: { count: 1, id: "draconicevolution:draconium_core" }
+			icon: {
+				id: "draconicevolution:draconium_core"
+			}
 			id: "5C05D89E4B0C0969"
-			rewards: [{ count: 2, id: "508A5858E219A1A5", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "508A5858E219A1A5"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "704C221AA23B9D7C", item: { count: 1, id: "draconicevolution:draconium_core" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				id: "704C221AA23B9D7C"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C05D89E4B0C0969"]
-			icon: { count: 1, id: "draconicevolution:crafting_core" }
+			icon: {
+				id: "draconicevolution:crafting_core"
+			}
 			id: "0D725515845EC64E"
-			rewards: [{ count: 2, id: "56A563E89302C9F6", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "56A563E89302C9F6"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "0BAB3964B8E006EA", item: { count: 1, id: "draconicevolution:crafting_core" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				id: "0BAB3964B8E006EA"
+				item: { count: 1, id: "draconicevolution:crafting_core" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0D725515845EC64E", "2D34AA8C81E3003B"]
-			icon: { count: 1, id: "draconicevolution:wyvern_core" }
+			dependencies: [
+				"0D725515845EC64E"
+				"2D34AA8C81E3003B"
+			]
+			icon: {
+				id: "draconicevolution:wyvern_core"
+			}
 			id: "72735F288CEFDEBA"
-			rewards: [{ count: 4, id: "4836128685E36EE7", item: { count: 1, id: "minecraft:ender_pearl" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "4836128685E36EE7"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "1487F1238B361C85", item: { count: 1, id: "draconicevolution:wyvern_core" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "1487F1238B361C85"
+				item: { count: 1, id: "draconicevolution:wyvern_core" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["72735F288CEFDEBA"]
-			icon: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+			icon: {
+				id: "draconicevolution:awakened_draconium_ingot"
+			}
 			id: "5DDA1DE294B6D9F0"
-			rewards: [{ count: 4, id: "226CE6CC2A5B38B6", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "226CE6CC2A5B38B6"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 2L, id: "7F065A594584E033", item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				count: 2L
+				id: "7F065A594584E033"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_ingot" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5DDA1DE294B6D9F0"]
-			icon: { count: 1, id: "draconicevolution:chaos_shard" }
+			icon: {
+				id: "draconicevolution:chaos_shard"
+			}
 			id: "1F944D866D73CC81"
-			rewards: [{ count: 1, id: "5541F5720F88FF14", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			rewards: [{
+				id: "5541F5720F88FF14"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "2DC0A4A70C8F408D", item: { count: 1, id: "draconicevolution:chaos_shard" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				id: "2DC0A4A70C8F408D"
+				item: { count: 1, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F944D866D73CC81"]
-			icon: { count: 1, id: "draconicevolution:chaotic_core" }
+			icon: {
+				id: "draconicevolution:chaotic_core"
+			}
 			id: "155B9B87C1778369"
-			rewards: [{ count: 1, id: "598E0865466D69E6", item: { count: 1, id: "minecraft:diamond_block" }, type: "item" }]
+			rewards: [{
+				id: "598E0865466D69E6"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "42FF4D381E1B2F1F", item: { count: 1, id: "draconicevolution:chaotic_core" }, type: "item" }]
-			x: 16.10d
-			y: 0.00d
+			tasks: [{
+				id: "42FF4D381E1B2F1F"
+				item: { count: 1, id: "draconicevolution:chaotic_core" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
 		}
 		{
 			dependencies: ["155B9B87C1778369"]
-			icon: { count: 1, id: "maelstromtech:chaos_generator" }
+			icon: {
+				id: "maelstromtech:chaos_generator"
+			}
 			id: "765B3C64E4F9C042"
-			rewards: [{ count: 2, id: "2336DE9BD10EC5C4", item: { count: 1, id: "draconicevolution:large_chaos_frag" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "2336DE9BD10EC5C4"
+				item: {
+					count: 1
+					id: "draconicevolution:large_chaos_frag"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "0757C366DF50A102", item: { count: 1, id: "maelstromtech:chaos_generator" }, type: "item" }]
-			x: 18.40d
-			y: 1.90d
+			tasks: [{
+				id: "0757C366DF50A102"
+				item: { count: 1, id: "maelstromtech:chaos_generator" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 1.9d
 		}
 	]
 }

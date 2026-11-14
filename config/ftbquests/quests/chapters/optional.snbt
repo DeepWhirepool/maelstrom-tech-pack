@@ -3,202 +3,548 @@
 	default_quest_shape: ""
 	filename: "optional"
 	group: ""
-	icon: { id: "mekanism:digital_miner" }
+	icon: {
+		id: "mekanism:digital_miner"
+	}
 	id: "2C69A38E1998C414"
-	images: [{ alpha: 255, color: 16777215, height: 21.2d, image: "kubejs:textures/quests/ch_optional.png", order: -10, rotation: 0.0d, width: 17.2d, x: 4.60d, y: 6.60d }]
+	images: [{
+		height: 21.2d
+		id: "12DB1C5B78024E67"
+		image: "kubejs:textures/quests/ch_optional.png"
+		order: -10
+		rotation: 0.0d
+		width: 17.2d
+		x: 4.6d
+		y: 6.6d
+	}]
 	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["43573DFF9AC4AE77", "72FCEB758F965FF3"]
-			icon: { count: 1, id: "industrialupgrade:upgrades/fluid_ejector" }
+			dependencies: [
+				"43573DFF9AC4AE77"
+				"72FCEB758F965FF3"
+			]
+			icon: {
+				id: "industrialupgrade:upgrades/fluid_ejector"
+			}
 			id: "3D576CABB7782A7E"
-			rewards: [{ count: 2, id: "3E09663B471ED993", item: { count: 1, id: "minecraft:bucket" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "3E09663B471ED993"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "48843570E7CFE29F", item: { count: 1, id: "industrialupgrade:upgrades/fluid_ejector" }, type: "item" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "48843570E7CFE29F"
+				item: { count: 1, id: "industrialupgrade:upgrades/fluid_ejector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["772C4F4DC0AFBD66"]
-			icon: { count: 1, id: "industrialupgrade:armour/batpack" }
+			icon: {
+				id: "industrialupgrade:armour/batpack"
+			}
 			id: "523A7A24FEEB165E"
-			rewards: [{ count: 16, id: "366F81FDD8A237EB", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "366F81FDD8A237EB"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "28DA87479E35476A", item: { count: 1, id: "industrialupgrade:armour/batpack" }, type: "item" }]
-			x: 0.00d
-			y: 2.20d
+			tasks: [{
+				id: "28DA87479E35476A"
+				item: { count: 1, id: "industrialupgrade:armour/batpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.2d
 		}
 		{
 			dependencies: ["047814C97E70A128"]
-			icon: { count: 1, id: "industrialupgrade:armour/jetpack" }
+			icon: {
+				id: "industrialupgrade:armour/jetpack"
+			}
 			id: "0B2B70BF99FA97D1"
-			rewards: [{ count: 8, id: "6A980BF2FD0D771E", item: { count: 1, id: "minecraft:feather" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "6A980BF2FD0D771E"
+				item: {
+					count: 1
+					id: "minecraft:feather"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "689A9B7889D4AE2C", item: { count: 1, id: "industrialupgrade:armour/jetpack" }, type: "item" }]
-			x: 2.30d
-			y: 2.20d
+			tasks: [{
+				id: "689A9B7889D4AE2C"
+				item: { count: 1, id: "industrialupgrade:armour/jetpack" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 2.2d
+		}
+		{
+			dependencies: ["0B2B70BF99FA97D1"]
+			icon: {
+				id: "industrialupgrade:armour/advjetpack"
+			}
+			id: "5C2B4FEBCD91D5F7"
+			rewards: [{
+				count: 16
+				id: "71A0C9F03E545EC7"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "050A6513FF9E2467"
+				item: { count: 1, id: "industrialupgrade:armour/advjetpack" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 2.2d
+		}
+		{
+			dependencies: ["5C2B4FEBCD91D5F7"]
+			icon: {
+				id: "industrialupgrade:armour/impjetpack"
+			}
+			id: "4DDC1E07992A4A30"
+			rewards: [{
+				count: 16
+				id: "48DBB09C43AB5404"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4E9C253B8952C9D2"
+				item: { count: 1, id: "industrialupgrade:armour/impjetpack" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 2.2d
+		}
+		{
+			dependencies: ["4DDC1E07992A4A30"]
+			icon: {
+				id: "industrialupgrade:armour/perjetpack"
+			}
+			id: "34ADBF4474D57D7D"
+			rewards: [{
+				count: 2
+				id: "6F6890530BAE3CB5"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4737316AE633D95D"
+				item: { count: 1, id: "industrialupgrade:armour/perjetpack" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 2.2d
 		}
 		{
 			dependencies: ["72735F288CEFDEBA"]
-			icon: { count: 1, id: "draconicevolution:energy_core" }
+			icon: {
+				id: "draconicevolution:energy_core"
+			}
 			id: "42FB6E1081899E6C"
-			rewards: [{ count: 4, id: "3324CE5F3EF8F354", item: { count: 1, id: "minecraft:redstone_block" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "3324CE5F3EF8F354"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "199FFA884A04FA4E", item: { count: 1, id: "draconicevolution:energy_core" }, type: "item" }]
-			x: 0.00d
-			y: 4.40d
+			tasks: [{
+				id: "199FFA884A04FA4E"
+				item: { count: 1, id: "draconicevolution:energy_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.4d
 		}
 		{
 			dependencies: ["4B924FEB14B09738"]
-			icon: { count: 1, id: "mekanism:digital_miner" }
+			icon: {
+				id: "mekanism:digital_miner"
+			}
 			id: "19701EDCF3806384"
-			rewards: [{ count: 2, id: "180A09EAC41D9B18", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "180A09EAC41D9B18"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "6D8EDD022754FB21", item: { count: 1, id: "mekanism:digital_miner" }, type: "item" }]
-			x: 0.00d
-			y: 6.60d
+			tasks: [{
+				id: "6D8EDD022754FB21"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.6d
 		}
 		{
 			dependencies: ["4B924FEB14B09738"]
-			icon: { count: 1, id: "mekanism:teleporter" }
+			icon: {
+				id: "mekanism:teleporter"
+			}
 			id: "6CD3784F48F997D6"
-			rewards: [{ count: 4, id: "20417E298756B233", item: { count: 1, id: "minecraft:ender_pearl" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "20417E298756B233"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "3C5B37902DD9EC24", item: { count: 1, id: "mekanism:teleporter" }, type: "item" }]
-			x: 2.30d
-			y: 6.60d
+			tasks: [{
+				id: "3C5B37902DD9EC24"
+				item: { count: 1, id: "mekanism:teleporter" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 6.6d
 		}
 		{
 			dependencies: ["4B924FEB14B09738"]
-			icon: { count: 1, id: "mekanism:qio_drive_array" }
+			icon: {
+				id: "mekanism:qio_drive_array"
+			}
 			id: "45E61B1DCA536B5E"
-			rewards: [{ count: 4, id: "6ADC93989E4B42AB", item: { count: 1, id: "mekanism:hdpe_sheet" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6ADC93989E4B42AB"
+				item: {
+					count: 1
+					id: "mekanism:hdpe_sheet"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "61D1037915E81CD7", item: { count: 1, id: "mekanism:qio_drive_array" }, type: "item" }]
-			x: 4.60d
-			y: 6.60d
+			tasks: [{
+				id: "61D1037915E81CD7"
+				item: { count: 1, id: "mekanism:qio_drive_array" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 6.6d
 		}
 		{
 			dependencies: ["66A7D1CDA915357F"]
-			icon: { count: 1, id: "mekanism:ultimate_enriching_factory" }
+			icon: {
+				id: "mekanism:ultimate_enriching_factory"
+			}
 			id: "717DDD37BF42D668"
-			rewards: [{ count: 8, id: "0B95BDADF0551EAC", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "0B95BDADF0551EAC"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "677BDB9AF06E2336", item: { count: 1, id: "mekanism:ultimate_enriching_factory" }, type: "item" }]
-			x: 0.00d
-			y: 8.80d
+			tasks: [{
+				id: "677BDB9AF06E2336"
+				item: { count: 1, id: "mekanism:ultimate_enriching_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.8d
 		}
 		{
-			dependencies: ["155B9B87C1778369", "42FB6E1081899E6C"]
-			icon: { count: 1, id: "draconicevolution:reactor_core" }
+			dependencies: [
+				"155B9B87C1778369"
+				"42FB6E1081899E6C"
+			]
+			icon: {
+				id: "draconicevolution:reactor_core"
+			}
 			id: "1A3A72B01D1F4D7E"
-			rewards: [{ count: 8, id: "073EFF20302B6045", item: { count: 1, id: "draconicevolution:draconium_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "073EFF20302B6045"
+				item: {
+					count: 1
+					id: "draconicevolution:draconium_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "59AD50802BBB8758", item: { count: 1, id: "draconicevolution:reactor_core" }, type: "item" }]
-			x: 2.30d
-			y: 4.40d
+			tasks: [{
+				id: "59AD50802BBB8758"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 4.4d
 		}
 		{
-			dependencies: ["155B9B87C1778369", "498406F7700741F7"]
-			icon: { count: 1, id: "maelstromtech:plasma_reagent_quark" }
+			dependencies: [
+				"155B9B87C1778369"
+				"498406F7700741F7"
+			]
+			icon: {
+				id: "maelstromtech:plasma_reagent_quark"
+			}
 			id: "0E488195FABA52D1"
-			rewards: [{ count: 2, id: "4814791E22D54B06", item: { count: 1, id: "minecraft:redstone_block" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "4814791E22D54B06"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "72B17D3425480477", item: { count: 1, id: "maelstromtech:plasma_reagent_quark" }, type: "item" }]
-			x: 4.60d
-			y: 4.40d
+			tasks: [{
+				id: "72B17D3425480477"
+				item: { count: 1, id: "maelstromtech:plasma_reagent_quark" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 4.4d
 		}
 		{
 			dependencies: ["0AAAEF91F10CCD26"]
-			icon: { count: 1, id: "maelstromtech:gold_energy_cell" }
+			icon: {
+				id: "maelstromtech:gold_energy_cell"
+			}
 			id: "2BE67F4910F385CE"
-			rewards: [{ count: 2, id: "2813CCEEFC9B9AE8", item: { count: 1, id: "minecraft:gold_block" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "2813CCEEFC9B9AE8"
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "48D38479AA65F683", item: { count: 1, id: "maelstromtech:gold_energy_cell" }, type: "item" }]
-			x: 0.00d
-			y: 11.00d
+			tasks: [{
+				id: "48D38479AA65F683"
+				item: { count: 1, id: "maelstromtech:gold_energy_cell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["2F5F0292F8133FE5", "497CD97810B4D924"]
-			icon: { count: 1, id: "maelstromtech:eu_generator_1" }
+			dependencies: [
+				"2F5F0292F8133FE5"
+				"497CD97810B4D924"
+			]
+			icon: {
+				id: "maelstromtech:eu_generator_1"
+			}
 			id: "30F4C46B86109A73"
-			rewards: [{ count: 2, id: "72DA11724FC60934", item: { count: 1, id: "minecraft:redstone_block" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "72DA11724FC60934"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "5F47A62583946E36", item: { count: 1, id: "maelstromtech:eu_generator_1" }, type: "item" }]
-			x: 2.30d
-			y: 11.00d
+			tasks: [{
+				id: "5F47A62583946E36"
+				item: { count: 1, id: "maelstromtech:eu_generator_1" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 11.0d
 		}
 		{
-			dependencies: ["4AD119DF453A6A8E", "0E305D5A42FDA556"]
-			icon: { count: 1, id: "industrialupgrade:battery/charging_re_battery" }
+			dependencies: [
+				"4AD119DF453A6A8E"
+				"0E305D5A42FDA556"
+			]
+			icon: {
+				id: "industrialupgrade:battery/charging_re_battery"
+			}
 			id: "136C9B98AB2CE008"
-			rewards: [{ count: 16, id: "3482C96B6285D089", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "3482C96B6285D089"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "600FCDE627FFF889", item: { count: 1, id: "industrialupgrade:battery/charging_re_battery" }, type: "item" }]
-			x: 0.00d
-			y: 13.20d
+			tasks: [{
+				id: "600FCDE627FFF889"
+				item: { count: 1, id: "industrialupgrade:battery/charging_re_battery" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.2d
 		}
 		{
-			dependencies: ["136C9B98AB2CE008", "446376A883F261E5"]
-			icon: { count: 1, id: "industrialupgrade:energy_tools/nanodrill" }
+			dependencies: [
+				"136C9B98AB2CE008"
+				"446376A883F261E5"
+			]
+			icon: {
+				id: "industrialupgrade:energy_tools/nanodrill"
+			}
 			id: "72F6EAE4EAA36696"
-			rewards: [{ count: 2, id: "3AB0491877D97C84", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "3AB0491877D97C84"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "0F0E4D2F30951C8D", item: { count: 1, id: "industrialupgrade:energy_tools/nanodrill" }, type: "item" }]
-			x: 2.30d
-			y: 13.20d
+			tasks: [{
+				id: "0F0E4D2F30951C8D"
+				item: { count: 1, id: "industrialupgrade:energy_tools/nanodrill" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 13.2d
 		}
 		{
-			dependencies: ["72F6EAE4EAA36696", "1E354D1E68CFDD49"]
-			icon: { count: 1, id: "industrialupgrade:energy_tools/quantumpickaxe" }
+			dependencies: [
+				"72F6EAE4EAA36696"
+				"1E354D1E68CFDD49"
+			]
+			icon: {
+				id: "industrialupgrade:energy_tools/quantumpickaxe"
+			}
 			id: "366F6BBB59C711CE"
-			rewards: [{ count: 4, id: "2FF3A88C9F9CDB94", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "2FF3A88C9F9CDB94"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "4BC7B6906138A797", item: { count: 1, id: "industrialupgrade:energy_tools/quantumpickaxe" }, type: "item" }]
-			x: 4.60d
-			y: 13.20d
+			tasks: [{
+				id: "4BC7B6906138A797"
+				item: { count: 1, id: "industrialupgrade:energy_tools/quantumpickaxe" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 13.2d
 		}
 		{
-			dependencies: ["366F6BBB59C711CE", "72735F288CEFDEBA"]
-			icon: { count: 1, id: "industrialupgrade:energy_tools/ultddrill" }
+			dependencies: [
+				"366F6BBB59C711CE"
+				"72735F288CEFDEBA"
+			]
+			icon: {
+				id: "industrialupgrade:energy_tools/ultddrill"
+			}
 			id: "70DD2B83F87E368E"
-			rewards: [{ count: 1, id: "225E1C6DFB7F6A3C", item: { count: 1, id: "minecraft:diamond_block" }, type: "item" }]
+			rewards: [{
+				id: "225E1C6DFB7F6A3C"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "2105247DB17908C3", item: { count: 1, id: "industrialupgrade:energy_tools/ultddrill" }, type: "item" }]
-			x: 6.90d
-			y: 13.20d
+			tasks: [{
+				id: "2105247DB17908C3"
+				item: { count: 1, id: "industrialupgrade:energy_tools/ultddrill" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 13.2d
 		}
 		{
 			dependencies: ["70DD2B83F87E368E"]
-			icon: { count: 1, id: "industrialupgrade:energy_tools/vajra" }
+			icon: {
+				id: "industrialupgrade:energy_tools/vajra"
+			}
 			id: "2C175976D6266550"
-			rewards: [{ count: 1, id: "45EE3341EEA76AF3", item: { count: 1, id: "minecraft:diamond_block" }, type: "item" }]
+			rewards: [{
+				id: "45EE3341EEA76AF3"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "0C41FE3966F4C66D", item: { count: 1, id: "industrialupgrade:energy_tools/vajra" }, type: "item" }]
-			x: 9.20d
-			y: 13.20d
+			tasks: [{
+				id: "0C41FE3966F4C66D"
+				item: { count: 1, id: "industrialupgrade:energy_tools/vajra" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 13.2d
 		}
 	]
 }

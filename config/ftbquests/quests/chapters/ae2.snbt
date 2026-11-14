@@ -3,212 +3,477 @@
 	default_quest_shape: ""
 	filename: "ae2"
 	group: ""
-	icon: { id: "ae2:controller" }
+	icon: {
+		id: "ae2:controller"
+	}
 	id: "3F15A8461E00D97A"
-	images: [{ alpha: 255, color: 16777215, height: 11.8d, image: "kubejs:textures/quests/ch_ae2.png", order: -10, rotation: 0.0d, width: 40.2d, x: 16.10d, y: 0.00d }]
+	images: [{
+		height: 11.8d
+		id: "0102E168F963DFED"
+		image: "kubejs:textures/quests/ch_ae2.png"
+		order: -10
+		rotation: 0.0d
+		width: 40.2d
+		x: 16.1d
+		y: 0.0d
+	}]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1D79CEACEA21937D"]
-			icon: { count: 1, id: "ae2:controller" }
+			icon: {
+				id: "ae2:controller"
+			}
 			id: "5089AE13C7456206"
-			rewards: []
 			shape: "gear"
 			size: 1.0d
-			tasks: [{ id: "510971360D78D66E", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
+			tasks: [{
+				id: "510971360D78D66E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5089AE13C7456206", "5BCB1DDFB39AF6BE"]
-			icon: { count: 1, id: "ae2:certus_quartz_crystal" }
+			dependencies: [
+				"5089AE13C7456206"
+				"5BCB1DDFB39AF6BE"
+			]
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
 			id: "632D236E5D9295E0"
-			rewards: [{ count: 8, id: "34D8E749A214F1A7", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "34D8E749A214F1A7"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "6DF293774F532F82", item: { count: 1, id: "ae2:certus_quartz_crystal" }, type: "item" }]
-			x: 2.30d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "6DF293774F532F82"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["632D236E5D9295E0"]
-			icon: { count: 1, id: "ae2:charger" }
+			icon: {
+				id: "ae2:charger"
+			}
 			id: "7C9042D1316AE614"
-			rewards: [{ count: 4, id: "4E0013ADAE64EAD9", item: { count: 1, id: "ae2:certus_quartz_crystal" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "4E0013ADAE64EAD9"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "51757ABA2349A47D", item: { count: 1, id: "ae2:charger" }, type: "item" }]
-			x: 4.60d
-			y: 0.00d
+			tasks: [{
+				id: "51757ABA2349A47D"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7C9042D1316AE614"]
-			icon: { count: 1, id: "ae2:fluix_crystal" }
+			icon: {
+				id: "ae2:fluix_crystal"
+			}
 			id: "0079D3A48E293442"
-			rewards: [{ count: 8, id: "36BD809E93FB739C", item: { count: 1, id: "minecraft:quartz" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "36BD809E93FB739C"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 8L, id: "449BB90D6D266BF3", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
-			x: 6.90d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "449BB90D6D266BF3"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0079D3A48E293442"]
-			icon: { count: 1, id: "ae2:inscriber" }
+			icon: {
+				id: "ae2:inscriber"
+			}
 			id: "22A313A54C8CCC91"
-			rewards: [{ count: 8, id: "1DFD3FDD586AD033", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "1DFD3FDD586AD033"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "4CB772B94954C9E0", item: { count: 1, id: "ae2:inscriber" }, type: "item" }]
-			x: 9.20d
-			y: 0.00d
+			tasks: [{
+				id: "4CB772B94954C9E0"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 9.2d
+			y: 0.0d
 		}
 		{
 			dependencies: ["22A313A54C8CCC91"]
-			icon: { count: 1, id: "ae2:engineering_processor" }
+			icon: {
+				id: "ae2:engineering_processor"
+			}
 			id: "4BE5E19EE67385D6"
-			rewards: [{ count: 4, id: "6B0620C615A2058B", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6B0620C615A2058B"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 2L, id: "41A5F47248A48C67", item: { count: 1, id: "ae2:engineering_processor" }, type: "item" }]
-			x: 11.50d
-			y: 0.00d
+			tasks: [{
+				count: 2L
+				id: "41A5F47248A48C67"
+				item: { count: 1, id: "ae2:engineering_processor" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4BE5E19EE67385D6", "047814C97E70A128"]
-			icon: { count: 1, id: "ae2:controller" }
+			dependencies: [
+				"4BE5E19EE67385D6"
+				"047814C97E70A128"
+			]
+			icon: {
+				id: "ae2:controller"
+			}
 			id: "279D2950B047621F"
-			rewards: [{ count: 4, id: "756BFFCA87A94363", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "756BFFCA87A94363"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "3B833A28EF6DB799", item: { count: 1, id: "ae2:controller" }, type: "item" }]
-			x: 13.80d
-			y: 0.00d
+			tasks: [{
+				id: "3B833A28EF6DB799"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 13.8d
+			y: 0.0d
 		}
 		{
 			dependencies: ["279D2950B047621F"]
-			icon: { count: 1, id: "ae2:drive" }
+			icon: {
+				id: "ae2:drive"
+			}
 			id: "05E1779F58E354B6"
-			rewards: [{ count: 16, id: "0685889D56B98248", item: { count: 1, id: "ae2:fluix_glass_cable" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "0685889D56B98248"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "6ACB00BD29B34607", item: { count: 1, id: "ae2:drive" }, type: "item" }]
-			x: 16.10d
-			y: 0.00d
+			tasks: [{
+				id: "6ACB00BD29B34607"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: 16.1d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05E1779F58E354B6"]
-			icon: { count: 1, id: "ae2:crafting_terminal" }
+			icon: {
+				id: "ae2:crafting_terminal"
+			}
 			id: "305BE408FFC088E1"
-			rewards: [{ count: 16, id: "3F17CD951475C7AF", item: { count: 1, id: "ae2:fluix_glass_cable" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "3F17CD951475C7AF"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "4DB6A9ED112C1B79", item: { count: 1, id: "ae2:crafting_terminal" }, type: "item" }]
-			x: 18.40d
-			y: 0.00d
+			tasks: [{
+				id: "4DB6A9ED112C1B79"
+				item: { count: 1, id: "ae2:crafting_terminal" }
+				type: "item"
+			}]
+			x: 18.4d
+			y: 0.0d
 		}
 		{
 			dependencies: ["305BE408FFC088E1"]
-			icon: { count: 1, id: "ae2:import_bus" }
+			icon: {
+				id: "ae2:import_bus"
+			}
 			id: "409FF410D27F8765"
-			rewards: [{ count: 8, id: "09136311C64F2128", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "09136311C64F2128"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 2L, id: "74A1255CC71C228C", item: { count: 1, id: "ae2:import_bus" }, type: "item" }]
-			x: 20.70d
-			y: -1.90d
+			tasks: [{
+				count: 2L
+				id: "74A1255CC71C228C"
+				item: { count: 1, id: "ae2:import_bus" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: -1.9d
 		}
 		{
 			dependencies: ["305BE408FFC088E1"]
-			icon: { count: 1, id: "ae2:molecular_assembler" }
+			icon: {
+				id: "ae2:molecular_assembler"
+			}
 			id: "641DD4A58FC2EB65"
-			rewards: [{ count: 2, id: "4DE4C95DBBBD4D27", item: { count: 1, id: "ae2:logic_processor" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "4DE4C95DBBBD4D27"
+				item: {
+					count: 1
+					id: "ae2:logic_processor"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 1L, id: "4E66C5C062030AD7", item: { count: 1, id: "ae2:molecular_assembler" }, type: "item" }]
-			x: 20.70d
-			y: 0.00d
+			tasks: [{
+				id: "4E66C5C062030AD7"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: 20.7d
+			y: 0.0d
 		}
 		{
 			dependencies: ["641DD4A58FC2EB65"]
-			icon: { count: 1, id: "appmek:chemical_cell_housing" }
+			icon: {
+				id: "appmek:chemical_cell_housing"
+			}
 			id: "75702C5B654FE44D"
-			rewards: [{ count: 4, id: "2BB1DC0545D314F8", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "2BB1DC0545D314F8"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "1DA7FEEE9BC9165B", item: { count: 1, id: "appmek:chemical_cell_housing" }, type: "item" }]
-			x: 23.00d
-			y: 0.00d
+			tasks: [{
+				id: "1DA7FEEE9BC9165B"
+				item: { count: 1, id: "appmek:chemical_cell_housing" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["75702C5B654FE44D"]
-			icon: { count: 1, id: "appmek:chemical_storage_cell_4k" }
+			icon: {
+				id: "appmek:chemical_storage_cell_4k"
+			}
 			id: "4BC6DC6AEF8C3AA3"
-			rewards: [{ count: 4, id: "6ECB5F7E6D24B55F", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6ECB5F7E6D24B55F"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "2F3F017360DA8BAE", item: { count: 1, id: "appmek:chemical_storage_cell_4k" }, type: "item" }]
-			x: 25.30d
-			y: 1.90d
+			tasks: [{
+				id: "2F3F017360DA8BAE"
+				item: { count: 1, id: "appmek:chemical_storage_cell_4k" }
+				type: "item"
+			}]
+			x: 25.3d
+			y: 1.9d
 		}
 		{
 			dependencies: ["75702C5B654FE44D"]
-			icon: { count: 1, id: "extendedae:machine_frame" }
+			icon: {
+				id: "extendedae:machine_frame"
+			}
 			id: "71769A27FB7762EA"
-			rewards: [{ count: 4, id: "7E6CD041E2CA9F50", item: { count: 1, id: "ae2:fluix_crystal" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "7E6CD041E2CA9F50"
+				item: {
+					count: 1
+					id: "ae2:fluix_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "65C1581C25BF64C4", item: { count: 1, id: "extendedae:machine_frame" }, type: "item" }]
-			x: 25.30d
-			y: 0.00d
+			tasks: [{
+				id: "65C1581C25BF64C4"
+				item: { count: 1, id: "extendedae:machine_frame" }
+				type: "item"
+			}]
+			x: 25.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["71769A27FB7762EA"]
-			icon: { count: 1, id: "extendedae:entro_crystal" }
+			icon: {
+				id: "extendedae:entro_crystal"
+			}
 			id: "5568E87D5114AD1F"
-			rewards: [{ count: 8, id: "1C8AEE79DB7F2572", item: { count: 1, id: "ae2:certus_quartz_crystal" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "1C8AEE79DB7F2572"
+				item: {
+					count: 1
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 4L, id: "5B7363B582BD2E89", item: { count: 1, id: "extendedae:entro_crystal" }, type: "item" }]
-			x: 27.60d
-			y: 0.00d
+			tasks: [{
+				count: 4L
+				id: "5B7363B582BD2E89"
+				item: { count: 1, id: "extendedae:entro_crystal" }
+				type: "item"
+			}]
+			x: 27.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5568E87D5114AD1F"]
-			icon: { count: 1, id: "extendedae:ex_molecular_assembler" }
+			icon: {
+				id: "extendedae:ex_molecular_assembler"
+			}
 			id: "3C995085B571B526"
-			rewards: [{ count: 2, id: "2D884A1810947D7E", item: { count: 1, id: "ae2:logic_processor" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "2D884A1810947D7E"
+				item: {
+					count: 1
+					id: "ae2:logic_processor"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "23D91338BAA52A07", item: { count: 1, id: "extendedae:ex_molecular_assembler" }, type: "item" }]
-			x: 29.90d
-			y: 0.00d
+			tasks: [{
+				id: "23D91338BAA52A07"
+				item: { count: 1, id: "extendedae:ex_molecular_assembler" }
+				type: "item"
+			}]
+			x: 29.9d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C995085B571B526"]
-			icon: { count: 1, id: "extendedae:ex_inscriber" }
+			icon: {
+				id: "extendedae:ex_inscriber"
+			}
 			id: "62F698AC9676F50A"
-			rewards: [{ count: 4, id: "43F87BB8FF20BFB8", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "43F87BB8FF20BFB8"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
-			tasks: [{ count: 1L, id: "23EC8734FB402E83", item: { count: 1, id: "extendedae:ex_inscriber" }, type: "item" }]
-			x: 32.20d
-			y: -1.90d
+			tasks: [{
+				id: "23EC8734FB402E83"
+				item: { count: 1, id: "extendedae:ex_inscriber" }
+				type: "item"
+			}]
+			x: 32.2d
+			y: -1.9d
 		}
 		{
 			dependencies: ["3C995085B571B526"]
-			icon: { count: 1, id: "extendedae:assembler_matrix_frame" }
+			icon: {
+				id: "extendedae:assembler_matrix_frame"
+			}
 			id: "03CCD0EFEFCF4FB6"
-			rewards: [{ count: 2, id: "46E2850BCF721B22", item: { count: 1, id: "ae2:engineering_processor" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "46E2850BCF721B22"
+				item: {
+					count: 1
+					id: "ae2:engineering_processor"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			size: 1.0d
 			tags: ["important"]
-			tasks: [{ count: 8L, id: "2FA3A7CAC7CA4F22", item: { count: 1, id: "extendedae:assembler_matrix_frame" }, type: "item" }]
-			x: 32.20d
-			y: 0.00d
+			tasks: [{
+				count: 8L
+				id: "2FA3A7CAC7CA4F22"
+				item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+				type: "item"
+			}]
+			x: 32.2d
+			y: 0.0d
 		}
 	]
 }

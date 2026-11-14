@@ -48,9 +48,9 @@ ServerEvents.recipes(function (e) {
     'thermonuclear_melting_complex', 'smelting_crystallizer', 'smelter_crucible', 'liquid_neutron_compressor'].forEach(function (id) { e.remove({ id: L(id) }) })
 
   // Нейтронная звезда: нейтроний Avaritia + квантовый сплав (T15) + антиматерия Mekanism (SPS)
-  // T37: один нейтроний → торий из циклотрона IU (палладиевый блок → торий), связь с ядерной веткой IU
+  // T37: один нейтроний → радиоактивный компонент. T107: торий IU скрыт (циклотрон IU вне сборки) → полониевая гранула Mekanism (реактор деления)
   shaped('neutron_star', 1, ['NQN', 'QAQ', 'NTN'], { N: 'avaritia:neutron_ingot', Q: 'kubejs:quantum_alloy_ingot', A: 'mekanism:pellet_antimatter',
-    T: 'industrialupgrade:reactors/toriy' })
+    T: 'mekanism:pellet_polonium' })
   // T38: второй путь к нейтронию без долгого таймера коллектора — PRC за 10 с, скорость упирается в плутоний и энергию
   e.custom({
     type: 'mekanism:reaction',
@@ -81,7 +81,7 @@ ServerEvents.recipes(function (e) {
 
   // Машины цепочки: каждая содержит предыдущую
   shaped('plasma_charger', 1, ['AWA', 'CEC', 'AQA'], { A: 'mekanism:alloy_atomic', W: 'draconicevolution:wyvern_core', C: 'kubejs:circuit_board_t4',
-    E: 'mekanism:ultimate_energy_cube', Q: 'industrialupgrade:basemachine3/quantum_storage' })
+    E: 'mekanism:ultimate_energy_cube', Q: 'mekanism:qio_drive_hyper_dense' }) // T107: квантовое хранилище IU скрыто → QIO-диск Mekanism (тоже «квантовое»)
   shaped('red_energon_generator', 1, ['OSO', 'CPC', 'OLO'], { O: 'mekanism:ingot_refined_obsidian', S: 'industrialupgrade:itemsunnarium/sunnarium_plate',
     C: 'kubejs:circuit_board_t3', P: L('plasma_charger'), L: 'minecraft:magma_block' })
   shaped('dark_energon_generator', 1, ['OSO', 'CPC', 'OLO'], { O: 'mekanism:ingot_refined_obsidian', S: 'industrialupgrade:cryogenic_cooling_mixture',

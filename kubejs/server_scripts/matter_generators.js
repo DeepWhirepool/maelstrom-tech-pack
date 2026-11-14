@@ -7,7 +7,8 @@ ServerEvents.recipes(function (e) {
     f3: 'industrialforegoing:machine_frame_supreme', f2: 'industrialforegoing:machine_frame_advanced', f9: 'industrialforegoing:machine_frame_supreme',
     cm: 'avaritia:crystal_matrix_ingot', dc: 'draconicevolution:draconium_core', wc: 'draconicevolution:wyvern_core', ac: 'draconicevolution:awakened_core',
     de: 'draconicevolution:draconic_energy_core', fp: 'maelstromtech:plasma_reagent_exothermic', ap: 'maelstromtech:plasma_reagent_quark',
-    al: 'industrialupgrade:alloyingot/alumel', os: 'mekanism:crystal_osmium', sv: 'immersiveengineering:dust_silver', gd: 'mekanism:crystal_gold',
+    al: 'kubejs:quantum_alloy_ingot', // T107: был алюмель IU — скрыт, пути нет; квантовый сплав той же ступени
+    os: 'mekanism:crystal_osmium', sv: 'immersiveengineering:dust_silver', gd: 'mekanism:crystal_gold',
     tc: 'mekanism:teleportation_core', en: 'industrialupgrade:battery/energy_crystal', mc: 'kubejs:multialloy_allow_capacitor',
     br: 'avaritia:neutron_ingot', tq: 'kubejs:turquoise_spectrum_thermodynamic_core', hc: 'kubejs:holographic_thermodynamic_core',
     am: 'kubejs:ametrine_crystal', rg: 'immersiveengineering:ingot_electrum', mm: 'mekanism:pellet_antimatter'
